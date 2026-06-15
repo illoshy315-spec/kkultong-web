@@ -53,13 +53,13 @@ export default function Worksheet() {
               </div>
             </div>
             {w.available ? (
-              <a
-                href="/downloads/week1.pdf"
+              <Link
+                href={`/worksheet/week${w.week}`}
                 className="shrink-0 ml-4 px-6 py-2 rounded-full font-bold text-white text-sm transition-opacity hover:opacity-90"
                 style={{ backgroundColor: "var(--amber)" }}
               >
-                Download
-              </a>
+                Read →
+              </Link>
             ) : (
               <span className="shrink-0 ml-4 text-sm opacity-40" style={{ color: "var(--gray)" }}>Soon</span>
             )}

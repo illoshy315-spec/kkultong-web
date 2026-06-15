@@ -36,23 +36,6 @@ export default function Home() {
         </div>
       </section>
 
-      {/* Features */}
-      <section className="py-20 px-6" style={{ backgroundColor: "var(--gray)" }}>
-        <div className="max-w-5xl mx-auto grid md:grid-cols-3 gap-8 text-white text-center">
-          {[
-            { emoji: "🎵", title: "K-pop & K-drama", desc: "Learn from the content you already love" },
-            { emoji: "📖", title: "Free Worksheets", desc: "7-week Hangul curriculum, no signup needed" },
-            { emoji: "🗺️", title: "Real-world Korean", desc: "Phrases that actually work in Korea" },
-          ].map((f) => (
-            <div key={f.title} className="p-8 rounded-2xl" style={{ backgroundColor: "rgba(255,255,255,0.05)" }}>
-              <div className="text-4xl mb-4">{f.emoji}</div>
-              <h3 className="font-bold text-lg mb-2">{f.title}</h3>
-              <p style={{ color: "rgba(255,255,255,0.6)" }}>{f.desc}</p>
-            </div>
-          ))}
-        </div>
-      </section>
-
       {/* Newsletter */}
       <section id="newsletter" className="py-20 px-6 text-center" style={{ backgroundColor: "var(--teal)" }}>
         <div className="max-w-xl mx-auto">
