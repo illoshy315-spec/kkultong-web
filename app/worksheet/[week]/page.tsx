@@ -5,7 +5,7 @@ import { MDXRemote } from "next-mdx-remote/rsc";
 import remarkGfm from "remark-gfm";
 import { notFound } from "next/navigation";
 
-const WORKBOOK_DIR = "C:\\Users\\user\\kkultong\\workbook";
+const WORKBOOK_DIR = path.join(process.cwd(), "content", "worksheets");
 
 export async function generateStaticParams() {
   return [
