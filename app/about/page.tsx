@@ -20,6 +20,11 @@ export default function About() {
           We make free Korean learning content for K-pop and K-drama fans who want to go beyond "annyeonghaseyo" —
           real Korean, the way it&apos;s actually spoken.
         </p>
+        <hr className="my-8 opacity-20" />
+        <p className="text-base" style={{ color: "rgba(44,44,42,0.6)" }}>
+          Kkultong is run by a Korean culture enthusiast who got tired of textbook Korean —
+          and decided to do something about it.
+        </p>
       </div>
     </section>
   );
