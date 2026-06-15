@@ -4,6 +4,7 @@ import matter from "gray-matter";
 import { MDXRemote } from "next-mdx-remote/rsc";
 import remarkGfm from "remark-gfm";
 import { notFound } from "next/navigation";
+import type { Metadata } from "next";
 
 const WORKBOOK_DIR = path.join(process.cwd(), "content", "worksheets");
 
@@ -17,6 +18,22 @@ export async function generateStaticParams() {
     { week: "week6" },
     { week: "week7" },
   ];
+}
+
+export async function generateMetadata({ params }: { params: Promise<{ week: string }> }): Promise<Metadata> {
+  const { week } = await params;
+  const filePath = path.join(WORKBOOK_DIR, `${week}_en.md`);
+  if (!fs.existsSync(filePath)) return {};
+  const { data } = matter(fs.readFileSync(filePath, "utf-8"));
+  return {
+    title: `${data.title} | Kkultong`,
+    description: data.subtitle ?? `Free Hangul worksheet — ${data.title}. Learn real Korean for K-pop and K-drama fans.`,
+    openGraph: {
+      title: `${data.title} | Kkultong`,
+      description: data.subtitle ?? `Free Hangul worksheet — ${data.title}.`,
+      url: `https://kkultongkorea.com/worksheet/${week}`,
+    },
+  };
 }
 
 export default async function WorksheetPage({ params }: { params: Promise<{ week: string }> }) {
