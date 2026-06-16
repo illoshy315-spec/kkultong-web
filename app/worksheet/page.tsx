@@ -8,7 +8,7 @@ const worksheets = [
     description: "How King Sejong created Hangul in 1443 — and why you can learn to read it in a weekend.",
     available: true,
   },
-  { week: 2, title: "모음: 하늘·땅·사람", subtitle: "Vowels: Sky, Earth, People", description: "Coming soon", available: false },
+  { week: 2, title: "모음: 하늘·땅·사람", subtitle: "Vowels: Sky, Earth, People", description: "The 10 Korean vowels — built from three shapes: sky, earth, and human.", available: true },
   { week: 3, title: "자음: 입속을 그린 글자", subtitle: "Consonants: Drawn from the Mouth", description: "Coming soon", available: false },
   { week: 4, title: "쌍자음: 더 강한 소리", subtitle: "Double Consonants: Stronger Sounds", description: "Coming soon", available: false },
   { week: 5, title: "받침: 3층 건물의 지하실", subtitle: "Final Consonants: The Basement", description: "Coming soon", available: false },
