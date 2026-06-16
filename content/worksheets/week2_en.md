@@ -40,6 +40,8 @@ Consonants create the start or end of a sound, but on their own they can't susta
 ㄱ + ㅏ      →  Block (ㄱ) + Open (ㅏ) = 가 [ga]  Syllable complete.
 ```
 
+*(Note: brackets show approximate pronunciation, not strict IPA)*
+
 Same deal in English. "str-" isn't a syllable on its own. It needs a vowel, like in "street," to become a word. Hangul bakes this rule right into its **letter structure** — leave the middle slot empty and the character simply doesn't exist.
 
 ---
@@ -450,7 +452,7 @@ The initial consonants are already in place. Just add the vowels to finish each 
    구 = ㄱ + ___
    두 = ㄷ + ___
 
-⑤ 게임 — game [ke.im]  (game)
+⑤ 게임 — game [ke.im]  (game (loanword — pronounced differently from English))
    게 = ㄱ + ___
    임 = ㅇ + ___ + ㅁ
 ```
@@ -596,7 +598,7 @@ Low                                ㅏ
 ## What You Learned This Week
 
 - [x] No vowel = no syllable — the vowel is the nucleus at the heart of every syllable
-- [x] ㆍ (Arae-a) was an independent vowel in the 15th century, now extinct — survives only in the Jeju dialect
+- [x] ㆍ (Arae-a) was an independent vowel in the 15th century, now retired from Standard Korean — but still alive in the Jeju dialect
 - [x] Three basic shapes (ㆍ Sky, ㅡ Earth, ㅣ Human) design 6 core vowels — the **Cheonjiin principle**
 - [x] 6 basics + 4 ㅣ-blends (ㅐ ㅔ ㅚ ㅟ) = **10 simple vowels**
 - [x] Vowels are classified by tongue front-to-back, tongue height, and lip shape — the **vowel chart**

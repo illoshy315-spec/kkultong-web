@@ -65,7 +65,7 @@ Korean diphthongs work the same way — except they follow clear, predictable pa
 
 ---
 
-## Three Types of Diphthongs
+## Four Types of Diphthongs
 
 Korean diphthongs fall into three main groups:
 
@@ -137,7 +137,7 @@ Horizontal vowels:
   ㅜ (1 vertical tick) → ㅠ (2 vertical ticks)
 ```
 
-This is an extension of the Heaven-Earth-Human design principle — one dot (ㆍ) means monophthong; two dots mean y-series.
+This is an extension of the Heaven-Earth-Human design principle — one dot (ㆍ, a historical character no longer used in modern Korean) means monophthong; two dots mean y-series.
 
 ### y-Series Vowel Chart
 
@@ -275,7 +275,7 @@ Modern pronunciation:    Most Korean speakers produce them as diphthongs
 | Vowel | Standard IPA | Modern pronunciation | English hint |
 |-------|-------------|---------------------|--------------|
 | ㅚ | [ø] | [we] | "weh" |
-| ㅟ | [y] | [wi] | "we" |
+| ㅟ | [y] | [wi] | "wee" |
 
 ### Example Words — ㅚ ㅟ
 
@@ -301,9 +301,9 @@ For each underlined vowel, choose the correct modern pronunciation.
    Answer: ___
 
 ③ Which statement best describes the modern pronunciations of 왜 (why) and 외 (foreign)?
-   (A) They're different — 왜 is [wɛ] and 외 is [wɛ] but distinct
-   (B) They're the same — both pronounced [we]
-   (C) 왜 is [we] and 외 is [ø]
+   (A) They're different — 왜[wɛ] / 외[ø] in the traditional standard
+   (B) They're the same — both pronounced [we] in modern speech
+   (C) 왜 is [wi] and 외 is [we]
    Answer: ___
 ```
 
@@ -359,7 +359,7 @@ Choose the correct pronunciation — [ɯi], [i], or [e] — for the underlined �
 ```
 ① <의>자  (chair — first syllable)           →  pronunciation: [   ]
 ② 주<의>  (attention — middle syllable)      →  pronunciation: [   ]
-③ 희<의>  (hope — possessive particle '의')  →  pronunciation: [   ]
+③ 나<의>  (my — possessive particle '의')     →  pronunciation: [   ]
 ④ <의>원  (hospital — first syllable)        →  pronunciation: [   ]
 ```
 
@@ -628,7 +628,7 @@ After reading: which word was the trickiest to pronounce?
 ```
 ① 의자 (first syllable)    →  [ɯi]
 ② 주의 (middle syllable)   →  [i]
-③ 희의 (particle)          →  [e]
+③ 나의 (particle)          →  [e]
 ④ 의원 (first syllable)    →  [ɯi]
 ```
 

@@ -87,7 +87,7 @@ Three years later, in **1446**, Sejong released the script to the world along wi
 That document is the **Hunminjeongeum Haerye (訓民正音 解例本)**. It's not just a user manual. It records, in meticulous detail, *why each letter has the shape it does* and the principles behind the entire design. Thanks to it, we can still know Sejong's exact design intentions 580 years later.
 
 > "The correct sounds for instructing the people"
-> — *Hunminjeongeum* [hun.min.dʑʌŋ.ɯm]
+> — *Hunminjeongeum* [hun.min.tɕʌŋ.ɯm]
 
 The original script had **28 letters**. Four have fallen out of use, leaving the **24 (14 consonants + 10 vowels)** used today.
 
@@ -284,7 +284,7 @@ The full three-piece package.
 왜 = ㅇ(silent) + ㅙ(wae)
 ```
 
-Here, ㅙ is a **diphthong** made up of **ㅗ + ㅏ + ㅣ** combined. The medial slot can hold two or more vowels combined together.
+Here, ㅙ is a **compound vowel** made by combining **ㅗ + ㅐ**. The medial slot can hold two or more vowels combined together.
 
 ### Example ④ Silent initial consonant: "우유" — *uyu* [u.ju] (milk)
 
@@ -364,7 +364,7 @@ From the 14 consonants we saw earlier, here are the key 5 — and why each one l
 
 | Vowel | Romanization | IPA | Symbol |
 |------|--------|-----|------|
-| ㆍ | — | [ʌ] | The round shape of Heaven (天) — not used in modern Korean |
+| ㆍ | — | [ə] | The round shape of Heaven (天) — not used in modern Korean |
 | ㅡ | eu | [ɯ] | The flat shape of Earth (地) |
 | ㅣ | i | [i] | A Person (人) standing upright |
 
@@ -494,7 +494,7 @@ What linguists have said:
 
 You don't need to memorize anything yet. Today, let's just write **one character** by hand.
 
-### '가' — *ga* [ka]
+### '가' — *ga* [ka] *(sounds between English 'g' and 'k')*
 
 ㄱ — 2 strokes:
 
@@ -520,7 +520,7 @@ Put them together — ㄱ goes on the left, ㅏ attaches to the right of ㄱ:
 
 ```
   ┌────┬──┐
-  │ ㄱ  │ㅏ│  →  가 [ga/ka]
+  │ ㄱ  │ㅏ│  →  가 [ka]
   └────┴──┘
 ```
 

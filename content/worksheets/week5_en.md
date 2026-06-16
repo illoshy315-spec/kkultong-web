@@ -44,10 +44,10 @@ Every Hangul character is stacked inside a square block — and that block can h
   └──────────────────┘
 ```
 
-The consonant that sits in the final position is called **받침 (받침, batchim)**.
+The consonant that sits in the final position is called **받침 (batchim)**.
 
 ```
-Without batchim (2 layers):   가 [ga]  = ㄱ + ㅏ
+Without batchim (2 layers):   가 [ka]  = ㄱ + ㅏ
 With batchim (3 layers):      강 [kaŋ] = ㄱ + ㅏ + ㅇ
 ```
 
@@ -73,7 +73,7 @@ Sound      Consonants that produce it
 [ŋ]   ←   ㅇ
 ```
 
-Those little ̚ marks on [k̚] [t̚] [p̚] indicate **unreleased** stops. The batchim sound stops without a burst of air — think of the way English speakers close off the final consonant without fully releasing it.
+Those little ̚ marks on [k̚] [t̚] [p̚] indicate **unreleased** stops. The batchim sound stops without a burst of air — think of holding the final consonant position without the small puff of air at the end — the sound stops dead.
 
 ```
 English comparisons:
@@ -210,7 +210,7 @@ Note: the spelling doesn't change — only the pronunciation connects.
 
 ```
 Common dictation traps:
-  You hear [바.비] → tempted to write 바비 (X)   but the actual word is → 밥이 (O)
+  You hear [pa.bi] → tempted to write 바비 (X)   but the actual word is → 밥이 (O)
   You hear [다.다] → tempted to write 다다 (X)   but the actual word is → 닫아 (O)
 ```
 
@@ -244,7 +244,7 @@ Two consonants at once sounds alarming — but if you look closely, they're all 
 없다 [ʌp̚.t͈a] =  ㅇ + ㅓ + ㅄ   (ㅄ = ㅂ + ㅅ)   to not exist
 ```
 
-There are 27 double batchim combinations in Korean, but only a handful show up regularly in everyday use.
+There are 11 double batchim combinations in Korean, but only a handful show up regularly in everyday use.
 
 Here we'll focus on the **5 most common double batchim: ㄺ, ㄻ, ㄼ, ㄾ, ㅄ**.
 

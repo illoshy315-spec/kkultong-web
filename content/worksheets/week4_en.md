@@ -39,7 +39,7 @@ Aspirated —  Add a burst of air.                                   ㅋ [kʰ]
 Tense     —  Glottis tightened and then released — no air at all.  ㄲ [k͈]
 ```
 
-Tense consonants are sounds that don't exist in English. There's no puff of air, and the vocal cords don't vibrate. Instead, you **briefly close the glottis (the gap between your vocal cords)** and then pop it open — producing a sharp, tight, almost clipped sound.
+Tense consonants are sounds that don't exist in English. There's no puff of air, and the vocal cords don't vibrate. Instead, you **briefly constrict the glottis (the space between your vocal cords)** and then pop it open — producing a sharp, tight, almost clipped sound.
 
 The closest feeling in English is the tiny catch between syllables in "uh-oh." Take that glottal tension and attach it to a consonant — that's your tense sound.
 
@@ -58,7 +58,7 @@ The shape of a tense consonant is delightfully simple. **Write the plain consona
 | ㅉ | jj | [t͈ɕ] | ㅈ + ㅈ | Palatal |
 
 **ㄴ, ㄹ, ㅁ, and ㅇ have no tense counterparts.**
-Nasal consonants (ㄴ, ㅁ) and the liquid (ㄹ) don't produce separate phonemes even when you apply glottal tension.
+Nasal consonants (ㄴ, ㅁ) and the liquid (ㄹ) simply have no tense counterparts in Korean — the phonemic distinction doesn't exist for these sounds.
 
 ---
 
@@ -124,7 +124,7 @@ Now let's line all three up and compare them.
 ㅂ series (bilabial)
   Plain      ㅂ [p]   —  비 [pi]         (rain)
   Aspirated  ㅍ [pʰ]  —  피 [pʰi]        (blood)
-  Tense      ㅃ [p͈]  —  빠 [p͈a]        (fast — 빠르다)
+  Tense      ㅃ [p͈]  —  빠 [p͈a]        (빠르다: to be fast)
 
 ㅅ series (alveolar, fricative)
   Plain      ㅅ [s]   —  사다 [sa.da]    (to buy)
@@ -185,7 +185,7 @@ Sort the consonants below into the correct cells in the table.
 ## ✏️ Activity 3: Sound Discrimination Practice
 
 Read each word pair aloud and feel the difference.
-Hold your hand in front of your mouth and check whether you feel any air.
+Hold your hand in front of your mouth and check whether you feel any air — only aspirated consonants should produce a breeze.
 
 ```
 ① ㄱ series
@@ -209,7 +209,7 @@ Hold your hand in front of your mouth and check whether you feel any air.
    (to sleep)         (salty)             (cold / to kick)
 ```
 
-*(No answer key needed — this is a pronunciation experience activity. Only the aspirated consonants should produce a breeze on your hand.)*
+*(This is a pronunciation experience activity — no written answer key needed.)*
 
 ---
 
@@ -437,10 +437,10 @@ Only aspirated consonants (ㅋ ㅌ ㅍ ㅊ) should produce a breeze on your hand
 ```
 ① 나비:    ㄴ (plain)  ㅂ (plain)
 ② 코끼리:  ㅋ (aspirated)  ㄲ (tense)  ㄹ (plain)
-③ 아빠:    ㅇ (plain/silent)  ㅃ (tense)
+③ 아빠:    ㅇ (silent — placeholder)  ㅃ (tense)
 ④ 짜다:    ㅉ (tense)  ㄷ (plain)
 ⑤ 포도:    ㅍ (aspirated)  ㄷ (plain)
-⑥ 싸우다:  ㅆ (tense)  ㅇ (plain/silent)
+⑥ 싸우다:  ㅆ (tense)  ㅇ (silent — placeholder)
 ```
 
 **Activity 6 — K-pop & Everyday Word Consonant Analysis**

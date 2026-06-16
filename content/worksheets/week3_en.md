@@ -73,7 +73,7 @@ Here's what each spot actually is:
   — Behind the hard palate; the squishy part further back.
   — Feel it when you say "ng~" and the back of your tongue rises to meet it.
 
-목구멍 (Glottis / larynx)
+목구멍 (Throat / glottis)
   — Deepest in. Where your vocal cords live.
 ```
 
@@ -86,7 +86,7 @@ Now let's see how Korean consonants are made at each of these spots.
 Sejong chose one representative shape from each articulation point as the foundation consonant.
 
 ```
-    Lips          Alveolar/Dental          Soft Palate    Glottis
+    Lips          Alveolar          Soft Palate    Glottis
      │                   │                      │             │
      ▼                   ▼                      ▼             ▼
      ㅁ [m]        ㄴ [n] / ㅅ [s]             ㄱ [k/g]      ㅇ [∅/ŋ]
@@ -217,15 +217,15 @@ In the final (받침) position: [l] — tongue stays against the gum ridge
 Combine the consonants with the vowels you learned in Week 2 to form syllable blocks.
 
 ```
-ㄱ + ㅏ  →  ___   [ga]
-ㄴ + ㅗ  →  ___   [no]
-ㄷ + ㅣ  →  ___   [di]
-ㄹ + ㅏ  →  ___   [ra]
-ㅁ + ㅜ  →  ___   [mu]
-ㅂ + ㅓ  →  ___   [beo]
-ㅅ + ㅡ  →  ___   [seu]
-ㅈ + ㅗ  →  ___   [jo]
-ㅇ + ㅣ  →  ___   [i]
+ㄱ + ㅏ  →  ___   ga
+ㄴ + ㅗ  →  ___   no
+ㄷ + ㅣ  →  ___   di
+ㄹ + ㅏ  →  ___   ra
+ㅁ + ㅜ  →  ___   mu
+ㅂ + ㅓ  →  ___   beo
+ㅅ + ㅡ  →  ___   seu
+ㅈ + ㅗ  →  ___   jo
+ㅇ + ㅣ  →  ___   i
 ```
 
 ---
@@ -325,9 +325,9 @@ Let's learn the stroke order for two plain consonants and their aspirated partne
 
 ```
   ① ↓ Left vertical stroke: top to bottom
-  ② → Bottom horizontal stroke: left to right
-  ③ ↑ Right vertical stroke: bottom to top
-  ④ ← Top horizontal stroke: right to left, closing the square
+  ② → Top horizontal stroke: left to right (across the top)
+  ③ ↓ Right vertical stroke: top to bottom
+  ④ → Bottom horizontal stroke: left to right, closing the square
   Result: a square — the closed mouth
 ```
 
@@ -336,9 +336,9 @@ Let's learn the stroke order for two plain consonants and their aspirated partne
 ```
   ① ↓ Left vertical stroke: top to bottom
   ② ↓ Right vertical stroke: top to bottom (parallel to ①)
-  ③ → Left horizontal stroke: lower-left between the two verticals
-  ④ → Right horizontal stroke: lower-right between the two verticals
-  Result: two pillars connected at the bottom — the mouth opening
+  ③ → Middle horizontal stroke: left to right, connecting the two verticals in the middle
+  ④ → Bottom horizontal stroke: left to right, along the base
+  Result: two pillars connected at middle and bottom — the mouth opening
 ```
 
 ### ㅍ [pʰ] — 4 strokes
@@ -529,7 +529,7 @@ Fill in the missing consonants to build each word.
 
 - [x] Consonants were **drawn from the shapes inside the mouth during pronunciation** — a design principle found nowhere else in the world
 - [x] Mouth anatomy front to back: 입술 (lips) → 잇몸 (alveolar) → 경구개 (hard palate) → 연구개 (soft palate) → 목구멍 (glottis)
-- [x] The 5 base shapes at each position: ㅁ (lips), ㄴ (alveolar), ㅅ (hard palate), ㄱ (soft palate), ㅇ (glottis)
+- [x] The 4 base shapes: ㅁ (lips), ㄴ (alveolar), ㄱ (soft palate), ㅇ (glottis) — plus ㅅ as the alveolar sibilant base (tongue tip near gum ridge, air squeezes through)
 - [x] 9 plain consonants: ㄱ ㄴ ㄷ ㄹ ㅁ ㅂ ㅅ ㅇ ㅈ
 - [x] 5 aspirated consonants: ㅋ ㅌ ㅍ ㅊ ㅎ — plain consonants plus a **burst of air (기식)**
 - [x] Plain → aspirated corresponds to **adding one extra stroke** to the letter

@@ -172,9 +172,7 @@ You've heard these in your favourite dramas a hundred times. Now you can actuall
 
 ```
 오빠   [o.p͈a]
-         Used by a female speaker toward an older male
-         (brother, boyfriend, etc.)
-         older brother / boyfriend (used by females)
+         older brother / boyfriend (used by females toward older males)
 
 언니   [ʌn.ni]
          Used by a female speaker toward an older female
@@ -207,7 +205,7 @@ You've heard these in your favourite dramas a hundred times. Now you can actuall
 
 보고 싶어   [po.go si.pʌ]   I miss you (lit. I want to see you)
          보고  =  ㅂ + ㅗ + ㄱ + ㅗ
-         싶어  =  ㅅ + ㅣ + ㅍ (받침, resyllabified) + ㅓ
+         싶어  =  ㅅ + ㅣ + ㅍ (받침, moves to next syllable) + ㅓ
 
 미안해   [mi.an.hɛ]   I'm sorry
          미  =  ㅁ + ㅣ
@@ -260,7 +258,7 @@ Read each sentence slowly out loud. Then write what you think it means in the sp
    Meaning: ________________________________________________
 
 ② 괜찮아, 걱정하지 마.
-   [kwɛn.tɕʰa.na  kʌk.t͈ʌŋ.ha.dʑi ma]
+   [kwɛn.tɕʰa.na  kʌk.t͈ʌŋ.ha.tɕi ma]
 
    Meaning: ________________________________________________
 
@@ -270,7 +268,7 @@ Read each sentence slowly out loud. Then write what you think it means in the sp
    Meaning: ________________________________________________
 
 ④ 꿈을 향해 가자.
-   [k͈u.mɯl hjaŋ.hɛ ka.dʑa]
+   [k͈u.mɯl hjaŋ.hɛ ka.tɕa]
 
    Meaning: ________________________________________________
 ```
@@ -285,7 +283,7 @@ Read each sentence slowly out loud. Then write what you think it means in the sp
 └──────────────────────────────────────────────────────┘
 ```
 
-> You just read Korean sentences. Seven weeks ago these looked like a secret code — now you can hear them.
+> You just read Korean sentences. Seven weeks ago these looked like a secret code — now you can read them.
 
 ---
 
@@ -456,7 +454,7 @@ Reference: Hangul spelling for major artists
 
 ---
 
-> *"Congratulations on finishing all 7 weeks! The writing system King Sejong designed — you can now read it."*
+> *"The writing system King Sejong designed 570 years ago? You can now read it."*
 >
 > *"Coming up next: Pronunciation rules — nasalisation, lateralisation, tensification, aspiration. We'll close the gap between what's written and what's actually said."*
 
