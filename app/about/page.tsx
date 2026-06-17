@@ -15,22 +15,26 @@ export default function About() {
         For everyone who fell in love with Korea.
       </h1>
       <div className="space-y-6 text-lg leading-relaxed" style={{ color: "var(--gray)" }}>
-        <p>Not textbook Korean.</p>
-        <p>The Korean from your favorite drama.</p>
-        <p>The Korean that works at the market.</p>
-        <p>The Korean that saves you in a taxi.</p>
-        <hr className="my-8 opacity-20" />
         <p>
-          Kkultong (꿀통) means <strong>honey jar</strong> in Korean — sweet, useful, and something you keep coming back to.
+          <strong>Kkultong (꿀통) means <em>honey jar</em> in Korean</strong> — sweet, useful, and something you keep coming back to.
         </p>
         <p>
-          We make free Korean learning content for K-pop and K-drama fans who want to go beyond "annyeonghaseyo" —
-          real Korean, the way it&apos;s actually spoken.
+          We make free Korean learning content for K-pop and K-drama fans who want to go beyond &quot;annyeonghaseyo&quot; — real Korean, the way it&apos;s actually spoken.
         </p>
         <hr className="my-8 opacity-20" />
+        <p>
+          Kkultong is run by a native Korean speaker who grew up watching the language get taught wrong.
+        </p>
+        <p>
+          Textbook Korean is stiff, formal, and oddly detached from the Korean that actually lives in dramas, streets, and group chats. The gap between what learners study and what Koreans actually say has always bothered me — so I decided to do something about it.
+        </p>
+        <p>
+          This site is my attempt to teach Korean the way it deserves to be taught: with the logic explained, the history included, and the real-life usage front and center.
+        </p>
+        <hr className="my-8 opacity-20" />
+        <p className="font-semibold">Everything here is free. No signup. No upsell. Just Korean.</p>
         <p className="text-base" style={{ color: "rgba(44,44,42,0.6)" }}>
-          Kkultong is run by a Korean culture enthusiast who got tired of textbook Korean —
-          and decided to do something about it.
+          꿀통 | kkultongkorea@gmail.com
         </p>
       </div>
     </section>
