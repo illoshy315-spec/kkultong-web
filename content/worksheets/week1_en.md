@@ -2,11 +2,13 @@
 week: 1
 title: "1443: A King Designs an Alphabet"
 subtitle: "The Logic and Structure of Hangul — Reading Sejong's Blueprint"
+seo_title: "How to Learn Hangul: Week 1 — King Sejong's Alphabet | Kkultong"
+seo_description: "How did King Sejong invent Hangul in 1443 — and why can you learn to read it in a weekend? Week 1 of the free Kkultong Hangul worksheet covers the structure, logic, and history of Korean writing."
 type: worksheet
 series: "The Hangul Workbook: Reading Sejong's Blueprint"
 duration: "40–50 minutes"
 created: 2026-06-09
-updated: 2026-06-12
+updated: 2026-06-17
 status: final
 ---
 

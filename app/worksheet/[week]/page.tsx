@@ -25,12 +25,14 @@ export async function generateMetadata({ params }: { params: Promise<{ week: str
   const filePath = path.join(WORKBOOK_DIR, `${week}_en.md`);
   if (!fs.existsSync(filePath)) return {};
   const { data } = matter(fs.readFileSync(filePath, "utf-8"));
+  const seoTitle = data.seo_title ?? `${data.title} | Kkultong`;
+  const seoDesc = data.seo_description ?? data.subtitle ?? `Free Hangul worksheet — ${data.title}. Learn real Korean for K-pop and K-drama fans.`;
   return {
-    title: `${data.title} | Kkultong`,
-    description: data.subtitle ?? `Free Hangul worksheet — ${data.title}. Learn real Korean for K-pop and K-drama fans.`,
+    title: seoTitle,
+    description: seoDesc,
     openGraph: {
-      title: `${data.title} | Kkultong`,
-      description: data.subtitle ?? `Free Hangul worksheet — ${data.title}.`,
+      title: seoTitle,
+      description: seoDesc,
       url: `https://kkultongkorea.com/worksheet/${week}`,
     },
   };

@@ -7,8 +7,8 @@ import Footer from "@/components/Footer";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Kkultong — Real Korean, Not Textbook Korean",
-  description: "Learn Korean from K-dramas, markets, and taxis. Free worksheets for K-pop and K-drama fans.",
+  title: "Learn Real Korean Free | Kkultong — For K-Drama & K-Pop Fans",
+  description: "Tired of textbook Korean? Learn the Korean from K-dramas, K-pop, and real life. Free 7-week Hangul worksheet — no signup needed. Start reading Korean this weekend.",
 };
 
 export default function RootLayout({

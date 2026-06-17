@@ -2,11 +2,13 @@
 week: 2
 title: "Vowels: 10 Sounds Built from Sky, Earth & Human"
 subtitle: "Cheonjiin (天地人) — Three Shapes That Design Every Vowel"
+seo_title: "Korean Vowels for Beginners: All 10 Explained | Kkultong Hangul Week 2"
+seo_description: "Learn all 10 Korean vowels — built from just 3 shapes (sky, earth, human). Free worksheet with activities, pronunciation guide, and writing practice. No Korean background needed."
 type: worksheet
 series: "Hangul Workbook: Reading Sejong's Blueprint"
 duration: "40–50 minutes"
 created: 2026-06-13
-updated: 2026-06-13
+updated: 2026-06-17
 status: draft
 ---
 

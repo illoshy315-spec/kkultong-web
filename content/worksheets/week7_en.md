@@ -2,11 +2,13 @@
 week: 7
 title: "Now We Actually Read — Real-World Hangul for K-pop & K-drama Fans"
 subtitle: "Reading real words and sentences using everything you've learned over 7 weeks"
+seo_title: "Read K-Pop Lyrics & K-Drama Hangul: Week 7 | Kkultong"
+seo_description: "Put it all together — read real K-pop lyrics and K-drama words in Hangul. Week 7 of the free Kkultong Hangul series. No Korean background needed."
 type: worksheet
 series: "Hangul Workbook: Reading Sejong's Blueprint"
 duration: "40–50 minutes"
 created: 2026-06-14
-updated: 2026-06-14
+updated: 2026-06-17
 status: draft
 ---
 

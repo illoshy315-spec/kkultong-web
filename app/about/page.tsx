@@ -1,3 +1,10 @@
+import type { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "About Kkultong — Free Korean Learning for K-Drama Fans",
+  description: "Kkultong (꿀통, \"honey jar\") makes free Korean learning content for K-pop and K-drama fans who want to go beyond \"annyeonghaseyo.\" Real Korean, the way it's actually spoken.",
+};
+
 export default function About() {
   return (
     <section className="max-w-3xl mx-auto px-6 py-24">

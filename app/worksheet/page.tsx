@@ -1,4 +1,10 @@
+import type { Metadata } from "next";
 import Link from "next/link";
+
+export const metadata: Metadata = {
+  title: "Free Hangul Worksheet (7 Weeks) | Kkultong",
+  description: "Free 7-week Hangul worksheet — no signup, no email required. Learn to read Korean from scratch, starting this weekend. Used by K-drama and K-pop fans worldwide.",
+};
 
 const worksheets = [
   {

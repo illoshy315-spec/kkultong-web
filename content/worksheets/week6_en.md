@@ -2,11 +2,13 @@
 week: 6
 title: "Act Two of Vowels: Add a Glide and Everything Changes"
 subtitle: "All Diphthongs — y-series, w-series, ㅚ ㅟ, and ㅢ"
+seo_title: "Korean Diphthongs & Compound Vowels Explained | Kkultong Hangul Week 6"
+seo_description: "Learn all Korean diphthongs — compound vowels formed by adding a glide (y or w). Covers y-series, w-series, ㅚ, ㅟ, and the unique ㅢ. Free worksheet, no Korean background needed."
 type: worksheet
 series: "Hangul Workbook: Reading Sejong's Blueprint"
 duration: "40–50 minutes"
 created: 2026-06-14
-updated: 2026-06-14
+updated: 2026-06-17
 status: final
 ---
 

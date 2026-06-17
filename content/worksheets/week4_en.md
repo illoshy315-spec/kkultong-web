@@ -2,11 +2,13 @@
 week: 4
 title: "Double Consonants: Two of the Same Letter, One Stronger Sound"
 subtitle: "Tense Sounds (경음) — Completing the Plain · Aspirated · Tense Three-Way System"
+seo_title: "Korean Double Consonants Explained: Tense Sounds | Kkultong Hangul Week 4"
+seo_description: "Learn Korean's 5 double consonants (ㄲ ㄸ ㅃ ㅆ ㅉ) — tense sounds that give Korean its punchy energy. Free worksheet with pronunciation guide and practice activities. No Korean background needed. Part of the free 7-week Kkultong Hangul series."
 type: worksheet
 series: "Hangul Workbook: Reading Sejong's Blueprint"
 duration: "40–50 minutes"
 created: 2026-06-13
-updated: 2026-06-13
+updated: 2026-06-17
 status: draft
 ---
 

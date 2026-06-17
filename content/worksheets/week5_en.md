@@ -2,11 +2,13 @@
 week: 5
 title: "받침: The Basement of a Three-Story Building"
 subtitle: "How final consonants work, the 7 batchim sounds, linking, and double batchim"
+seo_title: "Korean Batchim (Final Consonants) Explained | Kkultong Hangul Week 5"
+seo_description: "Learn Korean batchim — the final consonant that sits at the bottom of a syllable block. Covers the 7 batchim sounds, double batchim, and linking rules. Free worksheet, no Korean background needed."
 type: worksheet
 series: "Hangul Workbook: Reading King Sejong's Blueprint"
 duration: "40–50 minutes"
 created: 2026-06-13
-updated: 2026-06-13
+updated: 2026-06-17
 status: final
 ---
 

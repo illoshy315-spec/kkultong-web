@@ -2,11 +2,13 @@
 week: 3
 title: "Consonants: 14 Letters Drawn from Inside the Mouth"
 subtitle: "9 plain consonants shaped by the articulators, plus 5 aspirated consonants with an extra puff of air"
+seo_title: "Korean Consonants for Beginners: All 14 Explained | Kkultong Hangul Week 3"
+seo_description: "Learn all 14 Korean consonants — each letter shaped after the part of your mouth that makes the sound. Free worksheet with plain vs aspirated consonants, pronunciation tips, and stroke order."
 type: worksheet
 series: "Hangul Workbook: Reading Sejong's Blueprint"
 duration: "40–50 minutes"
 created: 2026-06-13
-updated: 2026-06-13
+updated: 2026-06-17
 status: draft
 ---
 
