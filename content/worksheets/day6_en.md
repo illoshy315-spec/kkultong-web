@@ -359,10 +359,10 @@ The rules look complicated, but once you know the position, the pattern clicks.
 Choose the correct pronunciation — [ɯi], [i], or [e] — for the underlined 의 in each word.
 
 ```
-① <의>자  (chair — first syllable)           →  pronunciation: [   ]
-② 주<의>  (attention — middle syllable)      →  pronunciation: [   ]
-③ 희<의>  (hope — possessive particle '의')  →  pronunciation: [   ]
-④ <의>원  (hospital — first syllable)        →  pronunciation: [   ]
+① [의]자  (chair — first syllable)           →  pronunciation: [   ]
+② 주[의]  (attention — middle syllable)      →  pronunciation: [   ]
+③ 희[의]  (hope — possessive particle '의')  →  pronunciation: [   ]
+④ [의]원  (hospital — first syllable)        →  pronunciation: [   ]
 ```
 
 ---
