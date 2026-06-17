@@ -1,4 +1,4 @@
----
+﻿---
 day: 4
 title: "Double Consonants: Two of the Same Letter, One Stronger Sound"
 subtitle: "Tense Sounds (경음) — Completing the Plain · Aspirated · Tense Three-Way System"
@@ -12,7 +12,7 @@ updated: 2026-06-17
 status: draft
 ---
 
-# WEEK 4
+# DAY 4
 # Double Consonants: Two of the Same Letter, One Stronger Sound
 
 ---
@@ -27,7 +27,7 @@ Aspirated consonants (5):  ㅋ[kʰ]  ㅌ[tʰ]  ㅍ[pʰ]  ㅊ[tɕʰ]  ㅎ[h]
 ```
 
 The difference between plain and aspirated was just one thing: **aspiration (a puff of air)**.
-This week we tackle the third type of sound — **tense consonants (쌍자음, double consonants)**.
+Today we tackle the third type of sound — **tense consonants (쌍자음, double consonants)**.
 
 ---
 
@@ -335,7 +335,7 @@ Break each word into its initial and vowel components, then use the full consona
 
 ---
 
-## Mini Quiz: Week 4
+## Mini Quiz: Day 4
 
 **Q1.** How do you write the shape of a double (tense) consonant?
 
@@ -457,7 +457,7 @@ Only aspirated consonants (ㅋ ㅌ ㅍ ㅊ) should produce a breeze on your hand
 
 ---
 
-## What You Learned This Week
+## What You Learned Today
 
 - [x] Korean consonants have **three levels**: plain · aspirated · tense
 - [x] Tense consonants are produced by **tensing the glottis** — no aspiration at all
@@ -469,6 +469,6 @@ Only aspirated consonants (ㅋ ㅌ ㅍ ㅊ) should produce a breeze on your hand
 
 ---
 
-> *"Coming up next week: 받침 — the basement of the three-floor building, and ㅇ's secret second identity."*
+> *"Coming up Next up: 받침 — the basement of the three-floor building, and ㅇ's secret second identity."*
 
 🔗 **kkultongkorea.com** | 📧 **kkultongkorea@gmail.com**

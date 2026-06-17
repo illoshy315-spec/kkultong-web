@@ -1,4 +1,4 @@
----
+﻿---
 day: 1
 title: "1443: A King Designs an Alphabet"
 subtitle: "The Logic and Structure of Hangul — Reading Sejong's Blueprint"
@@ -12,7 +12,7 @@ updated: 2026-06-17
 status: final
 ---
 
-# WEEK 1
+# DAY 1
 # 1443: A King Designs an Alphabet
 
 ---
@@ -303,7 +303,7 @@ When ㅇ appears in the initial consonant slot, it makes **no sound — it's a p
 닭 = ㄷ(d) + ㅏ(a) + ㄺ(double final consonant)
 ```
 
-The final consonant slot can hold **two consonants**. This is called **겹받침** (a double batchim). The actual pronunciation is [닥]. (We'll cover this in detail in Week 5.)
+The final consonant slot can hold **two consonants**. This is called **겹받침** (a double batchim). The actual pronunciation is [닥]. (We'll cover this in detail in Day 5.)
 
 ---
 
@@ -549,7 +549,7 @@ Now it's your turn:
 
 ---
 
-## Mini Quiz: Week 1
+## Mini Quiz: Day 1
 
 **Q1.** In what year did King Sejong **create** Hangul (창제)?
 
@@ -681,7 +681,7 @@ Now it's your turn:
 
 ---
 
-## What You Learned This Week
+## What You Learned Today
 
 - [x] Hangul was created in 1443, **proclaimed in 1446** — designed personally by King Sejong
 - [x] It was created in the face of strong opposition from government officials
@@ -697,6 +697,6 @@ Now it's your turn:
 
 ---
 
-> *"Next week: 천지인 (天地人) — Designing every vowel from just three shapes"*
+> *"Next up: 천지인 (天地人) — Designing every vowel from just three shapes"*
 
 🔗 **kkultongkorea.com** | 📧 **kkultongkorea@gmail.com**

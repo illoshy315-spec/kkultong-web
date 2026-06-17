@@ -1,4 +1,4 @@
----
+﻿---
 day: 6
 title: "Act Two of Vowels: Add a Glide and Everything Changes"
 subtitle: "All Diphthongs — y-series, w-series, ㅚ ㅟ, and ㅢ"
@@ -12,28 +12,28 @@ updated: 2026-06-17
 status: final
 ---
 
-# WEEK 6
+# DAY 6
 # Act Two of Vowels: Add a Glide and Everything Changes
 
 ---
 
-## Last Week's Review
+## Review So Far
 
 Here's what you've covered so far:
 
 ```
-Week 1: Hangul block writing — initial consonant + vowel + final consonant
-Week 2: 10 monophthongs (ㅏ ㅐ ㅓ ㅔ ㅗ ㅚ ㅜ ㅟ ㅡ ㅣ)
-Week 3: 14 consonants (9 plain + 5 aspirated)
-Week 4: 5 tense consonants — completing the plain / aspirated / tense trio
-Week 5: 7 final consonant sounds, vowel linking, and double final consonants
+Day 1: Hangul block writing — initial consonant + vowel + final consonant
+Day 2: 10 monophthongs (ㅏ ㅐ ㅓ ㅔ ㅗ ㅚ ㅜ ㅟ ㅡ ㅣ)
+Day 3: 14 consonants (9 plain + 5 aspirated)
+Day 4: 5 tense consonants — completing the plain / aspirated / tense trio
+Day 5: 7 final consonant sounds, vowel linking, and double final consonants
 ```
 
-Back in Week 2, you learned 10 monophthongs. But did you notice that **ㅑ ㅕ ㅛ ㅠ** were missing from that list?
+Back in Day 2, you learned 10 monophthongs. But did you notice that **ㅑ ㅕ ㅛ ㅠ** were missing from that list?
 
-And **ㅚ and ㅟ** definitely showed up in Week 2 — so why are they making a comeback today?
+And **ㅚ and ㅟ** definitely showed up in Day 2 — so why are they making a comeback today?
 
-There's a reason. This week, we explain it.
+There's a reason. Today, we explain it.
 
 ---
 
@@ -253,9 +253,9 @@ Read each word aloud, then write the w-series vowel you find in each one.
 
 ## Part 3. Monophthongs That Became Diphthongs — ㅚ and ㅟ
 
-Now those two vowels from Week 2 make their return.
+Now those two vowels from Day 2 make their return.
 
-In Week 2, ㅚ and ㅟ were on the **monophthong list**. So why are they showing up in the diphthong unit?
+In Day 2, ㅚ and ㅟ were on the **monophthong list**. So why are they showing up in the diphthong unit?
 
 ```
 Standard pronunciation:  ㅚ and ㅟ are monophthongs
@@ -535,7 +535,7 @@ After reading: which word was the trickiest to pronounce?
 
 ---
 
-## Mini Quiz: Week 6
+## Mini Quiz: Day 6
 
 **Q1.** Which word contains a y-series diphthong?
 
@@ -573,7 +573,7 @@ After reading: which word was the trickiest to pronounce?
 │     most modern speakers         │
 │     pronounce them as diphthongs │
 │  C) They weren't covered in      │
-│     Week 2                       │
+│     Day 2                       │
 │  D) They are w-series diphthongs │
 │                                  │
 │  Answer: ____                    │
@@ -662,7 +662,7 @@ After reading: which word was the trickiest to pronounce?
 
 ---
 
-## What You Learned This Week
+## What You Learned Today
 
 - [ ] A diphthong is a vowel where your mouth shape shifts while the sound plays
 - [ ] 4 y-series vowels: ㅑ[ja] ㅕ[jʌ] ㅛ[jo] ㅠ[ju] — glide [j] + monophthong
@@ -675,6 +675,6 @@ After reading: which word was the trickiest to pronounce?
 
 ---
 
-> *"Next week: Putting it all together — reading real K-pop and K-drama words and sentences. Everything from the past 7 weeks, finally in the wild."*
+> *"Next up: Putting it all together — reading real K-pop and K-drama words and sentences. Everything from the past 7 days, finally in the wild."*
 
 🔗 **kkultongkorea.com** | 📧 **kkultongkorea@gmail.com**

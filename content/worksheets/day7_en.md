@@ -1,4 +1,4 @@
----
+﻿---
 day: 7
 title: "Now We Actually Read — Real-World Hangul for K-pop & K-drama Fans"
 subtitle: "Reading real words and sentences using everything you've learned over 7 days"
@@ -12,14 +12,14 @@ updated: 2026-06-17
 status: draft
 ---
 
-# WEEK 7
+# DAY 7
 # Now We Actually Read — Real-World Hangul for K-pop & K-drama Fans
 
 ---
 
 ## Weeks 1–6 Review — The Hangul System at a Glance
 
-Here's the complete picture of the Hangul you've learned over 7 weeks. No explanations — just take it all in.
+Here's the complete picture of the Hangul you've learned over 7 days. No explanations — just take it all in.
 
 ### 자음 (Consonants) — 19 total
 
@@ -46,7 +46,7 @@ Here's the complete picture of the Hangul you've learned over 7 weeks. No explan
 │  단모음 (10)                                                          │
 │  ㅏ[a]  ㅐ[ɛ]  ㅓ[ʌ]  ㅔ[e]  ㅗ[o]  ㅚ[we]*  ㅜ[u]  ㅟ[wi]*  ㅡ[ɯ]  ㅣ[i] │
 │  * Officially simple vowels, but most modern speakers pronounce      │
-│    these as diphthongs (see Week 6)                                   │
+│    these as diphthongs (see Day 6)                                   │
 ├──────────────────────────────────────────────────────────────────────┤
 │  이중모음 (11)                                                         │
 │  y계열:  ㅑ[ja]  ㅕ[jʌ]  ㅛ[jo]  ㅠ[ju]                              │
@@ -350,7 +350,7 @@ Reference: Hangul spelling for major artists
 
 ---
 
-## Mini Quiz: Week 7
+## Mini Quiz: Day 7
 
 **Q1.** Which of the following shows the correct pronunciation of 봄?
 
@@ -445,7 +445,7 @@ Reference: Hangul spelling for major artists
 
 ---
 
-## What You Accomplished This Week
+## What You Accomplished Today
 
 - [ ] Reviewed the complete Hangul system (19 consonants, 21 vowels) all at once
 - [ ] Read K-pop artist names in Hangul (방탄소년단, 블랙핑크, 뉴진스, and more)
@@ -458,7 +458,7 @@ Reference: Hangul spelling for major artists
 
 ---
 
-> *"Congratulations on finishing all 7 weeks! The writing system King Sejong designed — you can now read it."*
+> *"Congratulations on finishing all 7 days! The writing system King Sejong designed — you can now read it."*
 >
 > *"Coming up next: Pronunciation rules — nasalisation, lateralisation, tensification, aspiration. We'll close the gap between what's written and what's actually said."*
 

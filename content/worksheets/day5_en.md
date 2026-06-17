@@ -1,4 +1,4 @@
----
+﻿---
 day: 5
 title: "받침: The Basement of a Three-Story Building"
 subtitle: "How final consonants work, the 7 batchim sounds, linking, and double batchim"
@@ -12,7 +12,7 @@ updated: 2026-06-17
 status: final
 ---
 
-# WEEK 5
+# DAY 5
 # 받침: The Basement of a Three-Story Building
 
 ---
@@ -22,13 +22,13 @@ status: final
 Here's what you've covered so far:
 
 ```
-Week 1: Hangul block stacking — initial consonant + vowel + final consonant
-Week 2: 10 basic vowels
-Week 3: 14 consonants (9 plain + 5 aspirated)
-Week 4: 5 tense consonants — completing the plain/aspirated/tense trio
+Day 1: Hangul block stacking — initial consonant + vowel + final consonant
+Day 2: 10 basic vowels
+Day 3: 14 consonants (9 plain + 5 aspirated)
+Day 4: 5 tense consonants — completing the plain/aspirated/tense trio
 ```
 
-That **final consonant position (종성)** that made a brief appearance back in Week 1? This week, we're finally giving it the spotlight it deserves.
+That **final consonant position (종성)** that made a brief appearance back in Day 1? Today, we're finally giving it the spotlight it deserves.
 
 ---
 
@@ -111,13 +111,13 @@ The 7 batchim sounds: [k̚]  [n]  [t̚]  [l]  [m]  [p̚]  [ŋ]
 
 ## ㅇ's Second Identity
 
-What you learned in Week 2:
+What you learned in Day 2:
 
 ```
 ㅇ as an initial consonant  →  silent [∅]   e.g., 아 = ㅇ + ㅏ → [a]
 ```
 
-What you're learning this week:
+What you're learning Today:
 
 ```
 ㅇ as a final consonant  →  [ŋ] sound   e.g., 강 = ㄱ + ㅏ + ㅇ → [kaŋ]
@@ -398,7 +398,7 @@ Batchim options: **ㄱ  ㄴ  ㄹ  ㅁ  ㅂ  ㅇ**
 
 ---
 
-## Mini Quiz: Week 5
+## Mini Quiz: Day 5
 
 **Q1.** How many distinct sounds can batchim make?
 
@@ -534,7 +534,7 @@ Batchim options: **ㄱ  ㄴ  ㄹ  ㅁ  ㅂ  ㅇ**
 
 ---
 
-## What You Learned This Week
+## What You Learned Today
 
 - [x] 받침 (batchim / final consonant) is the consonant that sits in the bottom layer of a Hangul block
 - [x] Regardless of which consonant is written, batchim always produces one of **7 sounds**
@@ -545,6 +545,6 @@ Batchim options: **ㄱ  ㄴ  ㄹ  ㅁ  ㅂ  ㅇ**
 
 ---
 
-> *"Next week: Diphthongs — y-glide vowels and compound vowels"*
+> *"Next up: Diphthongs — y-glide vowels and compound vowels"*
 
 🔗 **kkultongkorea.com** | 📧 **kkultongkorea@gmail.com**

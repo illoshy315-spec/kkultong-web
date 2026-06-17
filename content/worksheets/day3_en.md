@@ -1,4 +1,4 @@
----
+﻿---
 day: 3
 title: "Consonants: 14 Letters Drawn from Inside the Mouth"
 subtitle: "9 plain consonants shaped by the articulators, plus 5 aspirated consonants with an extra puff of air"
@@ -12,7 +12,7 @@ updated: 2026-06-17
 status: draft
 ---
 
-# WEEK 3
+# DAY 3
 # Consonants: 14 Letters Drawn from Inside the Mouth
 
 ---
@@ -22,17 +22,17 @@ status: draft
 Here's where we've been so far:
 
 ```
-Week 1: Hangul assembles consonants + vowels into square blocks
-Week 2: 10 simple vowels — ㅏ ㅐ ㅓ ㅔ ㅗ ㅚ ㅜ ㅟ ㅡ ㅣ
+Day 1: Hangul assembles consonants + vowels into square blocks
+Day 2: 10 simple vowels — ㅏ ㅐ ㅓ ㅔ ㅗ ㅚ ㅜ ㅟ ㅡ ㅣ
 ```
 
-This week we fill those blocks with the **14 consonants** that go in the **initial position (첫소리) and final position (끝소리)**.
+Today we fill those blocks with the **14 consonants** that go in the **initial position (첫소리) and final position (끝소리)**.
 
 ---
 
 ## Sejong's Second Master Move: Drawing the Inside of the Mouth
 
-Back in Week 1 you learned one big idea:
+Back in Day 1 you learned one big idea:
 
 > Vowels were modeled on heaven, earth, and humanity (천지인).
 
@@ -209,14 +209,14 @@ Between vowels: [ɾ] — a single light flap of the tongue tip against the gum r
   Whatever you do, do NOT curl your tongue back like English "r."
 
 In the final (받침) position: [l] — tongue stays against the gum ridge
-  달 [tal]   ← We'll dig into this in Week 5
+  달 [tal]   ← We'll dig into this in Day 5
 ```
 
 ---
 
 ## ✏️ Activity 3: Build Syllables with Plain Consonants
 
-Combine the consonants with the vowels you learned in Week 2 to form syllable blocks.
+Combine the consonants with the vowels you learned in Day 2 to form syllable blocks.
 
 ```
 ㄱ + ㅏ  →  ___   [ga]
@@ -394,7 +394,7 @@ Fill in the missing consonants to build each word.
 
 ---
 
-## Mini Quiz: Week 3
+## Mini Quiz: Day 3
 
 **Q1.** What was the design principle behind the consonant shapes?
 
@@ -527,7 +527,7 @@ Fill in the missing consonants to build each word.
 
 ---
 
-## What You Learned This Week
+## What You Learned Today
 
 - [x] Consonants were **drawn from the shapes inside the mouth during pronunciation** — a design principle found nowhere else in the world
 - [x] Mouth anatomy front to back: 입술 (lips) → 잇몸 (alveolar) → 경구개 (hard palate) → 연구개 (soft palate) → 목구멍 (glottis)
@@ -537,10 +537,10 @@ Fill in the missing consonants to build each word.
 - [x] Plain → aspirated corresponds to **adding one extra stroke** to the letter
 - [x] ㄱ ㄷ ㅂ ㅈ are voiceless at the start of a word, voiced between vowels
 - [x] ㄹ is [ɾ] (a flap) between vowels, and [l] in the final position
-- [x] Tense consonants (ㄲ ㄸ ㅃ ㅆ ㅉ) are coming next week
+- [x] Tense consonants (ㄲ ㄸ ㅃ ㅆ ㅉ) are coming Next up
 
 ---
 
-> *"Next week: Tense consonants — completing the plain / aspirated / tense three-way contrast"*
+> *"Next up: Tense consonants — completing the plain / aspirated / tense three-way contrast"*
 
 🔗 **kkultongkorea.com** | 📧 **kkultongkorea@gmail.com**

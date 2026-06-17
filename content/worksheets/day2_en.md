@@ -1,4 +1,4 @@
----
+﻿---
 day: 2
 title: "Vowels: 10 Sounds Built from Sky, Earth & Human"
 subtitle: "Cheonjiin (天地人) — Three Shapes That Design Every Vowel"
@@ -12,7 +12,7 @@ updated: 2026-06-17
 status: draft
 ---
 
-# WEEK 2
+# DAY 2
 # Vowels: 10 Sounds Built from Sky, Earth & Human
 
 ---
@@ -182,7 +182,7 @@ Add **ㅣ** to each of the 6 basics and you get 4 more:
 
 **In other words: even native Korean speakers often "get these wrong."** Technically they're distinct simple vowels in Standard Korean, but the real-world pronunciations in the table above sound perfectly natural in everyday conversation. For learners, it's totally reasonable to learn the everyday versions first and fine-tune toward the standard later.
 
-*(The y-series diphthongs ㅑ ㅕ ㅛ ㅠ and compound diphthongs ㅘ ㅙ ㅝ ㅞ ㅢ are covered in Week 6.)*
+*(The y-series diphthongs ㅑ ㅕ ㅛ ㅠ and compound diphthongs ㅘ ㅙ ㅝ ㅞ ㅢ are covered in Day 6.)*
 
 ---
 
@@ -285,7 +285,7 @@ When the initial consonant slot is empty → insert ㅇ as a silent placeholder.
 이 = ㅇ (silent) + ㅣ  →  [i]
 ```
 
-*(ㅇ in the final consonant position makes a completely different sound — covered in Week 5.)*
+*(ㅇ in the final consonant position makes a completely different sound — covered in Day 5.)*
 
 ---
 
@@ -459,7 +459,7 @@ The initial consonants are already in place. Just add the vowels to finish each 
 
 ---
 
-## Mini Quiz: Week 2
+## Mini Quiz: Day 2
 
 **Q1.** In the Cheonjiin principle, what does ㅡ represent?
 
@@ -595,7 +595,7 @@ Low                                ㅏ
 
 ---
 
-## What You Learned This Week
+## What You Learned Today
 
 - [x] No vowel = no syllable — the vowel is the nucleus at the heart of every syllable
 - [x] ㆍ (Arae-a) was an independent vowel in the 15th century, now extinct — survives only in the Jeju dialect
@@ -610,6 +610,6 @@ Low                                ㅏ
 
 ---
 
-> *"Next week: Consonants — 14 letters drawn from the shape of the mouth itself."*
+> *"Next up: Consonants — 14 letters drawn from the shape of the mouth itself."*
 
 🔗 **kkultongkorea.com** | 📧 **kkultongkorea@gmail.com**
