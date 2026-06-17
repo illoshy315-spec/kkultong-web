@@ -53,7 +53,7 @@ Without batchim (2 layers):   가 [ga]  = ㄱ + ㅏ
 With batchim (3 layers):      강 [kaŋ] = ㄱ + ㅏ + ㅇ
 ```
 
-Batchim is **optional** — it can be there or not. Most of the words from Weeks 1–4 had no batchim at all.
+Batchim is **optional** — it can be there or not. Most of the words from Days 1–4 had no batchim at all.
 
 ---
 
@@ -270,7 +270,7 @@ When a vowel follows (a syllable starting with silent ㅇ), linking kicks in and
   없어 [ʌp̚.s͈ʌ]  — ㅂ stays as the batchim sound, ㅅ moves to the initial of '어'
 ```
 
-*(Why does the ㅅ in 없어 come out as [s͈] (tense)? That's due to Korean's tensification rule — we'll cover that in a later week. For now, just remember that 없어 sounds like [업써].)*
+*(Why does the ㅅ in 없어 come out as [s͈] (tense)? That's due to Korean's tensification rule — we'll cover that in a later day. For now, just remember that 없어 sounds like [업써].)*
 
 ### The 5 Most Common Double Batchim
 

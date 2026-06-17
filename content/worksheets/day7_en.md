@@ -17,7 +17,7 @@ status: draft
 
 ---
 
-## Weeks 1–6 Review — The Hangul System at a Glance
+## Days 1–6 Review — The Hangul System at a Glance
 
 Here's the complete picture of the Hangul you've learned over 7 days. No explanations — just take it all in.
 
@@ -287,7 +287,7 @@ Read each sentence slowly out loud. Then write what you think it means in the sp
 └──────────────────────────────────────────────────────┘
 ```
 
-> You just read Korean sentences. Seven weeks ago these looked like a secret code — now you can hear them.
+> You just read Korean sentences. Seven days ago these looked like a secret code — now you can hear them.
 
 ---
 

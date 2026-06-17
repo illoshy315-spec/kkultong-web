@@ -17,7 +17,7 @@ status: draft
 
 ---
 
-## Quick Recap from Last Week
+## Quick Recap from Last Time
 
 Here's where we've been so far:
 

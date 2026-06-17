@@ -17,7 +17,7 @@ status: draft
 
 ---
 
-## Quick Review from Last Week
+## Quick Review from Last Time
 
 Hangul assembles consonants and vowels **inside square blocks**.
 

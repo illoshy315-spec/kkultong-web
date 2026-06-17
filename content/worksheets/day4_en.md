@@ -17,7 +17,7 @@ status: draft
 
 ---
 
-## Quick Review from Last Week
+## Quick Review from Last Time
 
 Consonants you've learned so far:
 
@@ -265,7 +265,7 @@ Look at the IPA pronunciation and draw a line to the matching Korean word.
 
 ## Full Consonant Chart: Every Consonant You've Learned
 
-All 19 consonants from Weeks 3–4, laid out at a glance.
+All 19 consonants from Days 3–4, laid out at a glance.
 
 ```
 Place of articulation   Plain              Aspirated  Tense
