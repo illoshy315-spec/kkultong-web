@@ -10,19 +10,19 @@ const WORKBOOK_DIR = path.join(process.cwd(), "content", "worksheets");
 
 export async function generateStaticParams() {
   return [
-    { week: "week1" },
-    { week: "week2" },
-    { week: "week3" },
-    { week: "week4" },
-    { week: "week5" },
-    { week: "week6" },
-    { week: "week7" },
+    { day: "day1" },
+    { day: "day2" },
+    { day: "day3" },
+    { day: "day4" },
+    { day: "day5" },
+    { day: "day6" },
+    { day: "day7" },
   ];
 }
 
-export async function generateMetadata({ params }: { params: Promise<{ week: string }> }): Promise<Metadata> {
-  const { week } = await params;
-  const filePath = path.join(WORKBOOK_DIR, `${week}_en.md`);
+export async function generateMetadata({ params }: { params: Promise<{ day: string }> }): Promise<Metadata> {
+  const { day } = await params;
+  const filePath = path.join(WORKBOOK_DIR, `${day}_en.md`);
   if (!fs.existsSync(filePath)) return {};
   const { data } = matter(fs.readFileSync(filePath, "utf-8"));
   const seoTitle = data.seo_title ?? `${data.title} | Kkultong`;
@@ -33,14 +33,14 @@ export async function generateMetadata({ params }: { params: Promise<{ week: str
     openGraph: {
       title: seoTitle,
       description: seoDesc,
-      url: `https://kkultongkorea.com/worksheet/${week}`,
+      url: `https://kkultongkorea.com/worksheet/${day}`,
     },
   };
 }
 
-export default async function WorksheetPage({ params }: { params: Promise<{ week: string }> }) {
-  const { week } = await params;
-  const filePath = path.join(WORKBOOK_DIR, `${week}_en.md`);
+export default async function WorksheetPage({ params }: { params: Promise<{ day: string }> }) {
+  const { day } = await params;
+  const filePath = path.join(WORKBOOK_DIR, `${day}_en.md`);
 
   if (!fs.existsSync(filePath)) notFound();
 
@@ -50,7 +50,7 @@ export default async function WorksheetPage({ params }: { params: Promise<{ week
   return (
     <article className="max-w-3xl mx-auto px-6 py-16">
       <p className="text-sm font-semibold tracking-widest uppercase mb-2" style={{ color: "var(--amber)" }}>
-        Week {data.week}
+        Day {data.day ?? data.week}
       </p>
       <h1 className="text-3xl md:text-4xl font-black mb-2" style={{ color: "var(--gray)" }}>
         {data.title}

@@ -2,13 +2,13 @@ import type { MetadataRoute } from "next";
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const base = "https://kkultongkorea.com";
-  const weeks = [1, 2, 3, 4, 5, 6, 7];
+  const days = [1, 2, 3, 4, 5, 6, 7];
 
   return [
     { url: base, lastModified: new Date(), changeFrequency: "weekly", priority: 1 },
     { url: `${base}/worksheet`, lastModified: new Date(), changeFrequency: "weekly", priority: 0.9 },
-    ...weeks.map((w) => ({
-      url: `${base}/worksheet/week${w}`,
+    ...days.map((d) => ({
+      url: `${base}/worksheet/day${d}`,
       lastModified: new Date(),
       changeFrequency: "monthly" as const,
       priority: 0.8,
