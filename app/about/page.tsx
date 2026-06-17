@@ -23,7 +23,7 @@ export default function About() {
         </p>
         <hr className="my-8 opacity-20" />
         <p>
-          Kkultong is run by a native Korean speaker who grew up watching the language get taught wrong.
+          Kkultong is run by a native Korean speaker who spent years wondering why Korean was so hard to teach — and decided to find a better way.
         </p>
         <p>
           Textbook Korean is stiff, formal, and oddly detached from the Korean that actually lives in dramas, streets, and group chats. The gap between what learners study and what Koreans actually say has always bothered me — so I decided to do something about it.
