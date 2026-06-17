@@ -1,19 +1,19 @@
-﻿---
-week: 5
-title: "諛쏆묠: The Basement of a Three-Story Building"
+---
+day: 5
+title: "받침: The Basement of a Three-Story Building"
 subtitle: "How final consonants work, the 7 batchim sounds, linking, and double batchim"
-seo_title: "Korean Batchim (Final Consonants) Explained | Kkultong Hangul Week 5"
-seo_description: "Learn Korean batchim ??the final consonant that sits at the bottom of a syllable block. Covers the 7 batchim sounds, double batchim, and linking rules. Free worksheet, no Korean background needed."
+seo_title: "Korean Batchim (Final Consonants) Explained | Kkultong Hangul Day 5"
+seo_description: "Learn Korean batchim — the final consonant that sits at the bottom of a syllable block. Covers the 7 batchim sounds, double batchim, and linking rules. Free worksheet, no Korean background needed."
 type: worksheet
 series: "Hangul Workbook: Reading King Sejong's Blueprint"
-duration: "40??0 minutes"
+duration: "40–50 minutes"
 created: 2026-06-13
 updated: 2026-06-17
 status: final
 ---
 
 # WEEK 5
-# 諛쏆묠: The Basement of a Three-Story Building
+# 받침: The Basement of a Three-Story Building
 
 ---
 
@@ -22,32 +22,38 @@ status: final
 Here's what you've covered so far:
 
 ```
-Week 1: Hangul block stacking ??initial consonant + vowel + final consonant
+Week 1: Hangul block stacking — initial consonant + vowel + final consonant
 Week 2: 10 basic vowels
 Week 3: 14 consonants (9 plain + 5 aspirated)
-Week 4: 5 tense consonants ??completing the plain/aspirated/tense trio
+Week 4: 5 tense consonants — completing the plain/aspirated/tense trio
 ```
 
-That **final consonant position (醫낆꽦)** that made a brief appearance back in Week 1? This week, we're finally giving it the spotlight it deserves.
+That **final consonant position (종성)** that made a brief appearance back in Week 1? This week, we're finally giving it the spotlight it deserves.
 
 ---
 
-## What Is 諛쏆묠?
+## What Is 받침?
 
-Every Hangul character is stacked inside a square block ??and that block can have up to three layers.
-
-```
-  ?뚢????????????????????  ??  珥덉꽦 (initial)  ?? ??consonant
-  ?쒋????????????????????  ??  以묒꽦 (middle)   ?? ??vowel
-  ?쒋????????????????????  ??  醫낆꽦 (final)    ?? ??consonant ??this is the 諛쏆묠 (batchim)
-  ?붴????????????????????```
-
-The consonant that sits in the final position is called **諛쏆묠 (batchim)**.
+Every Hangul character is stacked inside a square block — and that block can have up to three layers.
 
 ```
-Without batchim (2 layers):   媛 [ka]  = ??+ ??With batchim (3 layers):      媛?[ka흯] = ??+ ??+ ??```
+  ┌──────────────────┐
+  │   초성 (initial)  │  ← consonant
+  ├──────────────────┤
+  │   중성 (middle)   │  ← vowel
+  ├──────────────────┤
+  │   종성 (final)    │  ← consonant — this is the 받침 (batchim)
+  └──────────────────┘
+```
 
-Batchim is **optional** ??it can be there or not. Most of the words from Weeks 1?? had no batchim at all.
+The consonant that sits in the final position is called **받침 (받침, batchim)**.
+
+```
+Without batchim (2 layers):   가 [ga]  = ㄱ + ㅏ
+With batchim (3 layers):      강 [kaŋ] = ㄱ + ㅏ + ㅇ
+```
+
+Batchim is **optional** — it can be there or not. Most of the words from Weeks 1–4 had no batchim at all.
 
 ---
 
@@ -59,87 +65,94 @@ Multiple consonants "merge" into the **same sound** when they land in batchim po
 
 ```
 Sound      Consonants that produce it
-??????     ?????????????????????????????
-[k?]  ??  ?? ?? ??[n]   ??  ??[t?]  ??  ?? ?? ?? ?? ?? ?? ??[l]   ??  ??[m]   ??  ??[p?]  ??  ?? ??[흯]   ??  ??```
+──────     ─────────────────────────────
+[k̚]  ←   ㄱ  ㅋ  ㄲ
+[n]   ←   ㄴ
+[t̚]  ←   ㄷ  ㅅ  ㅆ  ㅈ  ㅊ  ㅌ  ㅎ
+[l]   ←   ㄹ
+[m]   ←   ㅁ
+[p̚]  ←   ㅂ  ㅍ
+[ŋ]   ←   ㅇ
+```
 
-Those little ? marks on [k?] [t?] [p?] indicate **unreleased** stops. The batchim sound stops without a burst of air ??think of holding the final consonant position without the small puff of air at the end ??the sound stops dead.
+Those little ̚ marks on [k̚] [t̚] [p̚] indicate **unreleased** stops. The batchim sound stops without a burst of air — think of the way English speakers close off the final consonant without fully releasing it.
 
 ```
 English comparisons:
-  [k?]  ?? book, back, lock  (stop the k without releasing it)
-  [t?]  ?? boat, bit, heat   (stop the t without releasing it)
-  [p?]  ?? cup, stop, map    (stop the p without releasing it)
-  [n]   ?? sun, man, on
-  [l]   ?? ball, full, tell
-  [m]   ?? room, dream, calm
-  [흯]   ?? sing, ring, king
+  [k̚]  ←  book, back, lock  (stop the k without releasing it)
+  [t̚]  ←  boat, bit, heat   (stop the t without releasing it)
+  [p̚]  ←  cup, stop, map    (stop the p without releasing it)
+  [n]   ←  sun, man, on
+  [l]   ←  ball, full, tell
+  [m]   ←  room, dream, calm
+  [ŋ]   ←  sing, ring, king
 ```
 
 ---
 
-## ?륅툘 Activity 1: Identifying Batchim Sounds
+## ✏️ Activity 1: Identifying Batchim Sounds
 
 Look at the batchim consonant in each word below, then write which of the 7 sounds it makes.
-The 7 batchim sounds: [k?]  [n]  [t?]  [l]  [m]  [p?]  [흯]
+The 7 batchim sounds: [k̚]  [n]  [t̚]  [l]  [m]  [p̚]  [ŋ]
 
 ```
-??援?[kuk?]   (soup)        ??batchim consonant: ??  ?? batchim sound: ___
-????[san]    (mountain)    ??batchim consonant: ??  ?? batchim sound: ___
-??留?[mat?]   (taste)       ??batchim consonant: ??  ?? batchim sound: ___
-????[tal]    (moon)        ??batchim consonant: ??  ?? batchim sound: ___
-??遊?[pom]   (spring)       ??batchim consonant: ??  ?? batchim sound: ___
-??諛?[pap?]   (rice/meal)   ??batchim consonant: ??  ?? batchim sound: ___
-??媛?[ka흯]   (river)        ??batchim consonant: ??  ?? batchim sound: ___
+① 국 [kuk̚]   (soup)        — batchim consonant: ㄱ   →  batchim sound: ___
+② 산 [san]    (mountain)    — batchim consonant: ㄴ   →  batchim sound: ___
+③ 맛 [mat̚]   (taste)       — batchim consonant: ㅅ   →  batchim sound: ___
+④ 달 [tal]    (moon)        — batchim consonant: ㄹ   →  batchim sound: ___
+⑤ 봄 [pom]   (spring)       — batchim consonant: ㅁ   →  batchim sound: ___
+⑥ 밥 [pap̚]   (rice/meal)   — batchim consonant: ㅂ   →  batchim sound: ___
+⑦ 강 [kaŋ]   (river)        — batchim consonant: ㅇ   →  batchim sound: ___
 ```
 
-*(Key takeaway: consonants like ?? which have their own sound elsewhere, merge into [t?] when they're in batchim position.)*
+*(Key takeaway: consonants like ㅅ, which have their own sound elsewhere, merge into [t̚] when they're in batchim position.)*
 
 ---
 
-## ??s Second Identity
+## ㅇ's Second Identity
 
 What you learned in Week 2:
 
 ```
-??as an initial consonant  ?? silent [??   e.g., ??= ??+ ????[a]
+ㅇ as an initial consonant  →  silent [∅]   e.g., 아 = ㅇ + ㅏ → [a]
 ```
 
 What you're learning this week:
 
 ```
-??as a final consonant  ?? [흯] sound   e.g., 媛?= ??+ ??+ ????[ka흯]
+ㅇ as a final consonant  →  [ŋ] sound   e.g., 강 = ㄱ + ㅏ + ㅇ → [kaŋ]
 ```
 
 Same letter, completely different sound depending on position. Sneaky, right?
 
 ```
-?꾩씠 [a.i]       ??two initial ??s, both silent
-媛뺤븘吏 [ka흯.a.d?i]  ??the ??in 媛?is final ??[흯]; the ??in ??is initial ??silent
+아이 [a.i]       — two initial ㅇ's, both silent
+강아지 [kaŋ.a.dʑi]  — the ㅇ in 강 is final → [ŋ]; the ㅇ in 아 is initial → silent
 ```
 
-For English speakers, [흯] is nothing new:
+For English speakers, [ŋ] is nothing new:
 ```
-sing [s흯]  /  ring [r흯]  /  king [k흯]
+sing [sɪŋ]  /  ring [rɪŋ]  /  king [kɪŋ]
 ```
-That sound at the end of those words? That's exactly the Korean final consonant ??
+That sound at the end of those words? That's exactly the Korean final consonant ㅇ.
 
 ---
 
-## ?륅툘 Activity 2: Spotting ??s Two Faces
+## ✏️ Activity 2: Spotting ㅇ's Two Faces
 
-For each word below, identify whether each ??is in the initial or final position, and write its sound.
+For each word below, identify whether each ㅇ is in the initial or final position, and write its sound.
 
 ```
-??媛?[ka흯]  (river)
-   ??position: ___ consonant    sound: ___
+① 강 [kaŋ]  (river)
+   ㅇ position: ___ consonant    sound: ___
 
-???꾧린 [a.gi]  (baby)
-   first ??(in ?? position: ___ consonant    sound: ___
-   second ??(in 湲? position: ___ consonant    sound: ___
+② 아기 [a.gi]  (baby)
+   first ㅇ (in 아) position: ___ consonant    sound: ___
+   second ㅇ (in 기) position: ___ consonant    sound: ___
 
-??怨듭씠 [ko흯.i]  (ball + subject marker)
-   ??in 怨?position: ___ consonant    sound: ___
-   ??in ??position: ___ consonant    sound: ___
+③ 공이 [koŋ.i]  (ball + subject marker)
+   ㅇ in 공 position: ___ consonant    sound: ___
+   ㅇ in 이 position: ___ consonant    sound: ___
 ```
 
 ---
@@ -149,127 +162,138 @@ For each word below, identify whether each ??is in the initial or final position
 Here are example words for each of the 7 batchim sounds. Read through them, paying attention to the sound.
 
 ```
-batchim [k?]  ?? 援?[kuk?]    (soup)      諛?[pak?]   (outside)
-batchim [n]   ?? ??[san]    (mountain)  ??[nun]   (snow / eye)
-batchim [t?]  ?? 留?[mat?]   (taste)     ??[nat?]  (daytime)
-batchim [l]   ?? ??[tal]    (moon)      留?[mal]   (horse / word)
-batchim [m]   ?? 遊?[pom]    (spring)    諛?[pam]   (night / chestnut)
-batchim [p?]  ?? 諛?[pap?]   (rice/meal) ??[ip?]   (leaf)
-batchim [흯]   ?? 媛?[ka흯]    (river)     諛?[pa흯]   (room)
+batchim [k̚]  —  국 [kuk̚]    (soup)      밖 [pak̚]   (outside)
+batchim [n]   —  산 [san]    (mountain)  눈 [nun]   (snow / eye)
+batchim [t̚]  —  맛 [mat̚]   (taste)     낮 [nat̚]  (daytime)
+batchim [l]   —  달 [tal]    (moon)      말 [mal]   (horse / word)
+batchim [m]   —  봄 [pom]    (spring)    밤 [pam]   (night / chestnut)
+batchim [p̚]  —  밥 [pap̚]   (rice/meal) 잎 [ip̚]   (leaf)
+batchim [ŋ]   —  강 [kaŋ]    (river)     방 [paŋ]   (room)
 ```
 
-## ?륅툘 Activity 3: Sorting by Batchim Sound
+## ✏️ Activity 3: Sorting by Batchim Sound
 
 Sort the words below into the table by their batchim sound. Write each word in the correct row.
 
-Word list: **?? ?? 留? 諛? ?? 遊? 諛?*
+Word list: **눈  잎  말  방  낮  봄  밖**
 
 ```
-?뚢???????р????????????????????????????괪ound ??Words                   ???쒋???????쇄?????????????????????????????[k?] ??                        ????[n]  ??                        ????[t?] ??                        ????[l]  ??                        ????[m]  ??                        ????[p?] ??                        ????[흯]  ??                        ???붴???????닳???????????????????????????```
+┌──────┬─────────────────────────┐
+│Sound │ Words                   │
+├──────┼─────────────────────────┤
+│ [k̚] │                         │
+│ [n]  │                         │
+│ [t̚] │                         │
+│ [l]  │                         │
+│ [m]  │                         │
+│ [p̚] │                         │
+│ [ŋ]  │                         │
+└──────┴─────────────────────────┘
+```
 
 ---
 
-## Linking (?곗쓬): When Batchim Slides to the Next Syllable
+## Linking (연음): When Batchim Slides to the Next Syllable
 
 When a syllable with batchim is followed by a syllable that **starts with a vowel**, the batchim moves over and becomes the initial consonant of that next syllable.
 
-A "syllable starting with a vowel" is really just a syllable with **??(silent) as its initial consonant**. Since that ??makes no sound, the preceding batchim steps in to fill the slot.
+A "syllable starting with a vowel" is really just a syllable with **ㅇ (silent) as its initial consonant**. Since that ㅇ makes no sound, the preceding batchim steps in to fill the slot.
 
 ```
-Written form    ??   Pronunciation
-???????????          ????????????????????????????????????????
-?レ븘       ??   [ta.da]       ????batchim slides into the initial position of '??
-諛μ씠       ??   [pa.bi]       ????batchim slides into the initial position of '??
-?곗씠       ??   [sa.ni]       ????batchim slides into the initial position of '??
-媛뺤븘吏     ??   [ka흯.a.d?i]  ????batchim also slides ??pronounced [흯] as the initial of '??
+Written form    →    Pronunciation
+───────────          ────────────────────────────────────────
+닫아       →    [ta.da]       ← ㄷ batchim slides into the initial position of '아'
+밥이       →    [pa.bi]       ← ㅂ batchim slides into the initial position of '이'
+산이       →    [sa.ni]       ← ㄴ batchim slides into the initial position of '이'
+강아지     →    [kaŋ.a.dʑi]  ← ㅇ batchim also slides → pronounced [ŋ] as the initial of '아'
 ```
 
-Note: the spelling doesn't change ??only the pronunciation connects.
+Note: the spelling doesn't change — only the pronunciation connects.
 
 ```
 Common dictation traps:
-  You hear [pa.bi] ??tempted to write 諛붾퉬 (X)   but the actual word is ??諛μ씠 (O)
-  You hear [???? ??tempted to write ?ㅻ떎 (X)   but the actual word is ???レ븘 (O)
+  You hear [바.비] → tempted to write 바비 (X)   but the actual word is → 밥이 (O)
+  You hear [다.다] → tempted to write 다다 (X)   but the actual word is → 닫아 (O)
 ```
 
 ---
 
-## ?륅툘 Activity 4: Applying Linking
+## ✏️ Activity 4: Applying Linking
 
 Write the actual pronunciation of each word in romanization.
 
 ```
-???ъ씠 [dal + i]    ?? actual pronunciation: [________]  (??moon + ??subject marker)
-??諛μ쓣 [pap? + l]  ?? actual pronunciation: [________]  (rice + object marker)
-??援?씠 [kuk? + i]   ?? actual pronunciation: [________]  (soup + subject marker)
-???곗뿉 [san + e]    ?? actual pronunciation: [________]  (at the mountain)
-??遊꾩씠 [pom + i]    ?? actual pronunciation: [________]  (spring + subject marker)
+① 달이 [dal + i]    →  actual pronunciation: [________]  (달 moon + 이 subject marker)
+② 밥을 [pap̚ + ɯl]  →  actual pronunciation: [________]  (rice + object marker)
+③ 국이 [kuk̚ + i]   →  actual pronunciation: [________]  (soup + subject marker)
+④ 산에 [san + e]    →  actual pronunciation: [________]  (at the mountain)
+⑤ 봄이 [pom + i]    →  actual pronunciation: [________]  (spring + subject marker)
 ```
 
 *(Hint: attach the batchim to the beginning of the next syllable when you read.)*
 
 ---
 
-## 寃밸컺移? Two Consonants in the Batchim Slot
+## 겹받침: Two Consonants in the Batchim Slot
 
-Until now, every batchim has been a single consonant. But sometimes **two consonants** can sit together in the batchim position. This is called **寃밸컺移?* (double batchim).
+Until now, every batchim has been a single consonant. But sometimes **two consonants** can sit together in the batchim position. This is called **겹받침** (double batchim).
 
-Two consonants at once sounds alarming ??but if you look closely, they're all made up of letters you already know.
+Two consonants at once sounds alarming — but if you look closely, they're all made up of letters you already know.
 
 ```
-?? [tak?]    =  ??+ ??+ ??  (??= ??+ ??   chicken
-?? [sam]     =  ??+ ??+ ??  (??= ??+ ??   life
-?녿떎 [?p?.t?a] =  ??+ ??+ ??  (??= ??+ ??   to not exist
+닭  [tak̚]    =  ㄷ + ㅏ + ㄺ   (ㄺ = ㄹ + ㄱ)   chicken
+삶  [sam]     =  ㅅ + ㅏ + ㄻ   (ㄻ = ㄹ + ㅁ)   life
+없다 [ʌp̚.t͈a] =  ㅇ + ㅓ + ㅄ   (ㅄ = ㅂ + ㅅ)   to not exist
 ```
 
-There are 11 double batchim combinations in Korean, but only a handful show up regularly in everyday use.
+There are 27 double batchim combinations in Korean, but only a handful show up regularly in everyday use.
 
-Here we'll focus on the **5 most common double batchim: ?? ?? ?? ?? ??*.
+Here we'll focus on the **5 most common double batchim: ㄺ, ㄻ, ㄼ, ㄾ, ㅄ**.
 
 ### The Rule: Only One Gets Pronounced
 
 So how do you actually say a double batchim? Do you race through both consonants at lightning speed? Nope. Only **one** of the two consonants is pronounced.
 
 ```
-At the end of a word or before another consonant ??only one sounds:
-  ??[tak?]     ??of ?? only ??sounds (??drops)
-  ??[sam]      ??of ?? only ??sounds (??drops)
-  ?щ뜜 [j?.d?l] ??of ?? only ??sounds (??drops)
-  ?녿떎 [?p?.t?a]  ??of ?? only ??sounds (??drops)
+At the end of a word or before another consonant — only one sounds:
+  닭 [tak̚]     — of ㄺ, only ㄱ sounds (ㄹ drops)
+  삶 [sam]      — of ㄻ, only ㅁ sounds (ㄹ drops)
+  여덟 [jʌ.dʌl] — of ㄼ, only ㄹ sounds (ㅂ drops)
+  없다 [ʌp̚.t͈a]  — of ㅄ, only ㅂ sounds (ㅅ drops)
 ```
 
-When a vowel follows (a syllable starting with silent ??, linking kicks in and both consonants get to make a sound:
+When a vowel follows (a syllable starting with silent ㅇ), linking kicks in and both consonants get to make a sound:
 
 ```
-  ??씠 [tal.gi]   ????moves to the initial of '??, ??stays as the batchim of '??
-  ?띠씠 [sal.mi]   ????moves to the initial of '??, ??stays as the batchim of '??
-  ?놁뼱 [?p?.s??]  ????stays as the batchim sound, ??moves to the initial of '??
+  닭이 [tal.gi]   — ㄹ moves to the initial of '이', ㄱ stays as the batchim of '닭'
+  삶이 [sal.mi]   — ㄹ moves to the initial of '이', ㅁ stays as the batchim of '삶'
+  없어 [ʌp̚.s͈ʌ]  — ㅂ stays as the batchim sound, ㅅ moves to the initial of '어'
 ```
 
-*(Why does the ??in ?놁뼱 come out as [s?] (tense)? That's due to Korean's tensification rule ??we'll cover that in a later week. For now, just remember that ?놁뼱 sounds like [?낆뜥].)*
+*(Why does the ㅅ in 없어 come out as [s͈] (tense)? That's due to Korean's tensification rule — we'll cover that in a later week. For now, just remember that 없어 sounds like [업써].)*
 
 ### The 5 Most Common Double Batchim
 
 | Double Batchim | Components | Sound at Word End | Example |
 |----------------|------------|-------------------|---------|
-| ??| ????| [k?] | ??[tak?] (chicken) |
-| ??| ????| [m] | ??[sam] (life) |
-| ??| ????| [l] | ?щ뜜 [j?.d?l] (eight) |
-| ??| ????| [l] | ?λ떎 [hal.t?a] (to lick) |
-| ??| ????| [p?] | ?녿떎 [?p?.t?a] (to not exist) |
+| ㄺ | ㄹ+ㄱ | [k̚] | 닭 [tak̚] (chicken) |
+| ㄻ | ㄹ+ㅁ | [m] | 삶 [sam] (life) |
+| ㄼ | ㄹ+ㅂ | [l] | 여덟 [jʌ.dʌl] (eight) |
+| ㄾ | ㄹ+ㅌ | [l] | 핥다 [hal.t͈a] (to lick) |
+| ㅄ | ㅂ+ㅅ | [p̚] | 없다 [ʌp̚.t͈a] (to not exist) |
 
 ---
 
-## ?륅툘 Activity 5: Breaking Down Double Batchim
+## ✏️ Activity 5: Breaking Down Double Batchim
 
 Split each double batchim into its two consonants, then write the sound it makes at the end of a word.
 
 ```
-??????double batchim ??= ___ + ___    sound at word end: [___]
-??????double batchim ??= ___ + ___    sound at word end: [___]
-???녿떎 ??double batchim ??= ___ + ___  sound at word end: [___]
-???щ뜜 ??double batchim ??= ___ + ___  sound at word end: [___]
-???λ떎 ??double batchim ??= ___ + ___  sound at word end: [___]
+① 닭 — double batchim ㄺ = ___ + ___    sound at word end: [___]
+② 삶 — double batchim ㄻ = ___ + ___    sound at word end: [___]
+③ 없다 — double batchim ㅄ = ___ + ___  sound at word end: [___]
+④ 여덟 — double batchim ㄼ = ___ + ___  sound at word end: [___]
+⑤ 핥다 — double batchim ㄾ = ___ + ___  sound at word end: [___]
 ```
 
 ---
@@ -278,70 +302,99 @@ Split each double batchim into its two consonants, then write the sound it makes
 
 When batchim is present, the vowel in the middle layer gets compressed upward, making room for the batchim below.
 
-### 媛?[ka흯] ??batchim ??[흯]
+### 강 [kaŋ] — batchim ㅇ [ŋ]
 
 ```
-  ?뚢?????р????  ???? ?귙뀖??  ??initial + vowel (vertical vowel layout)
-  ?쒋?????닳????  ??  ??  ??  ??final consonant (batchim) ??[흯] sound
-  ?붴??????????
-Stroke order: ???졻넂 ?△넃) + ???™넃 ?ｂ넂) + ????circle)
+  ┌────┬──┐
+  │ ㄱ  │ㅏ│   ← initial + vowel (vertical vowel layout)
+  ├────┴──┤
+  │   ㅇ   │   ← final consonant (batchim) — [ŋ] sound
+  └────────┘
+
+Stroke order: ㄱ(①→ ②↓) + ㅏ(③↓ ④→) + ㅇ(⑤ circle)
 ```
 
-### ??[tal] ??batchim ??[l]
+### 달 [tal] — batchim ㄹ [l]
 
 ```
-  ?뚢?????р????  ???? ?귙뀖??  ??initial + vowel
-  ?쒋?????닳????  ??  ??  ??  ??final consonant (batchim) ??[l] sound
-  ?붴??????????
-Stroke order: ???졻넂 ?△넃 ?™넂) + ???ｂ넃 ?ㅲ넂) + ????angled strokes)
+  ┌────┬──┐
+  │ ㄷ  │ㅏ│   ← initial + vowel
+  ├────┴──┤
+  │   ㄹ   │   ← final consonant (batchim) — [l] sound
+  └────────┘
+
+Stroke order: ㄷ(①→ ②↓ ③→) + ㅏ(④↓ ⑤→) + ㄹ(⑥ angled strokes)
 ```
 
-### 遊?[pom] ??batchim ??[m]
+### 봄 [pom] — batchim ㅁ [m]
 
 ```
-  ?뚢????????????  ??  ??     ??  ??initial consonant
-  ?쒋????????????  ??  ??     ??  ??vowel (horizontal vowel ??sits below the consonant)
-  ?쒋????????????  ??  ??     ??  ??final consonant (batchim) ??[m] sound
-  ?붴????????????
-Stroke order: ???졻넃 ?△넃 ?™넂 ?ｂ넂) + ???ㅲ넂 ?β넁) + ????rectangle)
+  ┌──────────┐
+  │   ㅂ      │   ← initial consonant
+  ├──────────┤
+  │   ㅗ      │   ← vowel (horizontal vowel — sits below the consonant)
+  ├──────────┤
+  │   ㅁ      │   ← final consonant (batchim) — [m] sound
+  └──────────┘
+
+Stroke order: ㅂ(①↓ ②↓ ③→ ④→) + ㅗ(⑤→ ⑥↑) + ㅁ(⑦ rectangle)
 ```
 
-*(Horizontal vowels like ?쀂룔뀥쨌??sit **below** the consonant rather than to the right ??different from the layout in characters like 媛?or ?? which use vertical vowels.)*
+*(Horizontal vowels like ㅗ·ㅜ·ㅡ sit **below** the consonant rather than to the right — different from the layout in characters like 강 or 달, which use vertical vowels.)*
 
-### 諛?[pap?] ??batchim ??[p?]
-
-```
-  ?뚢?????р????  ???? ?귙뀖??  ??initial + vowel
-  ?쒋?????닳????  ??  ??  ??  ??final consonant (batchim) ??[p?] sound (lips close without releasing)
-  ?붴??????????
-Stroke order: ???졻넃 ?△넃 ?™넂 ?ｂ넂) + ???ㅲ넃 ?β넂) + ???╈넃 ?㎮넃 ?ⓥ넂 ?⒱넂)
-```
+### 밥 [pap̚] — batchim ㅂ [p̚]
 
 ```
-?뚢?????????????????????????????????????????????????                                            ????                                            ????                                            ????                                            ???쒋????????????????????????????????????????????????? ?륅툘 Practice writing 媛?쨌 ??쨌 遊?쨌 諛?     ???? Get a feel for batchim filling that        ???? bottom layer of the block.                 ???붴???????????????????????????????????????????????```
+  ┌────┬──┐
+  │ ㅂ  │ㅏ│   ← initial + vowel
+  ├────┴──┤
+  │   ㅂ   │   ← final consonant (batchim) — [p̚] sound (lips close without releasing)
+  └────────┘
+
+Stroke order: ㅂ(①↓ ②↓ ③→ ④→) + ㅏ(⑤↓ ⑥→) + ㅂ(⑦↓ ⑧↓ ⑨→ ⑩→)
+```
+
+```
+┌─────────────────────────────────────────────┐
+│                                             │
+│                                             │
+│                                             │
+│                                             │
+├─────────────────────────────────────────────┤
+│  ✏️ Practice writing 강 · 달 · 봄 · 밥.     │
+│  Get a feel for batchim filling that        │
+│  bottom layer of the block.                 │
+└─────────────────────────────────────────────┘
+```
 
 ---
 
-## ?륅툘 Activity 6: Build a Word With the Right Batchim
+## ✏️ Activity 6: Build a Word With the Right Batchim
 
 Look at the meaning and pronunciation hint, then choose the correct batchim to complete the word.
-Batchim options: **?? ?? ?? ?? ?? ??*
+Batchim options: **ㄱ  ㄴ  ㄹ  ㅁ  ㅂ  ㅇ**
 
 ```
-??"諛? ??night [pam]
-   ??+ ??+ ___ = 諛?
-??"怨? ??ball [ko흯]
-   ??+ ??+ ___ = 怨?
-??"留? ??word / horse [mal]
-   ??+ ??+ ___ = 留?
-??"?? ??leaf [ip?]
-   ??+ ??+ ___ = ??
-??"?? ??snow / eye [nun]
-   ??+ ??+ ___ = ??
-??"援? ??soup [kuk?]
-   ??+ ??+ ___ = 援?```
+① "밤" — night [pam]
+   ㅂ + ㅏ + ___ = 밤
 
-*(Hint: [흯]=?? [l]=?? [m]=?? [p?]=?? [n]=?? [k?]=??*
+② "공" — ball [koŋ]
+   ㄱ + ㅗ + ___ = 공
+
+③ "말" — word / horse [mal]
+   ㅁ + ㅏ + ___ = 말
+
+④ "잎" — leaf [ip̚]
+   ㅇ + ㅣ + ___ = 잎
+
+⑤ "눈" — snow / eye [nun]
+   ㄴ + ㅜ + ___ = 눈
+
+⑥ "국" — soup [kuk̚]
+   ㄱ + ㅜ + ___ = 국
+```
+
+*(Hint: [ŋ]=ㅇ, [l]=ㄹ, [m]=ㅁ, [p̚]=ㅂ, [n]=ㄴ, [k̚]=ㄱ)*
 
 ---
 
@@ -350,22 +403,54 @@ Batchim options: **?? ?? ?? ?? ?? ??*
 **Q1.** How many distinct sounds can batchim make?
 
 ```
-?뚢?????????????????????????????????? A) 14                       ???? B) 19                       ???? C) 7                        ???? D) 5                        ????                             ???? Answer: ____                 ???붴????????????????????????????????```
+┌──────────────────────────────┐
+│  A) 14                       │
+│  B) 19                       │
+│  C) 7                        │
+│  D) 5                        │
+│                              │
+│  Answer: ____                 │
+└──────────────────────────────┘
+```
 
-**Q2.** What sound does ??make in the final consonant position?
+**Q2.** What sound does ㅇ make in the final consonant position?
 
 ```
-?뚢?????????????????????????????????? A) silent                   ???? B) [n]                      ???? C) [흯]                      ???? D) [k]                      ????                             ???? Answer: ____                 ???붴????????????????????????????????```
+┌──────────────────────────────┐
+│  A) silent                   │
+│  B) [n]                      │
+│  C) [ŋ]                      │
+│  D) [k]                      │
+│                              │
+│  Answer: ____                 │
+└──────────────────────────────┘
+```
 
-**Q3.** How is "諛μ씠" actually pronounced?
+**Q3.** How is "밥이" actually pronounced?
 
 ```
-?뚢?????????????????????????????????? A) [pap?.i]                 ???? B) [pa.bi]                  ???? C) [pab.i]                  ???? D) [pa.pi]                  ????                             ???? Answer: ____                 ???붴????????????????????????????????```
+┌──────────────────────────────┐
+│  A) [pap̚.i]                 │
+│  B) [pa.bi]                  │
+│  C) [pab.i]                  │
+│  D) [pa.pi]                  │
+│                              │
+│  Answer: ____                 │
+└──────────────────────────────┘
+```
 
-**Q4.** What is the pronunciation of the double batchim ??at the end of a word?
+**Q4.** What is the pronunciation of the double batchim ㄺ at the end of a word?
 
 ```
-?뚢?????????????????????????????????? A) [l]                      ???? B) [lk]                     ???? C) [k?]                     ???? D) [n]                      ????                             ???? Answer: ____                 ???붴????????????????????????????????```
+┌──────────────────────────────┐
+│  A) [l]                      │
+│  B) [lk]                     │
+│  C) [k̚]                     │
+│  D) [n]                      │
+│                              │
+│  Answer: ____                 │
+└──────────────────────────────┘
+```
 
 *(Answers: Q1-C, Q2-C, Q3-B, Q4-C)*
 
@@ -373,83 +458,93 @@ Batchim options: **?? ?? ?? ?? ?? ??*
 
 ## Answer Key
 
-**Activity 1 ??Identifying Batchim Sounds**
+**Activity 1 — Identifying Batchim Sounds**
 
 ```
-??援? ?? batchim consonant ?? ?? batchim sound [k?]
-???? ?? batchim consonant ?? ?? batchim sound [n]
-??留? ?? batchim consonant ?? ?? batchim sound [t?]
-???? ?? batchim consonant ?? ?? batchim sound [l]
-??遊? ?? batchim consonant ?? ?? batchim sound [m]
-??諛? ?? batchim consonant ?? ?? batchim sound [p?]
-??媛? ?? batchim consonant ?? ?? batchim sound [흯]
+① 국  →  batchim consonant ㄱ  →  batchim sound [k̚]
+② 산  →  batchim consonant ㄴ  →  batchim sound [n]
+③ 맛  →  batchim consonant ㅅ  →  batchim sound [t̚]
+④ 달  →  batchim consonant ㄹ  →  batchim sound [l]
+⑤ 봄  →  batchim consonant ㅁ  →  batchim sound [m]
+⑥ 밥  →  batchim consonant ㅂ  →  batchim sound [p̚]
+⑦ 강  →  batchim consonant ㅇ  →  batchim sound [ŋ]
 ```
 
-**Activity 2 ??Spotting ??s Two Faces**
+**Activity 2 — Spotting ㅇ's Two Faces**
 
 ```
-??媛?
-   ????final,  sound [흯]
+① 강:
+   ㅇ → final,  sound [ŋ]
 
-???꾧린:
-   ??in ????initial,  sound [?? (silent)
-   ??in 湲???initial,  sound [?? (silent)
+② 아기:
+   ㅇ in 아 → initial,  sound [∅] (silent)
+   ㅇ in 기 → initial,  sound [∅] (silent)
 
-??怨듭씠:
-   ??in 怨???final,  sound [흯]
-   ??in ????initial,  sound [?? (silent)
+③ 공이:
+   ㅇ in 공 → final,  sound [ŋ]
+   ㅇ in 이 → initial,  sound [∅] (silent)
 ```
 
-**Activity 3 ??Sorting by Batchim Sound**
+**Activity 3 — Sorting by Batchim Sound**
 
 ```
-?뚢???????р????????????????????????????괪ound ??Words                   ???쒋???????쇄?????????????????????????????[k?] ??諛?                     ????[n]  ????                     ????[t?] ????                     ????[l]  ??留?                     ????[m]  ??遊?                     ????[p?] ????                     ????[흯]  ??諛?                     ???붴???????닳???????????????????????????```
-
-**Activity 4 ??Applying Linking**
-
-```
-???ъ씠  ?? [ta.i]    (??moves to the initial of ??
-??諛μ쓣  ?? [pa.bl]   (??moves to the initial of ?? voiced to [b] between vowels)
-??援?씠  ?? [ku.gi]    (??moves to the initial of ?? voiced to [g] between vowels)
-???곗뿉  ?? [sa.ne]    (??moves to the initial of ??
-??遊꾩씠  ?? [po.mi]    (??moves to the initial of ??
-```
-
-**Activity 5 ??Breaking Down Double Batchim**
-
-```
-????   ??= ??+ ??  ?? sound at word end [k?]
-????   ??= ??+ ??  ?? sound at word end [m]
-???녿떎: ??= ??+ ??  ?? sound at word end [p?]
-???щ뜜: ??= ??+ ??  ?? sound at word end [l]
-???λ떎: ??= ??+ ??  ?? sound at word end [l]
+┌──────┬─────────────────────────┐
+│Sound │ Words                   │
+├──────┼─────────────────────────┤
+│ [k̚] │ 밖                      │
+│ [n]  │ 눈                      │
+│ [t̚] │ 낮                      │
+│ [l]  │ 말                      │
+│ [m]  │ 봄                      │
+│ [p̚] │ 잎                      │
+│ [ŋ]  │ 방                      │
+└──────┴─────────────────────────┘
 ```
 
-**Activity 6 ??Build a Word With the Right Batchim**
+**Activity 4 — Applying Linking**
 
 ```
-??諛? ?? ??  (batchim sound [m])
-??怨? ?? ??  (batchim sound [흯])
-??留? ?? ??  (batchim sound [l])
-???? ?? ??  (batchim sound [p?])
-???? ?? ??  (batchim sound [n])
-??援? ?? ??  (batchim sound [k?])
+① 달이  →  [ta.ɾi]    (ㄹ moves to the initial of 이)
+② 밥을  →  [pa.bɯl]   (ㅂ moves to the initial of 을; voiced to [b] between vowels)
+③ 국이  →  [ku.gi]    (ㄱ moves to the initial of 이; voiced to [g] between vowels)
+④ 산에  →  [sa.ne]    (ㄴ moves to the initial of 에)
+⑤ 봄이  →  [po.mi]    (ㅁ moves to the initial of 이)
+```
+
+**Activity 5 — Breaking Down Double Batchim**
+
+```
+① 닭:   ㄺ = ㄹ + ㄱ   →  sound at word end [k̚]
+② 삶:   ㄻ = ㄹ + ㅁ   →  sound at word end [m]
+③ 없다: ㅄ = ㅂ + ㅅ   →  sound at word end [p̚]
+④ 여덟: ㄼ = ㄹ + ㅂ   →  sound at word end [l]
+⑤ 핥다: ㄾ = ㄹ + ㅌ   →  sound at word end [l]
+```
+
+**Activity 6 — Build a Word With the Right Batchim**
+
+```
+① 밤  →  ㅁ   (batchim sound [m])
+② 공  →  ㅇ   (batchim sound [ŋ])
+③ 말  →  ㄹ   (batchim sound [l])
+④ 잎  →  ㅂ   (batchim sound [p̚])
+⑤ 눈  →  ㄴ   (batchim sound [n])
+⑥ 국  →  ㄱ   (batchim sound [k̚])
 ```
 
 ---
 
 ## What You Learned This Week
 
-- [x] 諛쏆묠 (batchim / final consonant) is the consonant that sits in the bottom layer of a Hangul block
+- [x] 받침 (batchim / final consonant) is the consonant that sits in the bottom layer of a Hangul block
 - [x] Regardless of which consonant is written, batchim always produces one of **7 sounds**
-- [x] Initial ??is silent [??; final ??is [흯] ??same letter, two totally different sounds
-- [x] Linking (?곗쓬): when batchim is followed by a vowel, it slides over to become the initial consonant of the next syllable
-- [x] Double batchim (寃밸컺移?: two consonants in the batchim slot ??only one gets pronounced
-- [x] The 5 most common double batchim: ??k?] ??m] ??l] ??l] ??p?]
+- [x] Initial ㅇ is silent [∅]; final ㅇ is [ŋ] — same letter, two totally different sounds
+- [x] Linking (연음): when batchim is followed by a vowel, it slides over to become the initial consonant of the next syllable
+- [x] Double batchim (겹받침): two consonants in the batchim slot — only one gets pronounced
+- [x] The 5 most common double batchim: ㄺ[k̚] ㄻ[m] ㄼ[l] ㄾ[l] ㅄ[p̚]
 
 ---
 
-> *"Next week: Diphthongs ??y-glide vowels and compound vowels"*
+> *"Next week: Diphthongs — y-glide vowels and compound vowels"*
 
-?뵕 **kkultongkorea.com** | ?벁 **kkultongkorea@gmail.com**
-
+🔗 **kkultongkorea.com** | 📧 **kkultongkorea@gmail.com**

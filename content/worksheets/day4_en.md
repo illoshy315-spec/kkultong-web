@@ -1,12 +1,12 @@
-﻿---
-week: 4
+---
+day: 4
 title: "Double Consonants: Two of the Same Letter, One Stronger Sound"
-subtitle: "Tense Sounds (寃쎌쓬) ??Completing the Plain 쨌 Aspirated 쨌 Tense Three-Way System"
-seo_title: "Korean Double Consonants Explained: Tense Sounds | Kkultong Hangul Week 4"
-seo_description: "Learn Korean's 5 double consonants (?????????? ??tense sounds that give Korean its punchy energy. Free worksheet with pronunciation guide and practice activities. No Korean background needed. Part of the free 7-week Kkultong Hangul series."
+subtitle: "Tense Sounds (경음) — Completing the Plain · Aspirated · Tense Three-Way System"
+seo_title: "Korean Double Consonants Explained: Tense Sounds | Kkultong Hangul Day 4"
+seo_description: "Learn Korean's 5 double consonants (ㄲ ㄸ ㅃ ㅆ ㅉ) — tense sounds that give Korean its punchy energy. Free worksheet with pronunciation guide and practice activities. No Korean background needed."
 type: worksheet
 series: "Hangul Workbook: Reading Sejong's Blueprint"
-duration: "40??0 minutes"
+duration: "40–50 minutes"
 created: 2026-06-13
 updated: 2026-06-17
 status: draft
@@ -22,12 +22,12 @@ status: draft
 Consonants you've learned so far:
 
 ```
-Plain consonants (9):  ??k/g]  ??n]  ??t/d]  ??/l]  ??m]  ??p/b]  ??s]  ????흯]  ??t?]
-Aspirated consonants (5):  ??k歌]  ??t歌]  ??p歌]  ??t?歌]  ??h]
+Plain consonants (9):  ㄱ[k/g]  ㄴ[n]  ㄷ[t/d]  ㄹ[ɾ/l]  ㅁ[m]  ㅂ[p/b]  ㅅ[s]  ㅇ[∅/ŋ]  ㅈ[tɕ]
+Aspirated consonants (5):  ㅋ[kʰ]  ㅌ[tʰ]  ㅍ[pʰ]  ㅊ[tɕʰ]  ㅎ[h]
 ```
 
 The difference between plain and aspirated was just one thing: **aspiration (a puff of air)**.
-This week we tackle the third type of sound ??**tense consonants (?띿옄?? double consonants)**.
+This week we tackle the third type of sound — **tense consonants (쌍자음, double consonants)**.
 
 ---
 
@@ -36,14 +36,14 @@ This week we tackle the third type of sound ??**tense consonants (?띿옄?? doub
 Korean consonants come in three levels of intensity.
 
 ```
-Plain     ?? Basic intensity. No aspiration, no tension.           ??[k]
-Aspirated ?? Add a burst of air.                                   ??[k歌]
-Tense     ?? Glottis tightened and then released ??no air at all.  ??[k?]
+Plain     —  Basic intensity. No aspiration, no tension.           ㄱ [k]
+Aspirated —  Add a burst of air.                                   ㅋ [kʰ]
+Tense     —  Glottis tightened and then released — no air at all.  ㄲ [k͈]
 ```
 
-Tense consonants are sounds that don't exist in English. There's no puff of air, and the vocal cords don't vibrate. Instead, you **briefly constrict the glottis (the space between your vocal cords)** and then pop it open ??producing a sharp, tight, almost clipped sound.
+Tense consonants are sounds that don't exist in English. There's no puff of air, and the vocal cords don't vibrate. Instead, you **briefly close the glottis (the gap between your vocal cords)** and then pop it open — producing a sharp, tight, almost clipped sound.
 
-The closest feeling in English is the tiny catch between syllables in "uh-oh." Take that glottal tension and attach it to a consonant ??that's your tense sound.
+The closest feeling in English is the tiny catch between syllables in "uh-oh." Take that glottal tension and attach it to a consonant — that's your tense sound.
 
 ---
 
@@ -53,14 +53,14 @@ The shape of a tense consonant is delightfully simple. **Write the plain consona
 
 | Double consonant | Romanization | IPA | Base plain consonant | Place of articulation |
 |-----------------|--------------|-----|----------------------|-----------------------|
-| ??| kk | [k?] | ??+ ??| Velar |
-| ??| tt | [t?] | ??+ ??| Alveolar |
-| ??| pp | [p?] | ??+ ??| Bilabial |
-| ??| ss | [s?] | ??+ ??| Alveolar |
-| ??| jj | [t??] | ??+ ??| Palatal |
+| ㄲ | kk | [k͈] | ㄱ + ㄱ | Velar |
+| ㄸ | tt | [t͈] | ㄷ + ㄷ | Alveolar |
+| ㅃ | pp | [p͈] | ㅂ + ㅂ | Bilabial |
+| ㅆ | ss | [s͈] | ㅅ + ㅅ | Alveolar |
+| ㅉ | jj | [t͈ɕ] | ㅈ + ㅈ | Palatal |
 
-**?? ?? ?? and ??have no tense counterparts.**
-Nasal consonants (?? ?? and the liquid (?? simply have no tense counterparts in Korean ??the phonemic distinction doesn't exist for these sounds.
+**ㄴ, ㄹ, ㅁ, and ㅇ have no tense counterparts.**
+Nasal consonants (ㄴ, ㅁ) and the liquid (ㄹ) don't produce separate phonemes even when you apply glottal tension.
 
 ---
 
@@ -71,103 +71,112 @@ Nasal consonants (?? ?? and the liquid (?? simply have no tense counterparts in 
 ```
 Hold your hand in front of your mouth and say each series:
 
-??[k]   ?? You feel a small puff of air on your hand     (plain)
-??[k歌]  ?? You feel a strong burst of air on your hand   (aspirated ??lots of breath)
-??[k?]  ?? You feel almost no air at all on your hand    (tense ??all tension, no breath)
+ㄱ [k]   →  You feel a small puff of air on your hand     (plain)
+ㅋ [kʰ]  →  You feel a strong burst of air on your hand   (aspirated — lots of breath)
+ㄲ [k͈]  →  You feel almost no air at all on your hand    (tense — all tension, no breath)
 ```
 
 ### Tips for Getting the Tense Sound Right
 
 ```
-1. Hold your breath for just a moment ??let your glottis close
+1. Hold your breath for just a moment — let your glottis close
 2. From that tense state, release the consonant immediately
-3. No puff of air ??it should feel sharp and clipped
+3. No puff of air — it should feel sharp and clipped
 
 Compare:
-  ????air flows out (hand feels the breeze)
-  ????no air, just a crisp pop (tight and short)
+  ㅋ → air flows out (hand feels the breeze)
+  ㄲ → no air, just a crisp pop (tight and short)
 ```
 
 ---
 
-## ?륅툘 Activity 1: Complete the Double Consonant Shapes
+## ✏️ Activity 1: Complete the Double Consonant Shapes
 
 Write the plain consonant twice side by side to form the double consonant. Fill in the blanks.
 
 ```
-??+ ?? ?? ___   [k?]   (源? 瑗? 袁?..)
+ㄱ + ㄱ  →  ___   [k͈]   (까, 꼬, 꾸...)
 
-??+ ?? ?? ___   [t?]   (?? ?? ??..)
+ㄷ + ㄷ  →  ___   [t͈]   (따, 또, 뚜...)
 
-??+ ?? ?? ___   [p?]   (鍮? 戮, 肉?..)
+ㅂ + ㅂ  →  ___   [p͈]   (빠, 뽀, 뿌...)
 
-??+ ?? ?? ___   [s?]   (?? ?? ??..)
+ㅅ + ㅅ  →  ___   [s͈]   (싸, 쏘, 쑤...)
 
-??+ ?? ?? ___   [t??]  (吏? 履? 彛?..)
+ㅈ + ㅈ  →  ___   [t͈ɕ]  (짜, 쪼, 쭈...)
 ```
 
 ---
 
-## Three-Way Comparison: Plain 쨌 Aspirated 쨌 Tense
+## Three-Way Comparison: Plain · Aspirated · Tense
 
 Now let's line all three up and compare them.
 
 ```
-??series (velar)
-  Plain      ??[k]   ?? 媛??[ka.da]   (to go)
-  Aspirated  ??[k歌]  ?? 移대뱶 [k歌a.d]  (card)
-  Tense      ??[k?]  ?? 瑗щ떎 [k?o.da]  (to twist/braid)
+ㄱ series (velar)
+  Plain      ㄱ [k]   —  가다 [ka.da]   (to go)
+  Aspirated  ㅋ [kʰ]  —  카드 [kʰa.dɯ]  (card)
+  Tense      ㄲ [k͈]  —  꼬다 [k͈o.da]  (to twist/braid)
 
-??series (alveolar)
-  Plain      ??[t]   ?? ??[to]         (degree / also)
-  Aspirated  ??[t歌]  ?? ??[t歌o]        (soil)
-  Tense      ??[t?]  ?? ??[t?o]        (again)
+ㄷ series (alveolar)
+  Plain      ㄷ [t]   —  도 [to]         (degree / also)
+  Aspirated  ㅌ [tʰ]  —  토 [tʰo]        (soil)
+  Tense      ㄸ [t͈]  —  또 [t͈o]        (again)
 
-??series (bilabial)
-  Plain      ??[p]   ?? 鍮?[pi]         (rain)
-  Aspirated  ??[p歌]  ?? ??[p歌i]        (blood)
-  Tense      ??[p?]  ?? 鍮?[p?a]        (鍮좊Ⅴ?? to be fast)
+ㅂ series (bilabial)
+  Plain      ㅂ [p]   —  비 [pi]         (rain)
+  Aspirated  ㅍ [pʰ]  —  피 [pʰi]        (blood)
+  Tense      ㅃ [p͈]  —  빠 [p͈a]        (fast — 빠르다)
 
-??series (alveolar, fricative)
-  Plain      ??[s]   ?? ?щ떎 [sa.da]    (to buy)
-  Tense      ??[s?]  ?? ?몃떎 [s?a.da]   (cheap / to wrap)
-  (no aspirated form for ??
+ㅅ series (alveolar, fricative)
+  Plain      ㅅ [s]   —  사다 [sa.da]    (to buy)
+  Tense      ㅆ [s͈]  —  싸다 [s͈a.da]   (cheap / to wrap)
+  (no aspirated form for ㅅ)
 
-??series (palatal)
-  Plain      ??[t?]   ?? ?먮떎 [t?a.da]   (to sleep)
-  Aspirated  ??[t?歌]  ?? 李⑤떎 [t?歌a.da]  (cold / to kick)
-  Tense      ??[t??]  ?? 吏쒕떎 [t??a.da]  (to be salty)
+ㅈ series (palatal)
+  Plain      ㅈ [tɕ]   —  자다 [tɕa.da]   (to sleep)
+  Aspirated  ㅊ [tɕʰ]  —  차다 [tɕʰa.da]  (cold / to kick)
+  Tense      ㅉ [t͈ɕ]  —  짜다 [t͈ɕa.da]  (to be salty)
 ```
 
 ---
 
-## ?륅툘 Activity 2: Fill in the Three-Way Classification Chart
+## ✏️ Activity 2: Fill in the Three-Way Classification Chart
 
 Sort the consonants below into the correct cells in the table.
 
 ```
-[ ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ??]
+[ ㄱ  ㄲ  ㅋ  ㄷ  ㄸ  ㅌ  ㅂ  ㅃ  ㅍ  ㅅ  ㅆ  ㅈ  ㅉ  ㅊ ]
 
-?뚢?????????????????р???????????р???????????р??????????????Place          ?? Plain   ??Aspirated?? Tense   ???쒋?????????????????쇄???????????쇄???????????쇄??????????????Velar          ??         ??         ??         ????Alveolar       ??         ??         ??         ????Bilabial       ??         ??         ??         ????Alveolar (fric)??         ?? (none)  ??         ????Palatal        ??         ??         ??         ???붴?????????????????닳???????????닳???????????닳????????????```
+┌────────────────┬──────────┬──────────┬──────────┐
+│ Place          │  Plain   │ Aspirated│  Tense   │
+├────────────────┼──────────┼──────────┼──────────┤
+│ Velar          │          │          │          │
+│ Alveolar       │          │          │          │
+│ Bilabial       │          │          │          │
+│ Alveolar (fric)│          │  (none)  │          │
+│ Palatal        │          │          │          │
+└────────────────┴──────────┴──────────┴──────────┘
+```
 
 ---
 
 ## Minimal Pairs: One Sound Changes Everything
 
 ```
-媛??[ka.da]   vs  源뚮떎 [k?a.da]
-(to go)            (to peel ??洹ㅼ쓣 源뚮떎, 怨꾨???源뚮떎)
+가다 [ka.da]   vs  까다 [k͈a.da]
+(to go)            (to peel — 귤을 까다, 계란을 까다)
 
-?щ떎 [sa.da]   vs  ?몃떎 [s?a.da]
+사다 [sa.da]   vs  싸다 [s͈a.da]
 (to buy)           (cheap / to wrap)
 
-?먮떎 [t?a.da]  vs  吏쒕떎 [t??a.da]
+자다 [tɕa.da]  vs  짜다 [t͈ɕa.da]
 (to sleep)         (to be salty)
 
-??[to]        vs  ??[t?o]
+도 [to]        vs  또 [t͈o]
 (degree / also)    (again)
 
-鍮?[pi]        vs  ??[p?i]
+비 [pi]        vs  삐 [p͈i]
 (rain)             (beep sound)
 ```
 
@@ -175,133 +184,154 @@ Sort the consonants below into the correct cells in the table.
 
 ---
 
-## ?륅툘 Activity 3: Sound Discrimination Practice
+## ✏️ Activity 3: Sound Discrimination Practice
 
 Read each word pair aloud and feel the difference.
-Hold your hand in front of your mouth and check whether you feel any air ??only aspirated consonants should produce a breeze.
+Hold your hand in front of your mouth and check whether you feel any air.
 
 ```
-????series
-   媛??[ka.da] ??瑗щ떎 [k?o.da] ??移대뱶 [k歌a.d]
+① ㄱ series
+   가다 [ka.da] → 꼬다 [k͈o.da] → 카드 [kʰa.dɯ]
    (to go)         (to twist)       (card)
 
-????series
-   ??[to]      ?? ??[t?o]      ?? ??[t歌o]
+② ㄷ series
+   도 [to]      →  또 [t͈o]      →  토 [tʰo]
    (degree)         (again)          (soil)
 
-????series
-   鍮?[pi]      ?? 鍮?[p?a]      ?? ??[p歌i]
+③ ㅂ series
+   비 [pi]      →  빠 [p͈a]      →  피 [pʰi]
    (rain)           (fast)           (blood)
 
-????series
-   ?щ떎 [sa.da]  ?? ?몃떎 [s?a.da]
+④ ㅅ series
+   사다 [sa.da]  →  싸다 [s͈a.da]
    (to buy)          (cheap)
 
-????series
-   ?먮떎 [t?a.da] ?? 吏쒕떎 [t??a.da]  ?? 李⑤떎 [t?歌a.da]
+⑤ ㅈ series
+   자다 [tɕa.da] →  짜다 [t͈ɕa.da]  →  차다 [tɕʰa.da]
    (to sleep)         (salty)             (cold / to kick)
 ```
 
-*(This is a pronunciation experience activity ??no written answer key needed.)*
+*(No answer key needed — this is a pronunciation experience activity. Only the aspirated consonants should produce a breeze on your hand.)*
 
 ---
 
 ## Today's Writing Practice: Double Consonants = Write the Plain Twice
 
-### ??[k?] ????written twice
+### ㄲ [k͈] — ㄱ written twice
 
 ```
-  Left ??  ????horizontal stroke  ????vertical stroke
-  Right ?? ????horizontal stroke  ????vertical stroke
+  Left ㄱ:  ① → horizontal stroke  ② ↓ vertical stroke
+  Right ㄱ: ③ → horizontal stroke  ④ ↓ vertical stroke
   (Complete the left side first, then repeat the same stroke order on the right)
 ```
 
-### ??[s?] ????written twice
+### ㅆ [s͈] — ㅅ written twice
 
 ```
-  Left ??  ????left diagonal  ????right diagonal
-  Right ?? ????left diagonal  ????right diagonal
+  Left ㅅ:  ① ↙ left diagonal  ② ↘ right diagonal
+  Right ㅅ: ③ ↙ left diagonal  ④ ↘ right diagonal
   (Complete the left side first, then repeat the same stroke order on the right)
 ```
 
 ```
-?뚢?????????????????????????????????????????????                                        ????                                        ????                                        ????                                        ???쒋????????????????????????????????????????????? ?륅툘 Practice writing ??and ??         ???? five times each.                       ???? Finish the left consonant before       ???? moving to the right.                   ???붴???????????????????????????????????????????```
+┌─────────────────────────────────────────┐
+│                                         │
+│                                         │
+│                                         │
+│                                         │
+├─────────────────────────────────────────┤
+│  ✏️ Practice writing ㄲ and ㅆ          │
+│  five times each.                       │
+│  Finish the left consonant before       │
+│  moving to the right.                   │
+└─────────────────────────────────────────┘
+```
 
 ---
 
-## ?륅툘 Activity 4: Minimal Pair Matching
+## ✏️ Activity 4: Minimal Pair Matching
 
 Look at the IPA pronunciation and draw a line to the matching Korean word.
 
 ```
-[k?o.da]   ??         ?? ?먮떎  (to sleep)
-[sa.da]    ??         ?? 瑗щ떎  (to twist)
-[t??a.da]  ??         ?? ?щ떎  (to buy)
-[t?a.da]   ??         ?? 吏쒕떎  (to be salty)
-[s?a.da]   ??         ?? ?몃떎  (cheap)
+[k͈o.da]   •          •  자다  (to sleep)
+[sa.da]    •          •  꼬다  (to twist)
+[t͈ɕa.da]  •          •  사다  (to buy)
+[tɕa.da]   •          •  짜다  (to be salty)
+[s͈a.da]   •          •  싸다  (cheap)
 ```
 
 ---
 
 ## Full Consonant Chart: Every Consonant You've Learned
 
-All 19 consonants from Weeks 3??, laid out at a glance.
+All 19 consonants from Weeks 3–4, laid out at a glance.
 
 ```
 Place of articulation   Plain              Aspirated  Tense
-?????????????????????  ?????????????????? ?????????  ??????????
-Bilabial               ??m]  ??p/b]    ??p歌]     ??p?]
-Alveolar               ??n]  ??t/d]    ??t歌]     ??t?]
-                       ??/l]
-Alveolar (fricative)   ??s]              ??         ??s?]
-Palatal                ??t?]             ??t?歌]    ??t??]
-Velar                  ??k/g]            ??k歌]     ??k?]
-Glottal                ????흯]            ??h]      ??```
+─────────────────────  ────────────────── ─────────  ──────────
+Bilabial               ㅁ[m]  ㅂ[p/b]    ㅍ[pʰ]     ㅃ[p͈]
+Alveolar               ㄴ[n]  ㄷ[t/d]    ㅌ[tʰ]     ㄸ[t͈]
+                       ㄹ[ɾ/l]
+Alveolar (fricative)   ㅅ[s]              —          ㅆ[s͈]
+Palatal                ㅈ[tɕ]             ㅊ[tɕʰ]    ㅉ[t͈ɕ]
+Velar                  ㄱ[k/g]            ㅋ[kʰ]     ㄲ[k͈]
+Glottal                ㅇ[∅/ŋ]            ㅎ[h]      —
+```
 
 ---
 
-## ?륅툘 Activity 5: Classify Using the Full Consonant Chart
+## ✏️ Activity 5: Classify Using the Full Consonant Chart
 
-Find the initial consonant (珥덉꽦) of each word below, then use the chart to label it as plain / aspirated / tense.
+Find the initial consonant (초성) of each word below, then use the chart to label it as plain / aspirated / tense.
 
 ```
-???섎퉬 [na.bi]  (butterfly)
+① 나비 [na.bi]  (butterfly)
    Initial consonants: ___  ___     Category: ___  ___
 
-??肄붾겮由?[k歌o.k?i.i]  (elephant)
+② 코끼리 [kʰo.k͈i.ɾi]  (elephant)
    Initial consonants: ___  ___  ___   Category: ___  ___  ___
 
-???꾨튌 [a.p?a]  (dad)
+③ 아빠 [a.p͈a]  (dad)
    Initial consonants: ___  ___     Category: ___  ___
 
-??吏쒕떎 [t??a.da]  (to be salty)
+④ 짜다 [t͈ɕa.da]  (to be salty)
    Initial consonants: ___  ___     Category: ___  ___
 
-???щ룄 [p歌o.do]  (grape)
+⑤ 포도 [pʰo.do]  (grape)
    Initial consonants: ___  ___     Category: ___  ___
 
-???몄슦??[s?a.u.da]  (to fight)
+⑥ 싸우다 [s͈a.u.da]  (to fight)
    Initial consonants: ___  ___     Category: ___  ___
 ```
 
 ---
 
-## ?륅툘 Activity 6: K-pop & Everyday Word Consonant Analysis
+## ✏️ Activity 6: K-pop & Everyday Word Consonant Analysis
 
 Break each word into its initial and vowel components, then use the full consonant chart to classify each consonant.
 
 ```
-???ㅻ튌 [o.p?a]  (older brother / term of endearment)
-   ??= ??___] + ??   鍮?= ___[tense] + ??
-??鍮좊Ⅴ??[p?a..da]  (to be fast)
-   鍮?= ___[___] + ??   瑜?= ??___] + ??   ??= ___[___] + ??
-??瑗?[k?ok?]  (definitely / tightly)
-   Initial consonant of 瑗? ___   Category: ___
+① 오빠 [o.p͈a]  (older brother / term of endearment)
+   오 = ㅇ[___] + ㅗ
+   빠 = ___[tense] + ㅏ
 
-???⑥슂 [s??.jo]  (I write / I use ??polite form of ?곕떎)
-   ??= ___[___] + ??   ??= ??___] + ??
-??移섏쫰 [t?歌i.d]  (cheese)
-   移?= ___[aspirated] + ??   利?= ___[plain] + ??```
+② 빠르다 [p͈a.ɾɯ.da]  (to be fast)
+   빠 = ___[___] + ㅏ
+   르 = ㄹ[___] + ㅡ
+   다 = ___[___] + ㅏ
+
+③ 꼭 [k͈ok̚]  (definitely / tightly)
+   Initial consonant of 꼭: ___   Category: ___
+
+④ 써요 [s͈ʌ.jo]  (I write / I use — polite form of 쓰다)
+   써 = ___[___] + ㅓ
+   요 = ㅇ[___] + ㅛ
+
+⑤ 치즈 [tɕʰi.dɯ]  (cheese)
+   치 = ___[aspirated] + ㅣ
+   즈 = ___[plain] + ㅡ
+```
 
 ---
 
@@ -310,22 +340,54 @@ Break each word into its initial and vowel components, then use the full consona
 **Q1.** How do you write the shape of a double (tense) consonant?
 
 ```
-?뚢?????????????????????????????????????????????????? A) Add one extra stroke to the plain form   ???? B) Write the same plain consonant twice     ???? C) Add a dot to the aspirated form          ???? D) Combine the consonant with a vowel       ????                                             ???? Answer: ____                                ???붴????????????????????????????????????????????????```
+┌──────────────────────────────────────────────┐
+│  A) Add one extra stroke to the plain form   │
+│  B) Write the same plain consonant twice     │
+│  C) Add a dot to the aspirated form          │
+│  D) Combine the consonant with a vowel       │
+│                                              │
+│  Answer: ____                                │
+└──────────────────────────────────────────────┘
+```
 
-**Q2.** What is the defining feature of tense consonants (?띿옄???
+**Q2.** What is the defining feature of tense consonants (쌍자음)?
 
 ```
-?뚢?????????????????????????????????????????????????? A) Very strong aspiration                   ???? B) Strong vocal cord vibration              ???? C) Glottal tension with no aspiration       ???? D) Pronounced the same as plain consonants  ????                                             ???? Answer: ____                                ???붴????????????????????????????????????????????????```
+┌──────────────────────────────────────────────┐
+│  A) Very strong aspiration                   │
+│  B) Strong vocal cord vibration              │
+│  C) Glottal tension with no aspiration       │
+│  D) Pronounced the same as plain consonants  │
+│                                              │
+│  Answer: ____                                │
+└──────────────────────────────────────────────┘
+```
 
 **Q3.** Which consonant has NO tense counterpart?
 
 ```
-?뚢?????????????????????????????????????????????????? A) ??                                      ???? B) ??                                      ???? C) ??                                      ???? D) ??                                      ????                                             ???? Answer: ____                                ???붴????????????????????????????????????????????????```
+┌──────────────────────────────────────────────┐
+│  A) ㄱ                                       │
+│  B) ㄴ                                       │
+│  C) ㅂ                                       │
+│  D) ㅅ                                       │
+│                                              │
+│  Answer: ____                                │
+└──────────────────────────────────────────────┘
+```
 
-**Q4.** What is the meaning difference between 媛??[ka.da] and 源뚮떎 [k?a.da]?
+**Q4.** What is the meaning difference between 가다 [ka.da] and 까다 [k͈a.da]?
 
 ```
-?뚢?????????????????????????????????????????????????? A) to go  vs  to run                        ???? B) to go  vs  to peel                       ???? C) to run  vs  to go                        ???? D) No difference in meaning                 ????                                             ???? Answer: ____                                ???붴????????????????????????????????????????????????```
+┌──────────────────────────────────────────────┐
+│  A) to go  vs  to run                        │
+│  B) to go  vs  to peel                       │
+│  C) to run  vs  to go                        │
+│  D) No difference in meaning                 │
+│                                              │
+│  Answer: ____                                │
+└──────────────────────────────────────────────┘
+```
 
 *(Answers: Q1-B, Q2-C, Q3-B, Q4-B)*
 
@@ -333,72 +395,80 @@ Break each word into its initial and vowel components, then use the full consona
 
 ## Answer Key
 
-**Activity 1 ??Complete the Double Consonant Shapes**
+**Activity 1 — Complete the Double Consonant Shapes**
 
 ```
-??+ ?? ?? ??  [k?]
-??+ ?? ?? ??  [t?]
-??+ ?? ?? ??  [p?]
-??+ ?? ?? ??  [s?]
-??+ ?? ?? ??  [t??]
+ㄱ + ㄱ  →  ㄲ   [k͈]
+ㄷ + ㄷ  →  ㄸ   [t͈]
+ㅂ + ㅂ  →  ㅃ   [p͈]
+ㅅ + ㅅ  →  ㅆ   [s͈]
+ㅈ + ㅈ  →  ㅉ   [t͈ɕ]
 ```
 
-**Activity 2 ??Fill in the Three-Way Classification Chart**
+**Activity 2 — Fill in the Three-Way Classification Chart**
 
 ```
-?뚢?????????????????р???????????р???????????р??????????????Place          ?? Plain   ??Aspirated?? Tense   ???쒋?????????????????쇄???????????쇄???????????쇄??????????????Velar          ????      ????      ????      ????Alveolar       ????(??  ????      ????      ????Bilabial       ????(??  ????      ????      ????Alveolar (fric)????      ??(none)   ????      ????Palatal        ????      ????      ????      ???붴?????????????????닳???????????닳???????????닳????????????```
-
-**Activity 3 ??Sound Discrimination Practice**
-
-No answer key ??pronunciation experience activity.
-Only aspirated consonants (???????? should produce a breeze on your hand.
-
-**Activity 4 ??Minimal Pair Matching**
-
-```
-[k?o.da]   ?? 瑗щ떎  (to twist)
-[sa.da]    ?? ?щ떎  (to buy)
-[t??a.da]  ?? 吏쒕떎  (to be salty)
-[t?a.da]   ?? ?먮떎  (to sleep)
-[s?a.da]   ?? ?몃떎  (cheap)
+┌────────────────┬──────────┬──────────┬──────────┐
+│ Place          │  Plain   │ Aspirated│  Tense   │
+├────────────────┼──────────┼──────────┼──────────┤
+│ Velar          │ ㄱ       │ ㅋ       │ ㄲ       │
+│ Alveolar       │ ㄷ (ㄹ)  │ ㅌ       │ ㄸ       │
+│ Bilabial       │ ㅂ (ㅁ)  │ ㅍ       │ ㅃ       │
+│ Alveolar (fric)│ ㅅ       │ (none)   │ ㅆ       │
+│ Palatal        │ ㅈ       │ ㅊ       │ ㅉ       │
+└────────────────┴──────────┴──────────┴──────────┘
 ```
 
-**Activity 5 ??Classify Using the Full Consonant Chart**
+**Activity 3 — Sound Discrimination Practice**
+
+No answer key — pronunciation experience activity.
+Only aspirated consonants (ㅋ ㅌ ㅍ ㅊ) should produce a breeze on your hand.
+
+**Activity 4 — Minimal Pair Matching**
 
 ```
-???섎퉬:    ??(plain)  ??(plain)
-??肄붾겮由?  ??(aspirated)  ??(tense)  ??(plain)
-???꾨튌:    ??(silent ??placeholder)  ??(tense)
-??吏쒕떎:    ??(tense)  ??(plain)
-???щ룄:    ??(aspirated)  ??(plain)
-???몄슦??  ??(tense)  ??(silent ??placeholder)
+[k͈o.da]   →  꼬다  (to twist)
+[sa.da]    →  사다  (to buy)
+[t͈ɕa.da]  →  짜다  (to be salty)
+[tɕa.da]   →  자다  (to sleep)
+[s͈a.da]   →  싸다  (cheap)
 ```
 
-**Activity 6 ??K-pop & Everyday Word Consonant Analysis**
+**Activity 5 — Classify Using the Full Consonant Chart**
 
 ```
-???ㅻ튌:    ??(??[silent])  鍮?(??[tense])
-??鍮좊Ⅴ??  鍮?(??[tense])  瑜?(??[plain])  ??(??[plain])
-??瑗?      initial consonant ?? ?? tense
-???⑥슂:    ??(??[tense])  ??(??[silent])
-??移섏쫰:    移?(??[aspirated])  利?(??[plain])
+① 나비:    ㄴ (plain)  ㅂ (plain)
+② 코끼리:  ㅋ (aspirated)  ㄲ (tense)  ㄹ (plain)
+③ 아빠:    ㅇ (plain/silent)  ㅃ (tense)
+④ 짜다:    ㅉ (tense)  ㄷ (plain)
+⑤ 포도:    ㅍ (aspirated)  ㄷ (plain)
+⑥ 싸우다:  ㅆ (tense)  ㅇ (plain/silent)
+```
+
+**Activity 6 — K-pop & Everyday Word Consonant Analysis**
+
+```
+① 오빠:    오 (ㅇ [silent])  빠 (ㅃ [tense])
+② 빠르다:  빠 (ㅃ [tense])  르 (ㄹ [plain])  다 (ㄷ [plain])
+③ 꼭:      initial consonant ㄲ  —  tense
+④ 써요:    써 (ㅆ [tense])  요 (ㅇ [silent])
+⑤ 치즈:    치 (ㅊ [aspirated])  즈 (ㅈ [plain])
 ```
 
 ---
 
 ## What You Learned This Week
 
-- [x] Korean consonants have **three levels**: plain 쨌 aspirated 쨌 tense
-- [x] Tense consonants are produced by **tensing the glottis** ??no aspiration at all
-- [x] The 5 double consonants: ??k?] ??t?] ??p?] ??s?] ??t??] ??each one is just a plain consonant written twice
-- [x] ????????have no tense counterparts
-- [x] Hand test: only aspirated consonants produce a breeze ??tense consonants give you a crisp pop with no air
-- [x] Minimal pairs: 媛??源뚮떎 (peel), ?щ떎/?몃떎, ?먮떎/吏쒕떎 ??one tense consonant flips the meaning entirely
+- [x] Korean consonants have **three levels**: plain · aspirated · tense
+- [x] Tense consonants are produced by **tensing the glottis** — no aspiration at all
+- [x] The 5 double consonants: ㄲ[k͈] ㄸ[t͈] ㅃ[p͈] ㅆ[s͈] ㅉ[t͈ɕ] — each one is just a plain consonant written twice
+- [x] ㄴ ㄹ ㅁ ㅇ have no tense counterparts
+- [x] Hand test: only aspirated consonants produce a breeze — tense consonants give you a crisp pop with no air
+- [x] Minimal pairs: 가다/까다 (peel), 사다/싸다, 자다/짜다 — one tense consonant flips the meaning entirely
 - [x] All 19 consonants (9 plain + 5 aspirated + 5 tense) organized into one complete chart
 
 ---
 
-> *"Coming up next week: 諛쏆묠 ??the basement of the three-floor building, and ??s secret second identity."*
+> *"Coming up next week: 받침 — the basement of the three-floor building, and ㅇ's secret second identity."*
 
-?뵕 **kkultongkorea.com** | ?벁 **kkultongkorea@gmail.com**
-
+🔗 **kkultongkorea.com** | 📧 **kkultongkorea@gmail.com**

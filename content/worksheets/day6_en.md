@@ -1,12 +1,12 @@
-﻿---
-week: 6
+---
+day: 6
 title: "Act Two of Vowels: Add a Glide and Everything Changes"
-subtitle: "All Diphthongs ??y-series, w-series, ???? and ??
-seo_title: "Korean Diphthongs & Compound Vowels Explained | Kkultong Hangul Week 6"
-seo_description: "Learn all Korean diphthongs ??compound vowels formed by adding a glide (y or w). Covers y-series, w-series, ?? ?? and the unique ?? Free worksheet, no Korean background needed."
+subtitle: "All Diphthongs — y-series, w-series, ㅚ ㅟ, and ㅢ"
+seo_title: "Korean Diphthongs & Compound Vowels Explained | Kkultong Hangul Day 6"
+seo_description: "Learn all Korean diphthongs — compound vowels formed by adding a glide (y or w). Covers y-series, w-series, ㅚ, ㅟ, and the unique ㅢ. Free worksheet, no Korean background needed."
 type: worksheet
 series: "Hangul Workbook: Reading Sejong's Blueprint"
-duration: "40??0 minutes"
+duration: "40–50 minutes"
 created: 2026-06-14
 updated: 2026-06-17
 status: final
@@ -22,16 +22,16 @@ status: final
 Here's what you've covered so far:
 
 ```
-Week 1: Hangul block writing ??initial consonant + vowel + final consonant
-Week 2: 10 monophthongs (????????????????????
+Week 1: Hangul block writing — initial consonant + vowel + final consonant
+Week 2: 10 monophthongs (ㅏ ㅐ ㅓ ㅔ ㅗ ㅚ ㅜ ㅟ ㅡ ㅣ)
 Week 3: 14 consonants (9 plain + 5 aspirated)
-Week 4: 5 tense consonants ??completing the plain / aspirated / tense trio
+Week 4: 5 tense consonants — completing the plain / aspirated / tense trio
 Week 5: 7 final consonant sounds, vowel linking, and double final consonants
 ```
 
-Back in Week 2, you learned 10 monophthongs. But did you notice that **????????* were missing from that list?
+Back in Week 2, you learned 10 monophthongs. But did you notice that **ㅑ ㅕ ㅛ ㅠ** were missing from that list?
 
-And **??and ??* definitely showed up in Week 2 ??so why are they making a comeback today?
+And **ㅚ and ㅟ** definitely showed up in Week 2 — so why are they making a comeback today?
 
 There's a reason. This week, we explain it.
 
@@ -39,51 +39,51 @@ There's a reason. This week, we explain it.
 
 ## Monophthongs vs. Diphthongs: What's the Difference?
 
-The vowels you've learned so far ??????????????and the rest ??are **monophthongs**.
+The vowels you've learned so far — ㅏ ㅓ ㅗ ㅜ ㅡ ㅣ and the rest — are **monophthongs**.
 
 A monophthong is a vowel where your mouth shape **stays the same from start to finish**.
 
 ```
-??[a]:  mouth open wide ??stays that way
-??[o]:  lips rounded ??stays that way
+ㅏ [a]:  mouth open wide → stays that way
+ㅗ [o]:  lips rounded → stays that way
 ```
 
 **Diphthongs** are different.
 
 ```
 Diphthong:  your mouth shape shifts once while the sound plays
-            starting position ???????????????????ending position
+            starting position ─────────────────→ ending position
 ```
 
 English has diphthongs too:
 
 ```
-"say"  [se]  ??starts at [e], glides toward []
-"go"   [go?]  ??starts at [o], glides toward [?]
-"my"   [ma]  ??starts at [a], glides toward []
+"say"  [seɪ]  — starts at [e], glides toward [ɪ]
+"go"   [goʊ]  — starts at [o], glides toward [ʊ]
+"my"   [maɪ]  — starts at [a], glides toward [ɪ]
 ```
 
-Korean diphthongs work the same way ??except they follow clear, predictable patterns.
+Korean diphthongs work the same way — except they follow clear, predictable patterns.
 
 ---
 
-## Four Types of Diphthongs
+## Three Types of Diphthongs
 
 Korean diphthongs fall into three main groups:
 
 ```
-1. y-series  ??glide [j] + monophthong
-               ??ja]  ??j?]  ??jo]  ??ju]
+1. y-series  — glide [j] + monophthong
+               ㅑ[ja]  ㅕ[jʌ]  ㅛ[jo]  ㅠ[ju]
 
-2. w-series  ??glide [w] + monophthong
-               ??wa]  ??w?]  ??w?]  ??we]
+2. w-series  — glide [w] + monophthong
+               ㅘ[wa]  ㅙ[wɛ]  ㅝ[wʌ]  ㅞ[we]
 
-3. Monophthongs that became diphthongs ??officially monophthongs, but most
+3. Monophthongs that became diphthongs — officially monophthongs, but most
                modern speakers pronounce them as diphthongs
-               ??we]  ??wi]
+               ㅚ[we]  ㅟ[wi]
 
 4. One-of-a-kind diphthong
-               ??i]
+               ㅢ[ɯi]
 ```
 
 A **glide** is a short, sliding sound that lives somewhere between a consonant and a vowel.
@@ -96,7 +96,19 @@ A **glide** is a short, sliding sound that lives somewhere between a consonant a
 Before diving into the details, get the big picture first.
 
 ```
-?뚢???????????????????????????р????????????????????????????????????????????Type                      ??Vowels                                 ???쒋???????????????????????????쇄????????????????????????????????????????????y-series [j + vowel]      ????ja]   ??j?]   ??jo]   ??ju]   ???쒋???????????????????????????쇄????????????????????????????????????????????w-series [w + vowel]      ????wa]   ??w?]   ??w?]   ??we]   ???쒋???????????????????????????쇄????????????????????????????????????????????Monophthong ??Diphthong   ????we]   ??wi]                       ????(by modern pronunciation) ??                                       ???쒋???????????????????????????쇄????????????????????????????????????????????One-of-a-kind diphthong   ????i]                                 ???붴???????????????????????????닳??????????????????????????????????????????```
+┌──────────────────────────┬────────────────────────────────────────┐
+│ Type                      │ Vowels                                 │
+├──────────────────────────┼────────────────────────────────────────┤
+│ y-series [j + vowel]      │ ㅑ[ja]   ㅕ[jʌ]   ㅛ[jo]   ㅠ[ju]   │
+├──────────────────────────┼────────────────────────────────────────┤
+│ w-series [w + vowel]      │ ㅘ[wa]   ㅙ[wɛ]   ㅝ[wʌ]   ㅞ[we]   │
+├──────────────────────────┼────────────────────────────────────────┤
+│ Monophthong → Diphthong   │ ㅚ[we]   ㅟ[wi]                       │
+│ (by modern pronunciation) │                                        │
+├──────────────────────────┼────────────────────────────────────────┤
+│ One-of-a-kind diphthong   │ ㅢ[ɯi]                                 │
+└──────────────────────────┴────────────────────────────────────────┘
+```
 
 Let's take each type one at a time.
 
@@ -109,227 +121,248 @@ The y-series has a simple rule.
 ```
 Take a monophthong you already know, and add a [j] sound in front.
 
-??[a]  ?? ??[ja]  ("y" + "ah")
-??[?]  ?? ??[j?]  ("y" + "uh")
-??[o]  ?? ??[jo]  ("y" + "oh")
-??[u]  ?? ??[ju]  ("y" + "oo")
+ㅏ [a]  →  ㅑ [ja]  ("y" + "ah")
+ㅓ [ʌ]  →  ㅕ [jʌ]  ("y" + "uh")
+ㅗ [o]  →  ㅛ [jo]  ("y" + "oh")
+ㅜ [u]  →  ㅠ [ju]  ("y" + "oo")
 ```
 
 The shapes follow a pattern too. Just **add one more stroke** to the base monophthong:
 
 ```
 Vertical vowels:
-  ??(1 horizontal tick) ????(2 horizontal ticks)
-  ??(1 horizontal tick) ????(2 horizontal ticks)
+  ㅏ (1 horizontal tick) → ㅑ (2 horizontal ticks)
+  ㅓ (1 horizontal tick) → ㅕ (2 horizontal ticks)
 
 Horizontal vowels:
-  ??(1 vertical tick) ????(2 vertical ticks)
-  ??(1 vertical tick) ????(2 vertical ticks)
+  ㅗ (1 vertical tick) → ㅛ (2 vertical ticks)
+  ㅜ (1 vertical tick) → ㅠ (2 vertical ticks)
 ```
 
-This is an extension of the Heaven-Earth-Human design principle ??one dot (?? a historical character no longer used in modern Korean) means monophthong; two dots mean y-series.
+This is an extension of the Heaven-Earth-Human design principle — one dot (ㆍ) means monophthong; two dots mean y-series.
 
 ### y-Series Vowel Chart
 
 | Vowel | IPA | English hint |
 |-------|-----|--------------|
-| ??| [ja] | "ya!" (??) |
-| ??| [j?] | "yuh" (short) |
-| ??| [jo] | "yo!" |
-| ??| [ju] | "you" |
+| ㅑ | [ja] | "ya!" (야!) |
+| ㅕ | [jʌ] | "yuh" (short) |
+| ㅛ | [jo] | "yo!" |
+| ㅠ | [ju] | "you" |
 
-### Example Words ??y-Series
+### Example Words — y-Series
 
 ```
-??[ja]    ???쇨뎄  [ja.gu]         (baseball)     ??silent) + ????[j?]    ???ш린  [j?.gi]         (here)         ??silent) + ????[jo]    ???붾━  [jo.i]         (cooking)      ??silent) + ????[ju]    ???좊━  [ju.i]         (glass)        ??silent) + ??```
+야 [ja]    — 야구  [ja.gu]         (baseball)     ㅇ(silent) + ㅑ
+여 [jʌ]    — 여기  [jʌ.gi]         (here)         ㅇ(silent) + ㅕ
+요 [jo]    — 요리  [jo.ɾi]         (cooking)      ㅇ(silent) + ㅛ
+유 [ju]    — 유리  [ju.ɾi]         (glass)        ㅇ(silent) + ㅠ
+```
 
 With a real initial consonant:
 
 ```
-臾?[mjo]   ??臾섑븯?? [mjo.ha.da]   (mysterious)   ??+ ??寃?[kj?]   ??寃⑥슱   [kj?.ul]       (winter)       ??+ ??援?[kjo]   ??援먯떎   [kjo.sil]      (classroom)    ??+ ??洹?[kju]   ??洹쒖튃   [kju.t?歌ik?]   (rule)         ??+ ??```
+묘 [mjo]   — 묘하다  [mjo.ha.da]   (mysterious)   ㅁ + ㅛ
+겨 [kjʌ]   — 겨울   [kjʌ.ul]       (winter)       ㄱ + ㅕ
+교 [kjo]   — 교실   [kjo.sil]      (classroom)    ㄱ + ㅛ
+규 [kju]   — 규칙   [kju.tɕʰik̚]   (rule)         ㄱ + ㅠ
+```
 
 ---
 
-## ?륅툘 Activity 1: Monophthong ??y-Series Conversion
+## ✏️ Activity 1: Monophthong → y-Series Conversion
 
 Write the matching y-series vowel in each blank, then read the example word aloud.
 
 ```
-Monophthong  ?? y-series   Reading example
-?????????????????????????????????
-??[a]   ??  ___     ?쇨뎄 (baseball)
-??[?]   ??  ___     ?ш린 (here)
-??[o]   ??  ___     ?붾━ (cooking)
-??[u]   ??  ___     ?좊━ (glass)
+Monophthong  →  y-series   Reading example
+─────────────────────────────────
+ㅏ [a]   →   ___     야구 (baseball)
+ㅓ [ʌ]   →   ___     여기 (here)
+ㅗ [o]   →   ___     요리 (cooking)
+ㅜ [u]   →   ___     유리 (glass)
 ```
 
 ---
 
 ## Part 2. The w-Series Diphthongs [w + vowel]
 
-The w-series is formed when **??or ??combines with another vowel**.
+The w-series is formed when **ㅗ or ㅜ combines with another vowel**.
 
-The [w] sound comes naturally from the lip-rounding you already do for ??o] and ??u].
+The [w] sound comes naturally from the lip-rounding you already do for ㅗ[o] and ㅜ[u].
 
 ```
-??o] + ??a]  ?? ?? [wa]   "wah"
-??o] + ???]  ?? ?? [w?]   "weh"
-??u] + ???]  ?? ?? [w?]   "wuh"
-??u] + ??e]  ?? ?? [we]   "weh"
+ㅗ[o] + ㅏ[a]  →  ㅘ  [wa]   "wah"
+ㅗ[o] + ㅐ[ɛ]  →  ㅙ  [wɛ]   "weh"
+ㅜ[u] + ㅓ[ʌ]  →  ㅝ  [wʌ]   "wuh"
+ㅜ[u] + ㅔ[e]  →  ㅞ  [we]   "weh"
 ```
 
 Look at the shapes and the logic reveals itself:
 
 ```
-?? =  ??+ ?? (horizontal stroke below + vertical stroke on right)
-?? =  ??+ ?? (horizontal stroke below + two vertical strokes)
-?? =  ??+ ?? (horizontal stroke above + vertical stroke on left)
-?? =  ??+ ?? (horizontal stroke above + two vertical strokes)
+ㅘ  =  ㅗ + ㅏ  (horizontal stroke below + vertical stroke on right)
+ㅙ  =  ㅗ + ㅐ  (horizontal stroke below + two vertical strokes)
+ㅝ  =  ㅜ + ㅓ  (horizontal stroke above + vertical stroke on left)
+ㅞ  =  ㅜ + ㅔ  (horizontal stroke above + two vertical strokes)
 ```
 
 ### w-Series Vowel Chart
 
 | Vowel | Components | IPA | English hint |
 |-------|-----------|-----|--------------|
-| ??| ??o]+??a] | [wa] | "wah!" |
-| ??| ??o]+???] | [w?] | "weh" |
-| ??| ??u]+???] | [w?] | "wuh" |
-| ??| ??u]+??e] | [we] | "weh" |
+| ㅘ | ㅗ[o]+ㅏ[a] | [wa] | "wah!" |
+| ㅙ | ㅗ[o]+ㅐ[ɛ] | [wɛ] | "weh" |
+| ㅝ | ㅜ[u]+ㅓ[ʌ] | [wʌ] | "wuh" |
+| ㅞ | ㅜ[u]+ㅔ[e] | [we] | "weh" |
 
-### Modern Pronunciation Note: ??and ??
-Standard pronunciation distinguishes ??w?] from ??we]. However, the vast majority of modern Korean speakers pronounce both vowels identically as [we].
+### Modern Pronunciation Note: ㅙ and ㅞ
+
+Standard pronunciation distinguishes ㅙ[wɛ] from ㅞ[we]. However, the vast majority of modern Korean speakers pronounce both vowels identically as [we].
 
 ```
-Standard:  ??[w?] ????[we]
-Modern:    ??[we] = ??[we]  (virtually no distinction)
+Standard:  ㅙ [wɛ] ≠ ㅞ [we]
+Modern:    ㅙ [we] = ㅞ [we]  (virtually no distinction)
 ```
 
 You'll need to tell the two apart when reading and listening, but when speaking, one [we] covers both.
 
-### Example Words ??w-Series
+### Example Words — w-Series
 
 ```
-遊? [pwa]   ??遊먯슂  [pwa.jo]      (please look)    ??+ ???? [w?]    ???쒖슂? [w?.jo]       (why?)           ??+ ???? [w?]    ???뚰겕??[w?.k歌.sop?] (workshop)      ??+ ???? [we]    ???⑥씠??[we.i.t歌?]   (waiter)         ??+ ??```
+봐  [pwa]   — 봐요  [pwa.jo]      (please look)    ㅂ + ㅘ
+왜  [wɛ]    — 왜요? [wɛ.jo]       (why?)           ㅇ + ㅙ
+워  [wʌ]    — 워크숍 [wʌ.kʰɯ.sop̚] (workshop)      ㅇ + ㅝ
+웨  [we]    — 웨이터 [we.i.tʰʌ]   (waiter)         ㅇ + ㅞ
+```
 
 ---
 
-## ?륅툘 Activity 2: Spot the w-Series Vowel
+## ✏️ Activity 2: Spot the w-Series Vowel
 
 Read each word aloud, then write the w-series vowel you find in each one.
 
 ```
-怨쇱옄  [kwa.d?a]   (snack)    ?? w-series vowel: ___
-?쇱?  [tw?.d?i]   (pig)      ?? w-series vowel: ___
-以?   [t?w?]      (give me)  ?? w-series vowel: ___
-?⑤뵫  [we.di흯]    (wedding)  ?? w-series vowel: ___
+과자  [kwa.dʑa]   (snack)    →  w-series vowel: ___
+돼지  [twɛ.dʑi]   (pig)      →  w-series vowel: ___
+줘    [tɕwʌ]      (give me)  →  w-series vowel: ___
+웨딩  [we.diŋ]    (wedding)  →  w-series vowel: ___
 ```
 
 ---
 
-## Part 3. Monophthongs That Became Diphthongs ????and ??
+## Part 3. Monophthongs That Became Diphthongs — ㅚ and ㅟ
+
 Now those two vowels from Week 2 make their return.
 
-In Week 2, ??and ??were on the **monophthong list**. So why are they showing up in the diphthong unit?
+In Week 2, ㅚ and ㅟ were on the **monophthong list**. So why are they showing up in the diphthong unit?
 
 ```
-Standard pronunciation:  ??and ??are monophthongs
-                          ??[첩]  (rounded lips + front tongue position)
-                          ??[y]  (rounded lips + high tongue position)
+Standard pronunciation:  ㅚ and ㅟ are monophthongs
+                          ㅚ [ø]  (rounded lips + front tongue position)
+                          ㅟ [y]  (rounded lips + high tongue position)
 
 Modern pronunciation:    Most Korean speakers produce them as diphthongs
-                          ????[we]  (same as ??
-                          ????[wi]
+                          ㅚ → [we]  (same as ㅞ)
+                          ㅟ → [wi]
 ```
 
-**The practical takeaway:** If your goal is to communicate in modern Korean, pronouncing ??and ??as diphthongs will sound completely natural.
+**The practical takeaway:** If your goal is to communicate in modern Korean, pronouncing ㅚ and ㅟ as diphthongs will sound completely natural.
 
 ```
-?? ?? pronounced [we]     e.g. ?멸뎅??[we.gu.gin]  (foreigner)
-?? ?? pronounced [wi]     e.g. 洹 [kwi]            (ear)
+ㅚ  →  pronounced [we]     e.g. 외국인 [we.gu.gin]  (foreigner)
+ㅟ  →  pronounced [wi]     e.g. 귀 [kwi]            (ear)
 ```
 
 | Vowel | Standard IPA | Modern pronunciation | English hint |
 |-------|-------------|---------------------|--------------|
-| ??| [첩] | [we] | "weh" |
-| ??| [y] | [wi] | "wee" |
+| ㅚ | [ø] | [we] | "weh" |
+| ㅟ | [y] | [wi] | "we" |
 
-### Example Words ??????
+### Example Words — ㅚ ㅟ
+
 ```
-?? [we]  ???멸뎅  [we.guk?]    (foreign country)   ??+ ???? [wi]  ???꾩そ  [wi.t?ok?]   (upward / above)    ??+ ???? [?wi] ???щ떎  [?wi.da]    (to rest)            ??+ ??```
+외  [we]  — 외국  [we.guk̚]    (foreign country)   ㅇ + ㅚ
+위  [wi]  — 위쪽  [wi.t͈ok̚]   (upward / above)    ㅇ + ㅟ
+쉬  [ɕwi] — 쉬다  [ɕwi.da]    (to rest)            ㅅ + ㅟ
+```
 
 ---
 
-## ?륅툘 Activity 3: Choose the Modern Pronunciation of ??and ??
+## ✏️ Activity 3: Choose the Modern Pronunciation of ㅚ and ㅟ
+
 For each underlined vowel, choose the correct modern pronunciation.
 
 ```
-???멸뎅?? (foreigner)
-   Modern pronunciation of ??   (A) [첩]    (B) [we]    (C) [wi]
+① 외국인  (foreigner)
+   Modern pronunciation of ㅚ:   (A) [ø]    (B) [we]    (C) [wi]
    Answer: ___
 
-??洹?ъ썙  (cute)
-   Modern pronunciation of ??   (A) [y]    (B) [we]    (C) [wi]
+② 귀여워  (cute)
+   Modern pronunciation of ㅟ:   (A) [y]    (B) [we]    (C) [wi]
    Answer: ___
 
-??Which statement best describes the modern pronunciations of ??(why) and ??(foreign)?
-   (A) They're different ????w?] / ??첩] in the traditional standard
-   (B) They're the same ??both pronounced [we] in modern speech
-   (C) ??is [wi] and ??is [we]
+③ Which statement best describes the modern pronunciations of 왜 (why) and 외 (foreign)?
+   (A) They're different — 왜 is [wɛ] and 외 is [wɛ] but distinct
+   (B) They're the same — both pronounced [we]
+   (C) 왜 is [we] and 외 is [ø]
    Answer: ___
 ```
 
 ---
 
-## Part 4. The One-of-a-Kind Diphthong: ??
-??is the most unique diphthong in Korean.
+## Part 4. The One-of-a-Kind Diphthong: ㅢ
+
+ㅢ is the most unique diphthong in Korean.
 
 ```
-??= ??] + ??i]  ?? [i]
+ㅢ = ㅡ[ɯ] + ㅣ[i]  →  [ɯi]
 
 How to pronounce it:
-  1. Start at the ??] position (tongue pushed back, lips flat)
-  2. Glide toward ??i] (tongue moves forward)
+  1. Start at the ㅡ[ɯ] position (tongue pushed back, lips flat)
+  2. Glide toward ㅣ[i] (tongue moves forward)
 ```
 
-??belongs to neither the y-series nor the w-series. It's a uniquely Korean diphthong ??a ?△넂??glide with no [j] or [w] involved.
+ㅢ belongs to neither the y-series nor the w-series. It's a uniquely Korean diphthong — a ㅡ→ㅣ glide with no [j] or [w] involved.
 
-### Three Ways ??Is Pronounced
+### Three Ways ㅢ Is Pronounced
 
 Same letter, **different sound depending on position**:
 
 ```
-??First syllable     ?? [i]   ?섏궗 [i.sa]   (doctor)
-??Middle syllable    ?? [i]    ?뚯쓽 [hwe.i]   (meeting)
-??Particle '??      ?? [e]    ?섏쓽 [na.e]    (my / of me)
+① First syllable     →  [ɯi]   의사 [ɯi.sa]   (doctor)
+② Middle syllable    →  [i]    회의 [hwe.i]   (meeting)
+③ Particle '의'      →  [e]    나의 [na.e]    (my / of me)
 ```
 
 **Why does it change?**
 
-??i] is a complex sound that requires your tongue to travel from ??all the way to ??
+ㅢ[ɯi] is a complex sound that requires your tongue to travel from ㅡ all the way to ㅣ.
 When it appears mid-word, the surrounding syllables put enough pressure on it that it simplifies down to [i].
 When it's used as a possessive particle, fast natural speech trims it further to [e].
 The rules look complicated, but once you know the position, the pattern clicks.
 
-> ?뮕 **Even native Koreans find this tricky.** Most native speakers can't explain the rule explicitly ??they just do it on autopilot. It's totally fine if this feels strange at first. Read through it a few times and it'll start to feel natural.
+> 💡 **Even native Koreans find this tricky.** Most native speakers can't explain the rule explicitly — they just do it on autopilot. It's totally fine if this feels strange at first. Read through it a few times and it'll start to feel natural.
 
-### Example Words ????
+### Example Words — ㅢ
+
 ```
-?섏궗 [i.sa]  ???섏궗  (doctor)         first syllable ??[i]
-?섎? [i.mi]  ???섎?  (meaning)        first syllable ??[i]
-?섏쓽 [na.e]   ???섏쓽  (my)             particle ??[e]
+의사 [ɯi.sa]  — 의사  (doctor)         first syllable → [ɯi]
+의미 [ɯi.mi]  — 의미  (meaning)        first syllable → [ɯi]
+나의 [na.e]   — 나의  (my)             particle → [e]
 ```
 
 ---
 
-## ?륅툘 Activity 4: Applying the ??Pronunciation Rules
+## ✏️ Activity 4: Applying the ㅢ Pronunciation Rules
 
-Choose the correct pronunciation ??[i], [i], or [e] ??for the underlined ??in each word.
+Choose the correct pronunciation — [ɯi], [i], or [e] — for the underlined 의 in each word.
 
 ```
-??<???? (chair ??first syllable)           ?? pronunciation: [   ]
-??二???  (attention ??middle syllable)      ?? pronunciation: [   ]
-??????  (my ??possessive particle '??)     ?? pronunciation: [   ]
-??<???? (hospital ??first syllable)        ?? pronunciation: [   ]
+① <의>자  (chair — first syllable)           →  pronunciation: [   ]
+② 주<의>  (attention — middle syllable)      →  pronunciation: [   ]
+③ 희<의>  (hope — possessive particle '의')  →  pronunciation: [   ]
+④ <의>원  (hospital — first syllable)        →  pronunciation: [   ]
 ```
 
 ---
@@ -338,85 +371,128 @@ Choose the correct pronunciation ??[i], [i], or [e] ??for the underlined ??in
 
 Diphthongs look complex, but when you break them down, they're just combinations of vowels you already know.
 
-### ??[ja] ??y-series
+### ㅑ [ja] — y-series
 
 ```
-  Start with ??and add one extra horizontal tick.
+  Start with ㅏ and add one extra horizontal tick.
 
-  ??  ????vertical stroke  ????horizontal tick (from center, going right)
-  ??  ????vertical stroke  ????horizontal tick (upper, going right)
-                             ????horizontal tick (center, going right)
+  ㅏ:  ① ↓ vertical stroke  ② → horizontal tick (from center, going right)
+  ㅑ:  ① ↓ vertical stroke  ② → horizontal tick (upper, going right)
+                             ③ → horizontal tick (center, going right)
 
-  ??[ja]:
+  야 [ja]:
 
-  ?뚢????р????  ?????귙뀘?? ?? ??[ja]
-  ?붴????닳????```
+  ┌───┬──┐
+  │ ㅇ │ㅑ│  →  야 [ja]
+  └───┴──┘
+```
 
-### ??[jo] ??y-series
+### ㅛ [jo] — y-series
 
 ```
-  Start with ??and add one extra vertical tick.
+  Start with ㅗ and add one extra vertical tick.
 
-  ??  ????horizontal stroke  ????vertical tick (center, 1 tick)
-  ??  ????horizontal stroke  ????vertical tick (left side, going up)
-                               ????vertical tick (right side, going up)
+  ㅗ:  ① → horizontal stroke  ② ↑ vertical tick (center, 1 tick)
+  ㅛ:  ① → horizontal stroke  ② ↑ vertical tick (left side, going up)
+                               ③ ↑ vertical tick (right side, going up)
 
-  ??[jo]:
+  요 [jo]:
 
-  ?뚢???????  ?? ?? ??  ?쒋???????  ?? ?? ?? ?? ??[jo]
-  ?붴???????```
+  ┌─────┐
+  │  ㅇ  │
+  ├─────┤
+  │  ㅛ  │  →  요 [jo]
+  └─────┘
+```
 
-### ??[wa] ??w-series
+### ㅘ [wa] — w-series
 
 ```
-  Write ??and ??side by side.
-  Because ??is a horizontal vowel, the whole vowel block sits below the initial consonant.
+  Write ㅗ and ㅏ side by side.
+  Because ㅗ is a horizontal vowel, the whole vowel block sits below the initial consonant.
 
-  遊?[pwa]:
+  봐 [pwa]:
 
-  ?뚢????р?????  ??  ??  ??     ??initial consonant: fills the top cell
-  ?쒋????쇄?????  ??????????     ??vowel: ??(left) + ??(right)
-  ?붴????닳?????```
+  ┌───┬───┐
+  │   ㅂ   │      ← initial consonant: fills the top cell
+  ├───┼───┤
+  │ ㅗ │ ㅏ │      ← vowel: ㅗ (left) + ㅏ (right)
+  └───┴───┘
+```
 
-### ??[w?] ??w-series
+### ㅝ [wʌ] — w-series
 
 ```
-  Combine ??and ??
+  Combine ㅜ and ㅓ.
 
-  萸?[mw?]:
+  뭐 [mwʌ]:
 
-  ?뚢????р?????  ??  ??  ??  ?쒋????쇄?????  ??????????     ????(left) + ??(right)
-  ?붴????닳?????```
+  ┌───┬───┐
+  │   ㅁ   │
+  ├───┼───┤
+  │ ㅜ │ ㅓ │      ← ㅜ (left) + ㅓ (right)
+  └───┴───┘
+```
 
-### ??[i] ??one-of-a-kind diphthong
+### ㅢ [ɯi] — one-of-a-kind diphthong
 
 ```
-  Combine ??(horizontal) and ??(vertical).
-  ??sits below the initial consonant; ??attaches to the right.
+  Combine ㅡ (horizontal) and ㅣ (vertical).
+  ㅡ sits below the initial consonant; ㅣ attaches to the right.
 
-  ??[i]:
+  의 [ɯi]:
 
-  ?뚢????р?????  ??????  ??  ??initial consonant ??(upper left)
-  ?쒋????쇄?????  ???????ｂ봻   ????(left) + ??(right) = ??  ?붴????닳?????```
+  ┌───┬───┐
+  │ ㅇ │   │   ← initial consonant ㅇ (upper left)
+  ├───┼───┤
+  │ ㅡ │ ㅣ│   ← ㅡ (left) + ㅣ (right) = ㅢ
+  └───┴───┘
+```
 
 ```
-?뚢?????????????????????????????????????????????????????????????                                                        ????                                                        ????                                                        ???쒋????????????????????????????????????????????????????????????? ?륅툘 Write each of these twice: ??쨌 ??쨌 遊?쨌 萸?쨌 ?? ???? Pay attention to vowel position (vertical/horizontal/  ???? compound).                                             ???붴???????????????????????????????????????????????????????????```
+┌─────────────────────────────────────────────────────────┐
+│                                                         │
+│                                                         │
+│                                                         │
+├─────────────────────────────────────────────────────────┤
+│  ✏️ Write each of these twice: 야 · 요 · 봐 · 뭐 · 의  │
+│  Pay attention to vowel position (vertical/horizontal/  │
+│  compound).                                             │
+└─────────────────────────────────────────────────────────┘
+```
 
 Word writing:
 
 ```
-?뚢?????????????????????????????????????????????????????????????                                                        ???? Write each of these once: ?쇨뎄 쨌 ?ш린 쨌 遊먯슂 쨌 ?섏궗   ????                                                        ???붴???????????????????????????????????????????????????????????```
+┌─────────────────────────────────────────────────────────┐
+│                                                         │
+│  Write each of these once: 야구 · 여기 · 봐요 · 의사   │
+│                                                         │
+└─────────────────────────────────────────────────────────┘
+```
 
 ---
 
-## ?륅툘 Activity 5: Diphthong Sorting Challenge
+## ✏️ Activity 5: Diphthong Sorting Challenge
 
 Sort the vowels below into the correct category. (Try it without looking at the reference chart!)
 
-Vowel list: **?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ??*
+Vowel list: **ㅠ  ㅙ  ㅢ  ㅑ  ㅝ  ㅚ  ㅕ  ㅞ  ㅟ  ㅛ  ㅘ**
 
 ```
-?뚢???????????????????????????р????????????????????????????????Type                      ??Vowels                     ???쒋???????????????????????????쇄????????????????????????????????y-series                  ??                           ???쒋???????????????????????????쇄????????????????????????????????w-series                  ??                           ???쒋???????????????????????????쇄????????????????????????????????Monophthong ??Diphthong   ??                           ????(????                   ??                           ???쒋???????????????????????????쇄????????????????????????????????One-of-a-kind (??        ??                           ???붴???????????????????????????닳??????????????????????????????```
+┌──────────────────────────┬────────────────────────────┐
+│ Type                      │ Vowels                     │
+├──────────────────────────┼────────────────────────────┤
+│ y-series                  │                            │
+├──────────────────────────┼────────────────────────────┤
+│ w-series                  │                            │
+├──────────────────────────┼────────────────────────────┤
+│ Monophthong → Diphthong   │                            │
+│ (ㅚ ㅟ)                   │                            │
+├──────────────────────────┼────────────────────────────┤
+│ One-of-a-kind (ㅢ)        │                            │
+└──────────────────────────┴────────────────────────────┘
+```
 
 ---
 
@@ -425,24 +501,34 @@ Vowel list: **?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ??*
 Words you'll actually run into in K-pop and K-dramas:
 
 ```
-?쇨뎄  [ja.gu]        baseball       ??contains ???ш린  [j?.gi]        here           ??contains ??援먯떎  [kjo.sil]      classroom      ??contains ???좊━  [ju.i]        glass          ??contains ??
-遊먯슂  [pwa.jo]       please look    ??contains ???쒖슂  [w?.jo]        why?           ??contains ??萸먯빞  [mw?.ja]       what is it?    ??contains ??
-?멸뎅  [we.guk?]      foreign        ??contains ????   [wi]           above / top    ??contains ???섏궗  [i.sa]        doctor         ??contains ??```
+야구  [ja.gu]        baseball       — contains ㅑ
+여기  [jʌ.gi]        here           — contains ㅕ
+교실  [kjo.sil]      classroom      — contains ㅛ
+유리  [ju.ɾi]        glass          — contains ㅠ
+
+봐요  [pwa.jo]       please look    — contains ㅘ
+왜요  [wɛ.jo]        why?           — contains ㅙ
+뭐야  [mwʌ.ja]       what is it?    — contains ㅝ
+
+외국  [we.guk̚]      foreign        — contains ㅚ
+위    [wi]           above / top    — contains ㅟ
+의사  [ɯi.sa]        doctor         — contains ㅢ
+```
 
 ---
 
-## ?륅툘 Activity 6: Reading Vowels in Context
+## ✏️ Activity 6: Reading Vowels in Context
 
 Read each word aloud. Then mark whether the underlined vowel is a monophthong or diphthong.
 
 ```
 Word            Reading          Monophthong / Diphthong
-????????????????????????????????????????????????????????
-???쇨뎄  [ja.gu]    (baseball)    ?? ________  ?? ________
-???멸뎅  [we.guk?]  (foreign)    ?? ________
-???섏궗  [i.sa]   (doctor)     ?? ________  ?? ________
-???좊━  [ju.i]   (glass)      ?? ________  ?? ________
-??遊먯슂  [pwa.jo]  (please look) ?? ________  ?? ________
+────────────────────────────────────────────────────────
+① 야구  [ja.gu]    (baseball)    ㅑ: ________  ㅜ: ________
+② 외국  [we.guk̚]  (foreign)    ㅚ: ________
+③ 의사  [ɯi.sa]   (doctor)     ㅢ: ________  ㅏ: ________
+④ 유리  [ju.ɾi]   (glass)      ㅠ: ________  ㅣ: ________
+⑤ 봐요  [pwa.jo]  (please look) ㅘ: ________  ㅛ: ________
 ```
 
 After reading: which word was the trickiest to pronounce?
@@ -454,22 +540,58 @@ After reading: which word was the trickiest to pronounce?
 **Q1.** Which word contains a y-series diphthong?
 
 ```
-?뚢?????????????????????????????????????? A) 遊먯슂                         ???? B) ?붾━                         ???? C) ?멸뎅                         ???? D) ?섏궗                         ????                                 ???? Answer: ____                    ???붴????????????????????????????????????```
+┌──────────────────────────────────┐
+│  A) 봐요                         │
+│  B) 요리                         │
+│  C) 외국                         │
+│  D) 의사                         │
+│                                  │
+│  Answer: ____                    │
+└──────────────────────────────────┘
+```
 
-**Q2.** How is '?? pronounced in "?섏쓽"?
+**Q2.** How is '의' pronounced in "나의"?
 
 ```
-?뚢?????????????????????????????????????? A) [i]                         ???? B) [i]                          ???? C) [e]                          ???? D) [wi]                         ????                                 ???? Answer: ____                    ???붴????????????????????????????????????```
+┌──────────────────────────────────┐
+│  A) [ɯi]                         │
+│  B) [i]                          │
+│  C) [e]                          │
+│  D) [wi]                         │
+│                                  │
+│  Answer: ____                    │
+└──────────────────────────────────┘
+```
 
-**Q3.** Which statement about ??and ??is correct?
+**Q3.** Which statement about ㅚ and ㅟ is correct?
 
 ```
-?뚢?????????????????????????????????????? A) They were always diphthongs  ???? B) They are monophthongs in     ????    standard pronunciation, but  ????    most modern speakers         ????    pronounce them as diphthongs ???? C) They weren't covered in      ????    Week 2                       ???? D) They are w-series diphthongs ????                                 ???? Answer: ____                    ???붴????????????????????????????????????```
+┌──────────────────────────────────┐
+│  A) They were always diphthongs  │
+│  B) They are monophthongs in     │
+│     standard pronunciation, but  │
+│     most modern speakers         │
+│     pronounce them as diphthongs │
+│  C) They weren't covered in      │
+│     Week 2                       │
+│  D) They are w-series diphthongs │
+│                                  │
+│  Answer: ____                    │
+└──────────────────────────────────┘
+```
 
-**Q4.** Which two vowels combine to form ??
+**Q4.** Which two vowels combine to form ㅘ?
 
 ```
-?뚢?????????????????????????????????????? A) ??+ ??                     ???? B) ??+ ??                     ???? C) ??+ ??                     ???? D) ??+ ??                     ????                                 ???? Answer: ____                    ???붴????????????????????????????????????```
+┌──────────────────────────────────┐
+│  A) ㅜ + ㅓ                      │
+│  B) ㅗ + ㅏ                      │
+│  C) ㅗ + ㅐ                      │
+│  D) ㅜ + ㅔ                      │
+│                                  │
+│  Answer: ____                    │
+└──────────────────────────────────┘
+```
 
 *(Answers: Q1-B, Q2-C, Q3-B, Q4-B)*
 
@@ -477,50 +599,65 @@ After reading: which word was the trickiest to pronounce?
 
 ## Activity Answer Key
 
-**Activity 1 ??Monophthong ??y-Series Conversion**
+**Activity 1 — Monophthong → y-Series Conversion**
 
 ```
-??[a]  ?? ??    (?쇨뎄)
-??[?]  ?? ??    (?ш린)
-??[o]  ?? ??    (?붾━)
-??[u]  ?? ??    (?좊━)
+ㅏ [a]  →  ㅑ     (야구)
+ㅓ [ʌ]  →  ㅕ     (여기)
+ㅗ [o]  →  ㅛ     (요리)
+ㅜ [u]  →  ㅠ     (유리)
 ```
 
-**Activity 2 ??Spot the w-Series Vowel**
+**Activity 2 — Spot the w-Series Vowel**
 
 ```
-怨쇱옄  ?? w-series vowel: ???쇱?  ?? w-series vowel: ??以?   ?? w-series vowel: ???⑤뵫  ?? w-series vowel: ??```
-
-**Activity 3 ??Choose the Modern Pronunciation of ??and ??*
-
-```
-???멸뎅????modern pronunciation of ??  (B) [we]
-??洹?ъ썙 ??modern pronunciation of ??  (C) [wi]
-??Modern pronunciations of ??and ??  (B) Both pronounced [we]
+과자  →  w-series vowel: ㅘ
+돼지  →  w-series vowel: ㅙ
+줘    →  w-series vowel: ㅝ
+웨딩  →  w-series vowel: ㅞ
 ```
 
-**Activity 4 ??Applying the ??Pronunciation Rules**
+**Activity 3 — Choose the Modern Pronunciation of ㅚ and ㅟ**
 
 ```
-???섏옄 (first syllable)    ?? [i]
-??二쇱쓽 (middle syllable)   ?? [i]
-???섏쓽 (particle)          ?? [e]
-???섏썝 (first syllable)    ?? [i]
+① 외국인 — modern pronunciation of ㅚ:  (B) [we]
+② 귀여워 — modern pronunciation of ㅟ:  (C) [wi]
+③ Modern pronunciations of 왜 and 외:  (B) Both pronounced [we]
 ```
 
-**Activity 5 ??Diphthong Sorting Challenge**
+**Activity 4 — Applying the ㅢ Pronunciation Rules**
 
 ```
-?뚢???????????????????????????р????????????????????????????????Type                      ??Vowels                     ???쒋???????????????????????????쇄????????????????????????????????y-series                  ???? ?? ?? ??            ???쒋???????????????????????????쇄????????????????????????????????w-series                  ???? ?? ?? ??            ???쒋???????????????????????????쇄????????????????????????????????Monophthong ??Diphthong   ???? ??                    ???쒋???????????????????????????쇄????????????????????????????????One-of-a-kind diphthong   ????                        ???붴???????????????????????????닳??????????????????????????????```
+① 의자 (first syllable)    →  [ɯi]
+② 주의 (middle syllable)   →  [i]
+③ 희의 (particle)          →  [e]
+④ 의원 (first syllable)    →  [ɯi]
+```
 
-**Activity 6 ??Reading Vowels in Context**
+**Activity 5 — Diphthong Sorting Challenge**
 
 ```
-???쇨뎄:  ????diphthong  /  ????monophthong
-???멸뎅:  ????diphthong (by modern pronunciation)
-???섏궗:  ????diphthong  /  ????monophthong
-???좊━:  ????diphthong  /  ????monophthong
-??遊먯슂:  ????diphthong  /  ????diphthong
+┌──────────────────────────┬────────────────────────────┐
+│ Type                      │ Vowels                     │
+├──────────────────────────┼────────────────────────────┤
+│ y-series                  │ ㅑ  ㅕ  ㅛ  ㅠ             │
+├──────────────────────────┼────────────────────────────┤
+│ w-series                  │ ㅘ  ㅙ  ㅝ  ㅞ             │
+├──────────────────────────┼────────────────────────────┤
+│ Monophthong → Diphthong   │ ㅚ  ㅟ                     │
+├──────────────────────────┼────────────────────────────┤
+│ One-of-a-kind diphthong   │ ㅢ                         │
+└──────────────────────────┴────────────────────────────┘
+```
+
+**Activity 6 — Reading Vowels in Context**
+
+```
+① 야구:  ㅑ → diphthong  /  ㅜ → monophthong
+② 외국:  ㅚ → diphthong (by modern pronunciation)
+③ 의사:  ㅢ → diphthong  /  ㅏ → monophthong
+④ 유리:  ㅠ → diphthong  /  ㅣ → monophthong
+⑤ 봐요:  ㅘ → diphthong  /  ㅛ → diphthong
 ```
 
 ---
@@ -528,17 +665,16 @@ After reading: which word was the trickiest to pronounce?
 ## What You Learned This Week
 
 - [ ] A diphthong is a vowel where your mouth shape shifts while the sound plays
-- [ ] 4 y-series vowels: ??ja] ??j?] ??jo] ??ju] ??glide [j] + monophthong
-- [ ] 4 w-series vowels: ??wa] ??w?] ??w?] ??we] ??glide [w] + monophthong
-- [ ] ??w?] and ??we] are pronounced identically as [we] by most modern speakers
-- [ ] ??and ?? officially monophthongs, but modern speakers pronounce them as diphthongs ([we] and [wi])
-- [ ] ??i]: a one-of-a-kind diphthong ??not y-series, not w-series
-- [ ] ??has three pronunciations depending on position: [i] / [i] / [e]
+- [ ] 4 y-series vowels: ㅑ[ja] ㅕ[jʌ] ㅛ[jo] ㅠ[ju] — glide [j] + monophthong
+- [ ] 4 w-series vowels: ㅘ[wa] ㅙ[wɛ] ㅝ[wʌ] ㅞ[we] — glide [w] + monophthong
+- [ ] ㅙ[wɛ] and ㅞ[we] are pronounced identically as [we] by most modern speakers
+- [ ] ㅚ and ㅟ: officially monophthongs, but modern speakers pronounce them as diphthongs ([we] and [wi])
+- [ ] ㅢ[ɯi]: a one-of-a-kind diphthong — not y-series, not w-series
+- [ ] ㅢ has three pronunciations depending on position: [ɯi] / [i] / [e]
 - [ ] Monophthongs (10) + Diphthongs (11) = the complete Korean vowel system
 
 ---
 
-> *"Next week: Putting it all together ??reading real K-pop and K-drama words and sentences. Everything from the past 7 weeks, finally in the wild."*
+> *"Next week: Putting it all together — reading real K-pop and K-drama words and sentences. Everything from the past 7 weeks, finally in the wild."*
 
-?뵕 **kkultongkorea.com** | ?벁 **kkultongkorea@gmail.com**
-
+🔗 **kkultongkorea.com** | 📧 **kkultongkorea@gmail.com**
