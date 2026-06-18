@@ -7,22 +7,20 @@ import rehypeSlug from "rehype-slug";
 import rehypeAutolinkHeadings from "rehype-autolink-headings";
 import { notFound } from "next/navigation";
 import type { Metadata } from "next";
+import GithubSlugger from "github-slugger";
 
 const WORKBOOK_DIR = path.join(process.cwd(), "content", "worksheets");
 
 function extractHeadings(markdown: string) {
+  const slugger = new GithubSlugger();
   const lines = markdown.split("\n");
-  const headings: { level: number; text: string; id: string }[] = [];
+  const headings: { text: string; id: string }[] = [];
   for (const line of lines) {
-    const match = line.match(/^(#{2,3})\s+(.+)$/);
+    const match = line.match(/^##\s+(.+)$/);
     if (match) {
-      const text = match[2].trim();
-      const id = text
-        .toLowerCase()
-        .replace(/[^\w\s-]/g, "")
-        .replace(/\s+/g, "-")
-        .replace(/-+/g, "-");
-      headings.push({ level: match[1].length, text, id });
+      const text = match[1].trim();
+      const id = slugger.slug(text);
+      headings.push({ text, id });
     }
   }
   return headings;
@@ -87,7 +85,7 @@ export default async function WorksheetPage({ params }: { params: Promise<{ day:
           </p>
           <ol className="space-y-1">
             {headings.map((h) => (
-              <li key={h.id} style={{ paddingLeft: h.level === 3 ? "1rem" : "0" }}>
+              <li key={h.id}>
                 <a
                   href={`#${h.id}`}
                   className="text-sm hover:underline"
