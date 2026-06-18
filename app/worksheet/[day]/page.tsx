@@ -3,10 +3,30 @@ import path from "path";
 import matter from "gray-matter";
 import { MDXRemote } from "next-mdx-remote/rsc";
 import remarkGfm from "remark-gfm";
+import rehypeSlug from "rehype-slug";
+import rehypeAutolinkHeadings from "rehype-autolink-headings";
 import { notFound } from "next/navigation";
 import type { Metadata } from "next";
 
 const WORKBOOK_DIR = path.join(process.cwd(), "content", "worksheets");
+
+function extractHeadings(markdown: string) {
+  const lines = markdown.split("\n");
+  const headings: { level: number; text: string; id: string }[] = [];
+  for (const line of lines) {
+    const match = line.match(/^(#{2,3})\s+(.+)$/);
+    if (match) {
+      const text = match[2].trim();
+      const id = text
+        .toLowerCase()
+        .replace(/[^\w\s-]/g, "")
+        .replace(/\s+/g, "-")
+        .replace(/-+/g, "-");
+      headings.push({ level: match[1].length, text, id });
+    }
+  }
+  return headings;
+}
 
 export async function generateStaticParams() {
   return [
@@ -46,6 +66,7 @@ export default async function WorksheetPage({ params }: { params: Promise<{ day:
 
   const raw = fs.readFileSync(filePath, "utf-8");
   const { content, data } = matter(raw);
+  const headings = extractHeadings(content);
 
   return (
     <article className="max-w-3xl mx-auto px-6 py-16">
@@ -58,8 +79,38 @@ export default async function WorksheetPage({ params }: { params: Promise<{ day:
       {data.subtitle && (
         <p className="text-lg mb-10 opacity-60" style={{ color: "var(--gray)" }}>{data.subtitle}</p>
       )}
+
+      {headings.length > 0 && (
+        <nav aria-label="Table of contents" className="mb-12 p-5 rounded-xl border" style={{ borderColor: "var(--amber)", background: "rgba(239,159,39,0.06)" }}>
+          <p className="text-xs font-bold tracking-widest uppercase mb-3 opacity-60" style={{ color: "var(--gray)" }}>
+            Contents
+          </p>
+          <ol className="space-y-1">
+            {headings.map((h) => (
+              <li key={h.id} style={{ paddingLeft: h.level === 3 ? "1rem" : "0" }}>
+                <a
+                  href={`#${h.id}`}
+                  className="text-sm hover:underline"
+                  style={{ color: "var(--amber)" }}
+                >
+                  {h.text}
+                </a>
+              </li>
+            ))}
+          </ol>
+        </nav>
+      )}
+
       <div className="prose prose-lg max-w-none">
-        <MDXRemote source={content} options={{ mdxOptions: { remarkPlugins: [remarkGfm] } }} />
+        <MDXRemote
+          source={content}
+          options={{
+            mdxOptions: {
+              remarkPlugins: [remarkGfm],
+              rehypePlugins: [rehypeSlug, rehypeAutolinkHeadings],
+            },
+          }}
+        />
       </div>
     </article>
   );
