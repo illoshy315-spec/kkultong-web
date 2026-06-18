@@ -2,7 +2,7 @@ import type { MetadataRoute } from "next";
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const base = "https://kkultongkorea.com";
-  const days = [1, 2, 3, 4, 5, 6, 7];
+  const days = [1, 2, 3, 4, 5, 6, 7, 8];
 
   return [
     { url: base, lastModified: new Date(), changeFrequency: "weekly", priority: 1 },

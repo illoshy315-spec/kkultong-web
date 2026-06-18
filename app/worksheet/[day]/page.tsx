@@ -35,6 +35,7 @@ export async function generateStaticParams() {
     { day: "day5" },
     { day: "day6" },
     { day: "day7" },
+    { day: "day8" },
   ];
 }
 

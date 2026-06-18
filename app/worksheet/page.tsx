@@ -20,6 +20,7 @@ const worksheets = [
   { day: 5, title: "받침: 3층 건물의 지하실", subtitle: "Final Consonants: The Basement", description: "Coming soon", available: false },
   { day: 6, title: "이중모음: 두 소리가 만날 때", subtitle: "Diphthongs: When Two Sounds Meet", description: "Coming soon", available: false },
   { day: 7, title: "K팝·K드라마 실전 한글", subtitle: "Real Hangul: K-pop & K-drama", description: "Coming soon", available: false },
+  { day: 8, title: "나는 너를 사랑해 — 동사가 마지막에 오는 이유", subtitle: "Why the Verb Comes Last", description: "Coming soon", available: false },
 ];
 
 export default function Worksheet() {
