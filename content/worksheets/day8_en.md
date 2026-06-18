@@ -1,6 +1,6 @@
 ﻿---
 day: 8
-title: "나는 너를 사랑해 — Why the Verb Comes Last"
+title: "Why the Verb Comes Last — 나는 너를 사랑해"
 subtitle: "Korean word order is the opposite of English — and that's a feature, not a bug"
 seo_title: "Korean Word Order (SOV) Explained: Why the Verb Comes Last | Kkultong Day 8"
 seo_description: "Korean puts the verb at the end of every sentence. Learn why — and how particles make it work. Free worksheet with 4 activities. No Korean background needed."
