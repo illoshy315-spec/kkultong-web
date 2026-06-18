@@ -12,8 +12,6 @@ updated: 2026-06-17
 status: draft
 ---
 
-# DAY 3
-# Consonants: 14 Letters Drawn from Inside the Mouth
 
 ---
 

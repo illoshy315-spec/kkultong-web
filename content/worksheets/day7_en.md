@@ -12,8 +12,6 @@ updated: 2026-06-17
 status: draft
 ---
 
-# DAY 7
-# Now We Actually Read — Real-World Hangul for K-pop & K-drama Fans
 
 ---
 

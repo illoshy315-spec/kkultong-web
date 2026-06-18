@@ -12,8 +12,6 @@ updated: 2026-06-17
 status: final
 ---
 
-# DAY 5
-# 받침: The Basement of a Three-Story Building
 
 ---
 

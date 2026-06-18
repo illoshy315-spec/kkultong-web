@@ -12,8 +12,6 @@ updated: 2026-06-17
 status: draft
 ---
 
-# DAY 2
-# Vowels: 10 Sounds Built from Sky, Earth & Human
 
 ---
 

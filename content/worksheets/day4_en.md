@@ -12,8 +12,6 @@ updated: 2026-06-17
 status: draft
 ---
 
-# DAY 4
-# Double Consonants: Two of the Same Letter, One Stronger Sound
 
 ---
 

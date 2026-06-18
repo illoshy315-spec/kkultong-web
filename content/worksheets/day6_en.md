@@ -12,8 +12,6 @@ updated: 2026-06-17
 status: final
 ---
 
-# DAY 6
-# Act Two of Vowels: Add a Glide and Everything Changes
 
 ---
 

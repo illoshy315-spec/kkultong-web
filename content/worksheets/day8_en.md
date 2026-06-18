@@ -1,4 +1,4 @@
----
+﻿---
 day: 8
 title: "나는 너를 사랑해 — Why the Verb Comes Last"
 subtitle: "Korean word order is the opposite of English — and that's a feature, not a bug"
@@ -12,8 +12,6 @@ updated: 2026-06-18
 status: draft
 ---
 
-# DAY 8
-# 나는 너를 사랑해 — Why the Verb Comes Last
 
 ---
 

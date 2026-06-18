@@ -12,8 +12,6 @@ updated: 2026-06-17
 status: final
 ---
 
-# DAY 1
-# 1443: A King Designs an Alphabet
 
 ---
 
