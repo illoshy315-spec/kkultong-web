@@ -21,6 +21,7 @@ const worksheets = [
   { day: 6, title: "이중모음: 두 소리가 만날 때", subtitle: "Diphthongs: When Two Sounds Meet", description: "11 compound vowels built from the basics you already know — plus the sounds that trip up every beginner.", available: true },
   { day: 7, title: "K팝·K드라마 실전 한글", subtitle: "Real Hangul: K-pop & K-drama", description: "Coming soon", available: false },
   { day: 8, title: "동사가 마지막에 오는 이유 — 나는 너를 사랑해", subtitle: "Why the Verb Comes Last", description: "Coming soon", available: false },
+  { day: 9, title: "조사 — 영어에 없는 것", subtitle: "Particles: What English Doesn't Have", description: "Coming soon", available: false },
 ];
 
 export default function Worksheet() {
