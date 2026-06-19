@@ -8,7 +8,7 @@ type: worksheet
 series: "Korean Sentences: How They Work and Why (Series 2)"
 duration: "45–55 min"
 created: 2026-06-18
-updated: 2026-06-18
+updated: 2026-06-19
 status: draft
 ---
 
@@ -44,8 +44,11 @@ I       → love   → you
 ```
 
 The verb sits in the middle. **Position determines role.**
-- *I love you* → I'm the one doing the loving
-- *You love me* → now you're the one doing the loving
+
+The rule is simple: the word **before** the verb is the subject, the word **after** the verb is the object.
+
+- *I love you* → I (before verb) = subject → I'm the one doing the loving
+- *You love me* → You (before verb) = subject → now you're the one doing the loving
 
 Change the order and you change the meaning.
 
@@ -196,6 +199,8 @@ One important difference from English: in Korean, the predicate can be a verb *o
 The cat    is cute.
 ```
 
+Notice there's no separate "is" in Korean. English needs a be-verb (*The cat **is** cute*), but Korean adjectives conjugate on their own — 귀여워요 already means "is cute." No extra word needed. Day 16 covers this in full.
+
 One rule: **the predicate always closes the sentence.**
 
 ---
@@ -294,13 +299,14 @@ Answer: ____
 
 - [ ] Korean is **SOV** — the predicate always comes last
 - [ ] Word order is flexible because **particles mark the role of each word**
-- [ ] Key particles: 은/는/이/가 (subject), 을/를 (object), 에/에서/에게/부터/까지
+- [ ] Key particles: 은/는/이/가 (subject), 을/를 (object), 에/에서/에게/부터/까지 — deep dive in Day 9
 - [ ] The predicate can be a verb *or* an **adjective** — both go at the end
+- [ ] Korean adjectives conjugate on their own — no separate "is" needed
 - [ ] Spacing Rule 1: space between words
 - [ ] Spacing Rule 2: no space between a word and its particle
 
 ---
 
-> *"Next up: Day 9 — Particles in depth: the difference between 은/는 and 이/가"*
+> *"Next up: Day 9 — Particles: the full map, form changes by 받침, and why 이다 is not a verb"*
 
 🔗 **kkultongkorea.com** | 📧 **kkultongkorea@gmail.com**
