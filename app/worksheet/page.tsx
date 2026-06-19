@@ -17,8 +17,8 @@ const worksheets = [
   { day: 2, title: "모음: 하늘·땅·사람", subtitle: "Vowels: Sky, Earth, People", description: "The 10 Korean vowels — built from three shapes: sky, earth, and human.", available: true },
   { day: 3, title: "자음: 입속을 그린 글자", subtitle: "Consonants: Drawn from the Mouth", description: "14 Korean consonants — each shaped after the part of your mouth that makes the sound.", available: true },
   { day: 4, title: "쌍자음: 더 강한 소리", subtitle: "Double Consonants: Stronger Sounds", description: "5 double consonants — why Korean has them, how they sound, and where you've already heard them.", available: true },
-  { day: 5, title: "받침: 3층 건물의 지하실", subtitle: "Final Consonants: The Basement", description: "Coming soon", available: false },
-  { day: 6, title: "이중모음: 두 소리가 만날 때", subtitle: "Diphthongs: When Two Sounds Meet", description: "Coming soon", available: false },
+  { day: 5, title: "받침: 3층 건물의 지하실", subtitle: "Final Consonants: The Basement", description: "받침 — the consonant that sits beneath a syllable block. Learn how it works and why it changes how you read everything.", available: true },
+  { day: 6, title: "이중모음: 두 소리가 만날 때", subtitle: "Diphthongs: When Two Sounds Meet", description: "11 compound vowels built from the basics you already know — plus the sounds that trip up every beginner.", available: true },
   { day: 7, title: "K팝·K드라마 실전 한글", subtitle: "Real Hangul: K-pop & K-drama", description: "Coming soon", available: false },
   { day: 8, title: "동사가 마지막에 오는 이유 — 나는 너를 사랑해", subtitle: "Why the Verb Comes Last", description: "Coming soon", available: false },
 ];
