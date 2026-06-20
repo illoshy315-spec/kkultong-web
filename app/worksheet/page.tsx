@@ -20,10 +20,16 @@ const worksheets = [
   { day: 5, title: "받침: 3층 건물의 지하실", subtitle: "Final Consonants: The Basement", description: "받침 — the consonant that sits beneath a syllable block. Learn how it works and why it changes how you read everything.", available: true },
   { day: 6, title: "이중모음: 두 소리가 만날 때", subtitle: "Diphthongs: When Two Sounds Meet", description: "11 compound vowels built from the basics you already know — plus the sounds that trip up every beginner.", available: true },
   { day: 7, title: "K팝·K드라마 실전 한글", subtitle: "Real Hangul: K-pop & K-drama", description: "Reading real words and sentences using everything you've learned over 7 days.", available: true },
-  { day: 8, title: "동사가 마지막에 오는 이유 — 나는 너를 사랑해", subtitle: "Why the Verb Comes Last", description: "Coming soon", available: false },
-  { day: 9, title: "조사 — 영어에 없는 것", subtitle: "Particles: What English Doesn't Have", description: "Coming soon", available: false },
-  { day: 10, title: "화제와 주어 — 은/는 vs 이/가", subtitle: "Topic vs. Subject", description: "Coming soon", available: false },
-  { day: 11, title: "장소·방향·관계 — 나머지 조사들", subtitle: "Place, Direction & Relationships", description: "Coming soon", available: false },
+  { day: 8, title: "합성어 1 — 알면 유추되는 것 vs 외워야 하는 것", subtitle: "Compound Words: Transparent vs Opaque", description: "Coming soon", available: false },
+  { day: 9, title: "합성어 2 — 생산적 접두 패턴", subtitle: "Compound Words: Productive Prefixes", description: "Coming soon", available: false },
+  { day: 10, title: "파생어 1 — -하다/-되다", subtitle: "Derived Words: -하다 and -되다", description: "Coming soon", available: false },
+  { day: 11, title: "파생어 2 — 품사 바꾸기", subtitle: "Derived Words: Changing Word Class", description: "Coming soon", available: false },
+  { day: 12, title: "파생어 3 — 한자어 접미사", subtitle: "Derived Words: Sino-Korean Suffixes", description: "Coming soon", available: false },
+  { day: 13, title: "동사가 마지막에 오는 이유 — 나는 너를 사랑해", subtitle: "Why the Verb Comes Last", description: "Coming soon", available: false },
+  { day: 14, title: "조사 — 영어에 없는 것", subtitle: "Particles: What English Doesn't Have", description: "Coming soon", available: false },
+  { day: 15, title: "화제와 주어 — 은/는 vs 이/가", subtitle: "Topic vs. Subject", description: "Coming soon", available: false },
+  { day: 16, title: "대명사와 축약형", subtitle: "Pronouns & Contractions", description: "Coming soon", available: false },
+  { day: 17, title: "장소·방향·관계 — 나머지 조사들", subtitle: "Place, Direction & Relationships", description: "Coming soon", available: false },
 ];
 
 export default function Worksheet() {
