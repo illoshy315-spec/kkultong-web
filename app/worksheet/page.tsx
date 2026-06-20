@@ -2,8 +2,8 @@ import type { Metadata } from "next";
 import Link from "next/link";
 
 export const metadata: Metadata = {
-  title: "Free Hangul Worksheet (7 Days) | Kkultong",
-  description: "Free 7-day Hangul worksheet — no signup, no email required. Learn to read Korean from scratch, starting this weekend. Used by K-drama and K-pop fans worldwide.",
+  title: "Free Korean Worksheet Series | Kkultong",
+  description: "Free Korean worksheet series — no signup, no email required. Start with Hangul, then move into real Korean sentences. Used by K-drama and K-pop fans worldwide.",
 };
 
 const worksheets = [
@@ -19,7 +19,7 @@ const worksheets = [
   { day: 4, title: "쌍자음: 더 강한 소리", subtitle: "Double Consonants: Stronger Sounds", description: "5 double consonants — why Korean has them, how they sound, and where you've already heard them.", available: true },
   { day: 5, title: "받침: 3층 건물의 지하실", subtitle: "Final Consonants: The Basement", description: "받침 — the consonant that sits beneath a syllable block. Learn how it works and why it changes how you read everything.", available: true },
   { day: 6, title: "이중모음: 두 소리가 만날 때", subtitle: "Diphthongs: When Two Sounds Meet", description: "11 compound vowels built from the basics you already know — plus the sounds that trip up every beginner.", available: true },
-  { day: 7, title: "K팝·K드라마 실전 한글", subtitle: "Real Hangul: K-pop & K-drama", description: "Coming soon", available: false },
+  { day: 7, title: "K팝·K드라마 실전 한글", subtitle: "Real Hangul: K-pop & K-drama", description: "Reading real words and sentences using everything you've learned over 7 days.", available: true },
   { day: 8, title: "동사가 마지막에 오는 이유 — 나는 너를 사랑해", subtitle: "Why the Verb Comes Last", description: "Coming soon", available: false },
   { day: 9, title: "조사 — 영어에 없는 것", subtitle: "Particles: What English Doesn't Have", description: "Coming soon", available: false },
   { day: 10, title: "화제와 주어 — 은/는 vs 이/가", subtitle: "Topic vs. Subject", description: "Coming soon", available: false },
@@ -32,10 +32,10 @@ export default function Worksheet() {
         Free Download
       </p>
       <h1 className="text-4xl md:text-5xl font-black mb-4" style={{ color: "var(--gray)" }}>
-        Hangul Worksheet
+        Korean Worksheet
       </h1>
       <p className="text-lg mb-16 opacity-70" style={{ color: "var(--gray)" }}>
-        7-day curriculum. No signup required. Start reading Korean this weekend.
+        Day-by-day Korean curriculum. No signup required. Start reading Korean this weekend.
       </p>
 
       <div className="space-y-4">
