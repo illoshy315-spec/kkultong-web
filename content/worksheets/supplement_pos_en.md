@@ -465,7 +465,7 @@ One particle is special: **이다**.
 
 ---
 
-## 9 Parts of Speech at a Glance
+### 9 Parts of Speech at a Glance
 
 | Part of Speech | In a word | Examples |
 |----------------|-----------|----------|
