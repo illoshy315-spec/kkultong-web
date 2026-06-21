@@ -39,6 +39,7 @@ export async function generateStaticParams() {
     { day: "day9" },
     { day: "day10" },
     { day: "day11" },
+    { day: "supplement_pos" },
   ];
 }
 
@@ -73,7 +74,7 @@ export default async function WorksheetPage({ params }: { params: Promise<{ day:
   return (
     <article className="max-w-3xl mx-auto px-6 py-16">
       <p className="text-sm font-semibold tracking-widest uppercase mb-2" style={{ color: "var(--amber)" }}>
-        Day {data.day ?? data.week}
+        {data.series ?? `Day ${data.day ?? data.week}`}
       </p>
       <h1 className="text-3xl md:text-4xl font-black mb-2" style={{ color: "var(--gray)" }}>
         {data.title}

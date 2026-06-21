@@ -6,7 +6,17 @@ export const metadata: Metadata = {
   description: "Free Korean worksheet series — no signup, no email required. Start with Hangul, then move into real Korean sentences. Used by K-drama and K-pop fans worldwide.",
 };
 
-const worksheets = [
+type WorksheetEntry = {
+  day: number | null;
+  slug?: string;
+  label?: string;
+  title: string;
+  subtitle: string;
+  description: string;
+  available: boolean;
+};
+
+const worksheets: WorksheetEntry[] = [
   {
     day: 1,
     title: "1443년, 왕이 문자를 디자인하다",
@@ -20,6 +30,7 @@ const worksheets = [
   { day: 5, title: "받침: 3층 건물의 지하실", subtitle: "Final Consonants: The Basement", description: "받침 — the consonant that sits beneath a syllable block. Learn how it works and why it changes how you read everything.", available: true },
   { day: 6, title: "이중모음: 두 소리가 만날 때", subtitle: "Diphthongs: When Two Sounds Meet", description: "11 compound vowels built from the basics you already know — plus the sounds that trip up every beginner.", available: true },
   { day: 7, title: "K팝·K드라마 실전 한글", subtitle: "Real Hangul: K-pop & K-drama", description: "Reading real words and sentences using everything you've learned over 7 days.", available: true },
+  { day: null, slug: "supplement_pos", label: "Reference", title: "품사 체계 심화", subtitle: "Korean Parts of Speech — Why the System Works This Way", description: "Three criteria that divide Korean words into nine categories. A deep-dive for when you want to know why words behave the way they do.", available: true },
   { day: 8, title: "합성어 1 — 알면 유추되는 것 vs 외워야 하는 것", subtitle: "Compound Words: Transparent vs Opaque", description: "Coming soon", available: false },
   { day: 9, title: "합성어 2 — 생산적 접두 패턴", subtitle: "Compound Words: Productive Prefixes", description: "Coming soon", available: false },
   { day: 10, title: "파생어 1 — -하다/-되다", subtitle: "Derived Words: -하다 and -되다", description: "Coming soon", available: false },
@@ -46,41 +57,57 @@ export default function Worksheet() {
       </p>
 
       <div className="space-y-4">
-        {worksheets.map((w) => (
-          <div
-            key={w.day}
-            className="flex items-center justify-between p-6 rounded-2xl border"
-            style={{
-              borderColor: w.available ? "var(--amber)" : "rgba(44,44,42,0.15)",
-              backgroundColor: w.available ? "rgba(239,159,39,0.06)" : "transparent",
-            }}
-          >
-            <div className="flex items-start gap-5">
-              <span
-                className="text-sm font-bold mt-1 w-14 shrink-0"
-                style={{ color: w.available ? "var(--amber)" : "rgba(44,44,42,0.4)" }}
-              >
-                Day {w.day}
-              </span>
-              <div>
-                <h2 className="font-bold text-lg" style={{ color: "var(--gray)" }}>{w.subtitle}</h2>
-                <p className="text-sm opacity-60" style={{ color: "var(--gray)" }}>{w.title}</p>
-                {w.available && <p className="text-sm mt-1 opacity-70" style={{ color: "var(--gray)" }}>{w.description}</p>}
+        {worksheets.map((w) => {
+          const isRef = w.day === null;
+          const href = isRef ? `/worksheet/${w.slug}` : `/worksheet/day${w.day}`;
+          const dayLabel = isRef ? (w.label ?? "Reference") : `Day ${w.day}`;
+          return (
+            <div
+              key={w.slug ?? w.day}
+              className="flex items-center justify-between p-6 rounded-2xl border"
+              style={{
+                borderColor: isRef
+                  ? "rgba(44,44,42,0.3)"
+                  : w.available ? "var(--amber)" : "rgba(44,44,42,0.15)",
+                backgroundColor: isRef
+                  ? "rgba(44,44,42,0.04)"
+                  : w.available ? "rgba(239,159,39,0.06)" : "transparent",
+              }}
+            >
+              <div className="flex items-start gap-5">
+                <span
+                  className="text-sm font-bold mt-1 w-14 shrink-0"
+                  style={{
+                    color: isRef
+                      ? "rgba(44,44,42,0.5)"
+                      : w.available ? "var(--amber)" : "rgba(44,44,42,0.4)",
+                  }}
+                >
+                  {dayLabel}
+                </span>
+                <div>
+                  <h2 className="font-bold text-lg" style={{ color: "var(--gray)" }}>{w.subtitle}</h2>
+                  <p className="text-sm opacity-60" style={{ color: "var(--gray)" }}>{w.title}</p>
+                  {w.available && <p className="text-sm mt-1 opacity-70" style={{ color: "var(--gray)" }}>{w.description}</p>}
+                </div>
               </div>
+              {w.available ? (
+                <Link
+                  href={href}
+                  className="shrink-0 ml-4 px-6 py-2 rounded-full font-bold text-sm transition-opacity hover:opacity-90"
+                  style={{
+                    backgroundColor: isRef ? "rgba(44,44,42,0.15)" : "var(--amber)",
+                    color: isRef ? "var(--gray)" : "white",
+                  }}
+                >
+                  Read →
+                </Link>
+              ) : (
+                <span className="shrink-0 ml-4 text-sm opacity-40" style={{ color: "var(--gray)" }}>Soon</span>
+              )}
             </div>
-            {w.available ? (
-              <Link
-                href={`/worksheet/day${w.day}`}
-                className="shrink-0 ml-4 px-6 py-2 rounded-full font-bold text-white text-sm transition-opacity hover:opacity-90"
-                style={{ backgroundColor: "var(--amber)" }}
-              >
-                Read →
-              </Link>
-            ) : (
-              <span className="shrink-0 ml-4 text-sm opacity-40" style={{ color: "var(--gray)" }}>Soon</span>
-            )}
-          </div>
-        ))}
+          );
+        })}
       </div>
     </section>
   );
