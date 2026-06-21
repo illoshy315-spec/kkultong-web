@@ -67,10 +67,10 @@ export default function Worksheet() {
               className="flex items-center justify-between p-6 rounded-2xl border"
               style={{
                 borderColor: isRef
-                  ? "rgba(44,44,42,0.3)"
+                  ? "var(--teal)"
                   : w.available ? "var(--amber)" : "rgba(44,44,42,0.15)",
                 backgroundColor: isRef
-                  ? "rgba(44,44,42,0.04)"
+                  ? "rgba(29,158,117,0.06)"
                   : w.available ? "rgba(239,159,39,0.06)" : "transparent",
               }}
             >
@@ -79,7 +79,7 @@ export default function Worksheet() {
                   className="text-sm font-bold mt-1 w-14 shrink-0"
                   style={{
                     color: isRef
-                      ? "rgba(44,44,42,0.5)"
+                      ? "var(--teal)"
                       : w.available ? "var(--amber)" : "rgba(44,44,42,0.4)",
                   }}
                 >
@@ -96,8 +96,8 @@ export default function Worksheet() {
                   href={href}
                   className="shrink-0 ml-4 px-6 py-2 rounded-full font-bold text-sm transition-opacity hover:opacity-90"
                   style={{
-                    backgroundColor: isRef ? "rgba(44,44,42,0.15)" : "var(--amber)",
-                    color: isRef ? "var(--gray)" : "white",
+                    backgroundColor: isRef ? "var(--teal)" : "var(--amber)",
+                    color: "white",
                   }}
                 >
                   Read →
