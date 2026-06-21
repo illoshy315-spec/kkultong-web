@@ -35,10 +35,10 @@ export async function generateStaticParams() {
     { day: "day5" },
     { day: "day6" },
     { day: "day7" },
-    { day: "day8" },
-    { day: "day9" },
-    { day: "day10" },
-    { day: "day11" },
+    { day: "day13" },
+    { day: "day14" },
+    { day: "day15" },
+    { day: "day16" },
     { day: "supplement_pos" },
   ];
 }
