@@ -2,7 +2,7 @@
 title: "Compound Words 1 — What You Can Guess vs What You Have to Memorize"
 subtitle: "Compound Words: Transparent vs Opaque"
 seo_title: "Korean Compound Words Explained: Transparent vs Opaque | Kkultong Day 8"
-seo_description: "Learn how Korean compound words are built — and which ones you can guess from the parts vs which ones you just have to memorize. From 봄비 (spring rain) to 눈물 (tears), with K-pop examples from BTS and Seventeen."
+seo_description: "Learn how Korean compound words are built — and which ones you can guess from the parts vs which ones you just have to memorize. From 봄비 (spring rain) to 눈물 (tears), with K-pop examples from BTS 봄날."
 type: worksheet
 series: "Series 2 — Korean Words"
 day: 8
