@@ -31,7 +31,7 @@ const worksheets: WorksheetEntry[] = [
   { day: 6, title: "이중모음: 두 소리가 만날 때", subtitle: "Diphthongs: When Two Sounds Meet", description: "11 compound vowels built from the basics you already know — plus the sounds that trip up every beginner.", available: true },
   { day: 7, title: "K팝·K드라마 실전 한글", subtitle: "Real Hangul: K-pop & K-drama", description: "Reading real words and sentences using everything you've learned over 7 days.", available: true },
   { day: null, slug: "supplement_pos", label: "Reference", title: "품사 체계 심화", subtitle: "Korean Parts of Speech — Why the System Works This Way", description: "Three criteria that divide Korean words into nine categories. A deep-dive for when you want to know why words behave the way they do.", available: true },
-  { day: 8, title: "합성어 1 — 알면 유추되는 것 vs 외워야 하는 것", subtitle: "Compound Words: Transparent vs Opaque", description: "Coming soon", available: false },
+  { day: 8, title: "합성어 1 — 알면 유추되는 것 vs 외워야 하는 것", subtitle: "Compound Words: Transparent vs Opaque", description: "How Korean words are built from two parts — and which ones you can guess vs which ones you have to memorize. With K-pop examples from BTS and Seventeen.", available: true },
   { day: 9, title: "합성어 2 — 생산적 접두 패턴", subtitle: "Compound Words: Productive Prefixes", description: "Coming soon", available: false },
   { day: 10, title: "파생어 1 — -하다/-되다", subtitle: "Derived Words: -하다 and -되다", description: "Coming soon", available: false },
   { day: 11, title: "파생어 2 — 품사 바꾸기", subtitle: "Derived Words: Changing Word Class", description: "Coming soon", available: false },
