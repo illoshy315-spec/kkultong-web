@@ -241,14 +241,20 @@ One pattern unlocks many words. Use the first example and fill in the rest.
 
 ### 봄날 (Spring Day) — BTS (2017)
 
-> *보고 싶다 이렇게 말하니까 더 보고 싶어진다*
-> *(Saying "I miss you" like this makes me miss you even more)*
-> *봄날처럼 잠시 but 영원히*
-> *(Like a spring day — fleeting, but forever)*
+> *마음은 시간을 달려가네 홀로 남은 설국열차*
+> *(My heart races through time, alone on the last snowpiercer)*
+> *그리움들이 얼마나 눈처럼 내려야 그 봄날이 올까, friend?*
+> *(How much longing must fall like snow before that spring day comes, friend?)*
+> *눈꽃이 떨어져요 / 또 조금씩 멀어져요*
+> *(Snowflakes are falling / drifting a little further apart)*
 
-봄(spring) + 날(day) = 봄날. On the surface it just means "a day in spring." But in this song, 봄날 becomes "the time we spent together that will never come back."
+One song, three compound words.
 
-Even a transparent compound can carry completely different weight depending on the context it lives in.
+- **설국열차**: 설(雪 snow) + 국(國 land) + 열차(列車 train) → Snowpiercer. A film reference used as a metaphor for isolation.
+- **봄날**: 봄(spring) + 날(day) → spring day. In the song, it means "the day with you that will never come back."
+- **눈꽃**: 눈(snow) + 꽃(flower) → snowflake. Snow that falls like flowers.
+
+All three are transparent — split them and the meaning is right there. But inside this song, none of them are just "a spring day" or "a snowflake." Context changes everything. Transparent compounds can carry weight that the parts alone never could.
 
 ### 눈물 — in every Korean ballad
 
@@ -261,13 +267,6 @@ Even a transparent compound can carry completely different weight depending on t
 ```
 
 눈(eye) + 물(water) = 눈물. An opaque compound — but hear it enough times and it stops feeling learned. It just feels known. Sometimes listening to a song you love a hundred times beats studying a word you've never heard used.
-
-### 불꽃 (Flame) — Seventeen (2018)
-
-> *우리의 불꽃 / 꺼지지 않게*
-> *(Our flame / so it never goes out)*
-
-불(fire) + 꽃(flower) = 불꽃. Here it means "the passion between us that must never die." The literal meaning (fire + flower) gets you partway there — but the moment it becomes a metaphor for unbreakable devotion, it slips into the semi-transparent zone. Somewhere in the middle of the spectrum.
 
 ---
 
