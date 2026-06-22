@@ -241,12 +241,26 @@ One pattern unlocks many words. Use the first example and fill in the rest.
 
 ### 봄날 (Spring Day) — BTS (2017)
 
+> *여긴 온통 겨울 뿐이야 8월에도 겨울이 와*
+> *(It's all winter here — even in August, winter comes)*
 > *마음은 시간을 달려가네 홀로 남은 설국열차*
 > *(My heart races through time, alone on the last snowpiercer)*
+> *니 손 잡고 지구 반대편까지 가 이 겨울을 끝내고파*
+> *(I want to take your hand and go to the other side of the earth — I want to end this winter)*
 > *그리움들이 얼마나 눈처럼 내려야 그 봄날이 올까, friend?*
 > *(How much longing must fall like snow before that spring day comes, friend?)*
-> *눈꽃이 떨어져요 / 또 조금씩 멀어져요*
-> *(Snowflakes are falling / drifting a little further apart)*
+> *허공을 떠도는 작은*
+> *(Small, drifting through empty air)*
+> *먼지처럼, 작은 먼지처럼*
+> *(Like dust, like small dust)*
+> *날리는 눈이 나라면*
+> *(If I were the snow that's blowing)*
+> *조금 더 빨리 네게 닿을 수 있을 텐데?*
+> *(I could reach you a little faster)*
+> *눈꽃이 떨어져요*
+> *(Snowflakes are falling)*
+> *또 조금씩 멀어져요*
+> *(Drifting a little further apart)*
 
 One song, three compound words.
 
