@@ -387,15 +387,6 @@ Q4: ②
 
 ---
 
-## Next Up
+> *"Next up: Compound Words 2 — 초-, 한-, 늦-, 새-, 맨-, 날-. One prefix pattern unlocks dozens of words at once."*
 
-**Day 9 — Compound Words 2: Productive Prefix Patterns**
-
-초-, 한-, 늦-, 새-, 맨-, 날-
-
-One prefix pattern unlocks dozens of words at once.
-
-→ [Go to Day 9](#)
-
----
 🔗 **kkultongkorea.com** | 📧 **kkultongkorea@gmail.com**
