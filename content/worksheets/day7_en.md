@@ -460,4 +460,6 @@ Reference: Hangul spelling for major artists
 >
 > *"Coming up next: Pronunciation rules — nasalisation, lateralisation, tensification, aspiration. We'll close the gap between what's written and what's actually said."*
 
+→ [Go to Day 8](/worksheet/day8)
+
 🔗 **kkultongkorea.com** | 📧 **kkultongkorea@gmail.com**

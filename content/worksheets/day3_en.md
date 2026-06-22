@@ -541,4 +541,6 @@ Fill in the missing consonants to build each word.
 
 > *"Next up: Tense consonants — completing the plain / aspirated / tense three-way contrast"*
 
+→ [Go to Day 4](/worksheet/day4)
+
 🔗 **kkultongkorea.com** | 📧 **kkultongkorea@gmail.com**

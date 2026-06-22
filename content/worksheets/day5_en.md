@@ -545,4 +545,6 @@ Batchim options: **ㄱ  ㄴ  ㄹ  ㅁ  ㅂ  ㅇ**
 
 > *"Next up: Diphthongs — y-glide vowels and compound vowels"*
 
+→ [Go to Day 6](/worksheet/day6)
+
 🔗 **kkultongkorea.com** | 📧 **kkultongkorea@gmail.com**

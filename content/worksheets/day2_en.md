@@ -610,4 +610,6 @@ Low                                ㅏ
 
 > *"Next up: Consonants — 14 letters drawn from the shape of the mouth itself."*
 
+→ [Go to Day 3](/worksheet/day3)
+
 🔗 **kkultongkorea.com** | 📧 **kkultongkorea@gmail.com**

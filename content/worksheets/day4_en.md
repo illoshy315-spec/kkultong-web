@@ -467,6 +467,8 @@ Only aspirated consonants (ㅋ ㅌ ㅍ ㅊ) should produce a breeze on your hand
 
 ---
 
-> *"Coming up Next up: 받침 — the basement of the three-floor building, and ㅇ's secret second identity."*
+> *"Next up: 받침 — the basement of the three-floor building, and ㅇ's secret second identity."*
+
+→ [Go to Day 5](/worksheet/day5)
 
 🔗 **kkultongkorea.com** | 📧 **kkultongkorea@gmail.com**

@@ -675,4 +675,6 @@ After reading: which word was the trickiest to pronounce?
 
 > *"Next up: Putting it all together — reading real K-pop and K-drama words and sentences. Everything from the past 7 days, finally in the wild."*
 
+→ [Go to Day 7](/worksheet/day7)
+
 🔗 **kkultongkorea.com** | 📧 **kkultongkorea@gmail.com**

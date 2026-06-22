@@ -697,4 +697,6 @@ Now it's your turn:
 
 > *"Next up: 천지인 (天地人) — Designing every vowel from just three shapes"*
 
+→ [Go to Day 2](/worksheet/day2)
+
 🔗 **kkultongkorea.com** | 📧 **kkultongkorea@gmail.com**
