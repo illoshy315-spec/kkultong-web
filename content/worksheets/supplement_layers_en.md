@@ -1,5 +1,5 @@
 ---
-title: "Korean Has Three Kinds of Words — and It Changes Everything"
+title: "Where Korean Words Come From"
 subtitle: "Native Korean · Sino-Korean · Loanwords"
 seo_title: "Korean Vocabulary Layers: Native Korean, Sino-Korean, Loanwords Explained | Kkultong"
 seo_description: "Korean vocabulary comes in three layers — native Korean, Sino-Korean (한자어), and loanwords. Understanding the difference unlocks patterns, nuance, and spelling rules."
