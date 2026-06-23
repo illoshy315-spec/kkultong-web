@@ -1,276 +1,211 @@
 ---
 title: "Korean Has Three Kinds of Words — and It Changes Everything"
 subtitle: "Native Korean · Sino-Korean · Loanwords"
-seo_title: "Korean Vocabulary: Three Layers Explained (Native, Sino-Korean, Loanwords) | Kkultong"
-seo_description: "Korean has three layers of vocabulary — native Korean, Sino-Korean (한자어), and loanwords. Understanding which is which unlocks patterns, nuance, and spelling rules."
-type: worksheet
-series: "Series 2 — Korean Words (Introduction)"
-slug: supplement_layers
-duration: "20–30 min"
+seo_title: "Korean Vocabulary Layers: Native Korean, Sino-Korean, Loanwords Explained | Kkultong"
+seo_description: "Korean vocabulary comes in three layers — native Korean, Sino-Korean (한자어), and loanwords. Understanding the difference unlocks patterns, nuance, and spelling rules."
+type: supplement
+series: "Reference"
 created: 2026-06-23
 status: draft
 ---
 
-# Korean Has Three Kinds of Words
+## Why This Reference Exists — And Why It's Between Series 1 and 2
 
-## Before You Start Series 2
+If you've finished Series 1, you can read Hangul. Now you're about to start building Korean vocabulary. Before you do, there's one structural fact about Korean that will make everything in Series 2 — and beyond — easier to understand.
 
-Here's something that trips up nearly every Korean learner:
+Korean vocabulary comes from three different places. Words from each place feel different, behave differently in compound words and derivations, and follow different spelling rules. Most Korean learning materials teach you vocabulary without ever explaining this — so learners spend years memorizing words without noticing the patterns that connect them.
 
-```
-먹다      to eat
-식사하다  to have a meal
-다이닝    dining
-```
-
-Three ways to say "eat." All valid. All slightly different.
-
-You might think: *why does Korean need three words for the same thing?*
-
-It doesn't. Korean has **three layers of vocabulary** — and each one comes from a different place, carries a different feel, and follows different rules.
-
-Knowing this before you dive into vocabulary will change how you learn. Instead of memorizing isolated words, you'll start seeing patterns. You'll guess meanings. You'll know why some words sound warm and others sound stiff.
-
-Here's what the three layers unlock:
-
-- **Pattern recognition**: one Sino-Korean character = a cluster of related words
-- **Nuance**: why 먹다 and 식사하다 aren't interchangeable
-- **Spelling rules**: why some compound words get an extra ㅅ in the middle (빗소리 — more on this below)
+This reference gives you the map before you start the journey.
 
 ---
 
-## English Has This Too
+## 1. The Three Layers
 
-This isn't a Korean quirk. English does the exact same thing.
+| Layer | Korean term | Origin | Rough share of vocabulary |
+|-------|------------|--------|--------------------------|
+| Native Korean | 순우리말 | Always been in Korean | ~35% |
+| Sino-Korean | 한자어 (漢字語) | Chinese characters | ~60% |
+| Loanwords | 외래어 (外來語) | English, French, Portuguese, German, Japanese, and others | ~5% (growing) |
 
-```
-eat     (Germanic — native)    vs    consume  (Latin — formal)    vs    dine    (French — elegant)
-house   (Germanic)             vs    domicile (Latin)             vs    château (French)
-thanks  (Germanic)             vs    gratitude (Latin)            vs    merci   (French — informal chic)
-```
-
-A native English speaker *feels* the difference between "eat" and "consume" without being able to explain it. That feeling came from exposure, not study.
-
-Korean learners can build the same intuition — once you know the layers exist.
+These three coexist in every Korean conversation. Native speakers switch between them constantly, often without noticing.
 
 ---
 
-## Layer 1: Native Korean (순우리말)
+## 2. English Has This Too
 
-Words that have been in Korean since the beginning. No Chinese characters, no foreign origin.
+This isn't a Korean quirk. English has the same layered structure.
 
 ```
-하늘    sky
-바람    wind
-사랑    love
-밥      cooked rice / a meal
-손      hand
-눈      eye / snow (same word — context tells you which)
-마음    heart, mind
-아이    child
+eat       (Germanic — native)       consume   (Latin — formal)       dine    (French — elegant)
+house     (Germanic)                domicile  (Latin)                château (French)
+thanks    (Germanic)                gratitude (Latin)                merci   (French — informal)
 ```
 
-**The feel**: warm, sensory, close to the body and emotions. When something is tender or personal, native Korean is usually there.
+A native English speaker *feels* the difference between "eat" and "consume" — without being able to explain why. That intuition came from years of exposure, not explicit study.
 
-> K-pop ballads lean heavily on native Korean — 하늘, 바람, 마음, 눈물 (tears). Where feelings need to land, native Korean lands softest.
+Korean learners can build the same kind of intuition. Knowing the layers exist is where it starts.
 
 ---
 
-## Layer 2: Sino-Korean (한자어)
+## 3. Native Korean (순우리말)
 
-Words built from Chinese characters. About 60% of Korean vocabulary falls here.
+Words that have been in Korean since before Chinese characters arrived on the peninsula. These are the language's original vocabulary.
 
 ```
-교육 (敎育)   education        교(敎) = teach, 育 = raise
+하늘    sky            바람    wind           땅      ground, earth
+사랑    love           마음    heart, mind    눈물    tears
+밥      cooked rice    손      hand           발      foot
+아이    child          사람    person         나무    tree
+```
+
+**The feel**: warm, close, sensory. Words for the body, nature, and emotion tend to be native Korean. When something is tender or personal, native Korean is usually there.
+
+K-pop ballads lean heavily on native Korean — 하늘, 바람, 마음, 눈물. Where feeling has to land, native Korean lands softest.
+
+**What "native Korean" means structurally**: these words have no Chinese character roots. They cannot be broken down into smaller meaningful units the way Sino-Korean words can.
+
+---
+
+## 4. Sino-Korean (한자어)
+
+Words built from Chinese characters. About 60% of Korean vocabulary is Sino-Korean — the largest single layer.
+
+```
+교육 (敎育)   education         교(敎) = teach, 育 = raise
 사회 (社會)   society
 문화 (文化)   culture
+학교 (學校)   school            학(學) = learn, 校 = school
 가능 (可能)   possible
-학교 (學校)   school           학(學) = learn, 校 = school
+음악 (音樂)   music
 ```
 
-**The feel**: formal, academic, institutional. The vocabulary of textbooks, news, offices, and official documents.
+**The feel**: formal, academic, institutional. The vocabulary of textbooks, news, workplaces, legal documents, and official communication.
 
-**The key insight — Sino-Korean words cluster:**
+**The key structural property — Sino-Korean words cluster.**
+
+Every Sino-Korean character carries meaning independently. One character appears across dozens of words.
 
 ```
-교 (敎 — teach):  교육 · 교사 · 교실 · 교과서 · 교장 · 교훈 · 교환
-학 (學 — learn):  학교 · 학생 · 학습 · 학원 · 대학 · 유학 · 장학금
+교 (敎 — teach):   교육 · 교사 · 교실 · 교과서 · 교장 · 교훈 · 교환
+학 (學 — learn):   학교 · 학생 · 학습 · 학원 · 대학 · 유학 · 장학금
+사 (社 — society): 사회 · 회사 · 사원 · 사장 · 사교 · 사업
 ```
 
-Learn one character, unlock ten words. You don't need to study Chinese characters formally — but recognizing Sino-Korean patterns is one of the fastest vocabulary shortcuts in Korean.
+You don't need to study Chinese characters formally to benefit from this. Once you notice the pattern, vocabulary starts clustering into groups instead of sitting as isolated items. Series 2 covers this in depth starting in Day 10.
 
-> Series 2 covers this properly in the suffix lessons (Day 13). For now, just notice the clustering.
+**Note on recognition**: modern Korean does not write Chinese characters in everyday text. But the Sino-Korean words derived from those characters are everywhere. 한자어 means "Chinese-character words" — not that you'll ever see the characters themselves in daily Korean.
 
 ---
 
-## Layer 3: Loanwords (외래어)
+## 5. Loanwords (외래어)
 
-Words that came in from other languages — mostly English, but also Portuguese, French, German, and Japanese.
-
-```
-빵      bread           (from Portuguese  pão)
-커피    coffee          (English)
-아이돌  idol            (English)
-셀카    selfie          (English "self-camera," Korean-shortened)
-카페    café            (French)
-아르바이트  part-time job  (German Arbeit)
-```
-
-**The feel**: modern, casual, trendy. Heavy in youth conversation, K-pop, and social media.
-
-**The key insight — loanwords get fully absorbed into Korean patterns:**
+Words absorbed from other languages, primarily since the late 19th century as Korea opened to outside contact.
 
 ```
-빵    → 빵집 (bread shop) · 빵가게 (bakery) · 빵순이 (bread obsessive)
-커피  → 커피잔 (coffee cup) · 커피숍 · 아아 (iced Americano, shortened)
-셀카  → 셀카봉 (selfie stick) · 셀카 찍다 (to take a selfie)
+빵         bread         (Portuguese  pão)
+커피       coffee        (English)
+아이돌     idol          (English)
+셀카       selfie        (English "self-camera," shortened in Korean)
+카페       café          (French)
+아르바이트 part-time job (German  Arbeit)
+오렌지     orange        (English)
 ```
 
-빵 is Portuguese. But it follows Korean compound word patterns exactly the same as any native Korean word. Once a loanword enters Korean, it plays by Korean rules.
+**The feel**: modern, casual, trendy. Dense in youth conversation, K-pop, social media, and technology.
+
+**The key structural property — loanwords get fully absorbed into Korean patterns.**
+
+빵 is Portuguese. But it functions inside Korean compound word patterns exactly like any native Korean word:
+
+```
+빵 → 빵집 (bread shop) · 빵가게 (bakery) · 빵순이 (bread-obsessive person)
+커피 → 커피잔 (coffee cup) · 커피숍 · 아아 (iced Americano, informal short form)
+셀카 → 셀카봉 (selfie stick) · 셀카를 찍다 (to take a selfie)
+```
+
+Once a loanword enters Korean, it plays by Korean grammatical and compound-formation rules. There's no asterisk, no "foreign word" exemption.
 
 ---
 
-## Why Korean Has All Three
+## 6. Why Korean Has All Three
 
-This didn't happen by accident.
+The three layers didn't emerge at once. They reflect three distinct periods of contact.
 
 ```
-Native Korean    →   The language of the Korean peninsula, always there
-Sino-Korean      →   Chinese culture, Buddhism, Confucianism flowed in
-                     (Three Kingdoms period through Joseon Dynasty)
-Loanwords        →   Western ideas and objects arrived
-                     (19th century modernization through today)
+Native Korean  →  The original language of the Korean peninsula
+Sino-Korean    →  Chinese culture, Buddhism, and Confucianism arrived
+                  (Three Kingdoms period through Joseon Dynasty, ~4th–19th century)
+Loanwords      →  Western and modern influence arrived
+                  (Late 19th century modernization through today)
 ```
 
-The same thing happened in English: Germanic at the base, then Latin and French layered on top after the Norman Conquest. Languages always absorb from contact. Korean is no exception.
+The same stratification happened in English. Germanic at the base. Latin and French layered on top after the Norman Conquest (1066). Modern loanwords (sushi, safari, emoji) continuing to accumulate.
+
+Languages absorb from contact. Korean is not unusual in this — it just has a different history than English, which produces different layers.
 
 ---
 
-## Same Concept, Three Layers
+## 7. Same Concept, Three Registers
 
-Here's what it looks like when all three cover the same ground:
+Where the layers overlap on the same concept, each version carries a different register.
 
 | Concept | Native Korean | Sino-Korean | Loanword |
 |---------|--------------|-------------|---------|
 | eat | 먹다 | 식사하다 | 다이닝하다 |
 | beautiful | 아름답다 | 미(美)적이다 | 뷰티풀하다 |
-| music | 노래 | 음악 | 뮤직 |
+| music | 노래 (song) | 음악 | 뮤직 |
 | child | 아이 | 아동 | — |
 
-**When to use which:**
-
 ```
-Native Korean   →  everyday conversation, emotions, K-pop lyrics, warmth
-Sino-Korean     →  formal contexts, academics, news, workplace
-Loanwords       →  modern culture, youth speech, social media
+Native Korean  →  everyday conversation, personal warmth, K-pop lyrics
+Sino-Korean    →  formal situations, academic writing, official documents
+Loanwords      →  modern contexts, casual speech, youth culture, tech
 ```
 
-Native speakers don't consciously decide — they feel it. As a learner, you don't need to memorize rules. You just need to notice the patterns and let the intuition build.
+Native speakers don't consciously choose — the register is felt, not calculated. Learners build the same intuition through exposure. You don't need to memorize which layer each word belongs to. You need to notice the pattern enough times that it becomes familiar.
 
 ---
 
-## One More Reason This Matters: Spelling Rules
+## 8. How This Affects Spelling Rules
 
-Korean has a spelling rule called **사이시옷** — an extra ㅅ that appears between certain compound words.
+Knowing the three layers matters beyond vocabulary — it predicts how words behave in combinations.
 
-```
-비  (rain) + 소리 (sound) = 빗소리    ✓  (NOT 비소리)
-```
-
-That extra ㅅ doesn't come from nowhere. One of its conditions: **the compound must involve native Korean words.**
+Korean has a spelling rule called **사이시옷** (liaison consonant). When two nouns combine into a compound word, an extra ㅅ is sometimes inserted between them.
 
 ```
-빗소리    (native + native)  →  사이시옷 applies
-음악소리  (Sino-Korean + native)  →  different condition
+비 (rain) + 소리 (sound) = 빗소리    ✓   not 비소리
+나무 (tree) + 잎 (leaf)  = 나뭇잎    ✓   not 나무잎
 ```
 
-Without knowing the three layers, this rule looks random. With the layers, you can start to predict it.
+One of the core conditions for 사이시옷: **the compound must involve native Korean words.**
 
-The full 사이시옷 rules come later in a dedicated supplement — after you've built up enough vocabulary for the examples to make sense. For now, just tuck this away: *the origin of a word can change how it's spelled in compounds.*
+```
+빗소리   (native + native)   →  사이시옷 applies
+음악소리 (Sino-Korean + native)  →  different condition
+```
+
+Without knowing the layers, 빗소리 vs. 비소리 looks like a random spelling choice. With the layers, it becomes predictable — and the rule starts to make sense instead of having to be memorized word by word.
+
+The full 사이시옷 rules are in a dedicated supplement, placed after Series 2 when there's enough vocabulary for the examples to be meaningful. This is a preview.
 
 ---
 
-## ✏️ Activity 1 — Which Layer?
+## Wrapping Up
 
-For each word below, guess which layer it belongs to.
-*(Go with your gut — the feel matters more than the answer.)*
+Three layers. One language.
 
-```
-1. 하늘      (native / Sino-Korean / loanword)
-2. 교육      (native / Sino-Korean / loanword)
-3. 셀카      (native / Sino-Korean / loanword)
-4. 마음      (native / Sino-Korean / loanword)
-5. 문화      (native / Sino-Korean / loanword)
-6. 커피      (native / Sino-Korean / loanword)
-7. 바람      (native / Sino-Korean / loanword)
-8. 사회      (native / Sino-Korean / loanword)
-9. 아이돌    (native / Sino-Korean / loanword)
-10. 사랑     (native / Sino-Korean / loanword)
-```
+What to take away from this before you start Series 2:
 
----
+- When a word feels warm and close — it's probably native Korean
+- When a word feels formal or academic — it's probably Sino-Korean
+- When a word feels modern or borrowed — it's probably a loanword
+- Sino-Korean words cluster: learn one character's meaning and related words become visible
+- Loanwords follow Korean grammar once they're absorbed — no special treatment
 
-## ✏️ Activity 2 — Feel the Difference
+You don't need to classify every word you encounter. You need this map so that, as you build vocabulary in Series 2 and grammar in Series 3, the patterns have somewhere to land.
 
-Each pair below means roughly the same thing. Where would you use each one?
-
-```
-1. 먹다  vs  식사하다
-   먹다      →  _______________________
-   식사하다  →  _______________________
-
-2. 노래  vs  음악
-   노래  →  _______________________
-   음악  →  _______________________
-
-3. 아이  vs  아동
-   아이  →  _______________________
-   아동  →  _______________________
-```
-
----
-
-## Answer Key
-
-**Activity 1**
-```
-1. 하늘    native Korean
-2. 교육    Sino-Korean
-3. 셀카    loanword
-4. 마음    native Korean
-5. 문화    Sino-Korean
-6. 커피    loanword
-7. 바람    native Korean
-8. 사회    Sino-Korean
-9. 아이돌  loanword
-10. 사랑   native Korean
-```
-
-**Activity 2** *(Sample answers — no single right answer)*
-```
-1. 먹다      →  casual conversation, friends, "밥 먹었어? (Did you eat?)"
-   식사하다  →  formal/polite, to elders, restaurant staff asking "식사하셨나요?"
-
-2. 노래  →  the song itself, emotion, "노래 잘한다 (You sing well)"
-   음악  →  music as a field/genre, "음악을 전공했다 (I majored in music)"
-
-3. 아이  →  warmth, personal, "우리 아이 (my child)"
-   아동  →  official, legal, administrative, "아동 복지 (child welfare)"
-```
-
----
-
-## Summary
-
-```
-Native Korean (순우리말)   — always been here / warm, emotional, sensory
-Sino-Korean  (한자어)      — from Chinese characters / formal, academic / ~60% of vocab
-Loanwords    (외래어)      — absorbed from other languages / modern, casual
-```
-
-All three live in every Korean conversation. You're already using all three — you just didn't have the map.
-
-> *In Series 2, you'll build Korean vocabulary pattern by pattern. When you notice a word feels stiff or warm or trendy, you're already reading the layers. That's the whole point.*
+*Series 2 covers how Korean words are built — through compounds, prefixes, suffixes, and derivations.*  
+*Series 3 covers how those words operate inside sentences.*
 
 ---
 
