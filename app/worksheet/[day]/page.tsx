@@ -27,22 +27,8 @@ function extractHeadings(markdown: string) {
 }
 
 export async function generateStaticParams() {
-  return [
-    { day: "day1" },
-    { day: "day2" },
-    { day: "day3" },
-    { day: "day4" },
-    { day: "day5" },
-    { day: "day6" },
-    { day: "day7" },
-    { day: "day9" },
-    { day: "day13" },
-    { day: "day14" },
-    { day: "day15" },
-    { day: "day16" },
-    { day: "supplement_pos" },
-    { day: "supplement_layers" },
-  ];
+  const files = fs.readdirSync(WORKBOOK_DIR).filter((f) => f.endsWith("_en.md"));
+  return files.map((f) => ({ day: f.replace("_en.md", "") }));
 }
 
 export async function generateMetadata({ params }: { params: Promise<{ day: string }> }): Promise<Metadata> {
