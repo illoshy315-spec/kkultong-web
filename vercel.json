@@ -1,0 +1,10 @@
+{
+  "redirects": [
+    {
+      "source": "/(.*)",
+      "has": [{ "type": "host", "value": "kkultong-web.vercel.app" }],
+      "destination": "https://kkultongkorea.com/$1",
+      "permanent": true
+    }
+  ]
+}
