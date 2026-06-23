@@ -41,6 +41,7 @@ export async function generateStaticParams() {
     { day: "day15" },
     { day: "day16" },
     { day: "supplement_pos" },
+    { day: "supplement_layers" },
   ];
 }
 
