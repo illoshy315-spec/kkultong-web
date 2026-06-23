@@ -1,3 +1,13 @@
+import type { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Contact | Kkultong",
+  description: "Get in touch with the Kkultong team.",
+  alternates: {
+    canonical: "https://kkultongkorea.com/contact",
+  },
+};
+
 export default function Contact() {
   return (
     <section className="max-w-2xl mx-auto px-6 py-24">

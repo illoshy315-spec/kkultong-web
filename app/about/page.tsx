@@ -3,6 +3,9 @@ import type { Metadata } from "next";
 export const metadata: Metadata = {
   title: "About Kkultong — Free Korean Learning for K-Drama Fans",
   description: "Kkultong (꿀통, \"honey jar\") makes free Korean learning content for K-pop and K-drama fans who want to go beyond \"annyeonghaseyo.\" Real Korean, the way it's actually spoken.",
+  alternates: {
+    canonical: "https://kkultongkorea.com/about",
+  },
 };
 
 export default function About() {

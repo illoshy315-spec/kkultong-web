@@ -7,8 +7,12 @@ import Footer from "@/components/Footer";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
+  metadataBase: new URL("https://kkultongkorea.com"),
   title: "Learn Real Korean Free | Kkultong — For K-Drama & K-Pop Fans",
   description: "Tired of textbook Korean? Learn the Korean from K-dramas, K-pop, and real life. Free 7-week Hangul worksheet — no signup needed. Start reading Korean this weekend.",
+  alternates: {
+    canonical: "https://kkultongkorea.com",
+  },
 };
 
 export default function RootLayout({

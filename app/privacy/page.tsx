@@ -1,3 +1,13 @@
+import type { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Privacy Policy | Kkultong",
+  description: "Kkultong privacy policy.",
+  alternates: {
+    canonical: "https://kkultongkorea.com/privacy",
+  },
+};
+
 export default function Privacy() {
   return (
     <section className="max-w-3xl mx-auto px-6 py-24">

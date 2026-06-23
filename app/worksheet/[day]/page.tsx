@@ -53,6 +53,9 @@ export async function generateMetadata({ params }: { params: Promise<{ day: stri
   return {
     title: seoTitle,
     description: seoDesc,
+    alternates: {
+      canonical: `https://kkultongkorea.com/worksheet/${day}`,
+    },
     openGraph: {
       title: seoTitle,
       description: seoDesc,

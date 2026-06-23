@@ -4,6 +4,9 @@ import Link from "next/link";
 export const metadata: Metadata = {
   title: "Free Korean Worksheet Series | Kkultong",
   description: "Free Korean worksheet series — no signup, no email required. Start with Hangul, then move into real Korean sentences. Used by K-drama and K-pop fans worldwide.",
+  alternates: {
+    canonical: "https://kkultongkorea.com/worksheet",
+  },
 };
 
 type WorksheetEntry = {
