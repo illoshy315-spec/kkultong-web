@@ -203,7 +203,7 @@ This only happens under certain conditions — and one of those conditions invol
 
 Without knowing the layers, 빗소리 vs. 비소리 looks like an arbitrary spelling choice. With the layers, the logic starts to become visible.
 
-That said, 사이시옷 has exceptions, and it's notoriously one of the most difficult spelling rules even for native Korean speakers. You don't need to memorize it. This mention is here so you're not surprised when you encounter it — and so the concept makes sense when you do.
+That said, 사이시옷 has exceptions, and it's notoriously one of the most difficult spelling rules even for native Korean speakers. It's worth knowing the rule exists — but spending energy memorizing it won't do much for your spoken Korean. Spelling rules like this matter most in writing, and even then, native speakers frequently get it wrong.
 
 The full 사이시옷 rules are in a dedicated supplement, placed after Series 2 when there's enough vocabulary for the examples to land properly.
 
