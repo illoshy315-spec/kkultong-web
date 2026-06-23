@@ -387,6 +387,8 @@ Q4: ②
 
 ---
 
-> *"Next up: Compound Words 2 — 초-, 한-, 늦-, 새-, 맨-, 날-. One prefix pattern unlocks dozens of words at once."*
+> *"Next up: Day 9 — Compound Words 2. One pattern unlocks dozens of words: 집, 방, 길, 바람, 하늘, 소리, 빛 — and a single Korean word that means both eye and snow."*
+
+→ [Go to Day 9](/worksheet/day9)
 
 🔗 **kkultongkorea.com** | 📧 **kkultongkorea@gmail.com**
