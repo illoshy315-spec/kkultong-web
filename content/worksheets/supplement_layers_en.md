@@ -198,7 +198,7 @@ This only happens under certain conditions — and one of those conditions invol
 
 ```
 빗소리    (native + native)        →  사이시옷 applies
-음악소리  (Sino-Korean + native)   →  different condition
+음악소리  (Sino-Korean + native)   →  사이시옷 does not apply
 ```
 
 Without knowing the layers, 빗소리 vs. 비소리 looks like an arbitrary spelling choice. With the layers, the logic starts to become visible.
@@ -215,11 +215,11 @@ Three layers. One language.
 
 What to take away from this before you start Series 2:
 
-- When a word feels warm and close — it's probably native Korean
-- When a word feels formal or academic — it's probably Sino-Korean
-- When a word feels modern or borrowed — it's probably a loanword
-- Sino-Korean words cluster: learn one character's meaning and related words become visible
-- Loanwords follow Korean grammar once they're absorbed — no special treatment
+- Native Korean: the original layer — everyday, emotional, personal
+- Sino-Korean: logographic origin — each unit carries meaning, patterns cluster, ~60% of vocabulary
+- Loanwords: absorbed fully into Korean grammar — no special treatment
+- Sino-Korean patterns are worth noticing; memorizing the characters is not required
+- 사이시옷 is worth knowing exists; memorizing its exceptions is not worth the effort for spoken Korean
 
 You don't need to classify every word you encounter. You need this map so that, as you build vocabulary in Series 2 and grammar in Series 3, the patterns have somewhere to land.
 
