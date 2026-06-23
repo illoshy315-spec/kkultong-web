@@ -58,11 +58,9 @@ Words that have been in Korean since before Chinese characters arrived on the pe
 아이    child          사람    person         나무    tree
 ```
 
-**The feel**: warm, close, sensory. Words for the body, nature, and emotion tend to be native Korean. When something is tender or personal, native Korean is usually there.
+**Structurally**: native Korean words have no Chinese character roots and cannot be broken down into smaller meaningful units the way Sino-Korean words can. Each word is a single, indivisible unit.
 
-K-pop ballads lean heavily on native Korean — 하늘, 바람, 마음, 눈물. Where feeling has to land, native Korean lands softest.
-
-**What "native Korean" means structurally**: these words have no Chinese character roots. They cannot be broken down into smaller meaningful units the way Sino-Korean words can.
+**Register**: native Korean tends to appear in everyday conversation, personal and emotional contexts, and song lyrics. K-pop ballads lean heavily on it — 하늘, 바람, 마음, 눈물. This isn't a rule you apply consciously; it's a pattern you'll absorb through exposure.
 
 ---
 
@@ -79,21 +77,26 @@ Words built from Chinese characters. About 60% of Korean vocabulary is Sino-Kore
 음악 (音樂)   music
 ```
 
-**The feel**: formal, academic, institutional. The vocabulary of textbooks, news, workplaces, legal documents, and official communication.
+**Register**: formal, academic, institutional. The vocabulary of textbooks, news, workplaces, legal documents, and official communication.
 
-**The key structural property — Sino-Korean words cluster.**
+**The key structural property — each character carries its own meaning.**
 
-Every Sino-Korean character carries meaning independently. One character appears across dozens of words.
+Chinese characters are logographic: each character represents a meaning, not just a sound. Sino-Korean words are built from these meaning-carrying units, which means that knowing what one character means lets you infer the meaning of many words that contain it.
 
 ```
-교 (敎 — teach):   교육 · 교사 · 교실 · 교과서 · 교장 · 교훈 · 교환
-학 (學 — learn):   학교 · 학생 · 학습 · 학원 · 대학 · 유학 · 장학금
-사 (社 — society): 사회 · 회사 · 사원 · 사장 · 사교 · 사업
+교 (敎 — teach, education):
+  교육(education) · 교사(teacher) · 교실(classroom) · 교과서(textbook) · 교장(principal)
+
+학 (學 — learn, study):
+  학교(school) · 학생(student) · 학습(learning) · 학원(academy) · 대학(university)
+
+사 (社 — society, organization):
+  사회(society) · 회사(company) · 사원(employee) · 사장(company president)
 ```
 
-You don't need to study Chinese characters formally to benefit from this. Once you notice the pattern, vocabulary starts clustering into groups instead of sitting as isolated items. Series 2 covers this in depth starting in Day 10.
+This is why learning Sino-Korean patterns — not the characters themselves, but the recurring units — makes vocabulary acquisition significantly faster. One pattern unlocks a cluster of words at once.
 
-**Note on recognition**: modern Korean does not write Chinese characters in everyday text. But the Sino-Korean words derived from those characters are everywhere. 한자어 means "Chinese-character words" — not that you'll ever see the characters themselves in daily Korean.
+That said, **you don't need to study Chinese characters to learn Korean**. Modern Korean is written entirely in Hangul. The characters are not on the page — only the words derived from them are. Understanding that these patterns exist is useful; memorizing the characters is a separate, optional pursuit.
 
 ---
 
@@ -111,19 +114,33 @@ Words absorbed from other languages, primarily since the late 19th century as Ko
 오렌지     orange        (English)
 ```
 
-**The feel**: modern, casual, trendy. Dense in youth conversation, K-pop, social media, and technology.
+**Register**: modern, casual, trendy. Dense in youth conversation, K-pop, social media, and technology.
 
-**The key structural property — loanwords get fully absorbed into Korean patterns.**
+**The key structural property — loanwords follow Korean grammar in full.**
 
-빵 is Portuguese. But it functions inside Korean compound word patterns exactly like any native Korean word:
+Once a foreign word enters Korean, it is treated grammatically the same as any native Korean word. This means:
 
+Korean particles attach to loanwords exactly as they do to native words:
 ```
-빵 → 빵집 (bread shop) · 빵가게 (bakery) · 빵순이 (bread-obsessive person)
-커피 → 커피잔 (coffee cup) · 커피숍 · 아아 (iced Americano, informal short form)
+커피를 마시다   drink coffee     (object particle 를 attaches to 커피)
+카페에서 공부하다  study at a café  (location particle 에서 attaches to 카페)
+```
+
+Loanwords take Korean verb endings when used as actions:
+```
+다이닝하다   to dine
+드라이브하다  to go for a drive
+쇼핑하다     to go shopping
+```
+
+Loanwords participate in Korean compound word formation:
+```
+빵  → 빵집 (bread shop) · 빵가게 (bakery) · 빵순이 (bread-obsessive person)
+커피 → 커피잔 (coffee cup) · 커피숍
 셀카 → 셀카봉 (selfie stick) · 셀카를 찍다 (to take a selfie)
 ```
 
-Once a loanword enters Korean, it plays by Korean grammatical and compound-formation rules. There's no asterisk, no "foreign word" exemption.
+빵 is Portuguese in origin. But grammatically, syntactically, and in compound word formation, it behaves identically to any Korean word. There is no "foreign word" exemption in Korean grammar.
 
 ---
 
@@ -162,31 +179,33 @@ Sino-Korean    →  formal situations, academic writing, official documents
 Loanwords      →  modern contexts, casual speech, youth culture, tech
 ```
 
-Native speakers don't consciously choose — the register is felt, not calculated. Learners build the same intuition through exposure. You don't need to memorize which layer each word belongs to. You need to notice the pattern enough times that it becomes familiar.
+These aren't rules to memorize — they're patterns that emerge from how Korean is actually used. As you build vocabulary in Series 2, you'll start noticing which words feel at home in which contexts. That noticing is the goal.
 
 ---
 
-## 8. How This Affects Spelling Rules
+## 8. How This Affects Spelling — A Preview
 
-Knowing the three layers matters beyond vocabulary — it predicts how words behave in combinations.
+Knowing the three layers matters beyond vocabulary. It predicts how words behave when combined.
 
-Korean has a spelling rule called **사이시옷** (liaison consonant). When two nouns combine into a compound word, an extra ㅅ is sometimes inserted between them.
-
-```
-비 (rain) + 소리 (sound) = 빗소리    ✓   not 비소리
-나무 (tree) + 잎 (leaf)  = 나뭇잎    ✓   not 나무잎
-```
-
-One of the core conditions for 사이시옷: **the compound must involve native Korean words.**
+When two Korean nouns combine into a compound word, the first syllable of the second word sometimes becomes a fortis (tensed) consonant — a phenomenon Korean calls **된소리되기** (tensification). When this happens in writing, Korean inserts the letter ㅅ between the two words to mark it. This spelling convention is called **사이시옷**.
 
 ```
-빗소리   (native + native)   →  사이시옷 applies
-음악소리 (Sino-Korean + native)  →  different condition
+비 (rain) + 소리 (sound) → 빗소리    ✓    the ㅅ marks the tensification
+나무 (tree) + 잎 (leaf)  → 나뭇잎    ✓
 ```
 
-Without knowing the layers, 빗소리 vs. 비소리 looks like a random spelling choice. With the layers, it becomes predictable — and the rule starts to make sense instead of having to be memorized word by word.
+This only happens under certain conditions — and one of those conditions involves the three layers: **사이시옷 applies when native Korean words are involved in the compound.**
 
-The full 사이시옷 rules are in a dedicated supplement, placed after Series 2 when there's enough vocabulary for the examples to be meaningful. This is a preview.
+```
+빗소리    (native + native)        →  사이시옷 applies
+음악소리  (Sino-Korean + native)   →  different condition
+```
+
+Without knowing the layers, 빗소리 vs. 비소리 looks like an arbitrary spelling choice. With the layers, the logic starts to become visible.
+
+That said, 사이시옷 has exceptions, and it's notoriously one of the most difficult spelling rules even for native Korean speakers. You don't need to memorize it. This mention is here so you're not surprised when you encounter it — and so the concept makes sense when you do.
+
+The full 사이시옷 rules are in a dedicated supplement, placed after Series 2 when there's enough vocabulary for the examples to land properly.
 
 ---
 
