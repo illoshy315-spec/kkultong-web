@@ -465,4 +465,6 @@ Answer: ____
 
 > *"Next up: Day 10 — Prefixes & Suffixes. Just like English un- / re- / -ness, Korean has elements that attach to words to shift meaning. One prefix, many new words."*
 
+👉 **[Day 10: Prefixes & Suffixes →](/worksheet/day10)**
+
 🔗 **kkultongkorea.com** | 📧 **kkultongkorea@gmail.com**
