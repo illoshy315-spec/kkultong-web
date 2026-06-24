@@ -1,5 +1,5 @@
 ---
-day: 9
+day: 14
 title: "Particles — What English Doesn't Have"
 subtitle: "English puts prepositions before nouns. Korean puts particles after them."
 seo_title: "Korean Particles Explained: 은/는/이/가/을/를 and More | Kkultong Day 9"

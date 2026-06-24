@@ -1,5 +1,5 @@
 ---
-day: 8
+day: 13
 title: "Why the Verb Comes Last — 나는 너를 사랑해"
 subtitle: "Korean word order is the opposite of English — and that's a feature, not a bug"
 seo_title: "Korean Word Order SOV Explained: Why the Verb Comes Last | Kkultong Day 8"

@@ -1,5 +1,5 @@
 ---
-day: 10
+day: 15
 title: "Topic vs. Subject — 은/는 and 이/가"
 subtitle: "Same slot, different signal"
 seo_title: "Korean 은/는 vs 이/가 Explained: Topic Marker vs Subject Marker | Kkultong Day 10"
