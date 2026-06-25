@@ -213,7 +213,7 @@ One day:
 
 A suffix attaches to the back of a word and mostly changes its nature — usually turning a verb or adjective into a noun.
 
-First, one concept to introduce.
+One quick concept before we get there.
 
 Korean verbs and adjectives can be split into a **stem** and an **ending**.
 

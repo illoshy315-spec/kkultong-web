@@ -91,7 +91,7 @@ A **glide** is a short, sliding sound that lives somewhere between a consonant a
 
 ## Full Diphthong Reference Chart
 
-Before diving into the details, get the big picture first.
+Here's the full picture before we get into each one.
 
 ```
 ┌──────────────────────────┬────────────────────────────────────────┐

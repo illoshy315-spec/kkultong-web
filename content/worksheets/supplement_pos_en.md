@@ -11,7 +11,7 @@ status: draft
 
 ## Why This Reference Exists — And Why It's Not in the Main Curriculum
 
-Kkultong's goal is to help non-native learners understand Korean more systematically. Classifying words by their nature — that's what a parts-of-speech system does — helps you understand sentence structure. But memorizing that system before you start learning Korean isn't efficient. It's like memorizing a map before you've decided where you want to go. A map is most useful when you actually need it.
+Classifying words by their nature — that's what a parts-of-speech system does — helps you understand sentence structure. But memorizing that system before you start learning Korean isn't efficient. It's like memorizing a map before you've decided where you want to go.
 
 This reference is for learners who hit a point in their Korean studies where they want to know *why* words behave the way they do. It's reconstructed from what native Korean speakers learn in school, which means it goes deeper than most Korean learning materials. Use it when you need it, as much as you need it.
 
@@ -533,7 +533,7 @@ The three criteria overlap to produce exactly nine parts of speech.
 
 ## Wrapping Up
 
-Parts of speech are the vocabulary for talking about Korean grammar. If you've read this all the way through, the next time you encounter a grammar explanation that says "a particle attaches to a noun" or "adjectives conjugate," it'll land differently — because now you know why.
+Parts of speech are the vocabulary for talking about Korean grammar. Next time you encounter an explanation that says "a particle attaches to a noun" or "adjectives conjugate," it'll land differently — because now you know why.
 
 You don't need to memorize any of this. When you're learning Korean and you hit a moment where you wonder "why does this word change like that?" or "what do you call this kind of word?" — come back and look it up. That's exactly what this reference is for.
 

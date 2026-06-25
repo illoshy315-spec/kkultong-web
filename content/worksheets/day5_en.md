@@ -44,7 +44,7 @@ Every Hangul character is stacked inside a square block — and that block can h
   └──────────────────┘
 ```
 
-The consonant that sits in the final position is called **받침 (받침, batchim)**.
+The consonant that sits in the final position is called **받침 (batchim)**.
 
 ```
 Without batchim (2 layers):   가 [ga]  = ㄱ + ㅏ
