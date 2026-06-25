@@ -38,7 +38,7 @@ const worksheets: WorksheetEntry[] = [
   { day: 8, title: "합성어 1 — 알면 유추되는 것 vs 외워야 하는 것", subtitle: "Compound Words: Transparent vs Opaque", description: "How Korean words are built from two parts — and which ones you can guess vs which ones you have to memorize. With K-pop examples from BTS and Seventeen.", available: true },
   { day: 9, title: "합성어 2 — 패턴 하나로 단어 수십 개", subtitle: "Compound Words: One Pattern, Dozens of Words", description: "9 productive Korean compound patterns — 집, 방, 길, 바람, 하늘, 소리, 빛, and the dual 눈 (eye/snow). Start guessing words you've never seen.", available: true },
   { day: 10, title: "파생어 1 — 접두사·접미사", subtitle: "Prefixes & Suffixes — One Addition, Many New Words", description: "How Korean builds new words by adding prefixes (초-, 한-, 늦-, 새-, 맨-, 날-) and suffixes (-이, -개, -음). One pattern, dozens of new words.", available: true },
-  { day: 11, title: "파생어 2 — 품사 바꾸기", subtitle: "Derived Words: Changing Word Class", description: "Coming soon", available: false },
+  { day: 11, title: "파생어 2 — -하다/-되다", subtitle: "One Noun, Instant Verb or Adjective", description: "Korean -하다 and -되다 turn any noun into a verb or adjective. 공부하다, 행복하다, 해결되다 — one pattern, dozens of new words.", available: true },
   { day: 12, title: "파생어 3 — 한자어 접미사", subtitle: "Derived Words: Sino-Korean Suffixes", description: "Coming soon", available: false },
   { day: 13, title: "동사가 마지막에 오는 이유 — 나는 너를 사랑해", subtitle: "Why the Verb Comes Last", description: "Coming soon", available: false },
   { day: 14, title: "조사 — 영어에 없는 것", subtitle: "Particles: What English Doesn't Have", description: "Coming soon", available: false },

@@ -448,4 +448,6 @@ One day: 초저녁 → night → 한밤 → dawn
 
 > *"Next up: Day 11 — -하다 and -되다. Two suffixes that turn nouns into verbs, and verbs into their passive form. 공부하다, 사랑하다, 해결되다 — you've already heard them everywhere."*
 
+👉 **[Day 11: -하다 and -되다 →](/worksheet/day11)**
+
 🔗 **kkultongkorea.com** | 📧 **kkultongkorea@gmail.com**
