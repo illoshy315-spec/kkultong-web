@@ -18,6 +18,7 @@ status: draft
 Day 10 was about **derived words** — words built by attaching a bound element (prefix or suffix) that can't stand alone, adding meaning or changing the word's nature.
 
 > **초-** + 여름 = 초여름 (early summer) — prefix
+>
 > **놀-** + -이 = 놀이 (play) — suffix
 
 Day 11 is also about derived words. Today we look at two of the most frequently used suffixes in Korean — **-하다** and **-되다**. Attach either one to a noun, and you get a verb or adjective.
