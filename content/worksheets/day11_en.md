@@ -156,7 +156,7 @@ Where -하다 means someone **actively does** something, -되다 means **the thi
 
 ---
 
-## 3. -하다 vs -되다 Side by Side
+## 3. -하다 vs -되다 Compared
 
 The same noun with -하다 and -되다 gives two different angles.
 

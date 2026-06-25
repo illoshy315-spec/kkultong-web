@@ -232,7 +232,7 @@ Write what role 이/가 is playing in each sentence.
 
 ---
 
-## Side by Side
+## 은/는 vs 이/가 Compared
 
 | | 은/는 | 이/가 |
 |---|---|---|

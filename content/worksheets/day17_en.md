@@ -68,7 +68,7 @@ With verbs of existence or state — 있다 (to be), 없다 (not to be), 살다 
 도서관에서 책을 읽어요.  → I read at the library.
 ```
 
-### Side by Side
+### 에 vs 에서 Compared
 
 ```
 카페에 있어요.     → I'm at the café.    (existence — 에)
