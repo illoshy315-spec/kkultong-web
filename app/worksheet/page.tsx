@@ -92,7 +92,7 @@ export default function Worksheet() {
                 <div>
                   <h2 className="font-bold text-lg" style={{ color: "var(--gray)" }}>{w.subtitle}</h2>
                   <p className="text-sm opacity-60" style={{ color: "var(--gray)" }}>{w.title}</p>
-                  {w.available && <p className="text-sm mt-1 opacity-70" style={{ color: "var(--gray)" }}>{w.description}</p>}
+                  {w.available && <p className="hidden md:block text-sm mt-1 opacity-70" style={{ color: "var(--gray)" }}>{w.description}</p>}
                 </div>
               </div>
               {w.available ? (
