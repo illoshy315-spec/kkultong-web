@@ -67,7 +67,7 @@ Korean diphthongs work the same way — except they follow clear, predictable pa
 
 ## Three Types of Diphthongs
 
-Korean diphthongs fall into three main groups:
+Korean diphthongs fall into four groups:
 
 ```
 1. y-series  — glide [j] + monophthong
@@ -359,7 +359,7 @@ Choose the correct pronunciation — [ɯi], [i], or [e] — for the underlined �
 ```
 ① [의]자  (chair — first syllable)           →  pronunciation: [   ]
 ② 주[의]  (attention — middle syllable)      →  pronunciation: [   ]
-③ 희[의]  (hope — possessive particle '의')  →  pronunciation: [   ]
+③ 나[의]  (my — possessive particle '의')    →  pronunciation: [   ]
 ④ [의]원  (hospital — first syllable)        →  pronunciation: [   ]
 ```
 
@@ -628,7 +628,7 @@ After reading: which word was the trickiest to pronounce?
 ```
 ① 의자 (first syllable)    →  [ɯi]
 ② 주의 (middle syllable)   →  [i]
-③ 희의 (particle)          →  [e]
+③ 나의 (particle)          →  [e]
 ④ 의원 (first syllable)    →  [ɯi]
 ```
 

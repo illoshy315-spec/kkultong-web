@@ -200,10 +200,10 @@ A "syllable starting with a vowel" is really just a syllable with **ㅇ (silent)
 ```
 Written form    →    Pronunciation
 ───────────          ────────────────────────────────────────
-닫아       →    [ta.da]       ← ㄷ batchim slides into the initial position of '아'
+닫아       →    [da.da]       ← ㄷ batchim slides into the initial position of '아' (voiced between vowels)
 밥이       →    [pa.bi]       ← ㅂ batchim slides into the initial position of '이'
 산이       →    [sa.ni]       ← ㄴ batchim slides into the initial position of '이'
-강아지     →    [kaŋ.a.dʑi]  ← ㅇ batchim also slides → pronounced [ŋ] as the initial of '아'
+강아지     →    [kaŋ.a.dʑi]  ← 강's ㅇ batchim stays as [ŋ]; '아' already starts with silent ㅇ, so nothing slides
 ```
 
 Note: the spelling doesn't change — only the pronunciation connects.

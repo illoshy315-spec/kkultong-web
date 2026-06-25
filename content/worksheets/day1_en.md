@@ -29,7 +29,7 @@ And your reaction was probably something like:
 
 Don't worry. Everyone thinks exactly that on first contact. Hangul looks like nothing else in the world — because it *is* like nothing else in the world.
 
-Hangul is the only writing system in history where both the date of creation and the name of its creator are documented.
+Hangul is one of the very few writing systems in history where the date of creation, the name of the creator, and the full design rationale are all documented — in the creator's own words.
 
 Isn't that wild? A script that was *invented* — by a single person — and is still in widespread use today.
 
@@ -91,7 +91,7 @@ That document is the **Hunminjeongeum Haerye (訓民正音 解例本)**. It's no
 
 The original script had **28 letters**. Four have fallen out of use, leaving the **24 (14 consonants + 10 vowels)** used today.
 
-A king personally inventing a writing system is **unique in all of world history.**
+A king personally inventing a writing system — and leaving a detailed design document explaining every decision — is almost unheard of in world history.
 
 And there's more. Hangul is remarkably easy to learn.
 
