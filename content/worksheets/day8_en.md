@@ -58,7 +58,7 @@ Korean grammar classifies compound words using two criteria.
 | **Subordinate compound (종속 합성어)** | One part modifies the other (A modifies B) | 봄비 (spring's rain), 돌다리 (stone bridge) |
 | **Fusion compound (융합 합성어)** | The combined meaning is completely different from either part | 눈물 (eye+water → tears), 돌아가다 (turn+go → pass away) |
 
-You don't need to memorize these categories. But they're worth knowing — and you'll see why in a moment.
+You don't need to memorize these categories — but once you see how they behave differently, the distinction clicks.
 
 Native Korean students memorize these classifications. But when you're learning Korean as a foreign language, they don't actually help you learn words faster. Knowing that 눈물 is a "fusion compound" doesn't make it stick any better.
 

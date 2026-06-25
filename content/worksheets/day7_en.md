@@ -285,7 +285,7 @@ Read each sentence slowly out loud. Then write what you think it means in the sp
 └──────────────────────────────────────────────────────┘
 ```
 
-> You just read Korean sentences. Seven days ago these looked like a secret code — now you can hear them.
+> You just read Korean sentences. Seven days ago these looked like a secret code — now you can actually read them.
 
 ---
 

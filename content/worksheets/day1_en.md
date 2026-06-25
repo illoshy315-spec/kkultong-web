@@ -114,7 +114,7 @@ Separate from the Korean language itself, the Hangul script is genuinely not har
 
 ## The Heart of Hangul: A Three-Story Block
 
-Now let's look at the most important principle of all.
+Here's the most important principle of all.
 
 **Why does Hangul look like little square blocks?**
 
@@ -344,7 +344,7 @@ Look at the words below, break them into 초성·중성·종성, and label each 
 
 ## Where Did These Shapes Come From: Sejong's Blueprint
 
-Here's why consonants and vowels look so different from each other. Time to look at Sejong's design document.
+Here's why consonants and vowels look so different from each other — straight from Sejong's design document.
 
 ### Consonants: Modeled on the Shape of Speech Organs
 

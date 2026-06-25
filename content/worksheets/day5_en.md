@@ -26,7 +26,7 @@ Day 3: 14 consonants (9 plain + 5 aspirated)
 Day 4: 5 tense consonants — completing the plain/aspirated/tense trio
 ```
 
-That **final consonant position (종성)** that made a brief appearance back in Day 1? Today, we're finally giving it the spotlight it deserves.
+That **final consonant position (종성)** that made a brief appearance back in Day 1? Today it gets its own day.
 
 ---
 
