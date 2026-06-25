@@ -443,7 +443,7 @@ Reference: Hangul spelling for major artists
 
 ---
 
-## What You Accomplished Today
+## What You Learned Today
 
 - [ ] Reviewed the complete Hangul system (19 consonants, 21 vowels) all at once
 - [ ] Read K-pop artist names in Hangul (방탄소년단, 블랙핑크, 뉴진스, and more)
