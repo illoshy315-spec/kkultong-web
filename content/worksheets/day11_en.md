@@ -354,8 +354,4 @@ Answer: ____
 
 ---
 
-> *"Next up: Day 12 — -기, -음, -스럽다, -롭다, -답다. The direction reverses: verbs and adjectives become nouns, and nouns become adjectives."*
-
-👉 **[Day 12: More Suffixes →](/worksheet/day12)**
-
 🔗 **kkultongkorea.com** | 📧 **kkultongkorea@gmail.com**
