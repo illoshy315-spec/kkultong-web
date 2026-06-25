@@ -12,10 +12,10 @@ export default function About() {
   return (
     <section className="max-w-3xl mx-auto px-6 py-24">
       <p className="text-sm font-semibold tracking-widest uppercase mb-4" style={{ color: "var(--amber)" }}>
-        Who We Are
+        The Story
       </p>
       <h1 className="text-4xl md:text-5xl font-black mb-10" style={{ color: "var(--gray)" }}>
-        For everyone who fell in love with Korea.
+        Real Korean. No textbooks.
       </h1>
       <div className="space-y-6 text-lg leading-relaxed" style={{ color: "var(--gray)" }}>
         <p>

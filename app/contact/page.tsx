@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 
 export const metadata: Metadata = {
   title: "Contact | Kkultong",
-  description: "Get in touch with the Kkultong team.",
+  description: "Have a question or a Korean drama recommendation? Drop us a line.",
   alternates: {
     canonical: "https://kkultongkorea.com/contact",
   },
@@ -15,7 +15,7 @@ export default function Contact() {
         Get in Touch
       </p>
       <h1 className="text-4xl font-black mb-10" style={{ color: "var(--gray)" }}>
-        Contact
+        Say 안녕
       </h1>
       <div className="space-y-4 text-lg" style={{ color: "var(--gray)" }}>
         <p>Have a question, suggestion, or just want to say 안녕?</p>

@@ -6,7 +6,7 @@ export default function Home() {
       {/* Hero */}
       <section className="min-h-[90vh] flex flex-col justify-center items-center text-center px-6 py-24" style={{ backgroundColor: "var(--background)" }}>
         <p className="text-sm font-semibold tracking-widest uppercase mb-6" style={{ color: "var(--amber)" }}>
-          Who We Are
+          Korean for fans
         </p>
         <h1 className="text-5xl md:text-7xl font-black mb-6 leading-tight" style={{ color: "var(--gray)" }}>
           For everyone who<br />
@@ -24,7 +24,7 @@ export default function Home() {
             className="px-8 py-4 rounded-full font-bold text-white text-lg transition-opacity hover:opacity-90"
             style={{ backgroundColor: "var(--amber)" }}
           >
-            Start Learning — Free
+            Start with Hangul — Free
           </Link>
         </div>
       </section>
