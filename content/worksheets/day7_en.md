@@ -458,7 +458,7 @@ Reference: Hangul spelling for major artists
 
 > *"Congratulations on finishing all 7 days! The writing system King Sejong designed — you can now read it."*
 >
-> *"Coming up next: Pronunciation rules — nasalisation, lateralisation, tensification, aspiration. We'll close the gap between what's written and what's actually said."*
+> *"Coming up next: Compound words — how Korean builds new words by combining two existing ones, and which combinations you can guess vs which ones have to be memorized."*
 
 → [Go to Day 8](/worksheet/day8)
 

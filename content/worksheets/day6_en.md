@@ -65,7 +65,7 @@ Korean diphthongs work the same way — except they follow clear, predictable pa
 
 ---
 
-## Three Types of Diphthongs
+## Four Types of Diphthongs
 
 Korean diphthongs fall into four groups:
 
