@@ -297,7 +297,7 @@ Context tells you which is which. Even native Korean speakers need the context.
 
 > **눈물**: 눈(eye) + 물(water). Day 8's star example of an opaque compound. "Eye water" isn't tears — the whole is not the sum of its parts. 눈물 appears in virtually every Korean ballad ever written.
 
-> **눈보라**: 눈(snow) + 보라. 보라 doesn't stand alone in modern Korean, but it carried the meaning of "something surging or swirling." A blizzard, in one word.
+> **눈보라**: 눈(snow) + 보라. 보라 doesn't stand alone in modern Korean. It's thought to come from 불다 (to blow) — snow that blows. A blizzard, in one word.
 
 ---
 

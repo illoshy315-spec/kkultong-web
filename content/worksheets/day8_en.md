@@ -19,7 +19,7 @@ Days 1–7 were about reading Hangul. Now it's time to dig into the **words** wr
 
 There's a difference between memorizing Korean words one by one and understanding how they're built. When you know the principles, you can make educated guesses about words you've never seen before. That's what this series is about.
 
-Days 8–9 cover compound words. Days 10–12 cover derived words.
+Days 8–9 cover compound words. Days 10–13 cover derived words.
 
 ---
 
@@ -292,50 +292,37 @@ All three are transparent — split them and the meaning is right there. But ins
 **Q1.** Which of these is a transparent compound? (You can guess the meaning from the parts)
 
 ```
-┌──────────────────────────┐
-│  ① 눈물                  │
-│  ② 발목                  │
-│  ③ 봄비                  │
-│  ④ 손목                  │
-└──────────────────────────┘
+A) 눈물
+B) 발목
+C) 봄비
+D) 손목
+Answer: ____
 ```
-
----
 
 **Q2.** 겨울(winter) + 잠(sleep) = _______ → what's the English word?
 
 ```
-┌──────────────────────────┐
-│                          │
-│  Answer: ___________     │
-│                          │
-└──────────────────────────┘
+Answer: ___________
 ```
-
----
 
 **Q3.** Which statement about compound words is correct?
 
 ```
-┌─────────────────────────────────────────────────────────────────┐
-│  ① All Korean compound words can be figured out from their parts │
-│  ② All compound words have to be memorized                      │
-│  ③ Two words combine to make a new word                         │
-│  ④ Only nouns can form compound words                           │
-└─────────────────────────────────────────────────────────────────┘
+A) All Korean compound words can be figured out from their parts
+B) All compound words have to be memorized
+C) Two words combine to make a new word
+D) Only nouns can form compound words
+Answer: ____
 ```
-
----
 
 **Q4.** The word 목 (neck) appears in both 손목 (wrist) and 발목 (ankle). What does 목 mean in this context?
 
 ```
-┌─────────────────────────────────┐
-│  ① voice                        │
-│  ② a narrow connecting part     │
-│  ③ goal                         │
-│  ④ to eat                       │
-└─────────────────────────────────┘
+A) voice
+B) a narrow connecting part
+C) goal
+D) to eat
+Answer: ____
 ```
 
 ---
@@ -374,7 +361,7 @@ Q4: ②
 
 ---
 
-## What You Learned Today
+## Day 8 Checklist
 
 - [ ] Compound word = two words combining to make a new word / derived word = word + affix
 - [ ] Korean grammar classifies compounds by structure (syntactic/non-syntactic) and meaning (coordinate/subordinate/fusion)

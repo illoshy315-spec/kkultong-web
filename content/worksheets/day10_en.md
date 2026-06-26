@@ -165,7 +165,7 @@ Both mean *new* or *fresh*, but attach to different things.
 날- + 계란 = 날계란  raw egg
 ```
 
-> **날씨**: Some trace this back to 날- + 씨(氣), something like "the raw state of the sky." Today it simply means *weather* — no sense of "raw" remains. Words drift away from their origins.
+> **날씨**: The 날 here most likely comes from 날(day), not the prefix 날-(raw) — the etymology is debated, but 날씨 simply means *weather* today. It's listed here as a curiosity: even a word that looks like a prefix compound may have a different story underneath.
 
 ---
 
@@ -274,7 +274,7 @@ Stems and endings are fully covered in Series 3. For today, "a suffix attaches t
 울다  (울- + -다, to cry)   → 울- + -음 = 울음  crying          (verb → action noun)
 죽다  (죽- + -다, to die)   → 죽- + -음 = 죽음  death           (verb → action noun)
 믿다  (믿- + -다, to trust) → 믿- + -음 = 믿음  belief, trust   (verb → state noun)
-살다  (살- + -다, to live)  → 살- + -음 = 삶    life            (verb → action noun, ㄹ shifts)
+살다  (살- + -다, to live)  → 살- + -ㅁ = 삶    life            (verb → noun, ㄹ+ㅁ merge into ㄻ)
 ```
 
 > **웃음소리**: Day 9's X+소리 pattern + today's -음 suffix working together. 웃다 → 웃음 (noun) → 웃음소리 (compound). The patterns connect.
