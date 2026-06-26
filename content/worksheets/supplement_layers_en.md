@@ -58,7 +58,7 @@ Words that have been in Korean since before Chinese characters arrived on the pe
 아이    child          사람    person         나무    tree
 ```
 
-**Structurally**: native Korean words have no Chinese character roots and cannot be broken down into smaller meaningful units the way Sino-Korean words can. Each word is a single, indivisible unit.
+**Structurally**: native Korean words have no Chinese character roots. Unlike Sino-Korean words, they don't carry meaning at the individual character level — there's no sub-unit that transfers across words the way 학(學) does in 학교·학생·학습. Native Korean words can form compound words (봄+비=봄비), but the building blocks don't carry portable meaning on their own.
 
 **Register**: native Korean tends to appear in everyday conversation, personal and emotional contexts, and song lyrics. K-pop ballads lean heavily on it — 하늘, 바람, 마음, 눈물. This isn't a rule you apply consciously; it's a pattern you'll absorb through exposure.
 

@@ -80,7 +80,7 @@ Korean plural marking is optional. The suffix **-들** exists, but leaving it of
 먹어들 봐.      → "Everyone try eating it"
 ```
 
-This distinctive usage of -들 is covered in detail in Series 2.
+This distinctive usage of -들 is covered in detail in Series 3.
 
 ---
 
@@ -174,7 +174,7 @@ What makes it harder is **counter words** (단위명사). Korean requires a coun
 
 English says "three apples" — number directly before noun, no counter. Korean not only requires counters but pairs them with a specific number system (native vs. Sino-Korean), and which system to use depends on the counter.
 
-Numbers and counter words are one of the most consistently challenging areas for Korean learners. The full breakdown is in the Reference — Numbers section.
+Numbers and counter words are one of the most consistently challenging areas for Korean learners. A full breakdown is planned for a dedicated Numbers reference.
 
 ---
 
@@ -290,7 +290,7 @@ Adnominals attach directly before nouns. Unlike adjectives, **their form never c
 여러 나라 / 온갖 것                       (여러 = various, 온갖 = all kinds of)
 ```
 
-You can't say "새다," "헌다," or "모든다." They have no conjugated forms — they never change at all.
+새, 헌, and 모든 have no conjugated forms — they never change at all. You can't add verb endings to them: "헌다" and "모든다" don't exist.
 
 **These are similar to English "determiners."**
 
