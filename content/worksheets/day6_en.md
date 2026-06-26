@@ -660,7 +660,7 @@ After reading: which word was the trickiest to pronounce?
 
 ---
 
-## What You Learned Today
+## Day 6 Checklist
 
 - [ ] A diphthong is a vowel where your mouth shape shifts while the sound plays
 - [ ] 4 y-series vowels: ㅑ[ja] ㅕ[jʌ] ㅛ[jo] ㅠ[ju] — glide [j] + monophthong

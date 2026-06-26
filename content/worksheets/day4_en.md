@@ -455,15 +455,15 @@ Only aspirated consonants (ㅋ ㅌ ㅍ ㅊ) should produce a breeze on your hand
 
 ---
 
-## What You Learned Today
+## Day 4 Checklist
 
-- [x] Korean consonants have **three levels**: plain · aspirated · tense
-- [x] Tense consonants are produced by **tensing the glottis** — no aspiration at all
-- [x] The 5 double consonants: ㄲ[k͈] ㄸ[t͈] ㅃ[p͈] ㅆ[s͈] ㅉ[t͈ɕ] — each one is just a plain consonant written twice
-- [x] ㄴ ㄹ ㅁ ㅇ have no tense counterparts
-- [x] Hand test: only aspirated consonants produce a breeze — tense consonants give you a crisp pop with no air
-- [x] Minimal pairs: 가다/까다 (peel), 사다/싸다, 자다/짜다 — one tense consonant flips the meaning entirely
-- [x] All 19 consonants (9 plain + 5 aspirated + 5 tense) organized into one complete chart
+- [ ] Korean consonants have **three levels**: plain · aspirated · tense
+- [ ] Tense consonants are produced by **tensing the glottis** — no aspiration at all
+- [ ] The 5 double consonants: ㄲ[k͈] ㄸ[t͈] ㅃ[p͈] ㅆ[s͈] ㅉ[t͈ɕ] — each one is just a plain consonant written twice
+- [ ] ㄴ ㄹ ㅁ ㅇ have no tense counterparts
+- [ ] Hand test: only aspirated consonants produce a breeze — tense consonants give you a crisp pop with no air
+- [ ] Minimal pairs: 가다/까다 (peel), 사다/싸다, 자다/짜다 — one tense consonant flips the meaning entirely
+- [ ] All 19 consonants (9 plain + 5 aspirated + 5 tense) organized into one complete chart
 
 ---
 

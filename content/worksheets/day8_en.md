@@ -292,37 +292,50 @@ All three are transparent — split them and the meaning is right there. But ins
 **Q1.** Which of these is a transparent compound? (You can guess the meaning from the parts)
 
 ```
-A) 눈물
-B) 발목
-C) 봄비
-D) 손목
-Answer: ____
+┌──────────────────────────────┐
+│  A) 눈물                     │
+│  B) 발목                     │
+│  C) 봄비                     │
+│  D) 손목                     │
+│                              │
+│  Answer: ____                │
+└──────────────────────────────┘
 ```
 
 **Q2.** 겨울(winter) + 잠(sleep) = _______ → what's the English word?
 
 ```
-Answer: ___________
+┌──────────────────────────────┐
+│                              │
+│  Answer: ___________         │
+│                              │
+└──────────────────────────────┘
 ```
 
 **Q3.** Which statement about compound words is correct?
 
 ```
-A) All Korean compound words can be figured out from their parts
-B) All compound words have to be memorized
-C) Two words combine to make a new word
-D) Only nouns can form compound words
-Answer: ____
+┌──────────────────────────────────────────────────────────────────┐
+│  A) All Korean compound words can be figured out from their parts │
+│  B) All compound words have to be memorized                      │
+│  C) Two words combine to make a new word                         │
+│  D) Only nouns can form compound words                           │
+│                                                                  │
+│  Answer: ____                                                    │
+└──────────────────────────────────────────────────────────────────┘
 ```
 
 **Q4.** The word 목 (neck) appears in both 손목 (wrist) and 발목 (ankle). What does 목 mean in this context?
 
 ```
-A) voice
-B) a narrow connecting part
-C) goal
-D) to eat
-Answer: ____
+┌──────────────────────────────┐
+│  A) voice                    │
+│  B) a narrow connecting part │
+│  C) goal                     │
+│  D) to eat                   │
+│                              │
+│  Answer: ____                │
+└──────────────────────────────┘
 ```
 
 ---

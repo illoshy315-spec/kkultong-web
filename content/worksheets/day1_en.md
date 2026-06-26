@@ -679,19 +679,19 @@ Now it's your turn:
 
 ---
 
-## What You Learned Today
+## Day 1 Checklist
 
-- [x] Hangul was created in 1443, **proclaimed in 1446** — designed personally by King Sejong
-- [x] It was created in the face of strong opposition from government officials
-- [x] The Hunminjeongeum Haerye has preserved the design principles for 580 years
-- [x] Hangul uses **block assembly (모아쓰기)** — 초성·중성·종성 assembled inside a square
-- [x] **Consonants** go in the 초성 and 종성 slots; **vowels** go in the 중성 slot
-- [x] Consonants were modeled on **the shape of speech organs**; vowels on **Heaven·Earth·Humanity (천지인)**
-- [x] We dissected real words into their 초성·중성·종성 components
-- [x] Vowels divide into vertical (placed right) and horizontal (placed below)
-- [x] Batchim adds a third floor to a character (종성)
-- [x] We used the color traffic light to visually map out character structure
-- [x] You wrote **'가 [ka]'** with your own hand
+- [ ] Hangul was created in 1443, **proclaimed in 1446** — designed personally by King Sejong
+- [ ] It was created in the face of strong opposition from government officials
+- [ ] The Hunminjeongeum Haerye has preserved the design principles for 580 years
+- [ ] Hangul uses **block assembly (모아쓰기)** — 초성·중성·종성 assembled inside a square
+- [ ] **Consonants** go in the 초성 and 종성 slots; **vowels** go in the 중성 slot
+- [ ] Consonants were modeled on **the shape of speech organs**; vowels on **Heaven·Earth·Humanity (천지인)**
+- [ ] We dissected real words into their 초성·중성·종성 components
+- [ ] Vowels divide into vertical (placed right) and horizontal (placed below)
+- [ ] Batchim adds a third floor to a character (종성)
+- [ ] We used the color traffic light to visually map out character structure
+- [ ] You wrote **'가 [ka]'** with your own hand
 
 ---
 

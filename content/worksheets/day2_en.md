@@ -593,18 +593,18 @@ Low                                ㅏ
 
 ---
 
-## What You Learned Today
+## Day 2 Checklist
 
-- [x] No vowel = no syllable — the vowel is the nucleus at the heart of every syllable
-- [x] ㆍ (Arae-a) was an independent vowel in the 15th century, now extinct — survives only in the Jeju dialect
-- [x] Three basic shapes (ㆍ Sky, ㅡ Earth, ㅣ Human) design 6 core vowels — the **Cheonjiin principle**
-- [x] 6 basics + 4 ㅣ-blends (ㅐ ㅔ ㅚ ㅟ) = **10 simple vowels**
-- [x] Vowels are classified by tongue front-to-back, tongue height, and lip shape — the **vowel chart**
-- [x] ㅚ and ㅟ are officially simple vowels but are actively becoming diphthongs in modern speech
-- [x] ㅐ and ㅔ are technically distinct but most modern speakers merge them
-- [x] Vertical vowels (ㅏ ㅐ ㅓ ㅔ ㅣ) go to the **right** of the consonant; horizontal vowels (ㅗ ㅚ ㅜ ㅟ ㅡ) go **below**
-- [x] Initial ㅇ is a silent placeholder — it holds the spot so the block can be complete
-- [x] You practiced the Cheonjiin stroke order: ㅡ → ㅣ → ㅏ → ㅗ
+- [ ] No vowel = no syllable — the vowel is the nucleus at the heart of every syllable
+- [ ] ㆍ (Arae-a) was an independent vowel in the 15th century, now extinct — survives only in the Jeju dialect
+- [ ] Three basic shapes (ㆍ Sky, ㅡ Earth, ㅣ Human) design 6 core vowels — the **Cheonjiin principle**
+- [ ] 6 basics + 4 ㅣ-blends (ㅐ ㅔ ㅚ ㅟ) = **10 simple vowels**
+- [ ] Vowels are classified by tongue front-to-back, tongue height, and lip shape — the **vowel chart**
+- [ ] ㅚ and ㅟ are officially simple vowels but are actively becoming diphthongs in modern speech
+- [ ] ㅐ and ㅔ are technically distinct but most modern speakers merge them
+- [ ] Vertical vowels (ㅏ ㅐ ㅓ ㅔ ㅣ) go to the **right** of the consonant; horizontal vowels (ㅗ ㅚ ㅜ ㅟ ㅡ) go **below**
+- [ ] Initial ㅇ is a silent placeholder — it holds the spot so the block can be complete
+- [ ] You practiced the Cheonjiin stroke order: ㅡ → ㅣ → ㅏ → ㅗ
 
 ---
 

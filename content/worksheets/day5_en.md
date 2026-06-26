@@ -532,14 +532,14 @@ Batchim options: **ㄱ  ㄴ  ㄹ  ㅁ  ㅂ  ㅇ**
 
 ---
 
-## What You Learned Today
+## Day 5 Checklist
 
-- [x] 받침 (batchim / final consonant) is the consonant that sits in the bottom layer of a Hangul block
-- [x] Regardless of which consonant is written, batchim always produces one of **7 sounds**
-- [x] Initial ㅇ is silent [∅]; final ㅇ is [ŋ] — same letter, two totally different sounds
-- [x] Linking (연음): when batchim is followed by a vowel, it slides over to become the initial consonant of the next syllable
-- [x] Double batchim (겹받침): two consonants in the batchim slot — only one gets pronounced
-- [x] The 5 most common double batchim: ㄺ[k̚] ㄻ[m] ㄼ[l] ㄾ[l] ㅄ[p̚]
+- [ ] 받침 (batchim / final consonant) is the consonant that sits in the bottom layer of a Hangul block
+- [ ] Regardless of which consonant is written, batchim always produces one of **7 sounds**
+- [ ] Initial ㅇ is silent [∅]; final ㅇ is [ŋ] — same letter, two totally different sounds
+- [ ] Linking (연음): when batchim is followed by a vowel, it slides over to become the initial consonant of the next syllable
+- [ ] Double batchim (겹받침): two consonants in the batchim slot — only one gets pronounced
+- [ ] The 5 most common double batchim: ㄺ[k̚] ㄻ[m] ㄼ[l] ㄾ[l] ㅄ[p̚]
 
 ---
 

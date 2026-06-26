@@ -525,17 +525,17 @@ Fill in the missing consonants to build each word.
 
 ---
 
-## What You Learned Today
+## Day 3 Checklist
 
-- [x] Consonants were **drawn from the shapes inside the mouth during pronunciation** — a design principle found nowhere else in the world
-- [x] Mouth anatomy front to back: 입술 (lips) → 잇몸 (alveolar) → 경구개 (hard palate) → 연구개 (soft palate) → 목구멍 (glottis)
-- [x] The 5 base shapes at each position: ㅁ (lips), ㄴ (alveolar), ㅅ (alveolar/teeth), ㄱ (soft palate), ㅇ (glottis)
-- [x] 9 plain consonants: ㄱ ㄴ ㄷ ㄹ ㅁ ㅂ ㅅ ㅇ ㅈ
-- [x] 5 aspirated consonants: ㅋ ㅌ ㅍ ㅊ ㅎ — plain consonants plus a **burst of air (기식)**
-- [x] Plain → aspirated corresponds to **adding one extra stroke** to the letter
-- [x] ㄱ ㄷ ㅂ ㅈ are voiceless at the start of a word, voiced between vowels
-- [x] ㄹ is [ɾ] (a flap) between vowels, and [l] in the final position
-- [x] Tense consonants (ㄲ ㄸ ㅃ ㅆ ㅉ) are coming Next up
+- [ ] Consonants were **drawn from the shapes inside the mouth during pronunciation** — a design principle found nowhere else in the world
+- [ ] Mouth anatomy front to back: 입술 (lips) → 잇몸 (alveolar) → 경구개 (hard palate) → 연구개 (soft palate) → 목구멍 (glottis)
+- [ ] The 5 base shapes at each position: ㅁ (lips), ㄴ (alveolar), ㅅ (alveolar/teeth), ㄱ (soft palate), ㅇ (glottis)
+- [ ] 9 plain consonants: ㄱ ㄴ ㄷ ㄹ ㅁ ㅂ ㅅ ㅇ ㅈ
+- [ ] 5 aspirated consonants: ㅋ ㅌ ㅍ ㅊ ㅎ — plain consonants plus a **burst of air (기식)**
+- [ ] Plain → aspirated corresponds to **adding one extra stroke** to the letter
+- [ ] ㄱ ㄷ ㅂ ㅈ are voiceless at the start of a word, voiced between vowels
+- [ ] ㄹ is [ɾ] (a flap) between vowels, and [l] in the final position
+- [ ] Tense consonants (ㄲ ㄸ ㅃ ㅆ ㅉ) are coming Next up
 
 ---
 
