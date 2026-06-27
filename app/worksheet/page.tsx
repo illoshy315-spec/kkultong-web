@@ -40,11 +40,12 @@ const worksheets: WorksheetEntry[] = [
   { day: 10, title: "파생어 1 — 접두사·접미사", subtitle: "Prefixes & Suffixes — One Addition, Many New Words", description: "How Korean builds new words by adding prefixes (초-, 한-, 늦-, 새-, 맨-, 날-) and suffixes (-이, -개, -음). One pattern, dozens of new words.", available: true },
   { day: 11, title: "파생어 2 — -하다/-되다", subtitle: "One Noun, Instant Verb or Adjective", description: "Korean -하다 and -되다 turn any noun into a verb or adjective. 공부하다, 행복하다, 해결되다 — one pattern, dozens of new words.", available: true },
   { day: 12, title: "파생어 3 — 품사 바꾸기", subtitle: "Changing Parts of Speech", description: "Korean turns verbs into nouns with -기 and -음, and nouns into adjectives with -스럽다, -롭다, and -답다. One pattern per suffix — dozens of new words.", available: true },
-  { day: 13, title: "동사가 마지막에 오는 이유 — 나는 너를 사랑해", subtitle: "Why the Verb Comes Last", description: "Coming soon", available: false },
-  { day: 14, title: "조사 — 영어에 없는 것", subtitle: "Particles: What English Doesn't Have", description: "Coming soon", available: false },
-  { day: 15, title: "화제와 주어 — 은/는 vs 이/가", subtitle: "Topic vs. Subject", description: "Coming soon", available: false },
-  { day: 16, title: "대명사와 축약형", subtitle: "Pronouns & Contractions", description: "Coming soon", available: false },
-  { day: 17, title: "장소·방향·관계 — 나머지 조사들", subtitle: "Place, Direction & Relationships", description: "Coming soon", available: false },
+  { day: 13, title: "파생어 4 — 한자어 접미사", subtitle: "Sino-Korean Suffixes: -적, -성, -화", description: "Three Chinese-origin suffixes that work across any vocabulary domain — -적(的), -성(性), -화(化). Learn three patterns, recognize dozens of words.", available: true },
+  { day: 14, title: "동사가 마지막에 오는 이유 — 나는 너를 사랑해", subtitle: "Why the Verb Comes Last", description: "Coming soon", available: false },
+  { day: 15, title: "조사 — 영어에 없는 것", subtitle: "Particles: What English Doesn't Have", description: "Coming soon", available: false },
+  { day: 16, title: "화제와 주어 — 은/는 vs 이/가", subtitle: "Topic vs. Subject", description: "Coming soon", available: false },
+  { day: 17, title: "대명사와 축약형", subtitle: "Pronouns & Contractions", description: "Coming soon", available: false },
+  { day: 18, title: "장소·방향·관계 — 나머지 조사들", subtitle: "Place, Direction & Relationships", description: "Coming soon", available: false },
 ];
 
 export default function Worksheet() {
