@@ -427,6 +427,8 @@ Answer: ____
 
 ---
 
-> *"Next up: Derived Words 4 — Sino-Korean suffixes. Three suffixes — -적(的), -성(性), -화(化) — unlock half of Korean vocabulary."*
+> *"Next up: Derived Words 4 — Sino-Korean suffixes. Three suffixes — -적(的), -성(性), -화(化) — unlock dozens of Korean words at once."*
+
+👉 **[Day 13: Sino-Korean Suffixes →](/worksheet/day13)**
 
 🔗 **kkultongkorea.com** | 📧 **kkultongkorea@gmail.com**
