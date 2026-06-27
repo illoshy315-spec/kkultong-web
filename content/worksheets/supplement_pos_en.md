@@ -80,7 +80,7 @@ Korean plural marking is optional. The suffix **-들** exists, but leaving it of
 먹어들 봐.      → "Everyone try eating it"
 ```
 
-This distinctive usage of -들 is covered in detail in Series 2.
+This distinctive usage of -들 is covered in detail in Series 3.
 
 ---
 
