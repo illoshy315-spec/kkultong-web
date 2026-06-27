@@ -35,7 +35,9 @@ Different starting point, opposite direction. Day 13 adds one more layer — and
 
 About 60% of Korean vocabulary comes from Chinese-origin roots, written in Hangul but built from Chinese characters (한자). The characters carry meaning, and that meaning travels into Korean words even when the characters aren't visible.
 
-Three suffixes — -적, -성, -화 — each come from a single Chinese character, and each does a specific job.
+There are dozens of Sino-Korean suffixes. -원(員): 직원, 회원 (members of a group). -가(家): 전문가, 음악가 (experts, specialists). -인(人): 한국인, 외국인 (people). -도(度): 온도, 속도 (degrees, rates). Most of these work within a specific semantic domain — 원 makes members, 가 makes experts, 인 makes people.
+
+The three suffixes you're learning today are different.
 
 ```
 的 → -적   "of that kind, -ic, -al"
@@ -43,7 +45,12 @@ Three suffixes — -적, -성, -화 — each come from a single Chinese characte
 化 → -화   "transformation, -ize, -ization"
 ```
 
-Learn these three and dozens of words fall into place at once.
+These three do a **grammatical job**:
+- -적 turns **any noun** into an adjective form
+- -성 turns **any noun** into an abstract quality noun
+- -화 turns **any noun** into a process noun
+
+They don't care about semantic domain. That's why knowing these three lets you recognize dozens of words at once.
 
 ---
 
