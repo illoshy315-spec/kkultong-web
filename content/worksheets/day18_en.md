@@ -1,5 +1,5 @@
 ---
-day: 17
+day: 18
 title: "Place, Direction & Relationships — The Rest of the Particles"
 subtitle: "에 vs 에서, (으)로, 하고·와/과, 도, 만, 한테·에게"
 seo_title: "Korean Particles 에 에서 (으)로 하고 도 만 한테 Explained | Kkultong Day 11"

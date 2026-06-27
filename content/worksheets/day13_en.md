@@ -1,266 +1,268 @@
 ---
-day: 13
-title: "Why the Verb Comes Last — 나는 너를 사랑해"
-subtitle: "Korean word order is the opposite of English — and that's a feature, not a bug"
-seo_title: "Korean Word Order SOV Explained: Why the Verb Comes Last | Kkultong Day 8"
-seo_description: "Every Korean sentence ends with the verb. Learn why — and how particles make flexible word order possible. Free worksheet, no signup needed."
+title: "Derived Words 4 — Sino-Korean Suffixes"
+subtitle: "Three suffixes that unlock hundreds of words"
+seo_title: "Korean -적 -성 -화 Explained: Day 13 — Sino-Korean Suffixes | Kkultong"
+seo_description: "Three Chinese-origin suffixes — -적(的), -성(性), -화(化) — unlock hundreds of Korean words. 한국적, 가능성, 세계화. Free worksheet for K-drama and K-pop fans."
 type: worksheet
-series: "Korean Sentences: How They Work and Why (Series 2)"
-duration: "45–55 min"
-created: 2026-06-18
-updated: 2026-06-19
+series: "Series 2 — Korean Words"
+day: 13
+duration: "40–50 min"
+created: 2026-06-27
 status: draft
 ---
 
-## Before We Start: That Line
+# Day 13. Derived Words 4 — Sino-Korean Suffixes
 
-Imagine you're watching a K-drama and you hear this:
+## Quick Review: Day 12
 
-```
-나는 너를 사랑해.
-[na-neun / neo-reul / sa-rang-hae]
-I / you / love
-```
+Day 12 went in two directions from a single starting point:
 
-You finished Series 1, so you can read Hangul now. You catch all three words. But the order feels off:
+> **먹다** + -기 = 먹기 (eating, as an activity)
+>
+> **믿다** + -음 = 믿음 (faith, belief)
+>
+> **사랑** + -스럽다 = 사랑스럽다 (lovely, adorable)
+>
+> **자유** + -롭다 = 자유롭다 (free)
 
-> **"I — you — love?"**
-
-In English: **"I love you"** — I, **love**, you.
-In Korean: **"I you love"** — the verb comes *last*.
-
-This isn't an exception. **Every Korean sentence ends with the verb.**
+Day 13 adds one more layer — and this one comes from Chinese.
 
 ---
 
-## Two Languages, Two Word Orders
+## A Different Kind of Word
 
-English is an **SVO** language:
+About 60% of Korean vocabulary comes from Chinese-origin roots, written in Hangul but built from Chinese characters (한자). The characters carry meaning, and that meaning travels into Korean words even when the characters aren't visible.
 
-```
-Subject → Verb   → Object
-I       → love   → you
-나        사랑해    너
-```
-
-The verb sits in the middle. **Position determines role.**
-
-The rule is simple: the word **before** the verb is the subject, the word **after** the verb is the object.
-
-- *I love you* → I (before verb) = subject → I'm the one doing the loving
-- *You love me* → You (before verb) = subject → now you're the one doing the loving
-
-Change the order and you change the meaning.
-
-Korean is an **SOV** language:
+Three suffixes — -적, -성, -화 — each come from a single Chinese character, and each does a specific job.
 
 ```
-Subject → Object → Verb
-나는    → 너를   → 사랑해
-I          you      love
+的 → -적   "of that kind, -ic, -al"
+性 → -성   "quality, property, -ity, -ness"
+化 → -화   "transformation, -ize, -ization"
 ```
 
-The verb always comes at the very end.
-
-```
-English:  I      love    you
-          주어   동사    목적어
-
-Korean:   나는   너를    사랑해
-          주어   목적어  서술어 (verb)
-```
-
-> **A Korean sentence isn't complete until the very last word arrives.**
+Learn these three patterns and dozens of formal vocabulary words immediately make sense.
 
 ---
 
-## ✏️ Activity 1: Build the Sentence
+## 1. -적(的): "Of That Kind"
 
-The words below are scrambled. Put them in the correct Korean order.
-*(Remember: the verb always comes last.)*
+The suffix -적 attaches to a noun and turns it into an adjective. It's what English does with **-ic**, **-al**, and **-ical**.
 
 ```
-1. [ 사랑해 / 나는 / 너를 ]
-   Answer: _______________________
+전통 (tradition)  + 적 = 전통적   traditional
+현대 (modern age) + 적 = 현대적   modern, contemporary
+문화 (culture)    + 적 = 문화적   cultural
+개인 (individual) + 적 = 개인적   personal
+경제 (economy)    + 적 = 경제적   economic
+```
 
-2. [ 마셔요 / 커피를 / 언니가 ]
-   Answer: _______________________
+**Three ways to use -적:**
 
-3. [ 배워요 / 한국어를 / 우리가 ]
-   Answer: _______________________
+*Before a noun* — add -인:
+```
+전통적인 방식      traditional method
+개인적인 생각      personal opinion
+현대적인 디자인    modern design
+```
 
-4. [ 먹어요 / 오빠가 / 밥을 ]
-   Answer: _______________________
+*As a predicate* — add -이다/-이에요:
+```
+이 노래는 굉장히 감성적이에요.   This song is very emotional/sentimental.
+그 느낌이 한국적이에요.           That feeling is distinctly Korean.
+```
+
+*As an adverb* — add -으로:
+```
+경제적으로 어렵다.      economically difficult
+문화적으로 중요한 곳    a culturally important place
 ```
 
 ---
 
-## Korean Spacing
+## ✏️ Activity 1 — Decode the Word
 
-Now that you're writing full sentences, there's a spacing rule you need to know.
-
-Korean puts spaces between words — just like English.
+Each word below uses -적. Split it into its parts and write the English meaning. Clues are given.
 
 ```
-나는  너를  사랑해.
- ↑     ↑     ↑
-word  word  word — space between each
-```
-
-But there's one difference from English:
-
-**Rule 1:** Put a space between words.
-**Rule 2:** Particles attach directly to the word before them — no space.
-
-```
-나는  =  나 + 는  →  NO SPACE
-너를  =  너 + 를  →  NO SPACE
-```
-
-So what exactly is a particle?
-
----
-
-## Particles — Why Korean Word Order Is Flexible
-
-In English, changing the word order changes the meaning.
-In Korean, all three of these sentences mean the same thing:
-
-```
-나는 너를 사랑해.   →  I love you.  (standard order)
-너를 나는 사랑해.   →  I love you.  (order swapped)
-사랑해, 나는 너를.  →  I love you.  (swapped again)
-```
-
-Why? Because of **조사 [jo-sa]** — particles.
-
-A particle attaches directly after a noun and marks its role in the sentence — no matter where it appears.
-
-```
-나는  =  나 + 는  →  marks 나 as the subject
-너를  =  너 + 를  →  marks 너 as the object
-```
-
-In English, **word order** does this job. In Korean, **particles** do it instead.
-
-### Key Particles at a Glance
-
-| Role | Particle | Example |
-|------|----------|---------|
-| Subject (topic) | 은, 는 | 나**는**, 선생님**은** |
-| Subject (focus) | 이, 가 | 고양이**가**, 친구**가** |
-| Object | 을, 를 | 밥**을**, 너**를** |
-| Location / direction | 에, 에서 | 학교**에**, 집**에서** |
-| Recipient | 에게, 한테 | 친구**에게**, 나**한테** |
-| Start / end point | 부터, 까지 | 월요일**부터** 금요일**까지** |
-
-Each particle gets its own deep dive starting Day 9. For now, just know: these are the small words that attach to nouns and tell you what role they play.
-
----
-
-## ✏️ Activity 2: Spacing Practice
-
-The spacing has been removed from each sentence below. Rewrite them correctly.
-*(Spaces between words. Particles stay attached to their noun — no space.)*
-
-```
-1. 언니가커피를마셔요.
-   Answer: _______________________
-
-2. 나는한국어를공부해요.
-   Answer: _______________________
-
-3. 저는학교에서배워요.
-   Answer: _______________________
+Word       Clue (base noun)             Base noun   Suffix   English meaning
+사회적     (사회 = society)             ________    ________  _______________
+심리적     (심리 = mind, psychology)    ________    ________  _______________
+역사적     (역사 = history)             ________    ________  _______________
+예술적     (예술 = art)                 ________    ________  _______________
+정치적     (정치 = politics)            ________    ________  _______________
 ```
 
 ---
 
-## The Three Parts of a Korean Sentence
+## 2. -성(性): Quality and Property
 
-| English | Korean | Role |
-|---------|--------|------|
-| Subject | 주어 [ju-eo] | Who or what the sentence is about |
-| Object | 목적어 [mok-jik-eo] | The thing receiving the action |
-| Predicate | 서술어 [seo-sul-eo] | The action or state — **always last** |
+The suffix -성 turns a noun into an **abstract noun** that names a quality or property. It maps onto English **-ity**, **-ness**, or **-cy**.
 
 ```
-나는       너를        사랑해
-주어       목적어       서술어
-Subject   Object    Predicate
-  I          you        love
+가능 (possible)     + 성 = 가능성   possibility
+중요 (important)    + 성 = 중요성   importance
+창의 (creative)     + 성 = 창의성   creativity
+안전 (safe)         + 성 = 안전성   safety
+효율 (efficient)    + 성 = 효율성   efficiency
+지속 (continuous)   + 성 = 지속성   continuity, sustainability
+신뢰 (trustworthy)  + 성 = 신뢰성   reliability
 ```
 
-One important difference from English: in Korean, the predicate can be a verb *or* an **adjective**. Both go at the end.
+When you see -성 at the end of a word, you're looking at an abstract noun — a quality, not a thing.
 
-```
-고양이가   귀여워요.
-주어       서술어 (adjective as predicate)
-The cat    is cute.
-```
-
-Notice there's no separate "is" in Korean. English needs a be-verb (*The cat **is** cute*), but Korean adjectives conjugate on their own — 귀여워요 already means "is cute." No extra word needed. Day 16 covers this in full.
-
-One rule: **the predicate always closes the sentence.**
+> **이 제품의 안전성을 먼저 확인해야 해요.**
+> (The safety of this product needs to be confirmed first.)
+>
+> — the kind of line you'd hear in a K-drama product liability scene.
 
 ---
 
-## ✏️ Activity 3: Sentence Analysis
+## ✏️ Activity 2 — Build the Word
 
-Break each sentence into subject, object, and predicate.
-*(Some sentences have no object — that's fine.)*
+Attach -성 to each base word. Write the result and the English meaning.
 
 ```
-1. 오빠가 밥을 먹어요.
-   [op-pa-ga / bab-eul / meok-eo-yo]
-
-   Subject:   ___________
-   Object:    ___________
-   Predicate: ___________
-
-2. 우리가 한국어를 배워요.
-   [u-ri-ga / han-guk-eo-reul / bae-wo-yo]
-
-   Subject:   ___________
-   Object:    ___________
-   Predicate: ___________
-
-3. 하늘이 파래요.
-   [ha-neul-i / pa-rae-yo]
-
-   Subject:   ___________
-   Object:    ___________ (none)
-   Predicate: ___________
+Base word               + -성      English meaning
+유연 (flexible)         ________   _______________
+다양 (diverse)          ________   _______________
+필요 (necessary)        ________   _______________
+정확 (accurate)         ________   _______________
+독립 (independent)      ________   _______________
 ```
 
 ---
 
-## Mini Quiz: Day 8
+## 3. -화(化): Transformation
 
-**Q1.** What type of word order does Korean use?
+The suffix -화 creates a noun meaning "the process of becoming" or "making something into." It's what English does with **-ize** and **-ization**.
+
 ```
-A) SVO   B) VSO   C) SOV   D) OVS
+세계 (world)        + 화 = 세계화    globalization
+현대 (modern)       + 화 = 현대화    modernization
+자동 (automatic)    + 화 = 자동화    automation
+민주 (democratic)   + 화 = 민주화    democratization
+도시 (city)         + 화 = 도시화    urbanization
+디지털              + 화 = 디지털화  digitalization
+```
+
+-화 can even attach to foreign loanwords — 디지털화, 영어화 (Englishization) — if a transformation process has a name, -화 can describe it.
+
+**Pair with 하다 or 되다:**
+
+```
+자동화하다   →  to automate something  (active: someone is doing it)
+자동화되다   →  to become automated    (passive: it's happening)
+
+세계화하다   →  to globalize something
+세계화되다   →  to become globalized
+```
+
+---
+
+## ✏️ Activity 3 — Guess the Meaning
+
+Work out what each word means using the base word clue.
+
+```
+Word      Base word                        Meaning
+산업화    산업 (industry)                  _______________
+서양화    서양 (the Western world)         _______________
+국제화    국제 (international)             _______________
+전문화    전문 (specialty, expertise)      _______________
+일상화    일상 (everyday life, routine)    _______________
+영어화    영어 (English)                   _______________
+```
+
+---
+
+## Pattern Summary
+
+| Suffix | Origin | Creates | English equivalent |
+|--------|--------|---------|-------------------|
+| -적(的) | Chinese 的 | adjective-like word | -ic, -al, -ical |
+| -성(性) | Chinese 性 | abstract noun | -ity, -ness, -cy |
+| -화(化) | Chinese 化 | process noun (+하다/-되다) | -ize, -ization |
+
+**At a glance:**
+
+```
+-적: 한국적인 음식 / 개인적이에요 / 문화적으로
+-성: 가능성이 있다 / 창의성이 중요하다
+-화: 세계화가 빠르다 / 자동화하다 / 도시화되다
+```
+
+---
+
+## ✏️ Activity 4 — Fill in the Blank
+
+Fill each blank with the correct form: **-적인**, **-성**, or **-화**.
+
+```
+1. 이 그림은 굉장히 예술_______  작품이에요.
+   (This is a highly artistic work.)
+
+2. 그 계획의 가능_______  을 먼저 확인해봐요.
+   (Let's check the possibility of that plan first.)
+
+3. 공장 자동_______  가 빠르게 진행되고 있어요.
+   (Factory automation is progressing quickly.)
+
+4. 그건 완전히 개인_______  문제예요.
+   (That's entirely a personal matter.)
+
+5. 팀원들의 창의_______  이 이 프로젝트의 핵심이에요.
+   (The team members' creativity is the core of this project.)
+
+6. K-pop의 세계_______  는 10년 만에 이루어졌어요.
+   (The globalization of K-pop was achieved in 10 years.)
+```
+
+---
+
+## Mini Quiz
+
+**Q1.** What does 전통적 mean?
+
+```
+A) a tradition
+B) traditional
+C) to become traditional
+D) the quality of being traditional
 Answer: ____
 ```
 
-**Q2.** Why is Korean word order flexible?
+**Q2.** Which sentence uses -성 correctly?
+
 ```
-A) Because verbs change form depending on the subject
-B) Because particles mark the role of each word
-C) Because the subject always comes first
-D) Because Korean has no objects
+A) 가능성이 높아요.     (The possibility is high.)
+B) 가능성인 것 같아요.  (It seems to be the possibility.)
+C) Both are natural.
+D) Neither is natural.
 Answer: ____
 ```
 
-**Q3.** What is the spacing rule between a word and its particle?
+**Q3.** "The factory becomes automated." — Which is correct?
+
 ```
-A) Space before the particle
-B) No space — attach directly
-C) Use a hyphen (-)
+A) 공장이 자동화하다.
+B) 공장이 자동화되다.
+C) 공장이 자동되다.
+D) 공장이 자동적이다.
 Answer: ____
 ```
 
-*(Answers: Q1-C, Q2-B, Q3-B)*
+**Q4.** Which word uses a suffix incorrectly?
+
+```
+A) 한국적인 음식이에요.       (This is distinctly Korean food.)
+B) 가능화가 충분해요.         (There is sufficient possibility.)
+C) 현대화가 이루어졌어요.     (Modernization was achieved.)
+D) 경제적으로 어렵다.         (Economically difficult.)
+Answer: ____
+```
+
+*(Answers: Q1-B, Q2-C, Q3-B, Q4-B)*
 
 ---
 
@@ -268,45 +270,56 @@ Answer: ____
 
 **Activity 1**
 ```
-1. 나는 너를 사랑해.       (I love you.)
-2. 언니가 커피를 마셔요.   (Older sister drinks coffee.)
-3. 우리가 한국어를 배워요. (We learn Korean.)
-4. 오빠가 밥을 먹어요.     (Older brother eats rice.)
+사회적   →  사회 + -적   →  social
+심리적   →  심리 + -적   →  psychological
+역사적   →  역사 + -적   →  historical
+예술적   →  예술 + -적   →  artistic
+정치적   →  정치 + -적   →  political
 ```
 
 **Activity 2**
 ```
-1. 언니가 커피를 마셔요.   (Older sister drinks coffee.)
-2. 나는 한국어를 공부해요. (I study Korean.)
-3. 저는 학교에서 배워요.   (I learn at school.)
+유연 + 성 = 유연성   flexibility
+다양 + 성 = 다양성   diversity
+필요 + 성 = 필요성   necessity
+정확 + 성 = 정확성   accuracy
+독립 + 성 = 독립성   independence
 ```
 
 **Activity 3**
 ```
-1. 오빠가 밥을 먹어요. (Older brother eats rice.)
-   Subject: 오빠가 / Object: 밥을 / Predicate: 먹어요
+산업화   →  industrialization
+서양화   →  Westernization
+국제화   →  internationalization
+전문화   →  specialization
+일상화   →  becoming routine, normalization
+영어화   →  Englishization, adoption of English
+```
 
-2. 우리가 한국어를 배워요. (We learn Korean.)
-   Subject: 우리가 / Object: 한국어를 / Predicate: 배워요
-
-3. 하늘이 파래요. (The sky is blue.)
-   Subject: 하늘이 / Object: none / Predicate: 파래요
+**Activity 4**
+```
+1. 예술적인 작품이에요.
+2. 가능성을 먼저 확인해봐요.
+3. 공장 자동화가 빠르게 진행되고 있어요.
+4. 개인적인 문제예요.
+5. 창의성이 이 프로젝트의 핵심이에요.
+6. 세계화는 10년 만에 이루어졌어요.
 ```
 
 ---
 
-## Day 8 Checklist
+## Day 13 Checklist
 
-- [ ] Korean is **SOV** — the predicate always comes last
-- [ ] Word order is flexible because **particles mark the role of each word**
-- [ ] Key particles: 은/는/이/가 (subject), 을/를 (object), 에/에서/에게/부터/까지 — deep dive in Day 9
-- [ ] The predicate can be a verb *or* an **adjective** — both go at the end
-- [ ] Korean adjectives conjugate on their own — no separate "is" needed
-- [ ] Spacing Rule 1: space between words
-- [ ] Spacing Rule 2: no space between a word and its particle
+- [ ] **-적(的)**: noun + 적 → adjective-like word ("of that kind, -ic, -al")
+  - -적인 + noun / -적이다 (predicate) / -적으로 (adverb)
+- [ ] **-성(性)**: noun + 성 → abstract noun ("-ity, -ness")
+  - 가능성·중요성·창의성·안전성·효율성·신뢰성
+- [ ] **-화(化)**: noun + 화 → process noun ("-ize, -ization")
+  - + 하다: active (자동화하다) / + 되다: passive (자동화되다)
+- [ ] These suffixes come from Chinese characters — knowing one pattern unlocks dozens of words
 
 ---
 
-> *"Next up: Day 9 — Particles: the full map, form changes by 받침, and why 이다 is not a verb"*
+> *"Next up: Day 14 — Series 3 begins. Korean sentences always end with the verb. Why — and what does that change for how you build a sentence?"*
 
 🔗 **kkultongkorea.com** | 📧 **kkultongkorea@gmail.com**
