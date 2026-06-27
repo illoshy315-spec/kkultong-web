@@ -301,7 +301,7 @@ For each underlined vowel, choose the correct modern pronunciation.
    Answer: ___
 
 ③ Which statement best describes the modern pronunciations of 왜 (why) and 외 (foreign)?
-   (A) They're different — 왜 is [wɛ] and 외 is [wɛ] but distinct
+   (A) They sound different — 왜 is [wɛ] and 외 is [we]
    (B) They're the same — both pronounced [we]
    (C) 왜 is [we] and 외 is [ø]
    Answer: ___
