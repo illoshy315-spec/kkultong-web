@@ -1,6 +1,6 @@
 ---
 title: "Derived Words 4 — Sino-Korean Suffixes"
-subtitle: "Three suffixes that unlock hundreds of words"
+subtitle: "Three patterns, dozens of words at once"
 seo_title: "Korean -적 -성 -화 Explained: Day 13 — Sino-Korean Suffixes | Kkultong"
 seo_description: "Three Chinese-origin suffixes — -적(的), -성(性), -화(化) — unlock hundreds of Korean words. 한국적, 가능성, 세계화. Free worksheet for K-drama and K-pop fans."
 type: worksheet
@@ -15,17 +15,19 @@ status: draft
 
 ## Quick Review: Day 12
 
-Day 12 went in two directions from a single starting point:
+Day 12 ran in two opposite directions.
 
-> **먹다** + -기 = 먹기 (eating, as an activity)
+Verb → noun (-기, -음):
+> **먹다** + -기 = 먹기
 >
-> **믿다** + -음 = 믿음 (faith, belief)
->
-> **사랑** + -스럽다 = 사랑스럽다 (lovely, adorable)
->
-> **자유** + -롭다 = 자유롭다 (free)
+> **믿다** + -음 = 믿음
 
-Day 13 adds one more layer — and this one comes from Chinese.
+Noun → adjective (-스럽다, -롭다, -답다):
+> **사랑** + -스럽다 = 사랑스럽다
+>
+> **자유** + -롭다 = 자유롭다
+
+Different starting point, opposite direction. Day 13 adds one more layer — and this one comes from Chinese.
 
 ---
 
@@ -41,7 +43,7 @@ Three suffixes — -적, -성, -화 — each come from a single Chinese characte
 化 → -화   "transformation, -ize, -ization"
 ```
 
-Learn these three patterns and dozens of formal vocabulary words immediately make sense.
+Learn these three and dozens of words fall into place at once.
 
 ---
 
@@ -59,7 +61,7 @@ The suffix -적 attaches to a noun and turns it into an adjective. It's what Eng
 
 **Three ways to use -적:**
 
-*Before a noun* — add -인:
+*Before a noun (modifying role)* — add -인:
 ```
 전통적인 방식      traditional method
 개인적인 생각      personal opinion
@@ -80,17 +82,26 @@ The suffix -적 attaches to a noun and turns it into an adjective. It's what Eng
 
 ---
 
-## ✏️ Activity 1 — Decode the Word
+## ✏️ Activity 1 — Right Form, Right Sentence
 
-Each word below uses -적. Split it into its parts and write the English meaning. Clues are given.
+Attach -적 to the noun in brackets and fill in the blank with the right form.
+(-적인 / -적이에요 / -적으로)
 
 ```
-Word       Clue (base noun)             Base noun   Suffix   English meaning
-사회적     (사회 = society)             ________    ________  _______________
-심리적     (심리 = mind, psychology)    ________    ________  _______________
-역사적     (역사 = history)             ________    ________  _______________
-예술적     (예술 = art)                 ________    ________  _______________
-정치적     (정치 = politics)            ________    ________  _______________
+1. (전통) 이 음식은 굉장히 ____________ 한국 음식이에요.
+   (This is a really ____________ Korean dish.)
+
+2. (경제) 요즘 ____________ 많이 힘들어요.
+   (Things have been really tough ____________ lately.)
+
+3. (개인) 그건 완전히 ____________ 선택이에요.
+   (That's a completely ____________ choice.)
+
+4. (현대) 이 건물 디자인이 아주 ____________이에요.
+   (The design of this building is very ____________.)
+
+5. (문화) ____________ 중요한 행사예요.
+   (It's a ____________ significant event.)
 ```
 
 ---
@@ -118,17 +129,28 @@ When you see -성 at the end of a word, you're looking at an abstract noun — a
 
 ---
 
-## ✏️ Activity 2 — Build the Word
+## ✏️ Activity 2 — Fill in the Blank
 
-Attach -성 to each base word. Write the result and the English meaning.
+Choose the right -성 word for each sentence.
+
+[가능성 / 창의성 / 중요성 / 신뢰성 / 독립성]
+[possibility / creativity / importance / reliability / independence]
 
 ```
-Base word               + -성      English meaning
-유연 (flexible)         ________   _______________
-다양 (diverse)          ________   _______________
-필요 (necessary)        ________   _______________
-정확 (accurate)         ________   _______________
-독립 (independent)      ________   _______________
+1. 이 프로젝트가 성공할 ___________은 아직 낮아요.
+   (The ___________ of this project succeeding is still low.)
+
+2. 건강의 ___________은 누구나 알지만, 실천은 어렵다.
+   (Everyone knows the ___________ of health, but actually following through is hard.)
+
+3. 그 회사 제품의 ___________이 높아서 다들 믿고 써요.
+   (That company's products have high ___________, so everyone trusts and uses them.)
+
+4. 그 사람은 ___________이 강해서 남의 도움을 잘 안 받아.
+   (That person has strong ___________, so they rarely accept help from others.)
+
+5. 이 분야에서는 ___________이 가장 중요한 역량이에요.
+   (In this field, ___________ is the most important skill.)
 ```
 
 ---
@@ -151,8 +173,8 @@ The suffix -화 creates a noun meaning "the process of becoming" or "making some
 **Pair with 하다 or 되다:**
 
 ```
-자동화하다   →  to automate something  (active: someone is doing it)
-자동화되다   →  to become automated    (passive: it's happening)
+자동화하다   →  to automate something     (active: the company/person is doing it)
+자동화되다   →  to become automated       (passive: it's happening on its own)
 
 세계화하다   →  to globalize something
 세계화되다   →  to become globalized
@@ -162,7 +184,9 @@ The suffix -화 creates a noun meaning "the process of becoming" or "making some
 
 ## ✏️ Activity 3 — Guess the Meaning
 
-Work out what each word means using the base word clue.
+**Part 1 — Work out the meaning**
+
+Use the base word clue to figure out what each word means.
 
 ```
 Word      Base word                        Meaning
@@ -172,6 +196,18 @@ Word      Base word                        Meaning
 전문화    전문 (specialty, expertise)      _______________
 일상화    일상 (everyday life, routine)    _______________
 영어화    영어 (English)                   _______________
+```
+
+**Part 2 — 하다 or 되다?**
+
+Fill in the blank with 자동화하다 or 자동화되다.
+
+```
+1. 그 회사는 생산 공정을 _____________.
+   (That company automated the production process.)
+
+2. 그 공장은 10년 만에 완전히 _____________.
+   (That factory became completely automated in 10 years.)
 ```
 
 ---
@@ -232,13 +268,14 @@ D) the quality of being traditional
 Answer: ____
 ```
 
-**Q2.** Which sentence uses -성 correctly?
+**Q2.** Which word completes the sentence?
+"이 방법이 성공할 ___________은 낮아요." (The ___________ of this method succeeding is low.)
 
 ```
-A) 가능성이 높아요.     (The possibility is high.)
-B) 가능성인 것 같아요.  (It seems to be the possibility.)
-C) Both are natural.
-D) Neither is natural.
+A) 가능적
+B) 가능화
+C) 가능성
+D) 가능하다
 Answer: ____
 ```
 
@@ -270,23 +307,23 @@ Answer: ____
 
 **Activity 1**
 ```
-사회적   →  사회 + -적   →  social
-심리적   →  심리 + -적   →  psychological
-역사적   →  역사 + -적   →  historical
-예술적   →  예술 + -적   →  artistic
-정치적   →  정치 + -적   →  political
+1. 전통적인   (modifying noun — 전통적인 한국 음식)
+2. 경제적으로  (adverb)
+3. 개인적인   (modifying noun — 개인적인 선택)
+4. 현대적이에요  (predicate)
+5. 문화적으로  (adverb — 문화적으로 중요한)
 ```
 
 **Activity 2**
 ```
-유연 + 성 = 유연성   flexibility
-다양 + 성 = 다양성   diversity
-필요 + 성 = 필요성   necessity
-정확 + 성 = 정확성   accuracy
-독립 + 성 = 독립성   independence
+1. 가능성   (possibility)
+2. 중요성   (importance)
+3. 신뢰성   (reliability)
+4. 독립성   (independence)
+5. 창의성   (creativity)
 ```
 
-**Activity 3**
+**Activity 3 — Part 1**
 ```
 산업화   →  industrialization
 서양화   →  Westernization
@@ -294,6 +331,12 @@ Answer: ____
 전문화   →  specialization
 일상화   →  becoming routine, normalization
 영어화   →  Englishization, adoption of English
+```
+
+**Activity 3 — Part 2**
+```
+1. 자동화했다 / 자동화하다   (active)
+2. 자동화됐다 / 자동화되다   (passive)
 ```
 
 **Activity 4**
@@ -316,7 +359,7 @@ Answer: ____
   - 가능성·중요성·창의성·안전성·효율성·신뢰성
 - [ ] **-화(化)**: noun + 화 → process noun ("-ize, -ization")
   - + 하다: active (자동화하다) / + 되다: passive (자동화되다)
-- [ ] These suffixes come from Chinese characters — knowing one pattern unlocks dozens of words
+- [ ] These suffixes come from Chinese characters — one pattern, dozens of words at once
 
 ---
 
