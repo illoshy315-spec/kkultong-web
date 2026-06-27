@@ -66,7 +66,7 @@ The suffix -적 attaches to a noun and turns it into an adjective. It's what Eng
 경제 (economy)    + 적 = 경제적   economic
 ```
 
-**Three ways to use -적:**
+Words formed with -적 (전통적, 개인적, etc.) can't enter a sentence on their own. Something always follows. What comes after determines the grammatical role.
 
 *Before a noun (modifying role)* — add -인:
 ```
@@ -115,7 +115,7 @@ Attach -적 to the noun in brackets and fill in the blank with the right form.
 
 ## 2. -성(性): Quality and Property
 
-The suffix -성 turns a noun into an **abstract noun** that names a quality or property. It maps onto English **-ity**, **-ness**, or **-cy**.
+The suffix -성 turns a noun into an **abstract noun** — "the quality of being ~" or "the state of ~." It maps onto English **-ity**, **-ness**, or **-cy**.
 
 ```
 가능 (possible)     + 성 = 가능성   possibility
@@ -177,12 +177,14 @@ The suffix -화 creates a noun meaning "the process of becoming" or "making some
 
 -화 can even attach to foreign loanwords — 디지털화, 영어화 (Englishization) — if a transformation process has a name, -화 can describe it.
 
-**Pair with 하다 or 되다:**
+Words made with -화 are nouns. They can't become verbs on their own. To use them as verbs, add 하다 or 되다.
 
 ```
+자동화        (noun: automation)
 자동화하다   →  to automate something     (active: the company/person is doing it)
-자동화되다   →  to become automated       (passive: it's happening on its own)
+자동화되다   →  to become automated       (passive: it happens on its own)
 
+세계화        (noun: globalization)
 세계화하다   →  to globalize something
 세계화되다   →  to become globalized
 ```
