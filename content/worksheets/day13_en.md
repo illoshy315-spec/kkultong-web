@@ -33,7 +33,7 @@ Different starting point, opposite direction. Day 13 adds one more layer — and
 
 ## A Different Kind of Word
 
-About 60% of Korean vocabulary comes from Chinese-origin roots, written in Hangul but built from Chinese characters (한자). The characters carry meaning, and that meaning travels into Korean words even when the characters aren't visible.
+About 60% of Korean vocabulary comes from Chinese-origin roots, written in Hangul but built from Chinese characters (한자). You don't need to know Chinese characters to use Korean — but the meaning those characters carry lives on inside the words.
 
 There are dozens of Sino-Korean suffixes. -원(員): 직원, 회원 (members of a group). -가(家): 전문가, 음악가 (experts, specialists). -인(人): 한국인, 외국인 (people). -도(度): 온도, 속도 (degrees, rates). Most of these work within a specific semantic domain — 원 makes members, 가 makes experts, 인 makes people.
 
