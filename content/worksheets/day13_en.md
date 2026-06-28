@@ -372,6 +372,8 @@ Answer: ____
 
 ---
 
-> *"Next up: Day 14 — Series 3 begins. Korean sentences always end with the verb. Why — and what does that change for how you build a sentence?"*
+> *"Next up: Day 14 — Why Korean sentences work differently from English. SOV vs SVO, particles, predicate slots, and the two spacing rules."*
+
+👉 **[Day 14: Why Korean Sentences Are Different from English →](/worksheet/day14)**
 
 🔗 **kkultongkorea.com** | 📧 **kkultongkorea@gmail.com**
