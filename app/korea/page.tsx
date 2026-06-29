@@ -93,7 +93,7 @@ export default function KoreaPage() {
   return (
     <div className="max-w-3xl mx-auto px-6 py-16">
       {/* Header */}
-      <div className="text-center mb-14">
+      <div className="text-center mb-12">
         <p className="text-sm font-semibold tracking-widest uppercase mb-4" style={{ color: "var(--amber)" }}>
           Korea Guide
         </p>
@@ -104,6 +104,31 @@ export default function KoreaPage() {
         <p className="text-lg" style={{ color: "var(--gray)", opacity: 0.7 }}>
           K-content travel · Verified spots · Foreigner-friendly tips
         </p>
+      </div>
+
+      {/* Who are you? */}
+      <div className="mb-14">
+        <p className="text-xs font-bold uppercase tracking-widest mb-4 text-center" style={{ color: "var(--gray)", opacity: 0.4 }}>
+          Who are you?
+        </p>
+        <div className="grid grid-cols-3 gap-3">
+          {[
+            { href: "/korea/tips?type=traveler", emoji: "✈️", label: "Traveler", sub: "Short-term visit" },
+            { href: "/korea/tips?type=nomad",    emoji: "💻", label: "Digital Nomad", sub: "Working remotely" },
+            { href: "/korea/tips?type=student",  emoji: "🎓", label: "Student", sub: "Living in Korea" },
+          ].map((o) => (
+            <a
+              key={o.href}
+              href={o.href}
+              className="rounded-2xl p-4 text-center border-2 transition-all hover:scale-105"
+              style={{ borderColor: "#e5e7eb", backgroundColor: "white", textDecoration: "none" }}
+            >
+              <div className="text-3xl mb-2">{o.emoji}</div>
+              <div className="font-bold text-sm" style={{ color: "var(--gray)" }}>{o.label}</div>
+              <div className="text-xs mt-1" style={{ color: "var(--gray)", opacity: 0.6 }}>{o.sub}</div>
+            </a>
+          ))}
+        </div>
       </div>
 
       {/* K-Content categories */}

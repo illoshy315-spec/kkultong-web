@@ -1,6 +1,7 @@
 "use client";
 
-import { useState } from "react";
+import { useState, useEffect } from "react";
+import { useSearchParams } from "next/navigation";
 
 type UserType = "traveler" | "nomad" | "student" | null;
 
@@ -131,7 +132,16 @@ const OPTIONS = [
 ];
 
 export default function TipsClient() {
+  const searchParams = useSearchParams();
   const [userType, setUserType] = useState<UserType>(null);
+
+  useEffect(() => {
+    const type = searchParams.get("type") as UserType;
+    if (type && ["traveler", "nomad", "student"].includes(type)) {
+      setUserType(type);
+    }
+  }, [searchParams]);
+
   const tips = userType ? TIPS[userType] : [];
 
   return (
