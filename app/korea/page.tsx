@@ -699,6 +699,40 @@ export default function KoreaPage() {
         </p>
       )}
 
+      {/* Category hub links */}
+      <div className="mt-16">
+        <div className="text-center mb-8">
+          <p className="text-sm font-semibold tracking-widest uppercase mb-3" style={{ color: "var(--red)" }}>
+            Browse by Category
+          </p>
+          <h2 className="text-2xl md:text-3xl font-black" style={{ color: "var(--gray)" }}>
+            What are you into?
+          </h2>
+        </div>
+        <div className="grid grid-cols-2 gap-3 sm:grid-cols-3">
+          {[
+            { slug: "drama", emoji: "🎬", label: "K-Drama\nFilming Locations", color: "#1565c0", bg: "#e3f2fd" },
+            { slug: "kpop", emoji: "🎤", label: "K-Pop\nPilgrimage", color: "#c62828", bg: "#fce4ec" },
+            { slug: "culinary", emoji: "🍽️", label: "Culinary\nClass Wars", color: "#e65100", bg: "#fff3e0" },
+            { slug: "personal-color", emoji: "🎨", label: "Personal Color\nDiagnosis", color: "#9c27b0", bg: "#f3e5f5" },
+            { slug: "halal", emoji: "🕌", label: "Halal\nFood", color: "#2e7d32", bg: "#e8f5e9" },
+            { slug: "vegan", emoji: "🌱", label: "Vegan &\nVegetarian", color: "#558b2f", bg: "#f1f8e9" },
+          ].map((cat) => (
+            <a
+              key={cat.slug}
+              href={`/korea/${cat.slug}`}
+              className="rounded-2xl p-5 text-center no-underline transition-transform hover:scale-105"
+              style={{ backgroundColor: cat.bg, textDecoration: "none" }}
+            >
+              <div className="text-3xl mb-2">{cat.emoji}</div>
+              <div className="text-sm font-bold whitespace-pre-line" style={{ color: cat.color }}>
+                {cat.label}
+              </div>
+            </a>
+          ))}
+        </div>
+      </div>
+
       <RouteSection />
       <KContentSection />
     </div>
