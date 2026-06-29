@@ -477,4 +477,6 @@ Answer: ____
 
 > *"Next up: Day 15 — Particles: the thing English doesn't have. 은/는·이/가·을/를·에·에서… how each one works, and why the distinctions matter."*
 
+👉 **[Day 15: Particles: What English Doesn't Have →](/worksheet/day15)**
+
 🔗 **kkultongkorea.com** | 📧 **kkultongkorea@gmail.com**
