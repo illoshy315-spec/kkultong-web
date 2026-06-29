@@ -1,10 +1,56 @@
 "use client";
 
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import dynamic from "next/dynamic";
 import { Place, CATEGORY_META } from "@/lib/types";
+import { useAuth } from "@/lib/auth-context";
+import { createClient } from "@/lib/supabase";
 
 const KoreaMap = dynamic(() => import("@/components/KoreaMap"), { ssr: false });
+
+function HeartButton({ placeId }: { placeId: string }) {
+  const { user, signInWithGoogle } = useAuth();
+  const [saved, setSaved] = useState(false);
+  const [loading, setLoading] = useState(false);
+
+  useEffect(() => {
+    if (!user) return;
+    const supabase = createClient();
+    supabase
+      .from("saved_places")
+      .select("id")
+      .eq("user_id", user.id)
+      .eq("place_id", placeId)
+      .maybeSingle()
+      .then(({ data }) => setSaved(!!data));
+  }, [user, placeId]);
+
+  const toggle = async (e: React.MouseEvent) => {
+    e.stopPropagation();
+    if (!user) { signInWithGoogle(); return; }
+    setLoading(true);
+    const supabase = createClient();
+    if (saved) {
+      await supabase.from("saved_places").delete().eq("user_id", user.id).eq("place_id", placeId);
+      setSaved(false);
+    } else {
+      await supabase.from("saved_places").insert({ user_id: user.id, place_id: placeId });
+      setSaved(true);
+    }
+    setLoading(false);
+  };
+
+  return (
+    <button
+      onClick={toggle}
+      disabled={loading}
+      className="text-lg transition-transform hover:scale-110 disabled:opacity-40"
+      title={saved ? "Remove from saved" : "Save this place"}
+    >
+      {saved ? "❤️" : "🤍"}
+    </button>
+  );
+}
 
 function PlaceCard({ place }: { place: Place }) {
   const [open, setOpen] = useState(false);
@@ -38,6 +84,7 @@ function PlaceCard({ place }: { place: Place }) {
           {place.foreign_card && (
             <span className="text-xs px-2 py-0.5 rounded-full font-medium" style={{ backgroundColor: "#e3f2fd", color: "#1565c0" }}>Card ✓</span>
           )}
+          <HeartButton placeId={place.id} />
           <span className="text-gray-400 text-sm">{open ? "▲" : "▼"}</span>
         </div>
       </div>
@@ -51,6 +98,18 @@ function PlaceCard({ place }: { place: Place }) {
             {place.address && <span>📍 {place.address}</span>}
             <span>✅ Verified {place.last_verified}</span>
           </div>
+          {place.lat && place.lng && (
+            <a
+              href={`https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(place.name_en + " " + (place.address ?? ""))}&query_place_id=`}
+              target="_blank"
+              rel="noopener noreferrer"
+              onClick={(e) => e.stopPropagation()}
+              className="inline-block mt-2 text-xs font-semibold px-3 py-1.5 rounded-lg text-white"
+              style={{ backgroundColor: "var(--teal)", textDecoration: "none" }}
+            >
+              Open in Google Maps →
+            </a>
+          )}
         </div>
       )}
     </div>
