@@ -146,40 +146,43 @@ export default function TipsClient() {
 
   return (
     <div className="max-w-3xl mx-auto px-6 py-16">
-      <p className="text-sm mb-6" style={{ color: "var(--gray)", opacity: 0.5 }}>
-        <a href="/korea" style={{ textDecoration: "underline" }}>Korea Guide</a> → Survival Tips
-      </p>
-
-      <div className="mb-10">
-        <p className="text-sm font-semibold tracking-widest uppercase mb-3" style={{ color: "var(--amber)" }}>
-          Korea Survival Tips
-        </p>
-        <h1 className="text-3xl md:text-4xl font-black mb-4" style={{ color: "var(--gray)" }}>
-          Everything Google<br />
-          <span style={{ color: "var(--amber)" }}>doesn&apos;t tell you.</span>
-        </h1>
-        <p className="text-base" style={{ color: "var(--gray)", opacity: 0.7 }}>
-          Select who you are — get tips that actually apply to you.
-        </p>
+      {/* Breadcrumb + type switcher */}
+      <div className="flex items-center gap-2 flex-wrap mb-10 text-sm" style={{ color: "var(--gray)" }}>
+        <a href="/korea" style={{ opacity: 0.5, textDecoration: "underline" }}>Korea Guide</a>
+        <span style={{ opacity: 0.3 }}>→</span>
+        <span style={{ opacity: 0.5 }}>Survival Tips</span>
+        <span style={{ opacity: 0.3 }}>→</span>
+        {OPTIONS.map((o, i) => (
+          <span key={o.key} style={{ display: "flex", alignItems: "center", gap: "6px" }}>
+            {i > 0 && <span style={{ opacity: 0.3 }}>·</span>}
+            <button
+              onClick={() => setUserType(o.key)}
+              className="font-semibold transition-all"
+              style={{
+                color: userType === o.key ? "var(--amber)" : "var(--gray)",
+                opacity: userType === o.key ? 1 : 0.45,
+                textDecoration: userType === o.key ? "underline" : "none",
+                background: "none",
+                border: "none",
+                cursor: "pointer",
+                padding: 0,
+              }}
+            >
+              {o.emoji} {o.label}
+            </button>
+          </span>
+        ))}
       </div>
 
-      {/* Who are you */}
-      <div className="grid grid-cols-3 gap-3 mb-12">
-        {OPTIONS.map((o) => (
-          <button
-            key={o.key}
-            onClick={() => setUserType(o.key)}
-            className="rounded-2xl p-4 text-center border-2 transition-all"
-            style={{
-              borderColor: userType === o.key ? "var(--amber)" : "#e5e7eb",
-              backgroundColor: userType === o.key ? "#FAEEDA" : "white",
-            }}
-          >
-            <div className="text-3xl mb-2">{o.emoji}</div>
-            <div className="font-bold text-sm" style={{ color: "var(--gray)" }}>{o.label}</div>
-            <div className="text-xs mt-1" style={{ color: "var(--gray)", opacity: 0.6 }}>{o.sub}</div>
-          </button>
-        ))}
+      <div className="mb-10">
+        <h1 className="text-3xl md:text-4xl font-black mb-3" style={{ color: "var(--gray)" }}>
+          {userType ? `${OPTIONS.find(o => o.key === userType)?.emoji} ${OPTIONS.find(o => o.key === userType)?.label} Guide` : "Korea Survival Tips"}
+        </h1>
+        <p className="text-base" style={{ color: "var(--gray)", opacity: 0.6 }}>
+          {userType
+            ? OPTIONS.find(o => o.key === userType)?.sub + " — tips that actually apply to you."
+            : "Select your type above to get started."}
+        </p>
       </div>
 
       {/* Tips */}
