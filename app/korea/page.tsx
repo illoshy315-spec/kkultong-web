@@ -4,89 +4,11 @@ import { useState } from "react";
 import dynamic from "next/dynamic";
 import placesData from "@/data/places.json";
 import routesData from "@/data/routes.json";
+import type { Route } from "@/lib/types";
 
 const KoreaMap = dynamic(() => import("@/components/KoreaMap"), { ssr: false });
 
 type UserType = "traveler" | "nomad" | "student" | null;
-
-type Place = {
-  id: string;
-  name_en: string;
-  name_ko?: string;
-  category: string;
-  area: string;
-  english_available: boolean | null;
-  foreign_card: boolean | null;
-  reservation_required: boolean;
-  price_range: string;
-  tip: string;
-  scene?: string;
-  instagram?: string | null;
-  last_verified: string;
-};
-
-type Route = {
-  id: string;
-  title: string;
-  title_ko: string;
-  drama?: string | null;
-  artists?: string[];
-  duration: string;
-  area: string;
-  transport: string;
-  place_ids: string[];
-  tip: string;
-  order_note: string;
-};
-
-const CATEGORY_META: Record<string, { label: string; emoji: string; desc: string }> = {
-  personal_color: { label: "Personal Color Diagnosis", emoji: "🎨", desc: "Find your season — Spring, Summer, Autumn, or Winter. English-available shops only." },
-  halal: { label: "Halal Food", emoji: "🕌", desc: "Certified halal restaurants and Muslim-friendly dining in Seoul." },
-  vegan: { label: "Vegan & Vegetarian", emoji: "🌱", desc: "100% plant-based and vegetarian-friendly restaurants." },
-  kpop_pilgrimage: { label: "K-Pop Pilgrimage", emoji: "🎤", desc: "Agency buildings, K-Star Road, and idol-related spots." },
-  drama_location: { label: "Drama Filming Locations", emoji: "🎬", desc: "Visit the real locations from your favorite K-dramas." },
-  photo_booth: { label: "Photo Booths", emoji: "📸", desc: "Life4Cuts, Photoism, Harufilm — the full guide for foreigners." },
-};
-
-const CATEGORY_ORDER = ["personal_color", "kpop_pilgrimage", "drama_location", "photo_booth", "halal", "vegan"];
-
-function PlaceCard({ place }: { place: Place }) {
-  const [open, setOpen] = useState(false);
-  return (
-    <div
-      className="rounded-xl border overflow-hidden cursor-pointer"
-      style={{ borderColor: "#e5e7eb" }}
-      onClick={() => setOpen(!open)}
-    >
-      <div className="px-5 py-4 flex items-start justify-between hover:bg-gray-50">
-        <div>
-          <p className="font-semibold text-sm" style={{ color: "var(--gray)" }}>{place.name_en}</p>
-          <p className="text-xs mt-0.5" style={{ color: "var(--gray)", opacity: 0.6 }}>{place.area}</p>
-        </div>
-        <div className="flex gap-2 items-center ml-4 shrink-0">
-          {place.english_available && (
-            <span className="text-xs px-2 py-0.5 rounded-full font-medium" style={{ backgroundColor: "#e8f5e9", color: "#2e7d32" }}>EN ✓</span>
-          )}
-          {place.foreign_card && (
-            <span className="text-xs px-2 py-0.5 rounded-full font-medium" style={{ backgroundColor: "#e3f2fd", color: "#1565c0" }}>Card ✓</span>
-          )}
-          <span className="text-gray-400 text-sm">{open ? "▲" : "▼"}</span>
-        </div>
-      </div>
-      {open && (
-        <div className="px-5 pb-4 text-sm space-y-2" style={{ backgroundColor: "#fafafa", color: "var(--gray)" }}>
-          <p>{place.tip}</p>
-          <div className="flex flex-wrap gap-3 mt-2 text-xs" style={{ opacity: 0.7 }}>
-            <span>💰 {place.price_range}</span>
-            {place.reservation_required && <span>📅 Reservation required</span>}
-            {place.instagram && <span>📸 {place.instagram}</span>}
-            <span>✅ Verified {place.last_verified}</span>
-          </div>
-        </div>
-      )}
-    </div>
-  );
-}
 
 function RouteSection() {
   const [activeRoute, setActiveRoute] = useState<Route | null>(null);
@@ -158,70 +80,6 @@ function RouteSection() {
   );
 }
 
-function KContentSection() {
-  const [activeCategory, setActiveCategory] = useState(CATEGORY_ORDER[0]);
-  const places = (placesData as Place[]).filter((p) => p.category === activeCategory);
-
-  return (
-    <div className="mt-16">
-      <div className="text-center mb-8">
-        <p className="text-sm font-semibold tracking-widest uppercase mb-3" style={{ color: "var(--red)" }}>
-          K-Content Travel
-        </p>
-        <h2 className="text-2xl md:text-3xl font-black mb-2" style={{ color: "var(--gray)" }}>
-          What Google Maps<br />
-          <span style={{ color: "var(--red)" }}>can't tell you.</span>
-        </h2>
-        <p className="text-sm" style={{ color: "var(--gray)", opacity: 0.6 }}>
-          Verified by us. English-friendly. Actually useful.
-        </p>
-      </div>
-
-      {/* Category tabs */}
-      <div className="flex gap-2 overflow-x-auto pb-2 mb-6 scrollbar-hide">
-        {CATEGORY_ORDER.map((cat) => {
-          const meta = CATEGORY_META[cat];
-          return (
-            <button
-              key={cat}
-              onClick={() => setActiveCategory(cat)}
-              className="shrink-0 px-4 py-2 rounded-full text-sm font-semibold transition-all border"
-              style={{
-                backgroundColor: activeCategory === cat ? "var(--red)" : "white",
-                color: activeCategory === cat ? "white" : "var(--gray)",
-                borderColor: activeCategory === cat ? "var(--red)" : "#e5e7eb",
-              }}
-            >
-              {meta.emoji} {meta.label}
-            </button>
-          );
-        })}
-      </div>
-
-      {/* Category description */}
-      <p className="text-sm mb-4" style={{ color: "var(--gray)", opacity: 0.7 }}>
-        {CATEGORY_META[activeCategory].desc}
-      </p>
-
-      {/* Map */}
-      <div className="mb-6">
-        <KoreaMap places={placesData as any} allPlaces={placesData as any} activeCategory={activeCategory} activeRoute={null} />
-      </div>
-
-      {/* Place cards */}
-      <div className="space-y-3">
-        {places.map((place) => (
-          <PlaceCard key={place.id} place={place} />
-        ))}
-        {places.length === 0 && (
-          <p className="text-sm text-center py-8" style={{ color: "var(--gray)", opacity: 0.4 }}>
-            Content coming soon — we verify everything before publishing.
-          </p>
-        )}
-      </div>
-    </div>
-  );
-}
 
 const TIPS: Record<
   string,
@@ -734,7 +592,6 @@ export default function KoreaPage() {
       </div>
 
       <RouteSection />
-      <KContentSection />
     </div>
   );
 }
