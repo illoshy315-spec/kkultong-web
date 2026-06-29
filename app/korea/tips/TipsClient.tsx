@@ -134,6 +134,7 @@ const OPTIONS = [
 export default function TipsClient() {
   const searchParams = useSearchParams();
   const [userType, setUserType] = useState<UserType>(null);
+  const [activeSection, setActiveSection] = useState<string | null>(null);
 
   useEffect(() => {
     const type = searchParams.get("type") as UserType;
@@ -142,7 +143,12 @@ export default function TipsClient() {
     }
   }, [searchParams]);
 
+  useEffect(() => {
+    if (userType) setActiveSection(null);
+  }, [userType]);
+
   const tips = userType ? TIPS[userType] : [];
+  const activeSectionData = tips.find((s) => s.title === activeSection) ?? tips[0] ?? null;
 
   return (
     <div className="max-w-3xl mx-auto px-6 py-16">
@@ -187,33 +193,50 @@ export default function TipsClient() {
 
       {/* Tips */}
       {userType ? (
-        <div className="space-y-8">
-          {tips.map((section) => (
-            <div key={section.title}>
-              <h2 className="text-lg font-bold mb-4" style={{ color: "var(--gray)" }}>
-                {section.icon} {section.title}
-              </h2>
-              <div className="space-y-3">
-                {section.tips.map((tip) => (
-                  <details
-                    key={tip.q}
-                    className="rounded-xl border overflow-hidden"
-                    style={{ borderColor: "#e5e7eb" }}
+        <div>
+          {/* Section tabs */}
+          <div className="flex flex-wrap gap-2 mb-6">
+            {tips.map((section) => {
+              const isActive = (activeSection ?? tips[0]?.title) === section.title;
+              return (
+                <button
+                  key={section.title}
+                  onClick={() => setActiveSection(section.title)}
+                  className="px-4 py-2 rounded-full text-sm font-semibold border-2 transition-all"
+                  style={{
+                    borderColor: isActive ? "var(--amber)" : "#e5e7eb",
+                    backgroundColor: isActive ? "var(--amber)" : "white",
+                    color: isActive ? "white" : "var(--gray)",
+                  }}
+                >
+                  {section.icon} {section.title}
+                </button>
+              );
+            })}
+          </div>
+
+          {/* Active section Q&A */}
+          {activeSectionData && (
+            <div className="space-y-3">
+              {activeSectionData.tips.map((tip) => (
+                <details
+                  key={tip.q}
+                  className="rounded-xl border overflow-hidden"
+                  style={{ borderColor: "#e5e7eb" }}
+                >
+                  <summary
+                    className="px-5 py-4 font-semibold text-sm cursor-pointer select-none hover:bg-gray-50"
+                    style={{ color: "var(--gray)" }}
                   >
-                    <summary
-                      className="px-5 py-4 font-semibold text-sm cursor-pointer select-none hover:bg-gray-50"
-                      style={{ color: "var(--gray)" }}
-                    >
-                      {tip.q}
-                    </summary>
-                    <div className="px-5 pb-4 text-sm leading-relaxed" style={{ color: "var(--gray)", backgroundColor: "#fafafa" }}>
-                      {tip.a}
-                    </div>
-                  </details>
-                ))}
-              </div>
+                    {tip.q}
+                  </summary>
+                  <div className="px-5 pb-4 text-sm leading-relaxed" style={{ color: "var(--gray)", backgroundColor: "#fafafa" }}>
+                    {tip.a}
+                  </div>
+                </details>
+              ))}
             </div>
-          ))}
+          )}
         </div>
       ) : (
         <p className="text-center text-sm py-8" style={{ color: "var(--gray)", opacity: 0.4 }}>
