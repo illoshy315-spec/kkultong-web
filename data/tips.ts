@@ -276,17 +276,17 @@ const TIPS: TipsData = {
         },
         {
           q: "What are the F-1-D visa requirements?",
-          a: "Minimum annual income: ~₩88M–₩105M KRW (approximately 2× Korea's per-capita GNI — threshold adjusted annually). Must be employed by a non-Korean company for at least 1 year. Age 18+. Health insurance required. Application at a Korean consulate abroad; processing time varies by country.",
+          a: "Minimum annual income: ~₩85M–₩113M KRW (approximately 2× Korea's per-capita GNI — threshold adjusted annually, verify current figure at immigration.go.kr before applying). Must be employed by a non-Korean company for at least 1 year. Age 18+. Health insurance required. Application at a Korean consulate abroad; processing time varies (allow 4–8 weeks minimum).",
           source: { label: "immigration.go.kr", url: "https://www.immigration.go.kr/immigration_eng/index.do" },
         },
         {
           q: "What if I don't qualify for F-1-D? Can I work remotely on a tourist visa?",
-          a: "Most Western passport holders get 90 days visa-free (K-ETA may be required — check keta.go.kr). Working remotely for overseas clients on a tourist visa is a legal gray zone — not explicitly authorized. Repeated short stays for visa runs (leaving briefly to Japan or elsewhere and re-entering) carry escalating risk as immigration flags the pattern.",
+          a: "Most Western passport holders get 90 days visa-free. K-ETA exemption is extended through December 31, 2026 for most visa-exempt countries — confirm current status at k-eta.go.kr before travel. Working remotely for overseas clients on a tourist visa is a legal gray zone — not explicitly authorized. Repeated short stays for visa runs (leaving briefly to Japan or elsewhere) carry escalating risk as immigration flags the pattern over time.",
           source: { label: "immigration.go.kr", url: "https://www.immigration.go.kr/immigration_eng/index.do" },
         },
         {
           q: "What is the 183-day tax rule?",
-          a: "If you spend 183+ days in Korea in a calendar year, you become a Korean tax resident and must report global income to the National Tax Service (국세청). Under 183 days: Korea generally has no tax claim on foreign-sourced remote income. Check your home country's tax treaty with Korea — Korea has treaties with 90+ countries.",
+          a: "If you spend 183+ days in Korea in a calendar year, you become a Korean tax resident. Important exception: if you've resided in Korea for 5 years or less during the prior 10-year period, you're only taxed on Korean-source income plus foreign income remitted to Korea — not your full global income. After 5 years, full worldwide income taxation applies. Under 183 days total: Korea has no tax claim on foreign-sourced remote income. Korea has tax treaties with 90+ countries — check yours to avoid double taxation.",
           source: { label: "nts.go.kr/english", url: "https://www.nts.go.kr/english/main.do" },
         },
       ],
@@ -314,7 +314,7 @@ const TIPS: TipsData = {
       tips: [
         {
           q: "When and where do I apply for my ARC?",
-          a: "Apply within 90 days of arrival at your local immigration office. Book an appointment first at hikorea.go.kr — walk-ins are often turned away. Bring: passport, visa grant notice, application form, passport photo (3.5×4.5cm), ₩30,000 fee, and Certificate of Enrollment (재학증명서) from your university. Processing: 2–4 weeks.",
+          a: "Apply within 90 days of arrival at your local immigration office. Book an appointment first at hikorea.go.kr — walk-ins are often turned away. Bring: passport, visa grant notice, application form, passport photo (3.5×4.5cm), ₩35,000 fee (increased from ₩30,000 as of January 2025), and Certificate of Enrollment (재학증명서) from your university. Processing: 2–4 weeks.",
           source: { label: "hikorea.go.kr", url: "https://www.hikorea.go.kr" },
         },
         {
@@ -324,12 +324,12 @@ const TIPS: TipsData = {
         },
         {
           q: "What's the mobile ARC and can I use it instead?",
-          a: "Korea launched mobile ARC in 2025 — a digital version in the 정부24 (Government 24) app. Legally equivalent to the physical card at government offices and police checks. However, many banks, phone stores, and services still require the physical card in 2025. Treat mobile ARC as a backup, not a replacement.",
+          a: "Korea launched mobile ARC in 2024 — a digital version in the 정부24+ (Government 24+) app (rebranded July 2025). Legally equivalent to the physical card at government offices and police checks. However, many banks, phone stores, and services still require the physical card in 2025. Treat mobile ARC as a backup, not a replacement.",
           source: { label: "hikorea.go.kr", url: "https://www.hikorea.go.kr" },
         },
         {
           q: "I lost my ARC — what do I do?",
-          a: "Go to your local immigration office immediately. Bring your passport + ₩30,000 for reissue. Processing takes 1–2 weeks. Keep a photo of your ARC on your phone for emergencies. File a police report if you suspect theft to protect against identity fraud.",
+          a: "Go to your local immigration office immediately. Bring your passport + ₩35,000 for reissue (fee increased January 2025). Processing takes 1–2 weeks. Keep a photo of your ARC on your phone for emergencies. File a police report if you suspect theft to protect against identity fraud.",
           source: { label: "hikorea.go.kr", url: "https://www.hikorea.go.kr" },
         },
       ],
@@ -401,7 +401,7 @@ const TIPS: TipsData = {
       tips: [
         {
           q: "When do I enroll in Korean health insurance as a student?",
-          a: "D-2 (student) visa holders: enrolled in NHIS from arrival — since March 2021, D-2 students no longer wait 6 months. D-4 (language study): enrollment starts after 6 months. Before NHIS enrollment, your university's group insurance covers basic care — check with your international office for details.",
+          a: "Both D-2 (student) and D-4 (language study) visa holders must enroll in NHIS after 6 months of legal stay — this became mandatory from March 2021 (the 2021 change removed the grace period, but not the 6-month stay requirement). Before the 6-month mark, your university's group insurance covers basic care — check with your international office for details.",
           source: { label: "nhis.or.kr", url: "https://www.nhis.or.kr" },
         },
         {
@@ -421,7 +421,7 @@ const TIPS: TipsData = {
       tips: [
         {
           q: "Can I work part-time on a D-2 student visa?",
-          a: "Yes, with strict requirements: (1) 6+ months in Korea, (2) university permission via a part-time work confirmation form from the international office, (3) immigration approval at hikorea.go.kr. D-2 students: 20 hours/week during semester, unlimited during breaks. Working without approval is visa fraud.",
+          a: "Yes, but with strict requirements: (1) 6+ months in Korea, (2) university permission via a part-time work confirmation form from the international office, (3) immigration approval at hikorea.go.kr. Hours depend on Korean proficiency: without TOPIK, maximum 10 hours/week during semester. With TOPIK Level 2 or above, up to 20–25 hours/week. Unlimited hours during school vacations (with TOPIK). Working without approval is visa fraud.",
           source: { label: "hikorea.go.kr", url: "https://www.hikorea.go.kr" },
         },
         {
@@ -431,7 +431,7 @@ const TIPS: TipsData = {
         },
         {
           q: "What's the minimum wage in 2025?",
-          a: "The official 2025 minimum wage in Korea is ₩10,030/hour. Part-timers get overtime (150%) after 15 hours/week. Tax withholding: ~3.3% for independent contractors, or progressive income tax (6–35%) for regular employees. Employers must provide a payslip (급여명세서).",
+          a: "The official 2025 minimum wage in Korea is ₩10,030/hour (₩2,096,270/month for full-time — Korea's first minimum wage above ₩10,000). Part-timers get overtime (150%) after 15 hours/week. Tax withholding: ~3.3% for independent contractors, or progressive income tax (6–45%) for regular employees. Employers must provide a payslip (급여명세서). Cash-in-hand work is illegal and offers no worker protections.",
           source: { label: "moel.go.kr", url: "https://www.moel.go.kr" },
         },
       ],
