@@ -1,16 +1,18 @@
 "use client";
 import Link from "next/link";
 import { useState } from "react";
+import { useAuth } from "@/lib/auth-context";
 
 const links = [
   { href: "/", label: "Home" },
   { href: "/worksheet", label: "Worksheets" },
+  { href: "/korea", label: "Korea Guide" },
   { href: "/about", label: "About" },
-  { href: "/contact", label: "Contact" },
 ];
 
 export default function Nav() {
   const [open, setOpen] = useState(false);
+  const { user, signInWithGoogle, signOut, loading } = useAuth();
 
   return (
     <header style={{ backgroundColor: "var(--gray)" }} className="sticky top-0 z-50">
@@ -20,7 +22,7 @@ export default function Nav() {
         </Link>
 
         {/* Desktop */}
-        <nav className="hidden md:flex gap-8">
+        <nav className="hidden md:flex items-center gap-8">
           {links.map((l) => (
             <Link
               key={l.href}
@@ -30,6 +32,34 @@ export default function Nav() {
               {l.label}
             </Link>
           ))}
+
+          {!loading && (
+            user ? (
+              <div className="flex items-center gap-3">
+                <Link href="/profile" className="text-sm text-white/80 hover:text-white transition-colors">
+                  {user.user_metadata?.avatar_url ? (
+                    <img src={user.user_metadata.avatar_url} alt="profile" className="w-7 h-7 rounded-full" />
+                  ) : (
+                    <span>👤</span>
+                  )}
+                </Link>
+                <button
+                  onClick={signOut}
+                  className="text-xs text-white/50 hover:text-white transition-colors"
+                >
+                  Sign out
+                </button>
+              </div>
+            ) : (
+              <button
+                onClick={signInWithGoogle}
+                className="text-sm font-semibold px-4 py-1.5 rounded-full transition-all"
+                style={{ backgroundColor: "var(--amber)", color: "white" }}
+              >
+                Sign in
+              </button>
+            )
+          )}
         </nav>
 
         {/* Mobile hamburger */}
@@ -54,6 +84,21 @@ export default function Nav() {
               {l.label}
             </Link>
           ))}
+          {!loading && (
+            user ? (
+              <button onClick={signOut} className="text-left text-white/50 text-sm">
+                Sign out ({user.email})
+              </button>
+            ) : (
+              <button
+                onClick={signInWithGoogle}
+                className="text-left font-semibold text-sm"
+                style={{ color: "var(--amber)" }}
+              >
+                Sign in with Google
+              </button>
+            )
+          )}
         </div>
       )}
     </header>
