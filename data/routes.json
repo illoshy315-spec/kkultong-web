@@ -1,0 +1,89 @@
+[
+  {
+    "id": "jeju-tangerines",
+    "title": "When Life Gives You Tangerines — Jeju Route",
+    "title_ko": "당신, 거기 있어줄래요 제주 성지순례",
+    "drama": "When Life Gives You Tangerines (당신, 거기 있어줄래요)",
+    "duration": "3 days recommended (2 days minimum)",
+    "area": "Jeju",
+    "transport": "Rental car essential",
+    "place_ids": ["jeju-seongsan", "jeju-gimnyeong", "jeju-seopjikoji", "jeju-gasiri", "jeju-udo"],
+    "tip": "Official 3-day tour route available from Jeju Tourism Organization. Rental car is not optional — most filming locations are inaccessible by public bus.",
+    "order_note": "Day 1: Seongsan + Udo Island. Day 2: Seopjikoji + Gasiri. Day 3: Gimnyeong + Hyeopjae."
+  },
+  {
+    "id": "goblin-gangneung",
+    "title": "Goblin Route — Gangneung",
+    "title_ko": "도깨비 강릉 성지순례",
+    "drama": "Goblin (도깨비, 2016)",
+    "duration": "1–2 days",
+    "area": "Gangneung",
+    "transport": "KTX from Seoul (1hr 30min). Local taxi recommended.",
+    "place_ids": ["gangneung-jumunjin", "gangneung-gyeongpodae", "gangneung-wolhwa"],
+    "tip": "KTX from Cheongnyangni or Seoul station direct to Gangneung. Note: Gangneung City Tour Bus service ended June 2025 — use taxi or Kakao Taxi.",
+    "order_note": "Start with Jumunjin (30min from station by taxi) in the morning, then Gyeongpodae Lake area, end at Wolhwa Street for dinner."
+  },
+  {
+    "id": "lovely-runner-suwon",
+    "title": "Lovely Runner — Suwon Day Trip",
+    "title_ko": "선재 업고 튀어 — 수원 당일치기",
+    "drama": "Lovely Runner (선재 업고 튀어, 2024)",
+    "duration": "1 day (from Seoul)",
+    "area": "Suwon",
+    "transport": "KTX 30min or Subway Line 1 direct from Seoul",
+    "place_ids": ["suwon-montede", "suwon-hwaseong"],
+    "tip": "Best budget day trip from Seoul. The Hwahongmun water gate (화홍문) inside Hwaseong Fortress is the confession scene spot — don't miss it.",
+    "order_note": "Arrive at Suwon Station → Montede Cafe for coffee → Hwaseong Fortress wall walk (2–3hrs) → Hwahongmun photo spot → Haenggung Palace → local 순대국밥 dinner."
+  },
+  {
+    "id": "kpop-seoul-hybe",
+    "title": "BTS & HYBE — Seoul K-Pop Pilgrimage",
+    "title_ko": "BTS·HYBE 서울 성지순례",
+    "drama": null,
+    "artists": ["BTS", "TXT", "SEVENTEEN", "ENHYPEN"],
+    "duration": "1 day",
+    "area": "Yongsan + Gangnam, Seoul",
+    "transport": "Subway only (all stops on major lines)",
+    "place_ids": ["hybe-insight", "kstar-road"],
+    "tip": "Book HYBE INSIGHT tickets in advance — they sell out. Same day: take subway to Gangnam, walk K-Star Road, finish at COEX for Ktown4u shopping.",
+    "order_note": "HYBE INSIGHT opens 10am (book first slot) → lunch near Hangang → Subway to Apgujeong → K-Star Road → COEX K-Pop Square → Ktown4u."
+  },
+  {
+    "id": "kpop-seoul-sm",
+    "title": "SM & aespa — Seongsu Pilgrimage",
+    "title_ko": "SM·aespa 성수동 성지순례",
+    "drama": null,
+    "artists": ["aespa", "NCT", "EXO", "NewJeans"],
+    "duration": "Half day",
+    "area": "Seongsu, Seoul",
+    "transport": "Subway Line 2 to Seongsu Station",
+    "place_ids": ["kwangya-seoul", "seongsu-popup"],
+    "tip": "KWANGYA @ Seoul is walk-in, no reservation needed. Check @kwangya_official Instagram for current popup artists. The whole Seongsu area is great for cafes.",
+    "order_note": "Seongsu Station → KWANGYA @ Seoul → SM HQ exterior → NewJeans Bunny Mural (3min walk from exit 2) → Seongsu popup district → cafe tour."
+  },
+  {
+    "id": "culinary-class-wars-seoul",
+    "title": "Culinary Class Wars — Chef Restaurant Route",
+    "title_ko": "흑백요리사 셰프 레스토랑 루트",
+    "drama": "Culinary Class Wars (흑백요리사, Netflix Season 1+2)",
+    "duration": "1–2 evenings",
+    "area": "Various (Seoul)",
+    "transport": "Subway + taxi",
+    "place_ids": ["culinary-via-toledo", "culinary-soigne", "culinary-mosu", "culinary-budget"],
+    "tip": "Via Toledo: reservations open 10th and 25th of each month at midnight on CatchTable. Soigné: most foreigner-friendly. Budget option: 안동집 손칼국수 (cash only, ₩7,000).",
+    "order_note": "Reserve Via Toledo or Soigné weeks ahead. For a budget version, 안동집 is walk-in only — go before 11:30am to avoid the queue."
+  },
+  {
+    "id": "busan-kpop",
+    "title": "Busan BTS & K-Pop Home Tour",
+    "title_ko": "부산 BTS 고향 성지순례",
+    "drama": null,
+    "artists": ["BTS Jimin", "BTS Jungkook", "SEVENTEEN Woozi"],
+    "duration": "2 days",
+    "area": "Busan",
+    "transport": "KTX from Seoul (2hrs 30min). Subway + taxi in Busan.",
+    "place_ids": ["busan-jimin-cafe", "busan-gamcheon", "busan-gwangalli"],
+    "tip": "Busan City Tour Bus: book on Klook (foreign card OK) — don't try to buy at the stop. ZM-ILLENNIAL Cafe is in Nam-gu, not Gwangalli — many maps show the wrong location.",
+    "order_note": "Day 1: Gamcheon Culture Village (morning) → Gwangalli Beach sunset. Day 2: ZM-ILLENNIAL Cafe → Haeundae Beach → optional: Busan Station area."
+  }
+]

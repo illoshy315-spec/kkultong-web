@@ -3,6 +3,7 @@
 import { useState } from "react";
 import dynamic from "next/dynamic";
 import placesData from "@/data/places.json";
+import routesData from "@/data/routes.json";
 
 const KoreaMap = dynamic(() => import("@/components/KoreaMap"), { ssr: false });
 
@@ -11,6 +12,7 @@ type UserType = "traveler" | "nomad" | "student" | null;
 type Place = {
   id: string;
   name_en: string;
+  name_ko?: string;
   category: string;
   area: string;
   english_available: boolean | null;
@@ -18,8 +20,23 @@ type Place = {
   reservation_required: boolean;
   price_range: string;
   tip: string;
-  instagram: string | null;
+  scene?: string;
+  instagram?: string | null;
   last_verified: string;
+};
+
+type Route = {
+  id: string;
+  title: string;
+  title_ko: string;
+  drama?: string | null;
+  artists?: string[];
+  duration: string;
+  area: string;
+  transport: string;
+  place_ids: string[];
+  tip: string;
+  order_note: string;
 };
 
 const CATEGORY_META: Record<string, { label: string; emoji: string; desc: string }> = {
@@ -64,6 +81,76 @@ function PlaceCard({ place }: { place: Place }) {
             {place.reservation_required && <span>📅 Reservation required</span>}
             {place.instagram && <span>📸 {place.instagram}</span>}
             <span>✅ Verified {place.last_verified}</span>
+          </div>
+        </div>
+      )}
+    </div>
+  );
+}
+
+function RouteSection() {
+  const [activeRoute, setActiveRoute] = useState<Route | null>(null);
+  const routes = routesData as Route[];
+
+  return (
+    <div className="mt-16">
+      <div className="text-center mb-8">
+        <p className="text-sm font-semibold tracking-widest uppercase mb-3" style={{ color: "var(--teal)" }}>
+          Recommended Routes
+        </p>
+        <h2 className="text-2xl md:text-3xl font-black mb-2" style={{ color: "var(--gray)" }}>
+          Ready-made itineraries<br />
+          <span style={{ color: "var(--teal)" }}>for K-content fans.</span>
+        </h2>
+        <p className="text-sm" style={{ color: "var(--gray)", opacity: 0.6 }}>
+          Pick a route — see every stop on the map.
+        </p>
+      </div>
+
+      {/* Route cards */}
+      <div className="grid gap-3 mb-6">
+        {routes.map((route) => (
+          <button
+            key={route.id}
+            onClick={() => setActiveRoute(activeRoute?.id === route.id ? null : route)}
+            className="text-left rounded-2xl border-2 px-5 py-4 transition-all"
+            style={{
+              borderColor: activeRoute?.id === route.id ? "var(--teal)" : "#e5e7eb",
+              backgroundColor: activeRoute?.id === route.id ? "#f0faf6" : "white",
+            }}
+          >
+            <div className="flex items-start justify-between gap-4">
+              <div className="flex-1">
+                <p className="font-bold text-sm" style={{ color: "var(--gray)" }}>{route.title}</p>
+                <p className="text-xs mt-0.5" style={{ color: "var(--gray)", opacity: 0.5 }}>{route.title_ko}</p>
+              </div>
+              <div className="text-right shrink-0">
+                <span className="text-xs font-medium px-2 py-0.5 rounded-full" style={{ backgroundColor: "#e5e7eb", color: "var(--gray)" }}>
+                  {route.area}
+                </span>
+              </div>
+            </div>
+            <div className="flex gap-4 mt-2 text-xs" style={{ color: "var(--gray)", opacity: 0.6 }}>
+              <span>⏱ {route.duration}</span>
+              <span>🚌 {route.transport}</span>
+            </div>
+          </button>
+        ))}
+      </div>
+
+      {/* Map + route detail */}
+      {activeRoute && (
+        <div className="mb-4">
+          <KoreaMap
+            places={[]}
+            allPlaces={placesData as any}
+            activeCategory={null}
+            activeRoute={activeRoute}
+          />
+          <div className="mt-4 rounded-2xl border p-5" style={{ borderColor: "#e5e7eb" }}>
+            <p className="font-bold text-sm mb-2" style={{ color: "var(--gray)" }}>💡 Route tips</p>
+            <p className="text-sm mb-2" style={{ color: "var(--gray)", lineHeight: "1.7" }}>{activeRoute.tip}</p>
+            <p className="text-sm" style={{ color: "var(--gray)", lineHeight: "1.7", opacity: 0.7 }}>{activeRoute.order_note}</p>
           </div>
         </div>
       )}
@@ -118,7 +205,7 @@ function KContentSection() {
 
       {/* Map */}
       <div className="mb-6">
-        <KoreaMap places={placesData as any} activeCategory={activeCategory} />
+        <KoreaMap places={placesData as any} allPlaces={placesData as any} activeCategory={activeCategory} activeRoute={null} />
       </div>
 
       {/* Place cards */}
@@ -612,6 +699,7 @@ export default function KoreaPage() {
         </p>
       )}
 
+      <RouteSection />
       <KContentSection />
     </div>
   );
