@@ -279,12 +279,12 @@ function TipsAccordion({ sections }: { sections: { icon: string; title: string; 
 
 // ─── K-Content categories ────────────────────────────────────
 const CONTENT_LINKS = [
-  { slug: "drama",          emoji: "🎬", label: "K-Drama\nFilming Locations", color: "#1565c0", bg: "#e3f2fd" },
-  { slug: "kpop",           emoji: "🎤", label: "K-Pop\nPilgrimage",          color: "#c62828", bg: "#fce4ec" },
-  { slug: "culinary",       emoji: "🍽️", label: "Culinary\nClass Wars",        color: "#e65100", bg: "#fff3e0" },
-  { slug: "personal-color", emoji: "🎨", label: "Personal Color\nDiagnosis",   color: "#9c27b0", bg: "#f3e5f5" },
-  { slug: "halal",          emoji: "🕌", label: "Halal\nFood",                 color: "#2e7d32", bg: "#e8f5e9" },
-  { slug: "vegan",          emoji: "🌱", label: "Vegan &\nVegetarian",         color: "#558b2f", bg: "#f1f8e9" },
+  { slug: "drama",      emoji: "🎬", label: "K-Drama",      color: "#1565c0", bg: "#e3f2fd" },
+  { slug: "kpop",       emoji: "🎤", label: "K-Pop",        color: "#c62828", bg: "#fce4ec" },
+  { slug: "beauty",     emoji: "💄", label: "K-Beauty",     color: "#9c27b0", bg: "#f3e5f5" },
+  { slug: "food",       emoji: "🍽️", label: "K-Food",       color: "#e65100", bg: "#fff3e0" },
+  { slug: "experience", emoji: "💃", label: "K-Experience", color: "#00796b", bg: "#e0f2f1" },
+  { slug: "shopping",   emoji: "🛍️", label: "K-Shopping",   color: "#c2185b", bg: "#fce4ec" },
 ];
 
 // ─── Main page ───────────────────────────────────────────────
@@ -366,7 +366,7 @@ export default function KoreaPage() {
 
       {/* Browse by K-Content */}
       <div className={userType ? "" : "mt-2"}>
-        <p className="text-xs font-bold uppercase tracking-widest mb-4" style={{ color: "var(--gray)", opacity: 0.4 }}>
+        <p className="text-xs font-bold uppercase tracking-widest mb-4 text-center" style={{ color: "var(--gray)", opacity: 0.4 }}>
           Browse by K-Content
         </p>
         <div className="grid grid-cols-2 gap-3 sm:grid-cols-3">

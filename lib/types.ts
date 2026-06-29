@@ -34,12 +34,12 @@ export type Route = {
 };
 
 export const CATEGORY_SLUGS: Record<string, string> = {
-  drama:          "drama_location",
-  kpop:           "kpop_pilgrimage",
-  "personal-color": "personal_color",
-  halal:          "halal",
-  vegan:          "vegan",
-  culinary:       "culinary_class_wars",
+  drama:      "drama_location",
+  kpop:       "kpop_pilgrimage",
+  beauty:     "k_beauty",
+  food:       "k_food",
+  experience: "k_experience",
+  shopping:   "k_shopping",
 };
 
 export const SLUG_TO_CATEGORY = Object.fromEntries(
@@ -57,7 +57,7 @@ export const CATEGORY_META: Record<string, {
     label: "K-Drama Filming Locations",
     emoji: "🎬",
     title: "K-Drama Filming Locations in Korea — Verified Guide",
-    description: "Visit the real filming locations from Goblin, Lovely Runner, When Life Gives You Tangerines, Hotel Del Luna and more. Includes maps, transport tips, and what to expect.",
+    description: "Visit the real filming locations from Goblin, Lovely Runner, When Life Gives You Tangerines, Hotel Del Luna and more. Maps, transport tips, and what to expect.",
     color: "#1565c0",
   },
   kpop_pilgrimage: {
@@ -67,32 +67,32 @@ export const CATEGORY_META: Record<string, {
     description: "HYBE INSIGHT, KWANGYA @ Seoul, HiKR Ground, K-Star Road, and BTS hometown spots in Busan. Verified tips for foreign fans.",
     color: "#c62828",
   },
-  personal_color: {
-    label: "Personal Color Diagnosis",
-    emoji: "🎨",
-    title: "Personal Color Diagnosis in Korea — English-Friendly Shops",
-    description: "Find your season (Spring/Summer/Autumn/Winter) at verified English-available personal color shops in Seoul. Prices, booking tips, and what to bring.",
+  k_beauty: {
+    label: "K-Beauty",
+    emoji: "💄",
+    title: "K-Beauty in Korea — Personal Color, Olive Young & More",
+    description: "Personal color diagnosis, body type consulting, Olive Young sale dates, Daiso beauty picks, and the best K-beauty experiences in Seoul.",
     color: "#9c27b0",
   },
-  halal: {
-    label: "Halal Food in Korea",
-    emoji: "🕌",
-    title: "Halal Food in Korea — Certified Restaurants for Muslim Travelers",
-    description: "Certified halal restaurants and Muslim-friendly dining in Seoul. Foreign card accepted, English menus noted.",
-    color: "#2e7d32",
-  },
-  vegan: {
-    label: "Vegan & Vegetarian",
-    emoji: "🌱",
-    title: "Vegan & Vegetarian Food in Korea — English Guide",
-    description: "100% plant-based and vegetarian-friendly restaurants in Korea. What to order, what to avoid, and which places speak English.",
-    color: "#558b2f",
-  },
-  culinary_class_wars: {
-    label: "Culinary Class Wars",
+  k_food: {
+    label: "K-Food Experience",
     emoji: "🍽️",
-    title: "Culinary Class Wars Chef Restaurants — How to Book as a Foreigner",
-    description: "Visit restaurants from Netflix's Culinary Class Wars (흑백요리사). Reservation tips for CatchTable, budget options, and which chefs are most foreigner-friendly.",
+    title: "K-Food Guide — Culinary Class Wars, Temple Food, Michelin & More",
+    description: "Culinary Class Wars chef restaurants, temple food, Michelin picks, Blue Ribbon, halal, and vegan options. How to book as a foreigner.",
     color: "#e65100",
+  },
+  k_experience: {
+    label: "K-Experience",
+    emoji: "💃",
+    title: "K-Experiences in Korea — Dance Classes, Hanbok, Temple Stay & More",
+    description: "K-pop dance classes, hanbok rentals, jjimjilbang, temple stays, shamanic experiences, and more. All verified and foreigner-friendly.",
+    color: "#00796b",
+  },
+  k_shopping: {
+    label: "K-Shopping",
+    emoji: "🛍️",
+    title: "K-Shopping Guide — Olive Young, Daiso, Seongsu Popups & More",
+    description: "Olive Young sale calendar, Daiso beauty must-buys, Dongdaemun wholesale, Seongsu popup schedule, and where to shop as a foreigner in Korea.",
+    color: "#c2185b",
   },
 };
