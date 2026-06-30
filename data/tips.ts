@@ -76,8 +76,8 @@ const TIPS: TipsData = {
         },
         {
           q: "Can I use food delivery apps without a Korean card?",
-          a: "Coupang Eats accepts overseas Visa/Mastercard and foreign phone numbers — it's the most foreigner-friendly delivery app as of 2025. Baemin is Korea's largest but less reliable with foreign cards. For late-night: convenience stores are 24/7.",
-          source: { label: "coupangeats.com", url: "https://www.coupangeats.com" },
+          a: "Baemin (배민) now accepts foreign phone numbers and foreign credit cards (via NICEPAY), plus WeChat Pay and Alipay+ as of 2025–2026. Guest checkout also works for one-off orders. Coupang Eats has an 'Overseas Issued Card' option and partial English menus. Both apps are primarily in Korean — having a Korean phone number helps. For late-night: convenience stores are 24/7.",
+          source: { label: "livinginkorea.co", url: "https://www.livinginkorea.co/guides/daily-life/delivery/" },
         },
         {
           q: "How do I heat food at a convenience store?",
@@ -276,7 +276,7 @@ const TIPS: TipsData = {
         },
         {
           q: "What are the F-1-D visa requirements?",
-          a: "Minimum annual income: ~₩85M–₩113M KRW (approximately 2× Korea's per-capita GNI — threshold adjusted annually, verify current figure at immigration.go.kr before applying). Must be employed by a non-Korean company for at least 1 year. Age 18+. Health insurance required. Application at a Korean consulate abroad; processing time varies (allow 4–8 weeks minimum).",
+          a: "Minimum annual income: ~₩104.8M KRW (~$73,710 USD, based on 2025 GNI × 2 — threshold rises annually, verify current figure at your specific consulate). Must be employed by a non-Korean company for at least 1 year. Age 18+. Private health insurance with ₩100M hospital coverage + home-country evacuation required (this wording is the most common rejection reason). Apply at a Korean consulate abroad; or change status inside Korea from B-1/B-2/C-3 visa via HiKorea.",
           source: { label: "immigration.go.kr", url: "https://www.immigration.go.kr/immigration_eng/index.do" },
         },
         {
