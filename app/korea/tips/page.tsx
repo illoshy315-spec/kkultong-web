@@ -1,5 +1,4 @@
 import type { Metadata } from "next";
-import TipsClient from "./TipsClient";
 
 export const metadata: Metadata = {
   title: "Korea Survival Tips — For Travelers, Nomads & Students",
