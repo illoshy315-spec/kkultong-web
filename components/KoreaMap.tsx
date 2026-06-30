@@ -9,7 +9,7 @@ type Place = {
   name_ko?: string;
   category: string;
   area: string;
-  address: string;
+  address?: string;
   lat: number;
   lng: number;
   english_available: boolean | null;
