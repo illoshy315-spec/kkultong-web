@@ -2,6 +2,7 @@ import { notFound } from "next/navigation";
 import type { Metadata } from "next";
 import TIPS from "@/data/tips";
 import { slugify } from "@/lib/tips-utils";
+import TipDetailClient from "./TipDetailClient";
 
 type Props = { params: Promise<{ type: string; slug: string }> };
 
@@ -67,76 +68,14 @@ export default async function TipDetailPage({ params }: Props) {
   const next = sectionTips[idx + 1];
 
   return (
-    <div className="max-w-2xl mx-auto px-6 py-16">
-      {/* Breadcrumb */}
-      <div className="flex items-center gap-2 text-sm mb-8 flex-wrap" style={{ color: "var(--gray)", opacity: 0.5 }}>
-        <a href="/korea" style={{ textDecoration: "underline" }}>Korea Guide</a>
-        <span>→</span>
-        <a href={`/korea/tips/${type}`} style={{ textDecoration: "underline" }}>{meta?.emoji} {meta?.label}</a>
-        <span>→</span>
-        <span>{section.icon} {section.title}</span>
-      </div>
-
-      {/* Q */}
-      <h1 className="text-2xl font-black mb-6 leading-snug" style={{ color: "var(--gray)" }}>
-        {tip.q}
-      </h1>
-
-      {/* A */}
-      <div
-        className="rounded-2xl p-6 mb-6 text-sm leading-relaxed"
-        style={{ backgroundColor: "#f9fafb", color: "var(--gray)", whiteSpace: "pre-line" }}
-      >
-        {tip.a}
-      </div>
-
-      {/* Source */}
-      {tip.source && (
-        <a
-          href={tip.source.url}
-          target="_blank"
-          rel="noopener noreferrer"
-          className="inline-flex items-center gap-1 text-xs font-semibold mb-10"
-          style={{ color: "var(--teal)", textDecoration: "none" }}
-        >
-          ↗ {tip.source.label}
-        </a>
-      )}
-
-      {/* Prev / Next */}
-      <div className="flex gap-3 mt-8 pt-6 border-t" style={{ borderColor: "#e5e7eb" }}>
-        {prev ? (
-          <a
-            href={`/korea/tips/${type}/${slugify(prev.q)}`}
-            className="flex-1 rounded-xl border px-4 py-3 text-xs"
-            style={{ borderColor: "#e5e7eb", color: "var(--gray)", textDecoration: "none" }}
-          >
-            <div style={{ opacity: 0.4, marginBottom: 4 }}>← Previous</div>
-            <div className="font-semibold line-clamp-2">{prev.q}</div>
-          </a>
-        ) : <div className="flex-1" />}
-        {next && (
-          <a
-            href={`/korea/tips/${type}/${slugify(next.q)}`}
-            className="flex-1 rounded-xl border px-4 py-3 text-xs text-right"
-            style={{ borderColor: "#e5e7eb", color: "var(--gray)", textDecoration: "none" }}
-          >
-            <div style={{ opacity: 0.4, marginBottom: 4 }}>Next →</div>
-            <div className="font-semibold line-clamp-2">{next.q}</div>
-          </a>
-        )}
-      </div>
-
-      {/* Back */}
-      <div className="mt-4">
-        <a
-          href={`/korea/tips/${type}`}
-          className="text-sm font-semibold"
-          style={{ color: "var(--teal)", textDecoration: "none" }}
-        >
-          ← Back to {meta?.label} Guide
-        </a>
-      </div>
-    </div>
+    <TipDetailClient
+      type={type}
+      slug={slug}
+      sections={sections}
+      tip={tip}
+      section={section}
+      prev={prev}
+      next={next}
+    />
   );
 }
