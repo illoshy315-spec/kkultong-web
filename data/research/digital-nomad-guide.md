@@ -1,4 +1,4 @@
-﻿# Korea Digital Nomad Guide
+# Korea Digital Nomad Guide
 ### Korea Survival Tips — Digital Nomad Edition
 
 > **Audience:** Foreign remote workers living or planning to stay in South Korea.  
@@ -25,7 +25,7 @@
 
 The four most foreigner-friendly banks are **KEB Hana Bank** (하나은행), **Shinhan Bank** (신한은행), **Woori Bank** (우리은행), and **IBK Industrial Bank** (기업은행). At minimum you'll need your passport; an Alien Registration Card (ARC / 외국인등록증) is required to unlock full functionality but not always required to open a basic account. Visit a branch with a **Foreign Desk** (외국인 전담 창구) — Hana's "Hana Global" branches and Shinhan's "Global Finance Centers" are the most English-friendly options nationwide. IBK is particularly popular with E-visa holders (students, workers). Bring your passport, visa page copy, and if possible a local phone number.
 
-> *Source:* [https://onboardkorea.com/bank-account-in-korea-foreigner-guide/](https://onboardkorea.com/bank-account-in-korea-foreigner-guide/) | [https://foreignerhome.com/blog/en/banks-in-korea-foreigner-guide-2025/](https://foreignerhome.com/blog/en/banks-in-korea-foreigner-guide-2025/)
+> *Source:* [https://onboardkorea.com/bank-account-in-korea-foreigner-guide/](https://onboardkorea.com/bank-account-in-korea-foreigner-guide/) | [https://onboardkorea.com/korean-bank-account-nomads-no-fvisa/](https://onboardkorea.com/korean-bank-account-nomads-no-fvisa/) (KEB Hana Global branches) | [https://korea-visa.kr/mn/post/Resources/XoTjL0p4oTiP8zz7J6Je](https://korea-visa.kr/mn/post/Resources/XoTjL0p4oTiP8zz7J6Je) (bank-specific notes for foreigners)
 
 ---
 
@@ -33,13 +33,13 @@ The four most foreigner-friendly banks are **KEB Hana Bank** (하나은행), **S
 
 Yes — but you will receive a **limited account (한도계좌)**, which typically restricts daily transfers to ₩300,000–₩1,000,000 and blocks wire transfers abroad. Woori Bank and Hana Bank are the most willing to open accounts for passport-only visitors; some branches may also accept a **Mobile ARC** (모바일 외국인등록증) issued via the HiKorea app instead of a physical card. To lift the limit later, bring your ARC (or Mobile ARC), proof of address, and purpose of account use to a branch. Shinhan and IBK also accept Mobile ARC, but policies can vary by branch — call ahead (as of 2025).
 
-> *Source:* [https://www.hikorea.go.kr/](https://www.hikorea.go.kr/) (Mobile ARC issuance) | [https://www.nowak-partner.com/en/publications/mobile-phone-und-bank-account-in-korea](https://www.nowak-partner.com/en/publications/mobile-phone-und-bank-account-in-korea)
+> *Source:* [https://www.hikorea.go.kr/](https://www.hikorea.go.kr/) (Mobile ARC issuance — official HiKorea notice) | [https://fss.or.kr/fss/bbs/B0000313/view.do?nttId=51328&menuNo=201099](https://fss.or.kr/fss/bbs/B0000313/view.do?nttId=51328&menuNo=201099) (FSS: 한도제한계좌 daily limits: non-face-to-face ₩300K, counter ₩1M) | [https://krinsider.com/blog/lifting-banking-limits-korea-2026-guide](https://krinsider.com/blog/lifting-banking-limits-korea-2026-guide) (detailed limit-removal steps) | [https://seoulstart.com/faq](https://seoulstart.com/faq) (Woori/Hana passport-only accounts confirmed)
 
 ---
 
 ### Q: How do I receive international payments (Wise, Revolut, SWIFT) in Korea?
 
-**Wise** (formerly TransferWise) is the most popular method among digital nomads: you can receive KRW into a Korean bank account via Wise's local routing details, paying only ~0.4–0.7% in conversion fees. **Revolut** does not currently support a KRW wallet for receiving SWIFT transfers from Korea directly (as of early 2025). Standard **SWIFT bank transfers** from Korean banks charge ₩5,000–₩10,000 per outbound transfer plus up to 2% spread — more expensive than Wise. For ongoing freelance income, set up Wise as your primary international buffer account; link it to your Korean bank once your account limit is lifted. Always confirm your bank's daily foreign-wire limits before expecting a large inbound payment.
+**Wise** (formerly TransferWise) is the most popular method among digital nomads: you can receive KRW into a Korean bank account via Wise's local routing details, paying only ~0.4–0.7% in conversion fees. **Revolut** does not currently support a KRW wallet for receiving SWIFT transfers from Korea directly (as of 2025). Standard **SWIFT bank transfers** from Korean banks charge ₩5,000–₩10,000 per outbound transfer plus up to 2% spread — more expensive than Wise. For ongoing freelance income, set up Wise as your primary international buffer account; link it to your Korean bank once your account limit is lifted. Always confirm your bank's daily foreign-wire limits before expecting a large inbound payment.
 
 > *Source:* [https://www.reddit.com/r/Revolut/comments/1ja8116/receiving_swift_transfer_from_south_korea/](https://www.reddit.com/r/Revolut/comments/1ja8116/receiving_swift_transfer_from_south_korea/) | [https://wise.com](https://wise.com)
 
@@ -59,15 +59,15 @@ Yes — but you will receive a **limited account (한도계좌)**, which typical
 
 The fastest option is the **airport SIM counter** at Incheon (인천국제공항) — all three major carriers (SKT, KT, LG U+) operate booths in arrivals halls T1 and T2, selling prepaid data-only or data+calls SIMs. You can also pick up SIMs at convenience stores (편의점) like GS25, CU, and 7-Eleven across Seoul — these are usually data-only prepaid cards. For a **voice call SIM** without an ARC, visit a carrier store (대리점) with your passport; KT and SKT will issue foreigner prepaid plans with a real Korean number. The airport booth option costs slightly more but saves the hassle of hunting a store on arrival day. eSIM options from Airalo or Holafly are also valid for the first days while you sort out a long-term plan.
 
-> *Source:* [https://www.nomadesim.com/blog/where-to-buy-sim-card-korea](https://www.nomadesim.com/blog/where-to-buy-sim-card-korea) | [https://foreignerhome.com/blog/en/korea-sim-card-guide-foreigners-2025/](https://foreignerhome.com/blog/en/korea-sim-card-guide-foreigners-2025/)
+> *Source:* [https://www.nomadesim.com/blog/where-to-buy-sim-card-korea](https://www.nomadesim.com/blog/where-to-buy-sim-card-korea) | [https://foreignerhome.com/blog/en/korea-sim-card-guide-foreigners-2025/](https://foreignerhome.com/blog/en/korea-sim-card-guide-foreigners-2025/) | [https://www.kimchimobile.com/guides/korea-sim-card-comparison/](https://www.kimchimobile.com/guides/korea-sim-card-comparison/) (carrier booth and eSIM options compared)
 
 ---
 
 ### Q: Should I go with SKT/KT/LG or an MVNO (알뜰폰) to save money?
 
-For the **first 1–3 months**, an MVNO (알뜰폰, "thrifty phone") is almost always cheaper. MVNOs like **Chingu Mobile** (친구모바일), **Woori Mobile** (우리모바일), and **Kimchi Mobile** (김치모바일) cater specifically to foreigners — they accept passport registration, have English customer service, and accept international payments (e.g., Wise). As of 2025, you can get unlimited data (throttled after high-speed quota) + calls + texts for approximately **₩16,980–₩30,000/month** — vs ₩50,000–₩80,000/month for a full postpaid plan from SKT/KT. The trade-off is slightly slower speeds during peak hours, as MVNOs lease network capacity from the big three. If you sign up for 6+ months or get an ARC, postpaid plans become more competitive.
+For the **first 1–3 months**, an MVNO (알뜰폰, "thrifty phone") is almost always cheaper. MVNOs like **Chingu Mobile** (친구모바일), **Woori Mobile** (우리모바일), and **Kimchi Mobile** (김치모바일) cater specifically to foreigners — they accept passport registration, have English customer service, and accept international payments (e.g., Wise). As of 2025–2026, prepaid MVNO plans offer unlimited data (throttled after high-speed quota) + calls for approximately **₩50,000 for 90 days** (≈₩16,700/month) to **₩70,000 for 90 days** (≈₩23,300/month) on basic plans, or **₩30,000/month for 30-day unlimited data-only plans** (Woori Mobile) — compared to ~₩50,000–₩80,000/month for a full postpaid plan from SKT/KT. Note that these are fixed-term prepaid plans (14/30/60/90 days), not monthly subscriptions like postpaid. The trade-off is slightly slower speeds during peak hours, as MVNOs lease network capacity from the big three. If you sign up for 6+ months or get an ARC, postpaid plans become more competitive.
 
-> *Source:* [https://www.reddit.com/r/Living_in_Korea/comments/1m08vbz/unlimited_data_plan_for_locals/](https://www.reddit.com/r/Living_in_Korea/comments/1m08vbz/unlimited_data_plan_for_locals/) | [https://www.kimchimobile.com/guides/korea-sim-card-comparison/](https://www.kimchimobile.com/guides/korea-sim-card-comparison/)
+> *Source:* [https://chingumobile.com/wp_usimstore](https://chingumobile.com/wp_usimstore) (Chingu Mobile prepaid pricing verified) | [https://www.woorimobile.kr/](https://www.woorimobile.kr/) (Woori Mobile pricing) | [https://www.kimchimobile.com/guides/korea-sim-card-comparison/](https://www.kimchimobile.com/guides/korea-sim-card-comparison/) (MVNO vs carrier comparison)
 
 ---
 
@@ -75,15 +75,15 @@ For the **first 1–3 months**, an MVNO (알뜰폰, "thrifty phone") is almost a
 
 Yes — tourist prepaid voice plans are available from **KT**, **SKT**, and **LG U+** with just a passport (as of 2025). MVNO services Chingu Mobile and Woori Mobile also provide voice-capable SIMs to foreigners without ARC by registering online with your passport details. The key difference is that **postpaid contracts** (which give cheaper rates and more data) require an ARC; tourist/prepaid voice plans do not. If you only need a local number for app verifications (banking, delivery apps), a ₩10,000–₩20,000 prepaid voice SIM from a carrier store is sufficient until you get your ARC.
 
-> *Source:* [https://foreignerhome.com/blog/en/korea-mobile-plans-for-foreigners-prepaid-postpaid/](https://foreignerhome.com/blog/en/korea-mobile-plans-for-foreigners-prepaid-postpaid/) | [https://seoulfuldays.tistory.com/entry/Best-MVNO-Plans-in-Korea-for-Expats-2025-Comparison-Guide](https://seoulfuldays.tistory.com/entry/Best-MVNO-Plans-in-Korea-for-Expats-2025-Comparison-Guide)
+> *Source:* [https://foreignerhome.com/blog/en/korea-mobile-plans-for-foreigners-prepaid-postpaid/](https://foreignerhome.com/blog/en/korea-mobile-plans-for-foreigners-prepaid-postpaid/) | [https://seoulfuldays.tistory.com/entry/Best-MVNO-Plans-in-Korea-for-Expats-2025-Comparison-Guide](https://seoulfuldays.tistory.com/entry/Best-MVNO-Plans-in-Korea-for-Expats-2025-Comparison-Guide) | [https://chingumobile.com/wp_usimstore](https://chingumobile.com/wp_usimstore) (Chingu Mobile prepaid voice plans) | [https://www.kimchimobile.com/guides/korea-sim-card-comparison/](https://www.kimchimobile.com/guides/korea-sim-card-comparison/) (passport vs ARC SIM comparison)
 
 ---
 
 ### Q: Pocket Wi-Fi vs SIM — which is better for a digital nomad?
 
-A **local SIM card** is almost always the better choice for stays of one week or longer. Pocket Wi-Fi (포켓 와이파이) is convenient for multi-device use (e.g., laptop + tablet simultaneously) but adds a daily rental cost of ₩3,000–₩8,000 and requires daily charging. Korea's public Wi-Fi coverage is excellent (subway stations, cafes, airports), but you shouldn't rely on it for video calls or sensitive work. For a nomad doing remote work, a data SIM with a portable router or **tethering** to your laptop is the most cost-effective setup. eSIMs are ideal if your phone supports them — no physical card swap needed.
+A **local SIM card** is almost always the better choice for stays of one week or longer. Pocket Wi-Fi (포켓 와이파이) is convenient for multi-device use (e.g., laptop + tablet simultaneously) but adds a daily rental cost of ₩4,000–₩8,000 (as of 2025) and requires daily charging. Korea's public Wi-Fi coverage is excellent (subway stations, cafes, airports), but you shouldn't rely on it for video calls or sensitive work. For a nomad doing remote work, a data SIM with a portable router or **tethering** to your laptop is the most cost-effective setup. eSIMs are ideal if your phone supports them — no physical card swap needed.
 
-> *Source:* [https://esimkr.com/sim-cards/seoul/](https://esimkr.com/sim-cards/seoul/)
+> *Source:* [https://myroami.com/internet/pocket-wifi-south-korea/](https://myroami.com/internet/pocket-wifi-south-korea/) (Pocket WiFi pricing comparison 2026) | [https://www.jetpacglobal.com/blog/pocket-wifi-korea/](https://www.jetpacglobal.com/blog/pocket-wifi-korea/) (₩3,000–₩8,000/day estimate) | [https://www.kimchimobile.com/guides/korea-sim-card-comparison/](https://www.kimchimobile.com/guides/korea-sim-card-comparison/) 
 
 ---
 
@@ -99,9 +99,9 @@ Korea is a highly cashless society but its payment infrastructure is **domestic-
 
 ### Q: What is WOWPASS and should I get one?
 
-**WOWPASS** is an all-in-one prepaid card for foreign visitors that combines a **Mastercard payment card**, real-time currency exchange (at competitive rates), and **T-money** transit access in a single card. You pick it up from one of ~425 self-service kiosks nationwide (airports, subway stations, hotels, tourist spots), load it with foreign cash or by card, and use it anywhere Mastercard is accepted including delivery apps and some online services. As of 2025, it's one of the quickest ways to start paying like a local within 10 minutes of arrival without visiting a bank. The exchange rates are generally better than airport money changers, and there's no bank account or ARC required.
+**WOWPASS** is an all-in-one prepaid card for foreign visitors that combines a **Mastercard payment card**, real-time currency exchange (at competitive rates), and **T-money** transit access in a single card. You pick it up from one of **300+ self-service kiosks** nationwide (as of 2025; airports, subway stations, hotels, tourist spots), load it with foreign cash or by card, and use it at physical merchants that accept Mastercard. It is one of the quickest ways to start paying like a local within 10 minutes of arrival without visiting a bank. Note that WOWPASS may **not** work reliably on food delivery apps (Baemin, Coupang Eats) or major online shopping platforms, which often require additional Korean account verification even for Mastercard holders. There's no bank account or ARC required to obtain the card.
 
-> *Source:* [https://www.wowpass.io/](https://www.wowpass.io/) | [https://livingnomads.com/2025/08/wowpass-card/](https://livingnomads.com/2025/08/wowpass-card/)
+> *Source:* [https://www.wowpass.io/](https://www.wowpass.io/) | [https://www.koreanwonexchange.com/guide/korea-exchange/](https://www.koreanwonexchange.com/guide/korea-exchange/)
 
 ---
 
@@ -125,9 +125,9 @@ Cash is not needed for day-to-day life in most of Seoul, but you should keep **�
 
 ### Q: What types of rentals are available and which is best for a digital nomad?
 
-Korea's main rental types are **전세 (jeonse)** — a lump-sum deposit-only lease with no monthly rent — **월세 (wolse)** — monthly rent plus a smaller deposit — and **고시원 (gosiwon)** — micro-rooms (4–7m²) with shared facilities, popular among budget travelers. For a 1–3 month nomad stay, the best options are furnished **officetel (오피스텔)** monthly rentals or **share houses (쉐어하우스)** via platforms like Enkostay, Flitto House, or 33m2. Jeonse requires very large capital (₩100M+) and is not practical for short stays. Gosiwon is the cheapest option (from ₩300,000/month) but very cramped — fine if you have a coworking space.
+Korea's main rental types are **전세 (jeonse)** — a lump-sum deposit-only lease with no monthly rent — **월세 (wolse)** — monthly rent plus a smaller deposit — and **고시원 (gosiwon)** — micro-rooms (typically 4–10m²) with shared facilities, popular among budget travelers. For a 1–3 month nomad stay, the best options are furnished **officetel (오피스텔)** monthly rentals or **share houses (쉐어하우스)** via platforms like Enkostay, Flitto House, or 33m2. Jeonse requires very large capital (₩100M+) and is not practical for short stays. Gosiwon is the cheapest option (₩300,000–₩600,000/month as of 2025) but very cramped — fine if you have a coworking space.
 
-> *Source:* [https://stay.enko.kr/](https://stay.enko.kr/) | [https://beautipin.com/blogs/magazine/how-foreigners-rent-in-seoul-safely-beautipin](https://beautipin.com/blogs/magazine/how-foreigners-rent-in-seoul-safely-beautipin)
+> *Source:* [https://stay.enko.kr/](https://stay.enko.kr/) | [https://sharedhomies.com/blog/monthly-rentals-seoul-foreigner](https://sharedhomies.com/blog/monthly-rentals-seoul-foreigner)
 
 ---
 
@@ -182,9 +182,9 @@ The three dominant chains as of 2025 are:
 - **WeWork (위워크)** — 10+ Seoul locations; monthly from ~₩350,000–₩500,000; 15% discount for longer commitments; English-friendly
 - **SparkPlus (스파크플러스)** — premium finish, major business districts; monthly from ~₩300,000
 
-All three offer **drop-in day passes** without a contract — book via their apps or Naver Reservation. FastFive is typically the most affordable and has the widest geographic coverage including Hongdae, Seongsu, and Gangnam.
+All three offer **drop-in day passes** without a contract — book via their apps or Naver Reservation. FastFive is typically the most affordable and has the widest geographic coverage including Hongdae, Seongsu, and Gangnam. Prices are as of 2025 and subject to change; confirm current rates on each provider's website.
 
-> *Source:* [https://koreaexperience.com/blog/best-coworking-spaces-in-seoul-for-short-term-travelers-2026](https://koreaexperience.com/blog/best-coworking-spaces-in-seoul-for-short-term-travelers-2026) | [https://koreajourneys.com/top-10-co-working-spaces-in-seoul-for-productive-remote-work/](https://koreajourneys.com/top-10-co-working-spaces-in-seoul-for-productive-remote-work/)
+> *Source:* [https://www.fastfive.co.kr/](https://www.fastfive.co.kr/) | [https://koreajourneys.com/top-10-co-working-spaces-in-seoul-for-productive-remote-work/](https://koreajourneys.com/top-10-co-working-spaces-in-seoul-for-productive-remote-work/)
 
 ---
 
@@ -206,7 +206,7 @@ Seoul Metropolitan Government operates **청년공간 (Youth Spaces / Cheongnyeo
 
 ### Q: What are good coworking options outside Seoul — Busan and Jeju?
 
-**Busan**: NOMAD WORK (Centum City, 센텀시티) is a well-known dedicated coworking space for remote workers; Haeundae and Gwangalli beach areas have solid café-work culture. **Jeju Island**: The "Jeju Digital Nomad" program has created a cluster of spaces in Jeju City and Seogwipo — look for **Jeju CreativeHub** and **Hezuk Space**; monthly rates are generally 20–30% cheaper than Seoul. Visit Korea's official workation guide lists 8 recommended locations including Tongyeong and Sokcho for nomads seeking a slower pace. Korea's nationwide 5G coverage means internet quality outside Seoul is excellent.
+**Busan**: NOMAD WORK (Centum City, 센텀시티) is a well-known dedicated coworking space for remote workers; Haeundae and Gwangalli beach areas have solid café-work culture. **Jeju Island**: The "Jeju Digital Nomad" initiative has created a cluster of spaces in Jeju City and Seogwipo — look for **Jeju CreativeHub** and local coworking listings; monthly rates are generally 20–30% cheaper than Seoul. Visit Korea's official workation guide lists recommended locations including Tongyeong and Sokcho for nomads seeking a slower pace. Korea's nationwide 5G coverage means internet quality outside Seoul is excellent.
 
 > *Source:* [https://english.visitkorea.or.kr/svc/contents/infoHtmlView.do?vcontsId=194109](https://english.visitkorea.or.kr/svc/contents/infoHtmlView.do?vcontsId=194109) | [https://www.thecoworkingspaces.com/space/coworking-nomad-work-busan](https://www.thecoworkingspaces.com/space/coworking-nomad-work-busan)
 
@@ -216,47 +216,47 @@ Seoul Metropolitan Government operates **청년공간 (Youth Spaces / Cheongnyeo
 
 ### Q: Does Korea have a dedicated Digital Nomad Visa?
 
-Yes — Korea launched the **F-1-D Workation Visa (워케이션 비자)** on **January 1, 2024** as a pilot program. As of 2025, it grants a **1-year stay**, renewable once for a second year (up to 2 years total), and allows remote workers to live in Korea while working for an **overseas employer or foreign clients**. You must apply at a Korean embassy or consulate **outside Korea** before entry (not at immigration while on a tourist visa). The pilot was originally set to run through December 2025 — check the Korean immigration official site for the latest status as of your travel date.
+Yes — Korea launched the **F-1-D Workation Visa (워케이션 비자)** on **January 1, 2024** as a pilot program. The Ministry of Justice extended the pilot **indefinitely** from January 1, 2026 (no fixed end date). It grants a **1-year stay**, renewable once for a second year (up to 2 years total), and allows remote workers to live in Korea while working for an **overseas employer or foreign clients**. You can apply at a Korean embassy or consulate **outside Korea**, or — since 2025 — change status **from inside Korea** if you are on visa-free entry (B-1), tourist visa (B-2), or short-stay visa (C-3). There is no pathway from F-1-D to permanent residency. Check the Korean immigration official site for the latest program status.
 
-> *Source:* [https://www.immigration.go.kr/immigration_eng/index.do](https://www.immigration.go.kr/immigration_eng/index.do) | [https://brighttax.com/blog/south-korea-digital-nomad-visa/](https://brighttax.com/blog/south-korea-digital-nomad-visa/) | [https://koreaworkexpert.com/korea-digital-nomad-visa-f1d-2026/](https://koreaworkexpert.com/korea-digital-nomad-visa-f1d-2026/)
+> *Source:* [https://www.immigration.go.kr/immigration_eng/index.do](https://www.immigration.go.kr/immigration_eng/index.do) | [https://seoulstart.com/guides/f-1-d-visa-guide](https://seoulstart.com/guides/f-1-d-visa-guide) | [https://www.digitalnomadskorea.com/post/everything-you-need-to-know-about-koreas-digital-nomad-visa](https://www.digitalnomadskorea.com/post/everything-you-need-to-know-about-koreas-digital-nomad-visa)
 
 ---
 
 ### Q: What are the F-1-D Workation Visa requirements?
 
-As of 2025, the key eligibility criteria are:
+As of mid-2026, the key eligibility criteria are:
 
-- **Minimum annual income:** ~₩85M–₩105M KRW (~USD $63,000–$77,000) — approximately 2× Korea's per-capita GNI; the threshold is adjusted annually
-- **Employment:** Must be employed by or contracting with a **non-Korean company** for at least 1 year in the same industry
+- **Minimum annual income:** 2× Korea's per capita GNI (Gross National Income) for the previous year. Based on the Bank of Korea's March 2026 release (2025 GNI = $36,855), this is approximately **₩104.8M KRW (~$73,710 USD)**. However, some consulates (notably US MOFA posts) still publish the launch-era figure of $66,000 (~₩85M, based on 2023 GNI). **Always verify the operative figure with your specific consulate.**
+- **Employment:** Must be employed by or contracting with a **non-Korean company** for at least **1 year in the same industry**. Pure freelancers without a registered overseas entity are in a gray zone; incorporation is recommended.
 - **Age:** 18+
-- **Health insurance:** Required for the full visa period
-- **Application:** At a Korean consulate/embassy outside Korea; processing time varies by country (3–6 months in some cases)
+- **Health insurance:** Private insurance with at least **₩100M coverage** for hospital treatment and **home-country evacuation (본국후송)** — this specific wording is the most common rejection reason.
+- **Application:** At a Korean consulate/embassy outside Korea (allow 2–4 weeks), OR via status change inside Korea if on B-1/B-2/C-3 status (3–10 business days via HiKorea).
 
-This income threshold is high compared to other countries' nomad visas, meaning it targets higher-earning professionals. Self-employed freelancers may qualify if they can document 1+ year of consistent foreign client income.
+This income threshold targets higher-earning professionals. The threshold rises annually with GNI, so plan for renewals at a potentially higher figure.
 
-> *Source:* [https://www.immigration.go.kr/immigration_eng/index.do](https://www.immigration.go.kr/immigration_eng/index.do) | [https://www.seoulz.com/korea-digital-nomad-visa-2026/](https://www.seoulz.com/korea-digital-nomad-visa-2026/)
+> *Source:* [https://seoulstart.com/guides/f-1-d-visa-guide](https://seoulstart.com/guides/f-1-d-visa-guide) | [https://www.digitalnomadskorea.com/post/everything-you-need-to-know-about-koreas-digital-nomad-visa](https://www.digitalnomadskorea.com/post/everything-you-need-to-know-about-koreas-digital-nomad-visa) | [https://www.immigration.go.kr/immigration_eng/index.do](https://www.immigration.go.kr/immigration_eng/index.do)
 
 ---
 
 ### Q: What if I don't qualify for F-1-D? Can I stay as a tourist and work remotely?
 
-Most Western, US, EU, Australian, and Japanese passport holders enter Korea **visa-free for 90 days** (K-ETA may be required for some nationalities — check keta.go.kr). You are legally permitted to be in the country; however, Korean law does not explicitly authorize **working** (even remotely for overseas clients) on a tourist visa status — it exists in a gray zone similar to most countries. There is no official 90-day extension on the tourist waiver. The practical workaround used by many nomads is a **visa run (비자런)** — leaving Korea briefly (e.g., Fukuoka or Tsushima, Japan; 2–3 day trips) and re-entering for a fresh 90 days. Korean immigration does flag repeated short-stay patterns, so this strategy carries escalating risk over many cycles.
+Most Western, US, EU, Australian, and Japanese passport holders enter Korea **visa-free for 90 days**. Regarding K-ETA: the Korean government has **extended the temporary K-ETA exemption through December 31, 2026** for nationals of most visa-exempt countries — meaning most Western travelers can enter without a K-ETA. The exemption applies to 22 countries/regions; always confirm current status at k-eta.go.kr before travel as this is reviewed annually. Korean law does not explicitly authorize **working** (even remotely for overseas clients) on a tourist visa — it exists in a gray zone similar to most countries. There is no official 90-day extension on the tourist waiver. The practical workaround used by many nomads is a **visa run (비자런)** — leaving Korea briefly (e.g., Fukuoka or Tsushima, Japan; 2–3 day trips) and re-entering for a fresh 90 days; however, Korean immigration does flag repeated short-stay patterns, so this strategy carries escalating risk over many cycles.
 
-> *Source:* [https://www.immigration.go.kr/immigration_eng/3363/subview.do](https://www.immigration.go.kr/immigration_eng/3363/subview.do) | [https://thesoulofseoul.net/visa-runs-from-korea-where-to-go/](https://thesoulofseoul.net/visa-runs-from-korea-where-to-go/)
+> *Source:* [https://www.immigration.go.kr/immigration_eng/3363/subview.do](https://www.immigration.go.kr/immigration_eng/3363/subview.do) | [https://english.visitkorea.or.kr/svc/contents/contentsView.do?vcontsId=251923](https://english.visitkorea.or.kr/svc/contents/contentsView.do?vcontsId=251923) (K-ETA exemption extension official notice)
 
 ---
 
 ### Q: What is the 183-day tax rule and does it apply to me?
 
-Korea taxes individuals on **worldwide income** if they are classified as a **tax resident** — defined as spending **183 or more days** in Korea in a tax year (January 1 – December 31). If you stay under 183 days, Korea generally has **no tax claim** on your foreign-sourced remote income. If you cross 183 days, you become a Korean tax resident and must report global income to the **National Tax Service (NTS / 국세청)**. Rates are progressive: 6% on income up to ₩14M, rising to 45% on income above ₩1B; a local income tax of 10% of PIT is added on top. Check your home country's tax treaty with Korea to avoid double taxation — Korea has treaties with 90+ countries.
+Korea taxes individuals on **worldwide income** if they are classified as a **tax resident** — defined as spending **183 or more days** in Korea in a tax year (January 1 – December 31). **Effective January 1, 2026**, a consecutive 183-day stay spanning two tax years also triggers residency. **Important exception for new foreign residents:** If you have resided in Korea for **5 years or less during the prior 10-year period**, you are only taxed on Korean-source income plus foreign-source income that is **remitted to Korea** — not your full global income. In practice: if your overseas salary stays in a foreign bank account, Korea does not tax it during your first 5 years of residence. After crossing the 5-year threshold, full worldwide income taxation applies. If you stay under 183 days total in a year, Korea has no tax claim on your foreign-sourced remote income. Korean income tax rates are progressive across **8 brackets**: 6% on income up to ₩14M, 15% up to ₩50M, 24% up to ₩88M, 35% up to ₩150M, 38% up to ₩300M, 40% up to ₩500M, 42% up to ₩1B, and 45% on income above ₩1B (rates apply from 2023 onward). A local income tax (지방소득세) of 10% of the national income tax is added on top (effective top marginal rate: 49.5%). Check your home country's tax treaty with Korea to avoid double taxation — Korea has treaties with 90+ countries.
 
-> *Source:* [https://www.nts.go.kr/english/main.do](https://www.nts.go.kr/english/main.do) | [https://taxsummaries.pwc.com/republic-of-korea/individual/taxes-on-personal-income](https://taxsummaries.pwc.com/republic-of-korea/individual/taxes-on-personal-income) | [https://www.greenbacktaxservices.com/blog/south-korea-digital-nomad-visa/](https://www.greenbacktaxservices.com/blog/south-korea-digital-nomad-visa/)
+> *Source:* [https://taxsummaries.pwc.com/republic-of-korea/individual/taxes-on-personal-income](https://taxsummaries.pwc.com/republic-of-korea/individual/taxes-on-personal-income) (Last reviewed 15 January 2026) | [https://www.nts.go.kr/english/main.do](https://www.nts.go.kr/english/main.do) | [https://seoulstart.com/guides/f-1-d-visa-guide](https://seoulstart.com/guides/f-1-d-visa-guide)
 
 ---
 
 ### Q: Is working remotely for a foreign company on a D-10 or F-1 visa legal?
 
-The **D-10 (구직 비자, job-seeking visa)** is specifically for people seeking employment *within Korea* — using it to perform remote work for overseas clients is a legal gray area and not recommended without consulting an immigration lawyer. The **F-1 (방문동거, family visit)** visa does not authorize work at all. The only visa explicitly designed for foreign-company remote work is the **F-1-D Workation Visa**. If you hold an F-2, F-5, or F-6 (long-term residence status), you may generally work freely including remote work. When in doubt, consult the HiKorea portal or contact the Korea Immigration Contact Center at 1345 (English available 24/7).
+The **D-10 (구직 비자, job-seeking visa)** is specifically for people seeking employment *within Korea* — using it to perform remote work for overseas clients is not permitted under its purpose. The **F-1 (방문동거, family visit)** visa does not authorize any work, including remote work for foreign companies. The only visa explicitly designed for foreign-company remote work is the **F-1-D Workation Visa**. If you hold an F-2, F-5, or F-6 (long-term residence status), you may generally work freely including remote work. For tourist entry (B-1/B-2/C-3), remote work for a foreign employer is not explicitly authorized but enforcement is minimal for short stays — the F-1-D is the legal route. When in doubt, consult the HiKorea portal or contact the Korea Immigration Contact Center at 1345 (English available 24/7).
 
 > *Source:* [https://www.hikorea.go.kr/](https://www.hikorea.go.kr/) | [https://www.immigration.go.kr/immigration_eng/index.do](https://www.immigration.go.kr/immigration_eng/index.do)
 
@@ -274,9 +274,9 @@ Google Maps has **limited routing accuracy in Korea** due to South Korean law re
 
 ### Q: Which food delivery app works for foreigners — Baemin or Coupang Eats?
 
-**Coupang Eats (쿠팡이츠)** now accepts **overseas-issued Visa/Mastercard** and allows registration with a foreign phone number — making it the most foreigner-friendly delivery app as of 2025. **Baemin (배달의민족)** is Korea's largest delivery app but traditionally required a Korean phone number and Korean card; as of 2025, it accepts foreign phone numbers for registration, but payment with a foreign card can still be unreliable. Both apps are Korean-language primary, but Coupang Eats is slightly more navigable with Google Translate or the phone's auto-translate overlay. **Yogiyo (요기요)** is a third option but has less market coverage. Start with Coupang Eats — if your foreign card works, stick with it.
+**Coupang Eats (쿠팡이츠)** is generally the most foreigner-friendly delivery app for overseas-issued Visa/Mastercard, offering an "Overseas Issued Card" option at checkout (as of 2025). **Baemin (배달의민족)** is Korea's largest delivery app — as of 2025–2026, Baemin has significantly opened up to foreigners: it now accepts foreign phone numbers for registration, and foreign credit cards through the NICEPAY payment gateway, plus WeChat Pay and Alipay+. Guest checkout (no account) also works for one-off orders with a foreign card. Both apps are Korean-language primary, but Coupang Eats offers partial English menus. **Yogiyo (요기요)** is a third option with broad Visa/Mastercard acceptance but less market coverage. In all cases, having a Korean phone number greatly increases your chances of successful registration.
 
-> *Source:* [https://www.gowonderfully.com/post/foreigner-s-guide-to-food-delivery-in-korea](https://www.gowonderfully.com/post/foreigner-s-guide-to-food-delivery-in-korea) | [https://www.reddit.com/r/korea/comments/1jtzkc3/how_i_ordered_korean_food_without_a_korean_phone/](https://www.reddit.com/r/korea/comments/1jtzkc3/how_i_ordered_korean_food_without_a_korean_phone/)
+> *Source:* [https://www.livinginkorea.co/guides/daily-life/delivery/](https://www.livinginkorea.co/guides/daily-life/delivery/) | [https://www.gowonderfully.com/post/foreigner-s-guide-to-food-delivery-in-korea](https://www.gowonderfully.com/post/foreigner-s-guide-to-food-delivery-in-korea) | [https://www.nomadesim.com/destination-guides/order-food-delivery-tourist-south-korea](https://www.nomadesim.com/destination-guides/order-food-delivery-tourist-south-korea)
 
 ---
 
@@ -302,10 +302,10 @@ Yes — **Danggeun Market** (당근마켓, also known as **Karrot** in English) 
 |---|---|---|
 | **Naver Map** (네이버 지도) | Navigation, transit, restaurants | ✅ English UI |
 | **KakaoTalk** (카카오톡) | Messaging — non-negotiable | ✅ English UI |
-| **Coupang Eats** (쿠팡이츠) | Food delivery | ✅ Foreign card OK |
+| **Coupang Eats** (쿠팡이츠) | Food delivery | ✅ Foreign card accepted |
 | **Coupang** (쿠팡) | Online shopping / next-day delivery | ⚠️ Korean card preferred |
-| **T-money / Cashbee app** | Transit card top-up | ⚠️ Korean bank required for app; use WOWPASS for transit |
-| **Papago** (파파고) | Translation by Naver, better than Google Translate for Korean | ✅ Fully English |
+| **T-money / Cashbee app** | Transit card top-up | ⚠️ Korean bank required for app; use WOWPASS card for transit |
+| **Papago** (파파고) | Translation by Naver, strong Korean accuracy | ✅ Fully English |
 | **Danggeun / Karrot** (당근마켓) | Secondhand goods | ✅ Korean number needed |
 | **Zigbang** (직방) | Apartment search | ⚠️ Korean preferred |
 | **NaverBlog / Naver Cafe** | Finding local community info | ⚠️ Korean-heavy |
@@ -331,4 +331,3 @@ Yes — **Danggeun Market** (당근마켓, also known as **Karrot** in English) 
 
 *Content compiled for kkultongkorea.com — Korea Survival Tips > Digital Nomad Guide.*  
 *Information accurate as of 2025. Verify time-sensitive details (visa fees, income thresholds, app policies) directly with official sources before relying on them.*
-
