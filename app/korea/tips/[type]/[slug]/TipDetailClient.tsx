@@ -51,11 +51,13 @@ export default function TipDetailClient({
           </div>
           {section.tips.map((t) => {
             const isActive = slugify(t.q) === slug;
+            const words = t.q.split(" ");
+            const short = words.slice(0, 6).join(" ") + (words.length > 6 ? "…" : "");
             return (
               <a
                 key={t.q}
                 href={`/korea/tips/${type}/${slugify(t.q)}`}
-                className="px-3 py-2 rounded-lg text-xs font-semibold transition-all leading-snug"
+                className="px-3 py-2 rounded-lg text-xs font-semibold transition-all"
                 style={{
                   backgroundColor: isActive ? "#fffbeb" : "transparent",
                   color: isActive ? "var(--amber)" : "var(--gray)",
@@ -63,16 +65,20 @@ export default function TipDetailClient({
                   textDecoration: "none",
                   display: "block",
                   opacity: isActive ? 1 : 0.7,
+                  whiteSpace: "nowrap",
+                  overflow: "hidden",
+                  textOverflow: "ellipsis",
                 }}
+                title={t.q}
               >
-                {t.q}
+                {short}
               </a>
             );
           })}
           <a
             href={`/korea/tips/${type}`}
-            className="mt-4 px-3 py-2 text-xs font-semibold"
-            style={{ color: "var(--teal)", textDecoration: "none", opacity: 0.7 }}
+            className="mt-5 px-3 py-2 text-xs font-bold rounded-lg flex items-center gap-1"
+            style={{ color: "var(--teal)", textDecoration: "none", backgroundColor: "#f0faf6" }}
           >
             ← All sections
           </a>
@@ -121,8 +127,8 @@ export default function TipDetailClient({
 
           {/* A */}
           <div
-            className="rounded-2xl p-6 mb-6 text-sm leading-relaxed"
-            style={{ backgroundColor: "#f9fafb", color: "var(--gray)", whiteSpace: "pre-line" }}
+            className="rounded-2xl p-6 mb-6 text-sm leading-relaxed border"
+            style={{ backgroundColor: "#f5f5f0", borderColor: "#e5e7eb", color: "var(--gray)", whiteSpace: "pre-line" }}
           >
             {tip.a}
           </div>
