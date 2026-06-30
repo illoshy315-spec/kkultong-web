@@ -62,6 +62,10 @@ const WHO_OPTIONS = [
   { key: "student",  emoji: "🎓", label: "Student",       sub: "Living in Korea" },
 ];
 
+const RESOURCE_LINKS = [
+  { href: "/korea/scholarships", emoji: "🎓", label: "Scholarships", sub: "GKS · University · Regional", color: "#1565c0", bg: "#e3f2fd" },
+];
+
 export default function KoreaPage() {
   return (
     <div className="max-w-3xl mx-auto px-6 py-16">
@@ -117,6 +121,30 @@ export default function KoreaPage() {
               <div className="text-sm font-bold" style={{ color: cat.color }}>
                 {cat.label}
               </div>
+            </a>
+          ))}
+        </div>
+      </div>
+
+      {/* Resources for Students */}
+      <div className="mb-10">
+        <p className="text-xs font-bold uppercase tracking-widest mb-4 text-center" style={{ color: "var(--gray)", opacity: 0.4 }}>
+          Student Resources
+        </p>
+        <div className="grid gap-3">
+          {RESOURCE_LINKS.map((r) => (
+            <a
+              key={r.href}
+              href={r.href}
+              className="rounded-2xl p-5 flex items-center gap-4 transition-transform hover:scale-[1.01]"
+              style={{ backgroundColor: r.bg, textDecoration: "none" }}
+            >
+              <span className="text-3xl">{r.emoji}</span>
+              <div>
+                <div className="text-sm font-bold" style={{ color: r.color }}>{r.label}</div>
+                <div className="text-xs mt-0.5" style={{ color: r.color, opacity: 0.7 }}>{r.sub}</div>
+              </div>
+              <span className="ml-auto text-xl" style={{ color: r.color, opacity: 0.5 }}>›</span>
             </a>
           ))}
         </div>
