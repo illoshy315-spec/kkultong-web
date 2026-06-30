@@ -92,7 +92,7 @@ export default function KoreaPage() {
           {WHO_OPTIONS.map((o) => (
             <a
               key={o.key}
-              href={`/korea/tips?type=${o.key}`}
+              href={`/korea/tips/${o.key}`}
               className="rounded-2xl p-4 text-center border-2 transition-all hover:scale-105"
               style={{ borderColor: "#e5e7eb", backgroundColor: "white", textDecoration: "none" }}
             >
