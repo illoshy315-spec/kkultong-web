@@ -1,6 +1,15 @@
 "use client";
 
 import { useState } from "react";
+
+function formatAnswer(text: string): string[] {
+  const sentences = text.match(/[^.!?]+[.!?]+\s*/g) ?? [text];
+  const paras: string[] = [];
+  for (let i = 0; i < sentences.length; i += 2) {
+    paras.push(sentences.slice(i, Math.min(i + 2, sentences.length)).join("").trim());
+  }
+  return paras.filter(Boolean);
+}
 import { slugify } from "@/lib/tips-utils";
 
 type Tip = { q: string; a: string; source?: { url: string; label: string } };
@@ -127,10 +136,12 @@ export default function TipDetailClient({
 
           {/* A */}
           <div
-            className="rounded-2xl p-6 mb-6 text-sm leading-relaxed border"
-            style={{ backgroundColor: "#f5f5f0", borderColor: "#e5e7eb", color: "var(--gray)", whiteSpace: "pre-line" }}
+            className="rounded-2xl p-6 mb-6 text-sm leading-relaxed border flex flex-col gap-3"
+            style={{ backgroundColor: "#f5f5f0", borderColor: "#e5e7eb", color: "var(--gray)" }}
           >
-            {tip.a}
+            {formatAnswer(tip.a).map((para, i) => (
+              <p key={i}>{para}</p>
+            ))}
           </div>
 
           {/* Source */}
