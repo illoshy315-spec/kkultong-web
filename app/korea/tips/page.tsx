@@ -1,3 +1,4 @@
+import { Suspense } from "react";
 import type { Metadata } from "next";
 import TipsClient from "./TipsClient";
 
@@ -14,5 +15,9 @@ export const metadata: Metadata = {
 };
 
 export default function TipsPage() {
-  return <TipsClient />;
+  return (
+    <Suspense fallback={null}>
+      <TipsClient />
+    </Suspense>
+  );
 }
