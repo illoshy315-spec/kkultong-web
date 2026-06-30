@@ -64,36 +64,6 @@ const TIPS: TipsData = {
       ],
     },
     {
-      icon: "🍜", title: "Food",
-      tips: [
-        {
-          q: "How do I read Korean menus if I don't speak Korean?",
-          a: "Use Google Translate camera mode — point your phone at the menu and it overlays English in real time. Papago (Naver's app) is even better for Korean. In tourist areas (Myeongdong, Hongdae, Itaewon) ask 'English menu?' (영어 메뉴 있어요? yeong-eo menyu isseoyo?).",
-        },
-        {
-          q: "Is it weird to eat alone in Korea?",
-          a: "'Honbap' (혼밥, eating alone) is mainstream. Best solo spots: gimbap (김밥) shops, noodle restaurants, food courts, convenience stores. Avoid Korean BBQ (most require 2+ servings). Look for '1인분 가능' (one person portion available) on the sign.",
-        },
-        {
-          q: "Can I use food delivery apps without a Korean card?",
-          a: "Baemin (배민) now accepts foreign phone numbers and foreign credit cards (via NICEPAY), plus WeChat Pay and Alipay+ as of 2025–2026. Guest checkout also works for one-off orders. Coupang Eats has an 'Overseas Issued Card' option and partial English menus. Both apps are primarily in Korean — having a Korean phone number helps. For late-night: convenience stores are 24/7.",
-          source: { label: "livinginkorea.co", url: "https://www.livinginkorea.co/guides/daily-life/delivery/" },
-        },
-        {
-          q: "How do I heat food at a convenience store?",
-          a: "Bring your food to the counter and say '데워 주세요' (de-wo ju-se-yo = please heat this). The cashier will microwave it. Every GS25, CU, and 7-Eleven has a microwave. Some stores have self-service microwaves — look for '전자레인지' sign.",
-        },
-        {
-          q: "Do I need to tip in Korea?",
-          a: "No. Tipping does not exist in Korea — not in restaurants, taxis, bars, or hotels. Leaving money on the table will result in someone chasing you down to return it. The bill is the final price.",
-        },
-        {
-          q: "How do I get more side dishes? Is water free?",
-          a: "Banchan (반찬) are unlimited and free — ask '반찬 더 주세요' (banchan deo ju-se-yo). Water is always free and self-serve — look for '정수기' (water dispenser). Press the call button on your table if you need the server.",
-        },
-      ],
-    },
-    {
       icon: "💳", title: "Money & Payments",
       tips: [
         {
@@ -113,24 +83,6 @@ const TIPS: TipsData = {
           q: "What's a WOWPASS card and should I get one?",
           a: "WOWPASS is a prepaid card combining Mastercard payments, real-time currency exchange, and T-money transit access in one card. Pick it up at airport kiosks or subway stations (~425 locations), load with foreign cash or card, use anywhere Mastercard is accepted. No bank account or ARC required. Rates are better than airport money changers.",
           source: { label: "wowpass.io", url: "https://www.wowpass.io" },
-        },
-      ],
-    },
-    {
-      icon: "🗣️", title: "Basic Korean",
-      tips: [
-        {
-          q: "What are the essential phrases for eating out?",
-          a: "1. '이거 주세요' (i-geo ju-se-yo) = this, please\n2. '계산해 주세요' (gye-san-hae ju-se-yo) = bill please\n3. '카드 돼요?' (ka-deu dwae-yo?) = do you take card?\n4. '포장해 주세요' (po-jang-hae ju-se-yo) = to-go please\n5. '데워 주세요' (de-wo ju-se-yo) = please heat this\n6. '물 주세요' (mul ju-se-yo) = water please\n7. '반찬 더 주세요' (ban-chan deo ju-se-yo) = more side dishes\n8. '맛있어요' (ma-sit-sseo-yo) = it's delicious!",
-        },
-        {
-          q: "What Korean phrases do I need for taxis?",
-          a: "'[place] 가 주세요' ([place] ga ju-se-yo) = take me to [place]. '여기 세워 주세요' (yeo-gi se-wo ju-se-yo) = stop here. '영수증 주세요' (yeong-su-jeung ju-se-yo) = receipt please. Pro tip: show the driver your destination in Korean on Naver Map — much easier than pronunciation.",
-        },
-        {
-          q: "What do I say in an emergency?",
-          a: "'도와주세요!' (do-wa-ju-se-yo!) = Help! '병원' (byeong-won) = hospital. '경찰' (gyeong-chal) = police. '불이야!' (bu-ri-ya!) = Fire! For tourists: call 1330 (Tourism Helpline) — English 24/7. Just say 'English please.'",
-          source: { label: "1330 Korea Travel Helpline", url: "https://english.visitkorea.or.kr" },
         },
       ],
     },
