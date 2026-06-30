@@ -3,7 +3,8 @@
 import { useState } from "react";
 import { slugify } from "@/lib/tips-utils";
 
-type TipSection = { title: string; icon: string; tips: { q: string; a: string; source?: { url: string; label: string } }[] };
+type Tip = { q: string; a: string; source?: { url: string; label: string } };
+type TipSection = { title: string; icon: string; tips: Tip[] };
 
 const TYPE_META: Record<string, { emoji: string; label: string }> = {
   traveler: { emoji: "✈️", label: "Traveler" },
@@ -23,10 +24,10 @@ export default function TipDetailClient({
   type: string;
   slug: string;
   sections: TipSection[];
-  tip: { q: string; a: string; source?: { url: string; label: string } };
+  tip: Tip;
   section: TipSection;
-  prev?: { q: string };
-  next?: { q: string };
+  prev?: Tip;
+  next?: Tip;
 }) {
   const meta = TYPE_META[type];
   const [menuOpen, setMenuOpen] = useState(false);
@@ -43,25 +44,38 @@ export default function TipDetailClient({
       </div>
 
       <div className="flex gap-8 items-start">
-        {/* Sidebar — desktop */}
-        <aside className="hidden md:flex flex-col gap-1 w-48 flex-shrink-0 sticky top-8">
-          {sections.map((s) => (
-            <a
-              key={s.title}
-              href={`/korea/tips/${type}#${slugify(s.title)}`}
-              onClick={(e) => { e.preventDefault(); window.location.href = `/korea/tips/${type}`; }}
-              className="text-left px-4 py-2.5 rounded-xl text-sm font-semibold transition-all"
-              style={{
-                backgroundColor: section.title === s.title ? "#fffbeb" : "transparent",
-                color: section.title === s.title ? "var(--amber)" : "var(--gray)",
-                borderLeft: section.title === s.title ? "3px solid var(--amber)" : "3px solid transparent",
-                textDecoration: "none",
-                display: "block",
-              }}
-            >
-              {s.icon} {s.title}
-            </a>
-          ))}
+        {/* Sidebar — desktop: show current section's Q list */}
+        <aside className="hidden md:flex flex-col gap-1 w-56 flex-shrink-0 sticky top-8">
+          <div className="text-xs font-bold uppercase tracking-widest mb-2 px-2" style={{ color: "var(--gray)", opacity: 0.4 }}>
+            {section.icon} {section.title}
+          </div>
+          {section.tips.map((t) => {
+            const isActive = slugify(t.q) === slug;
+            return (
+              <a
+                key={t.q}
+                href={`/korea/tips/${type}/${slugify(t.q)}`}
+                className="px-3 py-2 rounded-lg text-xs font-semibold transition-all leading-snug"
+                style={{
+                  backgroundColor: isActive ? "#fffbeb" : "transparent",
+                  color: isActive ? "var(--amber)" : "var(--gray)",
+                  borderLeft: isActive ? "3px solid var(--amber)" : "3px solid transparent",
+                  textDecoration: "none",
+                  display: "block",
+                  opacity: isActive ? 1 : 0.7,
+                }}
+              >
+                {t.q}
+              </a>
+            );
+          })}
+          <a
+            href={`/korea/tips/${type}`}
+            className="mt-4 px-3 py-2 text-xs font-semibold"
+            style={{ color: "var(--teal)", textDecoration: "none", opacity: 0.7 }}
+          >
+            ← All sections
+          </a>
         </aside>
 
         {/* Main */}
@@ -150,7 +164,7 @@ export default function TipDetailClient({
             )}
           </div>
 
-          <div className="mt-4">
+          <div className="mt-4 md:hidden">
             <a href={`/korea/tips/${type}`} className="text-sm font-semibold" style={{ color: "var(--teal)", textDecoration: "none" }}>
               ← Back to {meta?.label} Guide
             </a>
