@@ -14,12 +14,14 @@ export default function TipsTypeClient({ type }: { type: string }) {
   const sections = TIPS[type] ?? [];
   const meta = TYPE_META[type];
   const [activeSection, setActiveSection] = useState(sections[0]?.title ?? null);
+  const [menuOpen, setMenuOpen] = useState(false);
 
   if (!meta || sections.length === 0) {
     return <div className="max-w-2xl mx-auto px-6 py-16 text-center" style={{ color: "var(--gray)" }}>Not found.</div>;
   }
 
   const activeTips = sections.find((s) => s.title === activeSection)?.tips ?? [];
+  const activeSection_ = sections.find((s) => s.title === activeSection);
 
   return (
     <div className="max-w-2xl mx-auto px-6 py-16">
@@ -37,25 +39,45 @@ export default function TipsTypeClient({ type }: { type: string }) {
       </h1>
       <p className="text-sm mb-8" style={{ color: "var(--gray)", opacity: 0.55 }}>{meta.sub}</p>
 
-      {/* Section chips — horizontal scroll on mobile */}
-      <div className="flex gap-2 mb-6 overflow-x-auto pb-1" style={{ scrollbarWidth: "none" }}>
-        {sections.map((s) => (
-          <button
-            key={s.title}
-            onClick={() => setActiveSection(s.title)}
-            className="flex-shrink-0 px-4 py-2 rounded-full text-sm font-semibold border-2 transition-all"
-            style={{
-              borderColor: activeSection === s.title ? "var(--amber)" : "#e5e7eb",
-              backgroundColor: activeSection === s.title ? "var(--amber)" : "white",
-              color: activeSection === s.title ? "white" : "var(--gray)",
-            }}
+      {/* Section selector — hamburger style */}
+      <div className="relative mb-6">
+        <button
+          onClick={() => setMenuOpen(!menuOpen)}
+          className="w-full flex items-center justify-between px-5 py-3 rounded-xl border-2 font-semibold text-sm transition-all"
+          style={{
+            borderColor: "var(--amber)",
+            backgroundColor: "#fffbeb",
+            color: "var(--gray)",
+          }}
+        >
+          <span>{activeSection_?.icon} {activeSection_?.title}</span>
+          <span style={{ fontSize: 18, opacity: 0.6 }}>{menuOpen ? "✕" : "☰"}</span>
+        </button>
+
+        {menuOpen && (
+          <div
+            className="absolute left-0 right-0 mt-1 rounded-xl border shadow-lg z-10 overflow-hidden"
+            style={{ borderColor: "#e5e7eb", backgroundColor: "white" }}
           >
-            {s.icon} {s.title}
-          </button>
-        ))}
+            {sections.map((s) => (
+              <button
+                key={s.title}
+                onClick={() => { setActiveSection(s.title); setMenuOpen(false); }}
+                className="w-full text-left px-5 py-3 text-sm font-semibold transition-all hover:bg-amber-50"
+                style={{
+                  color: activeSection === s.title ? "var(--amber)" : "var(--gray)",
+                  backgroundColor: activeSection === s.title ? "#fffbeb" : "white",
+                  borderBottom: "1px solid #f3f4f6",
+                }}
+              >
+                {s.icon} {s.title}
+              </button>
+            ))}
+          </div>
+        )}
       </div>
 
-      {/* Q list — links to individual pages */}
+      {/* Q list */}
       <div className="flex flex-col gap-2">
         {activeTips.map((tip) => (
           <a
