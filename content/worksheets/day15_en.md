@@ -374,4 +374,6 @@ Answer: ____
 
 > *"Next up: Day 16 — 은/는 vs 이/가: both attach to the subject position, but they send completely different signals."*
 
+👉 **[Day 16: Topic vs. Subject — 은/는 vs 이/가 →](/worksheet/day16)**
+
 🔗 **kkultongkorea.com** | 📧 **kkultongkorea@gmail.com**

@@ -1,71 +1,73 @@
 ---
-day: 16
-title: "Topic vs. Subject — 은/는 and 이/가"
-subtitle: "Same slot, different signal"
-seo_title: "Korean 은/는 vs 이/가 Explained: Topic Marker vs Subject Marker | Kkultong Day 10"
-seo_description: "Why does Korean have two particles for the subject? 은/는 marks what you're talking about. 이/가 marks new information and emphasis. Free worksheet with examples and activities."
+title: "Topic vs. Subject — 은/는 vs 이/가"
+subtitle: "Same position, different signal"
+seo_title: "Korean 은/는 vs 이/가: Topic Marker vs Subject Marker Explained | Kkultong Day 16"
+seo_description: "은/는 and 이/가 both appear in the subject position — but they send completely different signals. Learn topic markers, subject markers, contrast nuance, and why 은/는 can appear anywhere in a sentence. Free worksheet for K-drama and K-pop fans."
 type: worksheet
-series: "Korean Sentences: How They Work and Why (Series 2)"
+series: "Series 3 — Korean Sentences"
+day: 16
 duration: "50–60 min"
 created: 2026-06-20
-updated: 2026-06-20
 status: draft
 ---
 
-## Day 9 Recap
+# Day 16. Topic vs. Subject — 은/는 vs 이/가
 
-What you learned in Day 9:
-- Particles attach after nouns and mark their role in the sentence
-- Form changes by 받침: 은/는, 이/가, 을/를, 으로/로
-- **이다**: a copular particle — attaches to a noun to form the predicate (학생이에요 / 의사예요)
-- **아니다**: an adjective — complement (noun + 이/가) + adjective predicate (학생이 아니에요)
+## Day 15 Recap
 
-Today, we look at the difference between 은/는 and 이/가.
-Day 9 grouped them together as particles with the same 받침 pattern — but in practice, they do completely different things.
+What you learned in Day 15:
+- Particles attach after nouns and mark each word's role
+- 받침 determines the form (은/는, 이/가, 을/를, 으로/로)
+- **이다**: copular particle — attaches to a noun to form the predicate (학생이에요 / 의사예요)
+- **아니다**: adjective — complement (noun + 이/가) + predicate structure (학생이 아니에요)
+
+Today: the difference between 은/는 and 이/가.
+In Day 15, they were introduced together as the same 받침 group — but they actually do completely different jobs.
 
 ---
 
 ## First: What They Have in Common
 
-은/는 and 이/가 are both **particles that attach at the subject position**.
+은/는 and 이/가 both attach to the **subject position**.
 
 ```
-나는 학생이에요.    ← 나 (I) = subject position
-내가 학생이에요.    ← 나 (I) = subject position
+나는 학생이에요.    ← 나 = subject position
+내가 학생이에요.    ← 나 = subject position
 ```
-
-Both mark "this word is the subject." That's the common ground.
 
 > **Wait — 나 + 가 = 내가?**
 >
-> In Korean, a few pronouns change form when 이/가 attaches to them.
+> A few Korean pronouns change form when they meet 이/가.
 > ```
 > 나  + 가  →  내가   (나가 ✗)
 > 저  + 가  →  제가   (저가 ✗)
-> 너  + 가  →  네가   (in speech, often 니가)
+> 너  + 가  →  네가   (니가 in casual speech)
 > ```
-> This is why you hear "내가 했잖아!" and "제가 할게요" in dramas — not 나가 or 저가.
-> These contractions, along with 이것/그것/저것 → 이게/그게/저게 and more, are covered fully in **Day 12**.
+> That's why you hear "내가 했잖아!" and "제가 할게요" so often in K-dramas.
+> These contractions, along with 이것/그것/저것 → 이게/그게/저게, are covered in **Day 18**.
 
-So if they both mark the subject, why are there two?
+Both mark "this word is the subject" — that's the common ground.
 
-은/는 and 이/가 are not about grammatical role — they differ in the **nature of the information** they signal. Even in the same subject slot, the choice of particle tells the listener something different.
+So why are there two?
 
-English doesn't make this distinction:
+은/는 and 이/가 don't differ in grammatical role (subject vs. not subject). They differ in the **type of information** they signal.
+Even in the same subject position, which one you choose depends on what signal you're sending.
+
+English has no equivalent distinction:
 
 ```
 The cat is cute.
 ```
 
-Just "the cat" — one form for every situation. Whether the cat is a topic, new information, or being emphasized, English handles it through word order and intonation. Korean uses particles.
+"The cat" — one form, full stop. Whether it's a topic, new information, or emphasis — English handles that through word order and intonation. Korean handles it through particles.
 
 ---
 
-## 은/는 — The Topic Marker
+## 은/는 — Topic Marker
 
-은/는 signals: *"I'm about to say something about this word."*
+은/는 signals "I'm about to talk about this."
 
-The closest English equivalent: **"As for ___"**
+A rough English equivalent: **"As for ___"**
 
 ```
 나는 학생이에요.
@@ -75,264 +77,280 @@ The closest English equivalent: **"As for ___"**
 → As for Seoul — it's big.
 ```
 
-### What is a "topic"?
+### What is a topic?
 
-Something already in the conversation, or something you're introducing as: "Let me say something about this."
-Once a topic has been established, you keep using 은/는 to refer back to it.
+Something already in the conversation, or something you're explicitly introducing as the subject of discussion.
+When a topic has already come up and you refer back to it, 은/는 is used again.
 
 ```
-A: 민준이 알아요?   Do you know Minjun?
-B: 네, 민준이는 알아요.   Yes, Minjun — I know him.
-   (민준이 already entered the conversation → 은/는 picks it up)
+A: 민준이 알아요?
+B: 네, 민준이는 알아요.
+   (민준이 = already in the conversation → picked up with 은/는)
 ```
 
-### 은/는 carries a contrast undertone
+### 은/는 carries a contrast nuance
 
-은/는 often implies "this one yes, but something else maybe not" — a silent comparison hovering in the background.
+은/는 signals topic and, at the same time, implies contrast — "compared to other things" or "at least this much."
 
 ```
 커피는 마셔요.
-→ Coffee, I drink.  (implied: but not tea)
+→ Coffee, I drink.  (implied: tea, I don't — contrast left unsaid)
 
 날씨는 좋아요.
-→ The weather, at least, is nice.  (implied: other things aren't)
+→ The weather, at least, is nice.  (everything else might not be)
 
 나는 괜찮아.
-→ As for me — I'm fine.  (implied: but what about you?)
+→ As for me — I'm fine.  (but what about you? — the nuance is there)
 ```
 
-This is why Korean sounds layered even in simple sentences. The particle does a lot of work.
+### 은/는 can attach outside the subject position
 
-### 은/는 can appear outside the subject slot
-
-Here's an important point: 은/는 isn't locked to the subject. It can attach to objects, complements — anywhere — and it brings the same "as for this" + contrast meaning.
+은/는 can attach to the subject, object, and complement positions — wherever it lands, it adds contrast.
 
 ```
-밥을 먹었어요.     I ate rice.          (neutral — object particle 을)
-밥은 먹었어요.     Rice, I ate.         (contrast — at least I ate)
+Subject position
+나는 밥을 먹었어요.        (나 = subject → 은/는 → topic)
+내가 밥을 먹었어요.        (나 = subject → 이/가 → emphasis)
+
+Object position
+밥을 먹었어요.             (밥 = object → 을/를 → neutral)
+밥은 먹었어요.             (밥 = object → 은/는 → contrast: ate that, but what about the rest?)
+
+Complement position
+학생이 아니에요.           (학생 = complement → 이/가 → neutral)
+학생은 아니에요.           (학생 = complement → 은/는 → contrast: not a student — so what then?)
 ```
 
-```
-커피를 마셔요.     I drink coffee.      (neutral)
-커피는 마셔요.     Coffee, I drink.     (contrast — not other things)
-```
-
-When 을/를 becomes 은/는, the grammatical role (object) stays the same, but contrast is layered on top.
-은/는 has no fixed slot. Wherever it attaches, it signals "as for this" + contrast.
+The particle changes; the grammatical role stays the same. 은/는 only adds contrast.
 
 ---
 
 ## ✏️ Activity 1: Reading 은/는
 
-Read each sentence and write what role 은/는 is playing in the parentheses.
-*(topic introduction / contrast / picking up a mentioned topic)*
+Read each exchange and write what role 은/는 is playing in the parentheses.
+*(introducing a topic / contrast / picking up something already mentioned)*
 
 ```
-1. A: 영화 봤어요?   Did you watch the movie?
+1. A: 영화 봤어요?
    B: 영화는 봤어요. 근데 숙제는 못 했어요.
-      The movie, I watched. But homework, I couldn't do.
    → 영화는: (              )
    → 숙제는: (              )
 
-2. A: 언니 알아요?   Do you know 언니?
-   B: 네, 언니는 알아요.   Yes, 언니 — I know her.
+2. A: 언니 알아요?
+   B: 네, 언니는 알아요.
    → 언니는: (              )
 
 3. 한국어는 알아요. 근데 일본어는 몰라요.
-   Korean, I know. But Japanese, I don't.
    → 한국어는: (              )
 ```
 
 ---
 
-## 이/가 — The Subject Marker
+## 이/가 — Subject Marker
 
-이/가 marks: *"This word is the subject of this sentence."*
+이/가 marks "this word is the subject of the sentence."
 Unlike 은/는, 이/가 is **subject-position only**.
 
 Three situations where 이/가 is used:
 
-### 1. New information — something entering the conversation for the first time
+### 1. New Information — Something Appearing for the First Time
 
 ```
 어, 비가 와요!
-→ Oh, it's raining!  (noticing rain for the first time — "rain" = new information)
+→ (glancing out the window — "rain" is new information)
 
 고양이가 들어왔어요.
-→ A cat came in.  (first appearance — cat = new information)
+→ (first appearance — cat = new information)
 ```
 
-New participants get introduced with 이/가. Once they're established in the conversation, 은/는 takes over.
+Something mentioned for the first time in a conversation is introduced with 이/가.
+Once it's been established as a topic, subsequent references use 은/는.
 
 ```
-고양이가 들어왔어요.  고양이는 귀여워요.
-     ↑ new info (이/가)          ↑ already mentioned (은/는)
+고양이가 들어왔어요. 고양이는 귀여워요.
+     ↑ new info (이/가)         ↑ already mentioned (은/는)
 ```
 
-### 2. Exclusive emphasis — "this one specifically"
+### 2. Exclusive Emphasis — "Specifically This"
 
-이/가 singles out a specific target: *"Not something else — this one."*
+이/가 gives a "not anything else — specifically this" feeling.
 
 ```
 내가 할게.
-→ I'll do it.  (not someone else — me specifically)
+→ I'll do it.  (not anyone else — specifically me)
 
 민준이가 했어.
-→ It was Minjun.  (not someone else — Minjun specifically)
+→ It was Minjun.  (not anyone else — specifically Minjun)
 
 이게 맛있어요.
-→ This is the one that's delicious.  (not something else — this one)
-   *(이게 = 이것 + 이 contracted — covered fully in Day 12)*
+→ This is the one that's delicious.  (not anything else — specifically this)
+   *(이게 = 이것 + 이 contracted — covered in Day 18)*
 ```
 
-A pair worth memorizing from K-dramas:
+A pattern you'll hear constantly in K-dramas:
 
 ```
-"내가 할게."   →  I'll do it.       (strong intent, emphasis on I)
-"나는 괜찮아."  →  As for me, I'm fine.  (contrast, implication)
+"내가 할게."   →  I'll do it.  (strong intent, specifically me)
+"나는 괜찮아." →  As for me, I'm fine.  (contrast, nuance)
 ```
 
-Same word 나, one particle change, completely different feel.
+Same word "나" — one particle completely changes the feeling.
 
-### 3. Answering "who / what" questions
+### 3. Answer to "Who/What?" Questions
 
 ```
-누가 전화했어요?   Who called?
-→ 민준이가 전화했어요.   Minjun called.  (specifically Minjun — new information)
+누가 전화했어요?
+→ 민준이가 전화했어요.   (specifically Minjun — singling out one person)
 
-뭐가 맛있어요?   What's delicious?
-→ 이게 맛있어요.   This is.  (specifically this — new information)
+뭐가 맛있어요?
+→ 이게 맛있어요.         (specifically this — singling out one thing)
 ```
 
-Answers to 누가 and 뭐가 always take 이/가 — you're identifying someone or something for the first time.
+The answer to a 누가 question is always 이/가.
+It's not confirming something already known — it's singling out a specific person or thing.
+
+> **Wait — what about 이/가 on the complement?**
+>
+> From Day 15:
+> ```
+> 학생이 아니에요.    ← 학생이 = complement
+> 의사가 아니에요.    ← 의사가 = complement
+> ```
+> This 이/가 is a **complementive particle** — it attaches to the complement position.
+>
+> The 이/가 in Day 16 is a **subject particle** — it attaches to the subject position.
+>
+> Same shape, different role. Tell them apart by position:
+> - Subject position → **subject particle** 이/가 (Day 16)
+> - Complement position → **complementive particle** 이/가 (before 아니다·되다 only)
 
 ---
 
 ## ✏️ Activity 2: Reading 이/가
 
-Write what role 이/가 is playing in each sentence.
-*(new information / exclusive emphasis / answering a question)*
+Read each sentence and write what role 이/가 is playing in the parentheses.
+*(new information / exclusive emphasis / answer to a question)*
 
 ```
-1. A: 누가 샀어요?   Who bought it?
-   B: 지수가 샀어요.   Jisu bought it.
+1. A: 누가 샀어요?
+   B: 지수가 샀어요.
    → 지수가: (              )
 
-2. 어, 강아지가 있어요!   Oh, there's a dog!
+2. 어, 강아지가 있어요!
    → 강아지가: (              )
 
-3. A: 누가 할 거예요?   Who's going to do it?
-   B: 제가 할게요.   I will.
+3. A: 누가 할 거예요?
+   B: 제가 할게요.
    → 제가: (              )
 
-4. A: 뭐가 더 좋아요?   What do you like more?
-   B: 사과가 더 좋아요.   Apples — I like them more.
+4. A: 뭐가 더 좋아요?
+   B: 사과가 더 좋아요.
    → 사과가: (              )
 ```
 
 ---
 
-## 은/는 vs 이/가 Compared
+## Side by Side
 
 | | 은/는 | 이/가 |
 |---|---|---|
 | Name | Topic marker | Subject marker |
-| Core function | "As for ___", contrast | New information, exclusive emphasis |
-| Other positions | Yes — carries contrast anywhere | No — subject slot only |
+| Core function | "As for ___", contrast | Introducing new info, exclusive emphasis |
+| Outside subject position | Yes (adds contrast) | No — subject only |
 | English equivalent | None ("As for ___") | None (handled by word order / intonation) |
 | Form (with 받침) | 은 | 이 |
 | Form (no 받침) | 는 | 가 |
 
-### Same sentence, different particle — nuance comparison
+### Same Sentence, Different Particle — Nuance Comparison
 
 ```
 날씨가 좋아요.
-→ The weather is nice.  (neutral — new observation)
+→ The weather is nice.  (neutral — delivering new information)
 
 날씨는 좋아요.
-→ The weather is nice...  (contrast — "at least the weather is")
+→ The weather is nice...  (contrast — "the weather's fine, but what about the rest?")
 ```
 
 ```
 오빠가 먹었어요.
-→ Older brother ate it.  (he specifically — new information)
+→ Older brother ate it.  (specifically him — new info, singled out)
 
 오빠는 먹었어요.
-→ Older brother ate it...  (but what about the others?)
+→ Older brother ate it...  (older brother did, but the others?)
 ```
 
 ```
 내가 할게.
-→ I'll do it.  (emphasis — me, not anyone else)
+→ I'll do it.  (emphasis — specifically me, no one else)
 
 나는 할게.
-→ As for me, I'll do it.  (topic — and you?)
+→ As for me, I'll do it.  (topic — speaking about myself)
 ```
 
-은/는 and 이/가 are one of the hardest parts of Korean for English speakers.
-If it doesn't click 100% right now, that's completely normal. The sense builds with exposure — the more sentences you meet, the more natural it feels.
+은/는 and 이/가 are one of the things Korean learners take the longest to feel.
+That's fine. The more Korean you're exposed to, the more naturally you'll tell them apart.
 
 ---
 
-## ✏️ Activity 3: 은/는 or 이/가?
+## ✏️ Activity 3: 은/는 vs 이/가 — Fill in the Blank
 
-Read the context hint and fill in the blank with 은, 는, 이, or 가.
+Read the context clue and fill in 은, 는, 이, or 가.
 
 ```
-1. (looking out the window)
+1. (glancing out the window)
    어, 눈___ 와요!
-   Hint: first time noticing — new information
-   (눈 = snow)
+   Clue: first sighting — new information
 
-2. A: 누가 만들었어요?   Who made it?
-   B: 제 오빠___ 만들었어요.   My older brother did.
-   Hint: answering "who" — specific identification
+2. A: 누가 만들었어요?
+   B: 제 오빠___ 만들었어요.
+   Clue: answer to "who" — specifically singled out
 
 3. 피자___ 좋아요. 근데 파스타___ 별로예요.
-   Pizza is good. But pasta — not so much.
-   Hint: talking about pizza, comparing with pasta
+   Clue: talking about pizza, contrasted with pasta
 
-4. A: 수업 어때요?   How's class?
+4. A: 수업 어때요?
    B: 수업___ 재미있어요. 근데 숙제___ 너무 많아요.
-      Class is interesting. But homework — way too much.
-   Hint: class already in the conversation + contrast
+   Clue: class is already the topic + contrast
 
-5. A: 오늘 뭐 해요?   What are you doing today?
+5. A: 오늘 뭐 해요?
    B: 공부___ 해요. 운동___ 안 해요.
-      Studying, I'm doing. Exercise, I'm not.
-   Hint: studying yes, exercise no — contrast
+   Clue: studying yes, exercise no — contrast
 ```
 
 ---
 
-## Mini Quiz: Day 10
+## Mini Quiz
 
 **Q1.** What do 은/는 and 이/가 have in common?
+
 ```
 A) Both can attach to the object position
-B) Both are particles that attach at the subject position
+B) Both attach to the subject position
 C) Both introduce new information
-D) Both only attach to nouns without 받침
+D) Both attach only to nouns without 받침
 Answer: ____
 ```
 
-**Q2.** Someone asks "누가 했어요?" — which answer is correct?
+**Q2.** Which is the correct response to "누가 했어요?"
+
 ```
 A) 민준이는 했어요.
 B) 민준이가 했어요.
 Answer: ____
 ```
 
-**Q3.** In "밥은 먹었어요," what is 은/는 doing?
+**Q3.** What is 은/는 doing in "밥은 먹었어요"?
+
 ```
 A) Marking 밥 as the subject
 B) Marking 밥 as new information
-C) Elevating 밥 to a topic while adding contrast
+C) Introducing 밥 as a topic and adding a contrast nuance
 D) Using 은 instead of 을 because of the 받침
 Answer: ____
 ```
 
 **Q4.** Explain the difference between these two sentences in one sentence.
+
 ```
 내가 할게.
 나는 할게.
@@ -340,7 +358,7 @@ Answer: ____
 → ___________________________________________
 ```
 
-*(Answers: Q1-B, Q2-B, Q3-C, Q4: example — "내가 할게" emphasizes that I specifically will do it (not anyone else); "나는 할게" sets "me" as the topic — as for me, I'll do it — with a softer, more comparative feel)*
+*(Answers: Q1-B, Q2-B, Q3-C, Q4: e.g. "내가 할게 emphasizes that specifically I will do it; 나는 할게 introduces me as the topic — as for me, I'll do it.")*
 
 ---
 
@@ -348,31 +366,30 @@ Answer: ____
 
 **Activity 1**
 ```
-1. 영화는: topic introduction + contrast simultaneously
-          (picks up "movie" from the question, then contrasts with homework)
-   숙제는: contrast (watched the movie but couldn't do homework)
+1. 영화는: introducing a topic + contrast at the same time
+          ("영화" picked up from the question, contrasted with 숙제)
+   숙제는: contrast (watched the movie, but didn't do homework)
 
-2. 언니는: picking up a mentioned topic
-          (언니 was already introduced in the question)
+2. 언니는: picking up something already mentioned
 
-3. 한국어는: contrast (Korean yes, Japanese no)
+3. 한국어는: contrast (know Korean, don't know Japanese)
 ```
 
 **Activity 2**
 ```
-1. 지수가: answering a question (누가 → specifically Jisu)
-2. 강아지가: new information (first time noticing the dog)
-3. 제가: exclusive emphasis (I specifically will — not someone else)
-4. 사과가: exclusive emphasis / answering a question (뭐가 → specifically apples)
+1. 지수가: answer to a question (누가 → specifically 지수)
+2. 강아지가: new information (first sighting)
+3. 제가: exclusive emphasis (not anyone else — specifically me)
+4. 사과가: exclusive emphasis / answer to a question (뭐가 → specifically 사과)
 ```
 
 **Activity 3**
 ```
-1. 눈이   (이/가 — new information)
-   눈 [nun]: 받침 ㄴ → 이
+1. 눈이  (이/가 — new information)
+   눈: 받침 ㄴ → 이
    → 눈이 와요!
 
-2. 오빠가  (이/가 — answering a question, 오빠 has no 받침 → 가)
+2. 오빠가  (이/가 — answer to a question; 오빠 has no 받침 → 가)
 
 3. 피자는 ... 파스타는  (은/는 — contrast)
    피자: no 받침 → 는 / 파스타: no 받침 → 는
@@ -386,20 +403,21 @@ Answer: ____
 
 ---
 
-## Day 10 Checklist
+## Day 16 Checklist
 
-- [ ] 은/는 and 이/가 are both particles that attach at the **subject position** — that's the shared ground
-- [ ] The difference is not grammatical role — it's the **nature of the information** being signaled
-- [ ] **은/는** = topic marker — "as for ___", picking up a mentioned topic, contrast
-- [ ] **이/가** = subject marker — new information, exclusive emphasis ("this one specifically"), answering who/what
-- [ ] 은/는 can attach **outside the subject slot** — it brings contrast wherever it goes
-- [ ] 이/가 is **subject-position only**
-- [ ] Answering "누가/뭐가?" → 이/가
-- [ ] Referring back to an established topic → 은/는
-- [ ] First mention → 이/가 / second mention onward → 은/는
+- [ ] 은/는 and 이/가 both attach to the **subject position** — that's the common ground
+- [ ] The difference is not grammatical role — it's the **type of information** being signaled
+- [ ] **은/는** = topic marker — "as for ___", referring back to something already mentioned, contrast
+- [ ] **이/가** = subject marker — introducing new info, exclusive emphasis ("specifically this"), answering "who/what?"
+- [ ] 은/는 can attach to **subject, object, or complement** — it adds contrast wherever it lands
+- [ ] 이/가 is **subject-only** — it does not attach to objects or complements
+- [ ] 이/가 on the complement (before 아니다·되다) is a **complementive particle** — same shape as the subject marker, different role
+- [ ] Answer to "누가/뭐가?" → 이/가
+- [ ] Referring back to something already mentioned → 은/는
+- [ ] First mention → 이/가 / mentioned again → 은/는
 
 ---
 
-> *"Next up: Day 11 — 에 vs 에서, (으)로, 하고/와·과, 도, 만, 한테"*
+> *"Next up: Day 17 — 에 vs 에서, (으)로, 하고/와·과, 도, 만, 한테: the rest of the particles."*
 
 🔗 **kkultongkorea.com** | 📧 **kkultongkorea@gmail.com**

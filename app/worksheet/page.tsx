@@ -43,7 +43,7 @@ const worksheets: WorksheetEntry[] = [
   { day: 13, title: "파생어 4 — 한자어 접미사", subtitle: "Sino-Korean Suffixes: -적, -성, -화", description: "Three Chinese-origin suffixes that work across any vocabulary domain — -적(的), -성(性), -화(化). Learn three patterns, recognize dozens of words.", available: true },
   { day: 14, title: "한국어 문장이 영어와 다른 이유", subtitle: "Why Korean Sentences Are Different from English", description: "Korean is SOV, English is SVO — and that's just the beginning. Learn how particles free word order, how predicates are classified by slot count, and the two spacing rules every Korean learner needs.", available: true },
   { day: 15, title: "조사: 영어에는 없는 것", subtitle: "Particles: What English Doesn't Have", description: "Korean particles (조사) attach after nouns — opposite to English prepositions. Learn the full particle table, how 받침 changes the particle form, and why 이다 is a particle while 아니다 is an adjective.", available: true },
-  { day: 16, title: "화제와 주어 — 은/는 vs 이/가", subtitle: "Topic vs. Subject", description: "Coming soon", available: false },
+  { day: 16, title: "화제와 주어 — 은/는 vs 이/가", subtitle: "Topic vs. Subject", description: "은/는 and 이/가 both attach to the subject position — but they send different signals. Learn topic markers, subject markers, contrast nuance, and why 은/는 can appear anywhere in a sentence.", available: true },
   { day: 17, title: "장소·방향 — 나머지 조사들", subtitle: "Place, Direction & More", description: "Coming soon", available: false },
   { day: 18, title: "대명사와 축약형", subtitle: "Pronouns & Contractions", description: "Coming soon", available: false },
 ];
