@@ -63,7 +63,7 @@ const WHO_OPTIONS = [
 ];
 
 const RESOURCE_LINKS = [
-  { href: "/korea/scholarships", emoji: "🎓", label: "Scholarships", sub: "GKS · University · Regional", color: "#1565c0", bg: "#e3f2fd" },
+  { href: "/korea/student/scholarships", emoji: "🎓", label: "Scholarships", sub: "GKS · University · Regional", color: "#1565c0", bg: "#e3f2fd" },
 ];
 
 export default function KoreaPage() {
