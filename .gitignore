@@ -36,6 +36,9 @@ yarn-error.log*
 # vercel
 .vercel
 
+# 로컬 전용 — AdSense 승인 후 공개 예정
+/_offline/
+
 # typescript
 *.tsbuildinfo
 next-env.d.ts
