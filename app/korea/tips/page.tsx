@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import TipsSearch from "@/components/TipsSearch";
 
 export const metadata: Metadata = {
   title: "Korea Survival Tips — For Travelers, Nomads & Students",
@@ -27,9 +28,10 @@ export default function TipsPage() {
         <span>Survival Tips</span>
       </div>
       <h1 className="text-4xl font-black mb-3" style={{ color: "var(--gray)" }}>Korea Survival Tips</h1>
-      <p className="text-base mb-10" style={{ color: "var(--gray)", opacity: 0.6 }}>
+      <p className="text-base mb-6" style={{ color: "var(--gray)", opacity: 0.6 }}>
         Everything Google doesn&apos;t tell you — organized by who you are.
       </p>
+      <TipsSearch />
       <div className="grid gap-4">
         {OPTIONS.map((o) => (
           <a

@@ -85,7 +85,7 @@ export default function TipDetailClient({
             );
           })}
           <a
-            href={`/korea/tips/${type}`}
+            href={`/korea/tips/${type}#${slugify(section.title)}`}
             className="mt-5 px-3 py-2 text-xs font-bold rounded-lg flex items-center gap-1"
             style={{ color: "var(--teal)", textDecoration: "none", backgroundColor: "#f0faf6" }}
           >
@@ -113,7 +113,7 @@ export default function TipDetailClient({
                 {sections.map((s) => (
                   <a
                     key={s.title}
-                    href={`/korea/tips/${type}`}
+                    href={`/korea/tips/${type}#${slugify(s.title)}`}
                     className="w-full text-left px-5 py-3 text-sm font-semibold transition-all hover:bg-amber-50"
                     style={{
                       color: section.title === s.title ? "var(--amber)" : "var(--gray)",

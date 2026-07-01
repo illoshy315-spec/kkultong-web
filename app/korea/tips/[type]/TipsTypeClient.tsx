@@ -1,8 +1,9 @@
 "use client";
 
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import TIPS from "@/data/tips";
 import { slugify } from "@/lib/tips-utils";
+import TipsSearch from "@/components/TipsSearch";
 
 const TYPE_META: Record<string, { emoji: string; label: string; sub: string }> = {
   traveler: { emoji: "✈️", label: "Traveler",      sub: "Short-term visit" },
@@ -15,6 +16,20 @@ export default function TipsTypeClient({ type }: { type: string }) {
   const meta = TYPE_META[type];
   const [activeSection, setActiveSection] = useState(sections[0]?.title ?? null);
   const [menuOpen, setMenuOpen] = useState(false);
+
+  useEffect(() => {
+    const hash = decodeURIComponent(window.location.hash.replace(/^#/, ""));
+    if (!hash) return;
+    const match = sections.find((s) => slugify(s.title) === hash);
+    // eslint-disable-next-line react-hooks/set-state-in-effect -- syncing from the URL hash, a browser-only source outside React
+    if (match) setActiveSection(match.title);
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, []);
+
+  const selectSection = (title: string) => {
+    setActiveSection(title);
+    window.history.replaceState(null, "", `#${slugify(title)}`);
+  };
 
   if (!meta || sections.length === 0) {
     return <div className="max-w-2xl mx-auto px-6 py-16 text-center" style={{ color: "var(--gray)" }}>Not found.</div>;
@@ -37,7 +52,9 @@ export default function TipsTypeClient({ type }: { type: string }) {
       <h1 className="text-3xl font-black mb-1" style={{ color: "var(--gray)" }}>
         {meta.emoji} {meta.label} Guide
       </h1>
-      <p className="text-sm mb-8" style={{ color: "var(--gray)", opacity: 0.55 }}>{meta.sub}</p>
+      <p className="text-sm mb-6" style={{ color: "var(--gray)", opacity: 0.55 }}>{meta.sub}</p>
+
+      <TipsSearch />
 
       <div className="flex gap-8 items-start">
         {/* Sidebar — desktop only */}
@@ -45,7 +62,7 @@ export default function TipsTypeClient({ type }: { type: string }) {
           {sections.map((s) => (
             <button
               key={s.title}
-              onClick={() => setActiveSection(s.title)}
+              onClick={() => selectSection(s.title)}
               className="text-left px-4 py-2.5 rounded-xl text-sm font-semibold transition-all"
               style={{
                 backgroundColor: activeSection === s.title ? "#fffbeb" : "transparent",
@@ -78,7 +95,7 @@ export default function TipsTypeClient({ type }: { type: string }) {
                 {sections.map((s) => (
                   <button
                     key={s.title}
-                    onClick={() => { setActiveSection(s.title); setMenuOpen(false); }}
+                    onClick={() => { selectSection(s.title); setMenuOpen(false); }}
                     className="w-full text-left px-5 py-3 text-sm font-semibold transition-all hover:bg-amber-50"
                     style={{
                       color: activeSection === s.title ? "var(--amber)" : "var(--gray)",
