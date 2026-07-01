@@ -126,6 +126,59 @@ function PlaceCard({ place }: { place: Place }) {
   );
 }
 
+const PILGRIMAGE_TYPE_LABELS: Record<string, string> = {
+  agency: "Agency HQ",
+  mv_location: "MV Filming Spot",
+  fansite: "Fan Landmark",
+  cafe: "Fan Cafe",
+  merch: "Merch Store",
+  landmark: "K-Pop Landmark",
+};
+
+// Each category already has a natural sub-dimension in the data (which drama, which
+// pilgrimage type, which district, etc.) — surface it as group headers so a 13-place
+// flat list doesn't read as one undifferentiated wall of cards. Picked per-category
+// by checking which field actually clusters places instead of producing one group
+// per place (e.g. `cuisine` is unique per k_food entry — useless as a grouping key;
+// `reservation_required` splits them into two real groups).
+function getGroupKey(place: Place): string {
+  switch (place.category) {
+    case "drama_location":
+      return place.dramas?.[0] ?? "Other";
+    case "kpop_pilgrimage":
+      return PILGRIMAGE_TYPE_LABELS[place.pilgrimage_type ?? ""] ?? "Other";
+    case "k_food":
+      return place.reservation_required ? "Reservation Required" : "Walk-in Friendly";
+    case "k_experience":
+      return place.experience_type ?? "Other";
+    case "k_shopping":
+      return place.address?.match(/[가-힣]+구/)?.[0] ?? "Other";
+    case "k_beauty":
+      if (place.shop_type) return "Retail & Shopping";
+      if (place.services?.some((s) => s.toLowerCase().includes("personal color"))) return "Personal Color Studios";
+      return "Other";
+    default:
+      return "Other";
+  }
+}
+
+function groupPlaces(places: Place[]): { label: string; places: Place[] }[] {
+  const groups = new Map<string, Place[]>();
+  for (const place of places) {
+    const key = getGroupKey(place);
+    groups.set(key, [...(groups.get(key) ?? []), place]);
+  }
+  // If every place landed in its own group, grouping adds headers without reducing
+  // clutter — fall back to one flat "All" group so tiny/undifferentiated categories
+  // (e.g. only 4 k_experience places) don't get a redundant single-item header each.
+  if (groups.size >= places.length) {
+    return [{ label: "All", places }];
+  }
+  return [...groups.entries()]
+    .map(([label, places]) => ({ label, places }))
+    .sort((a, b) => b.places.length - a.places.length || a.label.localeCompare(b.label));
+}
+
 type Props = {
   category: string;
   allPlaces: Place[];
@@ -190,10 +243,21 @@ export default function CategoryPageClient({ category, allPlaces }: Props) {
         {places.length} verified {places.length === 1 ? "place" : "places"}
       </p>
 
-      {/* Place cards */}
-      <div className="space-y-3">
-        {places.map((place) => (
-          <PlaceCard key={place.id} place={place} />
+      {/* Place cards — grouped by the category's natural sub-dimension */}
+      <div className="flex flex-col gap-6">
+        {groupPlaces(places).map((group) => (
+          <div key={group.label}>
+            {group.label !== "All" && (
+              <p className="text-xs font-bold uppercase tracking-widest mb-2 px-1" style={{ color: meta.color, opacity: 0.8 }}>
+                {group.label} · {group.places.length}
+              </p>
+            )}
+            <div className="space-y-3">
+              {group.places.map((place) => (
+                <PlaceCard key={place.id} place={place} />
+              ))}
+            </div>
+          </div>
         ))}
         {places.length === 0 && (
           <div className="text-center py-16" style={{ color: "var(--gray)", opacity: 0.4 }}>
