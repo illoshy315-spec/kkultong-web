@@ -7,9 +7,9 @@
     "duration": "3 days recommended (2 days minimum)",
     "area": "Jeju",
     "transport": "Rental car essential",
-    "place_ids": ["jeju-seongsan", "jeju-gimnyeong", "jeju-seopjikoji", "jeju-gasiri", "jeju-udo"],
-    "tip": "Official 3-day tour route available from Jeju Tourism Organization. Rental car is not optional — most filming locations are inaccessible by public bus.",
-    "order_note": "Day 1: Seongsan + Udo Island. Day 2: Seopjikoji + Gasiri. Day 3: Gimnyeong + Hyeopjae."
+    "place_ids": ["jeju-mok-gwana", "seongsan-ilchulbong", "seopjikoji", "gasiri-noksan-ro", "gimnyeong-seonsegi-beach"],
+    "tip": "Official filming locations per 한국경제TV (2025.03.16): Seongsan Ilchulbong, Gimnyeong Beach, Jeju-mok Gwana, and Gasiri canola road. Rental car is not optional — most filming locations are inaccessible by public bus. Note: an earlier version of this route listed Udo Island — that was incorrect and has been removed; Udo does not appear in any verified filming-location coverage.",
+    "order_note": "Day 1: Land at Jeju Airport → Jeju-mok Gwana (15 min from airport) → drive east to the Seongsan area for the night. Day 2: Seongsan Ilchulbong at sunrise → Seopjikoji (15 min drive) → Gasiri Noksan-ro canola road. Day 3: Gimnyeong Seonsegi Beach (haenyeo divers, best early morning) → back to the airport."
   },
   {
     "id": "goblin-gangneung",
@@ -19,9 +19,9 @@
     "duration": "1–2 days",
     "area": "Gangneung",
     "transport": "KTX from Seoul (1hr 30min). Local taxi recommended.",
-    "place_ids": ["gangneung-jumunjin", "gangneung-gyeongpodae", "gangneung-wolhwa"],
-    "tip": "KTX from Cheongnyangni or Seoul station direct to Gangneung. Note: Gangneung City Tour Bus service ended June 2025 — use taxi or Kakao Taxi.",
-    "order_note": "Start with Jumunjin (30min from station by taxi) in the morning, then Gyeongpodae Lake area, end at Wolhwa Street for dinner."
+    "place_ids": ["jumunjin-breakwater-goblin", "hyangho-beach-bts-bus-stop"],
+    "tip": "KTX from Cheongnyangni or Seoul station direct to Gangneung. Note: Gangneung City Tour Bus service ended June 2025 — use taxi or Kakao Taxi. Gyeongpodae and Wolhwa Street were removed from this route — we could not verify a direct connection to Goblin filming and don't have confirmed coordinates yet.",
+    "order_note": "Jumunjin Breakwater (30min from station by taxi, go 7-8am to avoid crowds) → Hyangho Beach BTS bus stop is a 5-min walk away, do both together. Free time after for Gangneung coffee street or Anmok Beach if you want more of the city."
   },
   {
     "id": "lovely-runner-suwon",
@@ -31,9 +31,9 @@
     "duration": "1 day (from Seoul)",
     "area": "Suwon",
     "transport": "KTX 30min or Subway Line 1 direct from Seoul",
-    "place_ids": ["suwon-montede", "suwon-hwaseong"],
-    "tip": "Best budget day trip from Seoul. The Hwahongmun water gate (화홍문) inside Hwaseong Fortress is the confession scene spot — don't miss it.",
-    "order_note": "Arrive at Suwon Station → Montede Cafe for coffee → Hwaseong Fortress wall walk (2–3hrs) → Hwahongmun photo spot → Haenggung Palace → local 순대국밥 dinner."
+    "place_ids": ["cafe-monted-suwon-lovely-runner"],
+    "tip": "Café Monted (카페 몽테드) is confirmed as Im Sol's house exterior — about a 10-min walk from Hwaseong Fortress. Best budget day trip from Seoul. Note: Hwaseong Fortress itself isn't pinned on this map yet — we haven't independently verified coordinates for it, so treat it as a nearby UNESCO site to walk to, not a confirmed map point.",
+    "order_note": "Arrive at Suwon Station → Café Monted for coffee (closed Wednesdays) → walk to Hwaseong Fortress and the Hwahongmun water gate area → Haenggung Palace → local 순대국밥 dinner."
   },
   {
     "id": "kpop-seoul-hybe",
@@ -44,9 +44,9 @@
     "duration": "1 day",
     "area": "Yongsan + Gangnam, Seoul",
     "transport": "Subway only (all stops on major lines)",
-    "place_ids": ["hybe-insight", "kstar-road"],
-    "tip": "Book HYBE INSIGHT tickets in advance — they sell out. Same day: take subway to Gangnam, walk K-Star Road, finish at COEX for Ktown4u shopping.",
-    "order_note": "HYBE INSIGHT opens 10am (book first slot) → lunch near Hangang → Subway to Apgujeong → K-Star Road → COEX K-Pop Square → Ktown4u."
+    "place_ids": ["hybe-building-yongsan", "k-star-road-gangnam"],
+    "tip": "HYBE building exterior has a designated ARMY photo zone at the main entrance. HYBE INSIGHT museum permanently closed in January 2023 — do not plan around visiting it, and ignore any guide that tells you to book tickets. Take the subway to Gangnam afterward, walk K-Star Road, and optionally continue to COEX Mall for K-pop merch shopping (not independently verified as a pinned stop).",
+    "order_note": "Morning: HYBE building exterior photo zone (Yongsan) → lunch near Hangang → subway to Apgujeong → K-Star Road → optional: COEX Mall / Ktown4u for shopping."
   },
   {
     "id": "kpop-seoul-sm",
@@ -57,9 +57,9 @@
     "duration": "Half day",
     "area": "Seongsu, Seoul",
     "transport": "Subway Line 2 to Seongsu Station",
-    "place_ids": ["kwangya-seoul", "seongsu-popup"],
-    "tip": "KWANGYA @ Seoul is walk-in, no reservation needed. Check @kwangya_official Instagram for current popup artists. The whole Seongsu area is great for cafes.",
-    "order_note": "Seongsu Station → KWANGYA @ Seoul → SM HQ exterior → NewJeans Bunny Mural (3min walk from exit 2) → Seongsu popup district → cafe tour."
+    "place_ids": ["sm-kwangya-seongsu", "seongsu-yeongbang"],
+    "tip": "SM KWANGYA @ Seoul is walk-in, no reservation needed. Check @kwangya_official Instagram for current merch drops. Seongsu Yeongbang has rotating popup stores from Korean indie brands — check their Instagram before going since the lineup changes every 2-4 weeks. Note: we removed the 'NewJeans Bunny Mural' mention from an earlier version — couldn't confirm it's still there.",
+    "order_note": "Seongsu Station → SM KWANGYA @ Seongsu → Seongsu Yeongbang for popups/cafes → explore the wider Seongsu cafe district."
   },
   {
     "id": "culinary-class-wars-seoul",
@@ -69,9 +69,9 @@
     "duration": "1–2 evenings",
     "area": "Various (Seoul)",
     "transport": "Subway + taxi",
-    "place_ids": ["culinary-via-toledo", "culinary-soigne", "culinary-mosu", "culinary-budget"],
-    "tip": "Via Toledo: reservations open 10th and 25th of each month at midnight on CatchTable. Soigné: most foreigner-friendly. Budget option: 안동집 손칼국수 (cash only, ₩7,000).",
-    "order_note": "Reserve Via Toledo or Soigné weeks ahead. For a budget version, 안동집 is walk-in only — go before 11:30am to avoid the queue."
+    "place_ids": ["via-toledo-ccw", "mosu-seoul-chef-ahn", "auntie-omakase-ccw"],
+    "tip": "Via Toledo (Chef Kwon Seong-jun, S1 winner): reservations open 10th and 25th of each month at midnight on CatchTable, extremely competitive. Mosu (Chef Ahn Sung-jae): reserve 1st of each month, sells out in seconds, ₩250,000-400,000 tasting menu. Budget option: Andongjip Son Kalguksu in Gyeongdong Market (cash preferred, walk-in only). Note: Soigné was removed from this route — we found conflicting addresses (Gangnam-gu vs. Seocho-gu) between sources and couldn't resolve which is current before publishing.",
+    "order_note": "Reserve Via Toledo or Mosu weeks/a month ahead depending on budget. For a no-reservation option, Andongjip is walk-in only — go before 11:30am to avoid the queue."
   },
   {
     "id": "busan-kpop",
@@ -82,8 +82,8 @@
     "duration": "2 days",
     "area": "Busan",
     "transport": "KTX from Seoul (2hrs 30min). Subway + taxi in Busan.",
-    "place_ids": ["busan-jimin-cafe", "busan-gamcheon", "busan-gwangalli"],
-    "tip": "Busan City Tour Bus: book on Klook (foreign card OK) — don't try to buy at the stop. ZM-ILLENNIAL Cafe is in Nam-gu, not Gwangalli — many maps show the wrong location.",
+    "place_ids": ["zm-illennial-cafe", "gamcheon-culture-village", "gwangalli-beach"],
+    "tip": "Busan City Tour Bus: book on Klook (foreign card OK) — don't try to buy at the stop. ZM-ILLENNIAL Cafe is in Nam-gu, not Gwangalli — many maps show the wrong location (address verified: 부산 남구 진남로 135). Gamcheon's BTS mural is fan-made (2021), not official — HYBE has requested BTS structure removals elsewhere, so it could disappear; Gwangalli's BTS tie-in is a one-time 2022 concert, not a permanent site — go for the beach, treat BTS history as a bonus.",
     "order_note": "Day 1: Gamcheon Culture Village (morning) → Gwangalli Beach sunset. Day 2: ZM-ILLENNIAL Cafe → Haeundae Beach → optional: Busan Station area."
   }
 ]
