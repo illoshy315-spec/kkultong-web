@@ -94,13 +94,13 @@ export default function KoreaMap({ places, allPlaces, activeCategory, activeRout
 
   return (
     <APIProvider apiKey={apiKey}>
-      <div style={{ width: "100%", height: "480px", borderRadius: "16px", overflow: "hidden" }}>
+      <div className="w-full h-72 md:h-[480px] rounded-2xl overflow-hidden">
         <Map
           key={activeRoute?.id ?? activeCategory ?? "default"}
           defaultCenter={mapCenter}
           defaultZoom={mapCenter.zoom}
           mapId="kkultong-map"
-          gestureHandling="greedy"
+          gestureHandling="cooperative"
           disableDefaultUI={false}
         >
           {/* Route path line */}
