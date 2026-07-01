@@ -48,4 +48,21 @@ npm run dev
 ```
 
 ## 삭제 금지 파일
-`day13_en.md`, `day14_en.md`, `day15_en.md`, `day17_en.md` — 미래 커리큘럼 초안. 절대 삭제 금지.
+`content/worksheets/day*_en.md` 전체 — 배포된 학습지 원고. 절대 삭제 금지.
+
+## 빌드 필수 규칙 (output: export)
+
+이 프로젝트는 `next.config.ts`에서 `output: "export"`를 쓴다. 아래 두 가지를 안 지키면 빌드가 조용히 실패한다.
+
+- `useSearchParams()`를 쓰는 컴포넌트는 반드시 `<Suspense>`로 감쌀 것. 안 그러면 `/_not-found` 등 무관해 보이는 페이지에서 prerender 에러가 나서 원인 파악이 어렵다.
+- 동적 라우트(`[param]`)는 반드시 `generateStaticParams()`를 export할 것. 없으면 "missing generateStaticParams()" 에러로 전체 빌드가 죽는다.
+
+**전례 — Day 16 배포**: `/korea/tips`의 `useSearchParams()`가 Suspense 없이 쓰여 있어서 Day 16과 무관한 이 페이지 때문에 전체 배포가 막혔다. 로컬 `npm run build`로 먼저 확인하는 습관이 필요.
+
+## Cloudflare Pages 환경변수 (수동 관리)
+
+`NEXT_PUBLIC_*` 환경변수는 Cloudflare 대시보드 → Settings → Variables and secrets에 수동으로 등록돼 있다. 코드/`.env.local`과 별개이며, 로컬 `.env.local`을 바꿔도 배포판에는 반영 안 된다.
+
+**환경변수를 새로 등록하거나 값을 바꿔도 자동으로 재빌드되지 않는다.** 새 커밋이 push될 때만 빌드가 트리거되므로, 환경변수만 바꾼 경우 `git commit --allow-empty`로 빈 커밋을 만들어 강제로 재빌드를 트리거해야 한다.
+
+현재 등록된 변수: `NEXT_PUBLIC_SUPABASE_URL`, `NEXT_PUBLIC_SUPABASE_ANON_KEY`, `NEXT_PUBLIC_GOOGLE_MAPS_API_KEY` (값은 로컬 `.env.local` 참고).
