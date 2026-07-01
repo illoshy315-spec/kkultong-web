@@ -145,16 +145,6 @@ export default function CategoryPageClient({ category, places }: Props) {
         </p>
       </div>
 
-      {/* Map */}
-      <div className="mb-8">
-        <KoreaMap
-          places={places}
-          allPlaces={places}
-          activeCategory={category}
-          activeRoute={null}
-        />
-      </div>
-
       {/* Place count */}
       <p className="text-sm mb-4 font-semibold" style={{ color: "var(--gray)", opacity: 0.5 }}>
         {places.length} verified {places.length === 1 ? "place" : "places"}
@@ -172,6 +162,21 @@ export default function CategoryPageClient({ category, places }: Props) {
           </div>
         )}
       </div>
+
+      {/* Map */}
+      {places.length > 0 && (
+        <div className="mt-8">
+          <p className="text-xs font-bold uppercase tracking-widest mb-3" style={{ color: "var(--gray)", opacity: 0.4 }}>
+            🗺️ View on map
+          </p>
+          <KoreaMap
+            places={places}
+            allPlaces={places}
+            activeCategory={category}
+            activeRoute={null}
+          />
+        </div>
+      )}
 
       {/* Back link */}
       <div className="mt-12 pt-8 border-t" style={{ borderColor: "#e5e7eb" }}>

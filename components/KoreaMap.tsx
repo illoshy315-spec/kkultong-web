@@ -1,7 +1,8 @@
 "use client";
 
-import { APIProvider, Map, AdvancedMarker, Pin, InfoWindow, Polyline } from "@vis.gl/react-google-maps";
-import { useState } from "react";
+import { APIProvider, Map, AdvancedMarker, Pin, InfoWindow, Polyline, useMap } from "@vis.gl/react-google-maps";
+import { useCallback, useEffect, useRef, useState } from "react";
+import { MarkerClusterer, type Marker } from "@googlemaps/markerclusterer";
 
 type Place = {
   id: string;
@@ -73,6 +74,91 @@ const AREA_CENTERS: Record<string, { lat: number; lng: number; zoom: number }> =
   Seoul:   { lat: 37.5326, lng: 126.99, zoom: 11 },
 };
 
+// Groups nearby pins into a single cluster marker at low zoom — used when browsing
+// a whole category (many pins). Route mode skips this since it needs numbered,
+// always-visible stops in a fixed order.
+function ClusteredPlaceMarkers({
+  places,
+  selected,
+  onSelect,
+}: {
+  places: Place[];
+  selected: Place | null;
+  onSelect: (place: Place) => void;
+}) {
+  const map = useMap();
+  const clusterer = useRef<MarkerClusterer | null>(null);
+  const [markers, setMarkers] = useState<Record<string, Marker>>({});
+
+  useEffect(() => {
+    if (!map || clusterer.current) return;
+    clusterer.current = new MarkerClusterer({ map });
+  }, [map]);
+
+  useEffect(() => {
+    clusterer.current?.clearMarkers();
+    clusterer.current?.addMarkers(Object.values(markers));
+  }, [markers]);
+
+  const setMarkerRef = useCallback((marker: Marker | null, key: string) => {
+    setMarkers((prev) => {
+      if ((marker && prev[key]) || (!marker && !prev[key])) return prev;
+      if (marker) return { ...prev, [key]: marker };
+      const next = { ...prev };
+      delete next[key];
+      return next;
+    });
+  }, []);
+
+  return (
+    <>
+      {places.map((place) => (
+        <ClusterMarkerItem
+          key={place.id}
+          place={place}
+          isSelected={selected?.id === place.id}
+          onSelect={onSelect}
+          setMarkerRef={setMarkerRef}
+        />
+      ))}
+    </>
+  );
+}
+
+// Split out so each marker's ref callback has a stable identity (keyed on place.id) —
+// an inline `ref={(m) => ...}` closure is recreated every render, which makes React
+// treat it as a *new* ref function each time and re-fire it, causing an update loop
+// when it feeds back into setMarkers().
+function ClusterMarkerItem({
+  place,
+  isSelected,
+  onSelect,
+  setMarkerRef,
+}: {
+  place: Place;
+  isSelected: boolean;
+  onSelect: (place: Place) => void;
+  setMarkerRef: (marker: Marker | null, key: string) => void;
+}) {
+  const colors = CATEGORY_COLORS[place.category] ?? { bg: "#fff", border: "#EF9F27" };
+  const ref = useCallback((marker: Marker | null) => setMarkerRef(marker, place.id), [setMarkerRef, place.id]);
+
+  return (
+    <AdvancedMarker
+      position={{ lat: place.lat, lng: place.lng }}
+      onClick={() => onSelect(place)}
+      ref={ref}
+    >
+      <Pin
+        background={colors.bg}
+        borderColor={colors.border}
+        glyphColor={colors.border}
+        scale={isSelected ? 1.3 : 1}
+      />
+    </AdvancedMarker>
+  );
+}
+
 export default function KoreaMap({ places, allPlaces, activeCategory, activeRoute }: Props) {
   const [selected, setSelected] = useState<Place | null>(null);
 
@@ -113,17 +199,15 @@ export default function KoreaMap({ places, allPlaces, activeCategory, activeRout
             />
           )}
 
-          {displayPlaces.map((place, idx) => {
-            const colors = CATEGORY_COLORS[place.category] ?? { bg: "#fff", border: "#EF9F27" };
-            const routeNumber = activeRoute ? idx + 1 : null;
-
-            return (
-              <AdvancedMarker
-                key={place.id}
-                position={{ lat: place.lat, lng: place.lng }}
-                onClick={() => setSelected(place)}
-              >
-                {routeNumber ? (
+          {activeRoute ? (
+            displayPlaces.map((place, idx) => {
+              const routeNumber = idx + 1;
+              return (
+                <AdvancedMarker
+                  key={place.id}
+                  position={{ lat: place.lat, lng: place.lng }}
+                  onClick={() => setSelected(place)}
+                >
                   <div style={{
                     width: "28px",
                     height: "28px",
@@ -143,17 +227,12 @@ export default function KoreaMap({ places, allPlaces, activeCategory, activeRout
                   }}>
                     {routeNumber}
                   </div>
-                ) : (
-                  <Pin
-                    background={colors.bg}
-                    borderColor={colors.border}
-                    glyphColor={colors.border}
-                    scale={selected?.id === place.id ? 1.3 : 1}
-                  />
-                )}
-              </AdvancedMarker>
-            );
-          })}
+                </AdvancedMarker>
+              );
+            })
+          ) : (
+            <ClusteredPlaceMarkers places={displayPlaces} selected={selected} onSelect={setSelected} />
+          )}
 
           {selected && (
             <InfoWindow
