@@ -37,53 +37,57 @@ function RouteSection() {
       <p className="text-xs font-bold uppercase tracking-widest mb-4 text-center" style={{ color: "var(--gray)", opacity: 0.4 }}>
         Recommended Routes
       </p>
-      <div className="grid gap-2 mb-4">
-        {routes.map((route) => (
-          <button
-            key={route.id}
-            onClick={() => setActiveRoute(activeRoute?.id === route.id ? null : route)}
-            className="text-left rounded-xl border-2 px-4 py-3 transition-all"
-            style={{
-              borderColor: activeRoute?.id === route.id ? "var(--teal)" : "#e5e7eb",
-              backgroundColor: activeRoute?.id === route.id ? "#f0faf6" : "white",
-            }}
-          >
-            <p className="font-bold text-sm" style={{ color: "var(--gray)" }}>{route.title}</p>
-            <p className="text-xs mt-0.5" style={{ color: "var(--gray)", opacity: 0.5 }}>
-              ⏱ {route.duration} · {route.area}
-            </p>
-          </button>
-        ))}
-      </div>
-      {activeRoute && (
-        <>
-          <KoreaMap places={[]} allPlaces={placesData as any} activeCategory={null} activeRoute={activeRoute} />
-          <div className="mt-3 rounded-xl border p-4 flex flex-col gap-4" style={{ borderColor: "#e5e7eb" }}>
-            <div className="flex flex-col gap-2">
-              {splitSentences(activeRoute.tip).map((s, i) => (
-                <p key={i} className="text-sm" style={{ color: "var(--gray)", lineHeight: "1.7" }}>{s}</p>
-              ))}
-            </div>
-            <div className="flex flex-col gap-3 pt-3 border-t" style={{ borderColor: "#f3f4f6" }}>
-              {parseOrderNote(activeRoute.order_note).map((block, i) => (
-                <div key={i}>
-                  {block.day && (
-                    <p className="text-xs font-bold uppercase tracking-wide mb-1.5" style={{ color: "var(--amber)" }}>{block.day}</p>
-                  )}
-                  <div className="flex flex-wrap items-center gap-1.5">
-                    {block.steps.map((step, j) => (
-                      <span key={j} className="flex items-center gap-1.5">
-                        <span className="text-xs px-2.5 py-1.5 rounded-lg" style={{ backgroundColor: "#f9fafb", color: "var(--gray)", opacity: 0.85 }}>{step}</span>
-                        {j < block.steps.length - 1 && <span style={{ color: "var(--gray)", opacity: 0.3 }}>→</span>}
-                      </span>
-                    ))}
+      <div className="flex flex-col gap-2">
+        {routes.map((route) => {
+          const isActive = activeRoute?.id === route.id;
+          return (
+            <div key={route.id}>
+              <button
+                onClick={() => setActiveRoute(isActive ? null : route)}
+                className="w-full text-left rounded-xl border-2 px-4 py-3 transition-all"
+                style={{
+                  borderColor: isActive ? "var(--teal)" : "#e5e7eb",
+                  backgroundColor: isActive ? "#f0faf6" : "white",
+                }}
+              >
+                <p className="font-bold text-sm" style={{ color: "var(--gray)" }}>{route.title}</p>
+                <p className="text-xs mt-0.5" style={{ color: "var(--gray)", opacity: 0.5 }}>
+                  ⏱ {route.duration} · {route.area}
+                </p>
+              </button>
+              {isActive && (
+                <div className="mt-2">
+                  <KoreaMap places={[]} allPlaces={placesData as any} activeCategory={null} activeRoute={activeRoute} />
+                  <div className="mt-3 rounded-xl border p-4 flex flex-col gap-4" style={{ borderColor: "#e5e7eb" }}>
+                    <div className="flex flex-col gap-2">
+                      {splitSentences(activeRoute.tip).map((s, i) => (
+                        <p key={i} className="text-sm" style={{ color: "var(--gray)", lineHeight: "1.7" }}>{s}</p>
+                      ))}
+                    </div>
+                    <div className="flex flex-col gap-3 pt-3 border-t" style={{ borderColor: "#f3f4f6" }}>
+                      {parseOrderNote(activeRoute.order_note).map((block, i) => (
+                        <div key={i}>
+                          {block.day && (
+                            <p className="text-xs font-bold uppercase tracking-wide mb-1.5" style={{ color: "var(--amber)" }}>{block.day}</p>
+                          )}
+                          <div className="flex flex-wrap items-center gap-1.5">
+                            {block.steps.map((step, j) => (
+                              <span key={j} className="flex items-center gap-1.5">
+                                <span className="text-xs px-2.5 py-1.5 rounded-lg" style={{ backgroundColor: "#f9fafb", color: "var(--gray)", opacity: 0.85 }}>{step}</span>
+                                {j < block.steps.length - 1 && <span style={{ color: "var(--gray)", opacity: 0.3 }}>→</span>}
+                              </span>
+                            ))}
+                          </div>
+                        </div>
+                      ))}
+                    </div>
                   </div>
                 </div>
-              ))}
+              )}
             </div>
-          </div>
-        </>
-      )}
+          );
+        })}
+      </div>
     </div>
   );
 }
