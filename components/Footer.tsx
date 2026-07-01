@@ -9,6 +9,7 @@ export default function Footer() {
           <Link href="/about" className="hover:text-white transition-colors">About</Link>
           <Link href="/contact" className="hover:text-white transition-colors">Contact</Link>
           <Link href="/privacy" className="hover:text-white transition-colors">Privacy Policy</Link>
+          <Link href="/terms" className="hover:text-white transition-colors">Terms of Service</Link>
           <a href="mailto:kkultongkorea@gmail.com" className="hover:text-white transition-colors">kkultongkorea@gmail.com</a>
         </div>
       </div>

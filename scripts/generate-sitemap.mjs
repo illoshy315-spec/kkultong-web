@@ -12,6 +12,7 @@ const staticPages = [
   { url: `${base}/about`, changefreq: "monthly", priority: "0.5" },
   { url: `${base}/contact`, changefreq: "yearly", priority: "0.4" },
   { url: `${base}/privacy`, changefreq: "yearly", priority: "0.3" },
+  { url: `${base}/terms`, changefreq: "yearly", priority: "0.3" },
   { url: `${base}/korea`, changefreq: "weekly", priority: "0.9" },
   { url: `${base}/korea/tips`, changefreq: "weekly", priority: "0.8" },
   { url: `${base}/korea/transport`, changefreq: "monthly", priority: "0.6" },
