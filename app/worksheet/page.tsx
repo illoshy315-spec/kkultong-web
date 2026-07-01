@@ -45,7 +45,7 @@ const worksheets: WorksheetEntry[] = [
   { day: 15, title: "조사: 영어에는 없는 것", subtitle: "Particles: What English Doesn't Have", description: "Korean particles (조사) attach after nouns — opposite to English prepositions. Learn the full particle table, how 받침 changes the particle form, and why 이다 is a particle while 아니다 is an adjective.", available: true },
   { day: 16, title: "화제와 주어 — 은/는 vs 이/가", subtitle: "Topic vs. Subject", description: "은/는 and 이/가 both attach to the subject position — but they send different signals. Learn topic markers, subject markers, contrast nuance, and why 은/는 can appear anywhere in a sentence.", available: true },
   { day: 17, title: "장소·방향 — 나머지 조사들", subtitle: "Place, Direction & More", description: "에, 에서, 에게, 한테, (으)로, 와/과, 하고, 랑, 도, 만 — the particles that mark place, direction, means, togetherness, inclusion, and exclusion. See how English prepositions do and don't map onto Korean.", available: true },
-  { day: 18, title: "대명사와 축약형", subtitle: "Pronouns & Contractions", description: "Coming soon", available: false },
+  { day: 18, title: "대명사와 축약형", subtitle: "Pronouns & Contractions", description: "나+가→내가, 나의→내, 이것→이거→이게, 누구+가→누가, 무엇→뭐 — Korean pronouns contract in ways English doesn't. Learn the irregular forms, the 이/그/저 three-way demonstrative system, and 내가 vs 내.", available: true },
 ];
 
 export default function Worksheet() {

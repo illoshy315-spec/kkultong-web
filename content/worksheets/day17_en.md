@@ -559,4 +559,6 @@ Answer: ____
 
 > *"Next up: Day 18 — What happens when 나/저/너 meet 이/가? Contracted forms of 이것/그것/저것, and 누가."*
 
+👉 **[Day 18: Pronouns & Contractions →](/worksheet/day18)**
+
 🔗 **kkultongkorea.com** | 📧 **kkultongkorea@gmail.com**
