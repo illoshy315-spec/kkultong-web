@@ -3,6 +3,7 @@
 import { APIProvider, Map, AdvancedMarker, Pin, InfoWindow, Polyline, useMap } from "@vis.gl/react-google-maps";
 import { useCallback, useEffect, useRef, useState } from "react";
 import { MarkerClusterer, type Marker } from "@googlemaps/markerclusterer";
+import { AREA_CENTERS, resolveAreaCenter } from "@/lib/map-constants";
 
 type Place = {
   id: string;
@@ -65,14 +66,6 @@ type Props = {
   allPlaces?: Place[];
   activeCategory: string | null;
   activeRoute?: Route | null;
-};
-
-const AREA_CENTERS: Record<string, { lat: number; lng: number; zoom: number }> = {
-  Jeju:    { lat: 33.4, lng: 126.75, zoom: 10 },
-  Gangneung: { lat: 37.79, lng: 128.89, zoom: 12 },
-  Suwon:   { lat: 37.28, lng: 127.01, zoom: 13 },
-  Busan:   { lat: 35.16, lng: 129.07, zoom: 12 },
-  Seoul:   { lat: 37.5326, lng: 126.99, zoom: 11 },
 };
 
 // Groups nearby pins into a single cluster marker at low zoom — used when browsing
@@ -174,7 +167,7 @@ export default function KoreaMap({ places, allPlaces, activeCategory, activeRout
   const displayPlaces = activeRoute ? routePlaces : places;
 
   const mapCenter = activeRoute
-    ? AREA_CENTERS[activeRoute.area.split(",")[0].trim()] ?? AREA_CENTERS.Seoul
+    ? resolveAreaCenter(activeRoute.area) ?? AREA_CENTERS.Seoul
     : displayPlaces.length === 1
     ? { lat: displayPlaces[0].lat, lng: displayPlaces[0].lng, zoom: 15 }
     : AREA_CENTERS.Seoul;
