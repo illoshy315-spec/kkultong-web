@@ -2,7 +2,7 @@
 
 import { useState, useEffect } from "react";
 import dynamic from "next/dynamic";
-import { Place, CATEGORY_META, SLUG_TO_CATEGORY } from "@/lib/types";
+import { Place, CATEGORY_META, CATEGORY_SLUGS, SLUG_TO_CATEGORY } from "@/lib/types";
 import { useAuth } from "@/lib/auth-context";
 import { createClient } from "@/lib/supabase";
 
@@ -128,12 +128,20 @@ function PlaceCard({ place }: { place: Place }) {
 
 type Props = {
   category: string;
-  places: Place[];
+  allPlaces: Place[];
 };
 
-export default function CategoryPageClient({ category, places }: Props) {
-  const meta = CATEGORY_META[category];
-  const [selected, setSelected] = useState<Place | null>(null);
+export default function CategoryPageClient({ category, allPlaces }: Props) {
+  const [activeCategory, setActiveCategory] = useState(category);
+  const meta = CATEGORY_META[activeCategory];
+  const places = allPlaces.filter((p) => p.category === activeCategory);
+
+  const switchCategory = (cat: string, slug: string) => {
+    setActiveCategory(cat);
+    const newMeta = CATEGORY_META[cat];
+    window.history.replaceState(null, "", `/korea/${slug}`);
+    document.title = `${newMeta.title} | Kkultong Korea`;
+  };
 
   return (
     <div className="max-w-3xl mx-auto px-6 py-16">
@@ -143,7 +151,7 @@ export default function CategoryPageClient({ category, places }: Props) {
       </p>
 
       {/* Header */}
-      <div className="mb-8">
+      <div className="mb-6">
         <p className="text-sm font-semibold tracking-widest uppercase mb-3" style={{ color: meta.color }}>
           {meta.emoji} {meta.label}
         </p>
@@ -153,6 +161,28 @@ export default function CategoryPageClient({ category, places }: Props) {
         <p className="text-base" style={{ color: "var(--gray)", opacity: 0.7, lineHeight: "1.7" }}>
           {meta.description}
         </p>
+      </div>
+
+      {/* Filter bar — switches category instantly, no page reload */}
+      <div className="flex flex-wrap gap-2 mb-8">
+        {Object.entries(CATEGORY_SLUGS).map(([slug, cat]) => {
+          const m = CATEGORY_META[cat];
+          const isActive = cat === activeCategory;
+          return (
+            <button
+              key={slug}
+              onClick={() => switchCategory(cat, slug)}
+              className="text-xs font-bold px-3 py-2 rounded-full border transition-all"
+              style={{
+                borderColor: isActive ? m.color : "#e5e7eb",
+                backgroundColor: isActive ? m.color : "white",
+                color: isActive ? "white" : "var(--gray)",
+              }}
+            >
+              {m.emoji} {m.label}
+            </button>
+          );
+        })}
       </div>
 
       {/* Place count */}
@@ -182,7 +212,7 @@ export default function CategoryPageClient({ category, places }: Props) {
           <KoreaMap
             places={places}
             allPlaces={places}
-            activeCategory={category}
+            activeCategory={activeCategory}
             activeRoute={null}
           />
         </div>

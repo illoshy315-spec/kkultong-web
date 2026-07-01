@@ -68,6 +68,21 @@ type Props = {
   activeRoute?: Route | null;
 };
 
+// Category browsing shows places from all over Korea (e.g. K-Pop pilgrimage spans
+// Seoul, Busan, and Gangneung), but the map always opens centered on Seoul at a
+// fixed zoom — so distant pins land outside the initial viewport with no visual
+// hint they exist. Fit the viewport to whatever's actually being shown instead.
+function FitBoundsToPlaces({ places }: { places: Place[] }) {
+  const map = useMap();
+  useEffect(() => {
+    if (!map || places.length < 2) return;
+    const bounds = new google.maps.LatLngBounds();
+    places.forEach((p) => bounds.extend({ lat: p.lat, lng: p.lng }));
+    map.fitBounds(bounds, 48);
+  }, [map, places]);
+  return null;
+}
+
 // Groups nearby pins into a single cluster marker at low zoom — used when browsing
 // a whole category (many pins). Route mode skips this since it needs numbered,
 // always-visible stops in a fixed order.
@@ -246,7 +261,10 @@ export default function KoreaMap({ places, allPlaces, activeCategory, activeRout
               ))
             )
           ) : (
-            <ClusteredPlaceMarkers places={displayPlaces} selected={selected} onSelect={setSelected} />
+            <>
+              <FitBoundsToPlaces places={displayPlaces} />
+              <ClusteredPlaceMarkers places={displayPlaces} selected={selected} onSelect={setSelected} />
+            </>
           )}
 
           {selected && (

@@ -46,7 +46,5 @@ export default async function CategoryPage({ params }: Props) {
 
   if (!cat) notFound();
 
-  const places = (placesData as Place[]).filter((p) => p.category === cat);
-
-  return <CategoryPageClient category={cat} places={places} />;
+  return <CategoryPageClient category={cat} allPlaces={placesData as Place[]} />;
 }
