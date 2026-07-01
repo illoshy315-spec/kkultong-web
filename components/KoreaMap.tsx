@@ -175,6 +175,8 @@ export default function KoreaMap({ places, allPlaces, activeCategory, activeRout
 
   const mapCenter = activeRoute
     ? AREA_CENTERS[activeRoute.area.split(",")[0].trim()] ?? AREA_CENTERS.Seoul
+    : displayPlaces.length === 1
+    ? { lat: displayPlaces[0].lat, lng: displayPlaces[0].lng, zoom: 15 }
     : AREA_CENTERS.Seoul;
 
   const routePath = routePlaces.map((p) => ({ lat: p.lat, lng: p.lng }));

@@ -2,7 +2,7 @@
 
 import { useState, useEffect } from "react";
 import dynamic from "next/dynamic";
-import { Place, CATEGORY_META } from "@/lib/types";
+import { Place, CATEGORY_META, SLUG_TO_CATEGORY } from "@/lib/types";
 import { useAuth } from "@/lib/auth-context";
 import { createClient } from "@/lib/supabase";
 
@@ -98,18 +98,28 @@ function PlaceCard({ place }: { place: Place }) {
             {place.address && <span>📍 {place.address}</span>}
             <span>✅ Verified {place.last_verified}</span>
           </div>
-          {place.lat && place.lng && (
+          <div className="flex flex-wrap gap-2 mt-2">
+            {place.lat && place.lng && (
+              <a
+                href={`https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(place.name_en + " " + (place.address ?? ""))}&query_place_id=`}
+                target="_blank"
+                rel="noopener noreferrer"
+                onClick={(e) => e.stopPropagation()}
+                className="inline-block text-xs font-semibold px-3 py-1.5 rounded-lg text-white"
+                style={{ backgroundColor: "var(--teal)", textDecoration: "none" }}
+              >
+                Open in Google Maps →
+              </a>
+            )}
             <a
-              href={`https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(place.name_en + " " + (place.address ?? ""))}&query_place_id=`}
-              target="_blank"
-              rel="noopener noreferrer"
+              href={`/korea/${SLUG_TO_CATEGORY[place.category] ?? ""}/${place.id}`}
               onClick={(e) => e.stopPropagation()}
-              className="inline-block mt-2 text-xs font-semibold px-3 py-1.5 rounded-lg text-white"
-              style={{ backgroundColor: "var(--teal)", textDecoration: "none" }}
+              className="inline-block text-xs font-semibold px-3 py-1.5 rounded-lg border"
+              style={{ borderColor: "var(--teal)", color: "var(--teal)", textDecoration: "none" }}
             >
-              Open in Google Maps →
+              Full details →
             </a>
-          )}
+          </div>
         </div>
       )}
     </div>

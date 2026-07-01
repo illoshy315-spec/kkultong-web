@@ -17,6 +17,15 @@ export type Place = {
   artists?: string[];
   instagram?: string | null;
   last_verified: string;
+  source?: string;
+  verification_notes?: string;
+  cuisine?: string;
+  halal?: boolean;
+  vegan_options?: boolean;
+  pilgrimage_type?: string;
+  experience_type?: string;
+  shop_type?: string;
+  services?: string[];
 };
 
 export type Route = {

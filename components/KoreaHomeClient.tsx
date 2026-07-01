@@ -5,29 +5,9 @@ import dynamic from "next/dynamic";
 import placesData from "@/data/places.json";
 import routesData from "@/data/routes.json";
 import type { Route } from "@/lib/types";
+import { splitSentences, parseOrderNote } from "@/lib/route-text-utils";
 
 const KoreaMap = dynamic(() => import("@/components/KoreaMap"), { ssr: false });
-
-function splitSentences(text: string): string[] {
-  return (text.match(/[^.!?]+[.!?]+\s*/g) ?? [text]).map((s) => s.trim()).filter(Boolean);
-}
-
-function parseOrderNote(text: string): { day: string | null; steps: string[] }[] {
-  const dayMatches = [...text.matchAll(/Day \d+:/g)];
-  if (dayMatches.length === 0) {
-    return [{ day: null, steps: text.split("→").map((s) => s.trim()).filter(Boolean) }];
-  }
-  const parts: { day: string; steps: string[] }[] = [];
-  for (let i = 0; i < dayMatches.length; i++) {
-    const start = dayMatches[i].index! + dayMatches[i][0].length;
-    const end = i + 1 < dayMatches.length ? dayMatches[i + 1].index! : text.length;
-    parts.push({
-      day: dayMatches[i][0].replace(":", ""),
-      steps: text.slice(start, end).trim().split("→").map((s) => s.trim()).filter(Boolean),
-    });
-  }
-  return parts;
-}
 
 function RouteSection() {
   const [activeRoute, setActiveRoute] = useState<Route | null>(null);
@@ -81,6 +61,13 @@ function RouteSection() {
                         </div>
                       ))}
                     </div>
+                    <a
+                      href={`/korea/routes/${route.id}`}
+                      className="text-xs font-bold pt-1"
+                      style={{ color: "var(--teal)", textDecoration: "none" }}
+                    >
+                      ↗ Full page for this route
+                    </a>
                   </div>
                 </div>
               )}
