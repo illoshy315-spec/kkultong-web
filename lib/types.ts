@@ -31,6 +31,9 @@ export type Route = {
   place_ids: string[];
   tip: string;
   order_note: string;
+  // false = stops are alternatives (e.g. "pick one restaurant"), not a walking sequence.
+  // Skips the connecting line/route numbering on the map so it doesn't imply a path to follow.
+  sequential?: boolean;
 };
 
 export const CATEGORY_SLUGS: Record<string, string> = {

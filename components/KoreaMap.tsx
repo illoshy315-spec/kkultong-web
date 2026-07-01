@@ -37,6 +37,7 @@ type Route = {
   place_ids: string[];
   tip: string;
   order_note: string;
+  sequential?: boolean;
 };
 
 const CATEGORY_COLORS: Record<string, { bg: string; border: string }> = {
@@ -189,8 +190,10 @@ export default function KoreaMap({ places, allPlaces, activeCategory, activeRout
           gestureHandling="cooperative"
           disableDefaultUI={false}
         >
-          {/* Route path line */}
-          {activeRoute && routePath.length > 1 && (
+          {/* Route path line — only for routes where stops are visited in this order.
+              Alternative-style routes (e.g. "pick one restaurant") skip this so the
+              map doesn't imply a walking path between mutually-exclusive options. */}
+          {activeRoute && activeRoute.sequential !== false && routePath.length > 1 && (
             <Polyline
               path={routePath}
               strokeColor="#EF9F27"
@@ -200,36 +203,53 @@ export default function KoreaMap({ places, allPlaces, activeCategory, activeRout
           )}
 
           {activeRoute ? (
-            displayPlaces.map((place, idx) => {
-              const routeNumber = idx + 1;
-              return (
+            activeRoute.sequential !== false ? (
+              displayPlaces.map((place, idx) => {
+                const routeNumber = idx + 1;
+                return (
+                  <AdvancedMarker
+                    key={place.id}
+                    position={{ lat: place.lat, lng: place.lng }}
+                    onClick={() => setSelected(place)}
+                  >
+                    <div style={{
+                      width: "28px",
+                      height: "28px",
+                      borderRadius: "50%",
+                      backgroundColor: "#EF9F27",
+                      border: "2px solid white",
+                      boxShadow: "0 2px 6px rgba(0,0,0,0.3)",
+                      display: "flex",
+                      alignItems: "center",
+                      justifyContent: "center",
+                      color: "white",
+                      fontSize: "12px",
+                      fontWeight: "700",
+                      cursor: "pointer",
+                      transform: selected?.id === place.id ? "scale(1.3)" : "scale(1)",
+                      transition: "transform 0.15s",
+                    }}>
+                      {routeNumber}
+                    </div>
+                  </AdvancedMarker>
+                );
+              })
+            ) : (
+              displayPlaces.map((place) => (
                 <AdvancedMarker
                   key={place.id}
                   position={{ lat: place.lat, lng: place.lng }}
                   onClick={() => setSelected(place)}
                 >
-                  <div style={{
-                    width: "28px",
-                    height: "28px",
-                    borderRadius: "50%",
-                    backgroundColor: "#EF9F27",
-                    border: "2px solid white",
-                    boxShadow: "0 2px 6px rgba(0,0,0,0.3)",
-                    display: "flex",
-                    alignItems: "center",
-                    justifyContent: "center",
-                    color: "white",
-                    fontSize: "12px",
-                    fontWeight: "700",
-                    cursor: "pointer",
-                    transform: selected?.id === place.id ? "scale(1.3)" : "scale(1)",
-                    transition: "transform 0.15s",
-                  }}>
-                    {routeNumber}
-                  </div>
+                  <Pin
+                    background="#fff3e0"
+                    borderColor="#EF9F27"
+                    glyphColor="#EF9F27"
+                    scale={selected?.id === place.id ? 1.3 : 1}
+                  />
                 </AdvancedMarker>
-              );
-            })
+              ))
+            )
           ) : (
             <ClusteredPlaceMarkers places={displayPlaces} selected={selected} onSelect={setSelected} />
           )}

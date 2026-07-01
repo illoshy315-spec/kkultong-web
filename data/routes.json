@@ -69,9 +69,10 @@
     "duration": "1–2 evenings",
     "area": "Various (Seoul)",
     "transport": "Subway + taxi",
-    "place_ids": ["via-toledo-ccw", "mosu-seoul-chef-ahn", "auntie-omakase-ccw"],
-    "tip": "Via Toledo (Chef Kwon Seong-jun, S1 winner): reservations open 10th and 25th of each month at midnight on CatchTable, extremely competitive. Mosu (Chef Ahn Sung-jae): reserve 1st of each month, sells out in seconds, ₩250,000-400,000 tasting menu. Budget option: Andongjip Son Kalguksu in Gyeongdong Market (cash preferred, walk-in only). Note: Soigné was removed from this route — we found conflicting addresses (Gangnam-gu vs. Seocho-gu) between sources and couldn't resolve which is current before publishing.",
-    "order_note": "Reserve Via Toledo or Mosu weeks/a month ahead depending on budget. For a no-reservation option, Andongjip is walk-in only — go before 11:30am to avoid the queue."
+    "place_ids": ["via-toledo-ccw", "auntie-omakase-ccw", "mosu-seoul-chef-ahn"],
+    "sequential": false,
+    "tip": "These are alternatives, not a walking tour — pick one based on budget and how far ahead you can plan. Via Toledo (Chef Kwon Seong-jun, S1 winner, ₩19,000-23,000): reservations open 10th and 25th of each month at midnight on CatchTable, extremely competitive. Andongjip Son Kalguksu (budget, cash preferred): walk-in only in Gyeongdong Market. Mosu (Chef Ahn Sung-jae, ₩250,000-400,000 tasting menu): reserve 1st of each month, sells out in seconds. Note: Soigné was removed from this route — we found conflicting addresses (Gangnam-gu vs. Seocho-gu) between sources and couldn't resolve which is current before publishing.",
+    "order_note": "Budget pick: Andongjip, walk-in only, go before 11:30am to avoid the queue. Mid-range: Via Toledo, reserve on CatchTable the 10th or 25th at midnight. Splurge: Mosu, reserve the 1st of the month, expect it to sell out in seconds."
   },
   {
     "id": "busan-kpop",
@@ -82,7 +83,7 @@
     "duration": "2 days",
     "area": "Busan",
     "transport": "KTX from Seoul (2hrs 30min). Subway + taxi in Busan.",
-    "place_ids": ["zm-illennial-cafe", "gamcheon-culture-village", "gwangalli-beach"],
+    "place_ids": ["gamcheon-culture-village", "gwangalli-beach", "zm-illennial-cafe"],
     "tip": "Busan City Tour Bus: book on Klook (foreign card OK) — don't try to buy at the stop. ZM-ILLENNIAL Cafe is in Nam-gu, not Gwangalli — many maps show the wrong location (address verified: 부산 남구 진남로 135). Gamcheon's BTS mural is fan-made (2021), not official — HYBE has requested BTS structure removals elsewhere, so it could disappear; Gwangalli's BTS tie-in is a one-time 2022 concert, not a permanent site — go for the beach, treat BTS history as a bonus.",
     "order_note": "Day 1: Gamcheon Culture Village (morning) → Gwangalli Beach sunset. Day 2: ZM-ILLENNIAL Cafe → Haeundae Beach → optional: Busan Station area."
   }
