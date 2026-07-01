@@ -49,6 +49,7 @@ const CATEGORY_COLORS: Record<string, { bg: string; border: string }> = {
   drama_location:    { bg: "#e3f2fd", border: "#1565c0" },
   photo_booth:       { bg: "#fff8e1", border: "#f9a825" },
   culinary_class_wars: { bg: "#fff3e0", border: "#e65100" },
+  local_icon:        { bg: "#fff8e1", border: "#f9a825" },
 };
 
 const CATEGORY_LABELS: Record<string, string> = {
@@ -59,6 +60,7 @@ const CATEGORY_LABELS: Record<string, string> = {
   drama_location:    "Drama",
   photo_booth:       "Photo Booth",
   culinary_class_wars: "Culinary Class Wars",
+  local_icon:        "Korean Favorite",
 };
 
 type Props = {

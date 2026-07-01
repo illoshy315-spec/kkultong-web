@@ -1,0 +1,167 @@
+[
+  {
+    "id": "daegu-chimac-festival",
+    "name_en": "Daegu Chimac Festival",
+    "name_ko": "대구 치맥페스티벌",
+    "area": "Daegu",
+    "months": [
+      "7"
+    ],
+    "typical_duration": "약 5일 (수~일)",
+    "venue": "두류공원 일원 (Duryu Park) 및 2.28자유광장",
+    "lat": 35.8508,
+    "lng": 128.5504,
+    "description": "Korea's original chimac (chicken + beer) festival, held annually in early July at Duryu Park in Daegu. Features live K-pop and rock performances every night, dozens of food stalls serving fried chicken and craft beer, and side events. Free admission makes it very foreigner-friendly. Past lineups have included acts like FT Island, 10CM, and N.Flying. Now in its second decade, it has become a signature summer event that put the chimac craze on the global map.",
+    "foreign_friendly": true,
+    "last_verified": "2026-07",
+    "verification_notes": "Confirmed active in 2026. Official site chimacfestival.com shows 2026 recruitment posts. Multiple 2026 blog/sources confirm July 1-5 dates at Duryu Park. One source (businesspost) cites July 2-6 but majority confirm July 1-5. Free entry, evening hours 18:00-23:00.",
+    "source": "https://www.chimacfestival.com/; https://edownl.com/daegu-chimac-2026/; https://m.blog.naver.com/jjy0822kr/224301231347"
+  },
+  {
+    "id": "gimcheon-gimbap-festival",
+    "name_en": "Gimcheon Gimbap Festival",
+    "name_ko": "김천 김밥축제",
+    "area": "Gimcheon (Gyeongsangbuk-do)",
+    "months": [
+      "10"
+    ],
+    "typical_duration": "약 3일 (금~일)",
+    "venue": "직지문화공원 및 사명대사공원 일원 (Jikji Culture Park & Samyeongdaesa Park)",
+    "lat": 36.1199,
+    "lng": 128.1202,
+    "description": "An unexpectedly popular food festival celebrating Korea's iconic seaweed rice rolls (gimbap), held in Gimcheon each October — a city not known for gimbap production, which adds to its viral charm. A very recent addition to Korea's festival calendar, it already drew 150,000 visitors over a single weekend in its second year, making it one of the country's fastest-growing food festivals. Features dozens of creative gimbap vendors, live cooking demos, and family activities. Free admission.",
+    "foreign_friendly": true,
+    "last_verified": "2026-07",
+    "verification_notes": "Confirmed active. Name exactly '김천 김밥축제' per multiple news sources (Insight, Kyunghyang, Daegu Ilbo). 2026 preview event held at Lotte Dept Store Seoul in March. Main 2026 festival scheduled Oct 23-25 (some sources say 25-26). Selected as Gyeongsangbuk-do designated festival for 2026-2027. Free entry. Growing rapidly — 150K visitors in 2025.",
+    "source": "https://www.insight.co.kr/news/553590; https://www.khan.co.kr/article/202411021200001; https://bok.achveons.com/김천-김밥축제-가족과-함께-무료로-즐기는-맛과-즐길/; https://www.fnnews.com/news/202602251611487795"
+  },
+  {
+    "id": "incheon-pentaport-rock-festival",
+    "name_en": "Incheon Pentaport Rock Festival",
+    "name_ko": "인천 펜타포트 락 페스티벌",
+    "area": "Incheon",
+    "months": [
+      "7",
+      "8"
+    ],
+    "typical_duration": "3일 (금~일)",
+    "venue": "송도달빛축제공원 (Songdo Moonlight Festival Park)",
+    "lat": 37.3952,
+    "lng": 126.6371,
+    "description": "Korea's premier international rock and indie music festival, running for over two decades. Held in late July/early August at Songdo Moonlight Festival Park in Incheon, easily accessible from Seoul via subway. Attracts major international headliners alongside top Korean acts across rock, indie, electronic and hip-hop. Well-organized with excellent amenities and English-friendly signage. Designated as a Korea Representative Festival by the Ministry of Culture.",
+    "foreign_friendly": true,
+    "last_verified": "2026-07",
+    "verification_notes": "Confirmed active in 2026. Official site pentaport.co.kr shows 2026 lineup. 2026 dates: July 31-Aug 2. Namu wiki page active for 2026 edition. VisitKorea listing confirms Korea Representative Festival status. Ticket prices: 3-day pass ~204,000 KRW (early bird). Location: Songdo Moonlight Festival Park (direct subway from Incheon Airport).",
+    "source": "https://pentaport.co.kr/; https://namu.wiki/w/2026+인천+펜타포트+락+페스티벌; https://korean.visitkorea.or.kr/kfes/detail/fstvlDetail.do?fstvlCntntsId=8e43bab9-8e16-4925-94f9-c03eb7a8e72d"
+  },
+  {
+    "id": "busan-international-rock-festival",
+    "name_en": "Busan International Rock Festival",
+    "name_ko": "부산 국제록페스티벌",
+    "area": "Busan",
+    "months": [
+      "10"
+    ],
+    "typical_duration": "3일 (금~일)",
+    "venue": "삼락생태공원 (Samnak Ecological Park)",
+    "lat": 35.1557,
+    "lng": 128.9715,
+    "description": "Busan's flagship rock festival, held in early October at Samnak Ecological Park along the Nakdong River. Features an eclectic mix of international and Korean rock bands across multiple stages. Known for its relaxed picnic-style atmosphere and fall weather. Free shuttle buses typically operate from Sasang Station. Smaller and more laid-back than Pentaport, appealing to serious music fans. Running since 1999.",
+    "foreign_friendly": true,
+    "last_verified": "2026-07",
+    "verification_notes": "Confirmed active in 2026. Official site busanrockfestival.com announces Oct 2-4, 2026 dates. Multiple sources cross-verified (Festival Life, Naver blog). Venue: Samnak Ecological Park, Sasang-gu, Busan. 1차 라인업 announced June 2026. Annual event, running since 1999.",
+    "source": "https://busanrockfestival.com/; https://busanrockfestival.com/notice/2026notice_01/; https://x.com/FstvlLife/status/2067368145300730134"
+  },
+  {
+    "id": "boryeong-mud-festival",
+    "name_en": "Boryeong Mud Festival",
+    "name_ko": "보령 머드축제",
+    "area": "Boryeong (Chungcheongnam-do)",
+    "months": [
+      "7",
+      "8"
+    ],
+    "typical_duration": "17일",
+    "venue": "대천해수욕장 일원 (Daecheon Beach)",
+    "lat": 36.3136,
+    "lng": 126.5203,
+    "description": "Korea's most iconic summer festival and a magnet for international tourists, held over roughly two and a half weeks straddling late July into August. The entire Daecheon Beach transforms into a giant mud playground with mudslides, mud pools, mud wrestling, mud painting, and a mud prison experience. Features massive evening concerts, fireworks, drone light shows, and water park zones. Running since 1998. Extremely foreigner-friendly — English signage, foreigner-dedicated zones, and strong social media presence. Mud is mineral-rich cosmetical-grade from Boryeong's mudflats.",
+    "foreign_friendly": true,
+    "last_verified": "2026-07",
+    "verification_notes": "Confirmed 29th edition in 2026. Official site mudfestival.or.kr shows 2026 postings. Multiple sources confirm July 24 - Aug 9, 2026 at Daecheon Beach. One of Korea's most foreigner-friendly festivals — huge international recognition. Annual event since 1998.",
+    "source": "https://mudfestival.or.kr/; https://o9s9.com/boryeong-mud-festival-2026/; https://wooojoo.tistory.com/entry/2026-보령머드축제-일정-공연라인업-얼리버드-예매-교통-주차"
+  },
+  {
+    "id": "hwacheon-sancheoneo-festival",
+    "name_en": "Hwacheon Sancheoneo (Mountain Trout) Festival",
+    "name_ko": "화천 산천어축제",
+    "area": "Hwacheon (Gangwon-do)",
+    "months": [
+      "1",
+      "2"
+    ],
+    "typical_duration": "23일",
+    "venue": "화천천 일원 (Hwacheon Stream) 및 화천읍 일대",
+    "lat": 38.1066,
+    "lng": 127.7082,
+    "description": "Korea's #1 winter festival and one of the country's most beloved seasonal events, held roughly mid-January through early February. Visitors ice-fish for mountain trout (sancheoneo) on the frozen Hwacheon Stream, try bare-hand fishing in ice pools, ride snow sleds, explore an ice sculpture plaza, and enjoy cultural performances. Draws over 1 million visitors annually including many international tourists. Family-friendly with excellent winter facilities. Named one of Korea's top 12 'Symbol of Tourism' events by the Ministry of Culture.",
+    "foreign_friendly": true,
+    "last_verified": "2026-07",
+    "verification_notes": "Confirmed 2026 dates: Jan 10 - Feb 1 (23 days). Multiple sources (Naver blog, Tistory, Instagram posts) cross-verify. Annual event — runs every winter without fail. Extremely popular with families and foreign tourists. Ice fishing and bare-hand fishing are main attractions.",
+    "source": "https://blog.naver.com/weweek-/224127923160; https://jintti.com/entry/2026-화천-산천어축제-일정·입장료·얼음낚시-예약방법; https://memogipost.tistory.com/entry/2026-화천산천어축제"
+  },
+  {
+    "id": "jinhae-gunhangje",
+    "name_en": "Jinhae Gunhangje (Cherry Blossom Festival)",
+    "name_ko": "진해 군항제",
+    "area": "Jinhae/Changwon (Gyeongsangnam-do)",
+    "months": [
+      "3"
+    ],
+    "typical_duration": "10일",
+    "venue": "진해 시내 일원 — 여좌천, 경화역, 제황공원 등 (Downtown Jinhae)",
+    "lat": 35.1528,
+    "lng": 128.6582,
+    "description": "Korea's largest and most famous cherry blossom festival, held annually in late March in the port city of Jinhae. Over 360,000 cherry trees line the streets, railways, and streams — the iconic Romanesco Bridge (Yeojwacheon Stream) and Gyeonghwa Station railway are the most photographed spots. Features a military band parade (reflecting Jinhae's naval history), the Black Eagles air show, street performances, and night illuminations. Draws over 2 million visitors annually. Note: exact dates shift year to year with the blossom forecast.",
+    "foreign_friendly": true,
+    "last_verified": "2026-07",
+    "verification_notes": "Confirmed 64th edition in 2026. Official site jgfestival.or.kr. Multiple sources confirm March 21-30, 2026 dates. One of Korea's most famous festivals, internationally recognized. Annual event since 1952. Cherry blossom peak varies but festival dates are fixed.",
+    "source": "https://jgfestival.or.kr/; https://mytown.kr/?p=70711; https://tali.kr/2296"
+  },
+  {
+    "id": "jinju-namgang-yudeung-festival",
+    "name_en": "Jinju Namgang Lantern Festival",
+    "name_ko": "진주 남강유등축제",
+    "area": "Jinju (Gyeongsangnam-do)",
+    "months": [
+      "10"
+    ],
+    "typical_duration": "16일",
+    "venue": "진주성 및 남강 일원 (Jinju Fortress & Namgang River)",
+    "lat": 35.1903,
+    "lng": 128.0773,
+    "description": "A breathtaking lantern festival that originated from the Joseon-era tradition of floating lanterns on the Namgang River during the Jinju Siege of the Imjin War. Thousands of colorful paper lanterns are displayed along the river, floating on the water, and hanging throughout Jinju Fortress. Features wishing lantern floating, cultural performances, and nighttime illuminations. Typically runs for about two weeks in October, often anchored around National Foundation Day (Oct 3). Known as one of Korea's most beautiful night festivals and designated a Korea Representative Festival.",
+    "foreign_friendly": true,
+    "last_verified": "2026-07",
+    "verification_notes": "Confirmed 2026 dates: Oct 3-18 (around National Foundation Day, Oct 3). Official site yudeung.com. Multiple sources confirm annual October hosting. Designated as Korea Representative Festival. Very photogenic and foreigner-friendly with English programs available.",
+    "source": "https://yudeung.com/; https://dailyhunmin.com/2026-jinju-lantern-festival-schedule/; https://nolgo.net/festivals/korea/kr-13s7hwd-2026/"
+  },
+  {
+    "id": "busan-fireworks-festival",
+    "name_en": "Busan Fireworks Festival",
+    "name_ko": "부산 불꽃축제",
+    "area": "Busan",
+    "months": [
+      "11"
+    ],
+    "typical_duration": "1일 (저녁 행사)",
+    "venue": "광안리해수욕장 및 광안대교 일원 (Gwangalli Beach & Gwangan Bridge)",
+    "lat": 35.1533,
+    "lng": 129.1192,
+    "description": "Korea's biggest fireworks display, set against the iconic backdrop of Gwangan Bridge (Diamond Bridge), typically held on a Saturday in early November. Features professional fireworks choreographed to music from international teams, a drone light show, and laser performances. The entire Gwangalli Beach fills with spectators who bring blankets, food, and drinks. Draws over 1 million spectators annually. Advanced seat reservations available; free viewing from the beach. The bridge itself becomes part of the show with synchronized lighting.",
+    "foreign_friendly": true,
+    "last_verified": "2026-07",
+    "verification_notes": "Confirmed 2026 date: November 7 (Saturday). Multiple sources (TikTok, Facebook blog.naver post) confirm. Official site busanfireworks.com shows 20th edition history. Annual event, very popular with foreign tourists. Free viewing on Gwangalli Beach, reserved seating available for purchase.",
+    "source": "https://busanfireworks.com/; https://rkfka0142.tistory.com/entry/2026-부산불꽃축제-완전-가이드-자리-선점·명당·교통·먹거리-동선까지-총정리; https://m.blog.naver.com/wjh20211/224321733656"
+  }
+]

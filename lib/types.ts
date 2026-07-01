@@ -52,6 +52,7 @@ export const CATEGORY_SLUGS: Record<string, string> = {
   food:       "k_food",
   experience: "k_experience",
   shopping:   "k_shopping",
+  icons:      "local_icon",
 };
 
 export const SLUG_TO_CATEGORY = Object.fromEntries(
@@ -106,5 +107,12 @@ export const CATEGORY_META: Record<string, {
     title: "K-Shopping Guide — Olive Young, Daiso, Seongsu Popups & More",
     description: "Olive Young sale calendar, Daiso beauty must-buys, Dongdaemun wholesale, Seongsu popup schedule, and where to shop as a foreigner in Korea.",
     color: "#c2185b",
+  },
+  local_icon: {
+    label: "Korean Favorites",
+    emoji: "⭐",
+    title: "What Koreans Actually Love — Local Icons Explained for Foreigners",
+    description: "Legendary bakeries, viral local personalities, and beloved spots that are famous among Koreans themselves — not just international K-content fans. Verified and explained in English.",
+    color: "#f9a825",
   },
 };

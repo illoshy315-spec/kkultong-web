@@ -160,6 +160,8 @@ function getGroupKey(place: Place): string {
       if (place.shop_type) return "Retail & Shopping";
       if (place.services?.some((s) => s.toLowerCase().includes("personal color"))) return "Personal Color Studios";
       return "Other";
+    case "local_icon":
+      return place.area ?? "Other";
     default:
       return "Other";
   }

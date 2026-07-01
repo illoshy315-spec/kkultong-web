@@ -9,6 +9,7 @@ const warn = (msg) => errors.push(msg);
 const { default: places } = await import("../data/places.json", { with: { type: "json" } });
 const { default: routes } = await import("../data/routes.json", { with: { type: "json" } });
 const { default: scholarships } = await import("../data/scholarships.json", { with: { type: "json" } });
+const { default: festivals } = await import("../data/festivals.json", { with: { type: "json" } });
 const { default: TIPS } = await import("../data/tips.ts");
 const { CATEGORY_SLUGS } = await import("../lib/types.ts");
 const { resolveAreaCenter } = await import("../lib/map-constants.ts");
@@ -65,6 +66,23 @@ for (const r of routes) {
 // --- scholarships.json ---
 checkDuplicateIds(scholarships, "scholarship");
 
+// --- festivals.json ---
+checkDuplicateIds(festivals, "festival");
+
+for (const f of festivals) {
+  if (!Array.isArray(f.months) || f.months.length === 0) {
+    warn(`Festival "${f.id}" has no months listed.`);
+  } else if (f.months.some((m) => !/^([1-9]|1[0-2])$/.test(String(m)))) {
+    warn(`Festival "${f.id}" has a months value outside 1-12: ${JSON.stringify(f.months)}`);
+  }
+  if (/\b20\d{2}\b/.test(f.description ?? "")) {
+    warn(`Festival "${f.id}" description mentions a specific year — festivals should describe recurring timing (month-level), not a single year's dates, since they go stale fast.`);
+  }
+  if ((f.lat != null) !== (f.lng != null)) {
+    warn(`Festival "${f.id}" has only one of lat/lng set — should be both or neither.`);
+  }
+}
+
 // --- tips.ts: slug collisions within the same persona would silently break routing ---
 for (const type of Object.keys(TIPS)) {
   const seenSlugs = new Map();
@@ -87,4 +105,4 @@ if (errors.length > 0) {
   process.exit(1);
 }
 
-console.log(`✅ Data validation passed (${places.length} places, ${routes.length} routes, ${scholarships.length} scholarships).`);
+console.log(`✅ Data validation passed (${places.length} places, ${routes.length} routes, ${scholarships.length} scholarships, ${festivals.length} festivals).`);
