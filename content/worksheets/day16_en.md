@@ -420,4 +420,6 @@ Answer: ____
 
 > *"Next up: Day 17 — 에 vs 에서, (으)로, 하고/와·과, 도, 만, 한테: the rest of the particles."*
 
+👉 **[Day 17: Place & Direction — The Rest of the Particles →](/worksheet/day17)**
+
 🔗 **kkultongkorea.com** | 📧 **kkultongkorea@gmail.com**
