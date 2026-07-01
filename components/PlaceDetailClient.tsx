@@ -4,6 +4,7 @@ import dynamic from "next/dynamic";
 import type { Place } from "@/lib/types";
 import { CATEGORY_META } from "@/lib/types";
 import { splitSentences } from "@/lib/route-text-utils";
+import ShareButton from "@/components/ShareButton";
 
 const KoreaMap = dynamic(() => import("@/components/KoreaMap"), { ssr: false });
 
@@ -15,6 +16,7 @@ export default function PlaceDetailClient({
   categorySlug: string;
 }) {
   const meta = CATEGORY_META[place.category];
+  const pageUrl = `https://kkultongkorea.com/korea/${categorySlug}/${place.id}`;
 
   return (
     <div className="max-w-3xl mx-auto px-6 py-16">
@@ -31,9 +33,12 @@ export default function PlaceDetailClient({
       {place.name_ko && (
         <p className="text-base mb-1" style={{ color: "var(--gray)", opacity: 0.5 }}>{place.name_ko}</p>
       )}
-      <p className="text-sm mb-6" style={{ color: "var(--gray)", opacity: 0.6 }}>
-        {meta?.emoji} {meta?.label ?? place.category} · {place.area}
-      </p>
+      <div className="flex items-center justify-between flex-wrap gap-3 mb-6">
+        <p className="text-sm" style={{ color: "var(--gray)", opacity: 0.6 }}>
+          {meta?.emoji} {meta?.label ?? place.category} · {place.area}
+        </p>
+        <ShareButton url={pageUrl} text={`${place.name_en} — verified K-content spot via Kkultong Korea`} />
+      </div>
 
       {(place.dramas?.length || place.artists?.length || place.scene) && (
         <div className="mb-6 flex flex-col gap-1">

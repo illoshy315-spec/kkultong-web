@@ -5,6 +5,7 @@ import placesData from "@/data/places.json";
 import type { Place, Route } from "@/lib/types";
 import { SLUG_TO_CATEGORY } from "@/lib/types";
 import { splitSentences, parseOrderNote } from "@/lib/route-text-utils";
+import ShareButton from "@/components/ShareButton";
 
 const KoreaMap = dynamic(() => import("@/components/KoreaMap"), { ssr: false });
 
@@ -12,6 +13,7 @@ export default function RouteDetailClient({ route }: { route: Route }) {
   const stops = route.place_ids
     .map((id) => (placesData as Place[]).find((p) => p.id === id))
     .filter((p): p is Place => !!p);
+  const pageUrl = `https://kkultongkorea.com/korea/routes/${route.id}`;
 
   return (
     <div className="max-w-3xl mx-auto px-6 py-16">
@@ -24,9 +26,12 @@ export default function RouteDetailClient({ route }: { route: Route }) {
 
       <h1 className="text-3xl md:text-4xl font-black mb-2" style={{ color: "var(--gray)" }}>{route.title}</h1>
       <p className="text-sm mb-1" style={{ color: "var(--gray)", opacity: 0.5 }}>{route.title_ko}</p>
-      <p className="text-sm mb-8" style={{ color: "var(--gray)", opacity: 0.6 }}>
-        ⏱ {route.duration} · {route.area} · {route.transport}
-      </p>
+      <div className="flex items-center justify-between flex-wrap gap-3 mb-8">
+        <p className="text-sm" style={{ color: "var(--gray)", opacity: 0.6 }}>
+          ⏱ {route.duration} · {route.area} · {route.transport}
+        </p>
+        <ShareButton url={pageUrl} text={`${route.title} — a K-content route via Kkultong Korea`} />
+      </div>
 
       <KoreaMap places={[]} allPlaces={placesData as Place[]} activeCategory={null} activeRoute={route} />
 
