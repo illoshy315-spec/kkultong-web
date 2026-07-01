@@ -52,76 +52,79 @@ function HeartButton({ placeId }: { placeId: string }) {
   );
 }
 
-function PlaceCard({ place }: { place: Place }) {
-  const [open, setOpen] = useState(false);
+// Compact single-line row for the name index — the map is the primary browsing
+// surface now, this is just a scannable way to jump to a place without hunting
+// for its pin (and a fallback for places hidden inside a map cluster).
+function PlaceNameRow({ place, isSelected, onClick }: { place: Place; isSelected: boolean; onClick: () => void }) {
   return (
-    <div
-      className="rounded-xl border overflow-hidden cursor-pointer"
-      style={{ borderColor: "#e5e7eb" }}
-      onClick={() => setOpen(!open)}
+    <button
+      onClick={onClick}
+      className="w-full text-left px-3 py-2 rounded-lg text-sm transition-all flex items-center justify-between gap-2"
+      style={{
+        backgroundColor: isSelected ? "#fffbeb" : "transparent",
+        color: isSelected ? "var(--amber)" : "var(--gray)",
+        fontWeight: isSelected ? 700 : 500,
+      }}
     >
-      <div className="px-5 py-4 flex items-start justify-between hover:bg-gray-50">
-        <div className="flex-1 min-w-0">
-          <p className="font-semibold text-sm" style={{ color: "var(--gray)" }}>{place.name_en}</p>
+      <span className="truncate">{place.name_en}</span>
+      <span style={{ opacity: 0.3, flexShrink: 0 }}>›</span>
+    </button>
+  );
+}
+
+// Full detail for whichever place is currently selected (via a pin click or a name
+// row click) — rendered once, directly below the map, instead of as N inline
+// expandable cards competing for scroll space.
+function SelectedPlaceDetail({ place }: { place: Place }) {
+  return (
+    <div className="rounded-2xl border p-5" style={{ borderColor: "#e5e7eb", backgroundColor: "#fafafa" }}>
+      <div className="flex items-start justify-between gap-3">
+        <div>
+          <p className="font-bold text-base" style={{ color: "var(--gray)" }}>{place.name_en}</p>
           {place.name_ko && (
             <p className="text-xs mt-0.5" style={{ color: "var(--gray)", opacity: 0.5 }}>{place.name_ko}</p>
           )}
-          <p className="text-xs mt-0.5" style={{ color: "var(--gray)", opacity: 0.6 }}>{place.area}</p>
-          {place.scene && (
-            <p className="text-xs mt-1" style={{ color: "#1565c0", fontStyle: "italic" }}>🎬 {place.scene}</p>
-          )}
-          {place.dramas && place.dramas.length > 0 && (
-            <p className="text-xs mt-1" style={{ color: "#666" }}>📺 {place.dramas.join(", ")}</p>
-          )}
-          {place.artists && place.artists.length > 0 && (
-            <p className="text-xs mt-1" style={{ color: "#c62828" }}>🎤 {place.artists.join(", ")}</p>
-          )}
         </div>
-        <div className="flex gap-2 items-center ml-4 shrink-0">
-          {place.english_available && (
-            <span className="text-xs px-2 py-0.5 rounded-full font-medium" style={{ backgroundColor: "#e8f5e9", color: "#2e7d32" }}>EN ✓</span>
-          )}
-          {place.foreign_card && (
-            <span className="text-xs px-2 py-0.5 rounded-full font-medium" style={{ backgroundColor: "#e3f2fd", color: "#1565c0" }}>Card ✓</span>
-          )}
-          <HeartButton placeId={place.id} />
-          <span className="text-gray-400 text-sm">{open ? "▲" : "▼"}</span>
-        </div>
+        <HeartButton placeId={place.id} />
       </div>
-      {open && (
-        <div className="px-5 pb-4 text-sm space-y-2" style={{ backgroundColor: "#fafafa", color: "var(--gray)" }}>
-          <p style={{ lineHeight: "1.7" }}>{place.tip}</p>
-          <div className="flex flex-wrap gap-3 mt-2 text-xs" style={{ opacity: 0.7 }}>
-            <span>💰 {place.price_range}</span>
-            {place.reservation_required && <span>📅 Reservation required</span>}
-            {place.instagram && <span>📸 {place.instagram}</span>}
-            {place.address && <span>📍 {place.address}</span>}
-            <span>✅ Verified {place.last_verified}</span>
-          </div>
-          <div className="flex flex-wrap gap-2 mt-2">
-            {place.lat && place.lng && (
-              <a
-                href={`https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(place.name_en + " " + (place.address ?? ""))}&query_place_id=`}
-                target="_blank"
-                rel="noopener noreferrer"
-                onClick={(e) => e.stopPropagation()}
-                className="inline-block text-xs font-semibold px-3 py-1.5 rounded-lg text-white"
-                style={{ backgroundColor: "var(--teal)", textDecoration: "none" }}
-              >
-                Open in Google Maps →
-              </a>
-            )}
-            <a
-              href={`/korea/${SLUG_TO_CATEGORY[place.category] ?? ""}/${place.id}`}
-              onClick={(e) => e.stopPropagation()}
-              className="inline-block text-xs font-semibold px-3 py-1.5 rounded-lg border"
-              style={{ borderColor: "var(--teal)", color: "var(--teal)", textDecoration: "none" }}
-            >
-              Full details →
-            </a>
-          </div>
-        </div>
+      <p className="text-xs mt-1" style={{ color: "var(--gray)", opacity: 0.6 }}>{place.area}</p>
+      {place.scene && (
+        <p className="text-xs mt-2" style={{ color: "#1565c0", fontStyle: "italic" }}>🎬 {place.scene}</p>
       )}
+      {place.dramas && place.dramas.length > 0 && (
+        <p className="text-xs mt-1" style={{ color: "#666" }}>📺 {place.dramas.join(", ")}</p>
+      )}
+      {place.artists && place.artists.length > 0 && (
+        <p className="text-xs mt-1" style={{ color: "#c62828" }}>🎤 {place.artists.join(", ")}</p>
+      )}
+      <p className="text-sm mt-3" style={{ lineHeight: "1.7", color: "var(--gray)" }}>{place.tip}</p>
+      <div className="flex flex-wrap gap-3 mt-3 text-xs" style={{ opacity: 0.7, color: "var(--gray)" }}>
+        <span>💰 {place.price_range}</span>
+        {place.reservation_required && <span>📅 Reservation required</span>}
+        {place.instagram && <span>📸 {place.instagram}</span>}
+        {place.address && <span>📍 {place.address}</span>}
+        <span>✅ Verified {place.last_verified}</span>
+      </div>
+      <div className="flex flex-wrap gap-2 mt-3">
+        {place.lat && place.lng && (
+          <a
+            href={`https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(place.name_en + " " + (place.address ?? ""))}&query_place_id=`}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="inline-block text-xs font-semibold px-3 py-1.5 rounded-lg text-white"
+            style={{ backgroundColor: "var(--teal)", textDecoration: "none" }}
+          >
+            Open in Google Maps →
+          </a>
+        )}
+        <a
+          href={`/korea/${SLUG_TO_CATEGORY[place.category] ?? ""}/${place.id}`}
+          className="inline-block text-xs font-semibold px-3 py-1.5 rounded-lg border"
+          style={{ borderColor: "var(--teal)", color: "var(--teal)", textDecoration: "none" }}
+        >
+          Full details →
+        </a>
+      </div>
     </div>
   );
 }
@@ -186,11 +189,14 @@ type Props = {
 
 export default function CategoryPageClient({ category, allPlaces }: Props) {
   const [activeCategory, setActiveCategory] = useState(category);
+  const [selectedId, setSelectedId] = useState<string | null>(null);
   const meta = CATEGORY_META[activeCategory];
   const places = allPlaces.filter((p) => p.category === activeCategory);
+  const selectedPlace = places.find((p) => p.id === selectedId) ?? null;
 
   const switchCategory = (cat: string, slug: string) => {
     setActiveCategory(cat);
+    setSelectedId(null);
     const newMeta = CATEGORY_META[cat];
     window.history.replaceState(null, "", `/korea/${slug}`);
     document.title = `${newMeta.title} | Kkultong Korea`;
@@ -243,43 +249,53 @@ export default function CategoryPageClient({ category, allPlaces }: Props) {
         {places.length} verified {places.length === 1 ? "place" : "places"}
       </p>
 
-      {/* Place cards — grouped by the category's natural sub-dimension */}
-      <div className="flex flex-col gap-6">
-        {groupPlaces(places).map((group) => (
-          <div key={group.label}>
-            {group.label !== "All" && (
-              <p className="text-xs font-bold uppercase tracking-widest mb-2 px-1" style={{ color: meta.color, opacity: 0.8 }}>
-                {group.label} · {group.places.length}
-              </p>
-            )}
-            <div className="space-y-3">
-              {group.places.map((place) => (
-                <PlaceCard key={place.id} place={place} />
-              ))}
-            </div>
+      {places.length === 0 ? (
+        <div className="text-center py-16" style={{ color: "var(--gray)", opacity: 0.4 }}>
+          <p className="text-4xl mb-4">🔍</p>
+          <p className="text-sm">Content coming soon — we verify everything before publishing.</p>
+        </div>
+      ) : (
+        <>
+          {/* Name index — quick scan / jump-to, grouped the same way as the map */}
+          <div className="flex flex-col gap-4 mb-6">
+            {groupPlaces(places).map((group) => (
+              <div key={group.label}>
+                {group.label !== "All" && (
+                  <p className="text-xs font-bold uppercase tracking-widest mb-1 px-1" style={{ color: meta.color, opacity: 0.8 }}>
+                    {group.label} · {group.places.length}
+                  </p>
+                )}
+                <div className="flex flex-col">
+                  {group.places.map((place) => (
+                    <PlaceNameRow
+                      key={place.id}
+                      place={place}
+                      isSelected={selectedId === place.id}
+                      onClick={() => setSelectedId(place.id)}
+                    />
+                  ))}
+                </div>
+              </div>
+            ))}
           </div>
-        ))}
-        {places.length === 0 && (
-          <div className="text-center py-16" style={{ color: "var(--gray)", opacity: 0.4 }}>
-            <p className="text-4xl mb-4">🔍</p>
-            <p className="text-sm">Content coming soon — we verify everything before publishing.</p>
-          </div>
-        )}
-      </div>
 
-      {/* Map */}
-      {places.length > 0 && (
-        <div className="mt-8">
-          <p className="text-xs font-bold uppercase tracking-widest mb-3" style={{ color: "var(--gray)", opacity: 0.4 }}>
-            🗺️ View on map
-          </p>
+          {/* Map — click a pin to select it */}
           <KoreaMap
             places={places}
             allPlaces={places}
             activeCategory={activeCategory}
             activeRoute={null}
+            selectedId={selectedId}
+            onPlaceClick={(place) => setSelectedId(place.id)}
           />
-        </div>
+
+          {/* Selected place detail — appears right below the map */}
+          {selectedPlace && (
+            <div className="mt-4">
+              <SelectedPlaceDetail place={selectedPlace} />
+            </div>
+          )}
+        </>
       )}
 
       {/* Back link */}

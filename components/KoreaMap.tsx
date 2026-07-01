@@ -66,6 +66,11 @@ type Props = {
   allPlaces?: Place[];
   activeCategory: string | null;
   activeRoute?: Route | null;
+  // When provided, selection is controlled by the parent (e.g. so it can render a
+  // full card below the map instead of the cramped in-map InfoWindow) and the
+  // InfoWindow popup is skipped entirely.
+  selectedId?: string | null;
+  onPlaceClick?: (place: Place) => void;
 };
 
 // Category browsing shows places from all over Korea (e.g. K-Pop pilgrimage spans
@@ -168,8 +173,9 @@ function ClusterMarkerItem({
   );
 }
 
-export default function KoreaMap({ places, allPlaces, activeCategory, activeRoute }: Props) {
-  const [selected, setSelected] = useState<Place | null>(null);
+export default function KoreaMap({ places, allPlaces, activeCategory, activeRoute, selectedId, onPlaceClick }: Props) {
+  const [internalSelected, setInternalSelected] = useState<Place | null>(null);
+  const controlled = !!onPlaceClick;
 
   const apiKey = process.env.NEXT_PUBLIC_GOOGLE_MAPS_API_KEY!;
 
@@ -180,6 +186,15 @@ export default function KoreaMap({ places, allPlaces, activeCategory, activeRout
     : [];
 
   const displayPlaces = activeRoute ? routePlaces : places;
+
+  const selected = controlled
+    ? displayPlaces.find((p) => p.id === selectedId) ?? null
+    : internalSelected;
+
+  const handleSelect = (place: Place) => {
+    if (onPlaceClick) onPlaceClick(place);
+    else setInternalSelected(place);
+  };
 
   const mapCenter = activeRoute
     ? resolveAreaCenter(activeRoute.area) ?? AREA_CENTERS.Seoul
@@ -220,7 +235,7 @@ export default function KoreaMap({ places, allPlaces, activeCategory, activeRout
                   <AdvancedMarker
                     key={place.id}
                     position={{ lat: place.lat, lng: place.lng }}
-                    onClick={() => setSelected(place)}
+                    onClick={() => handleSelect(place)}
                   >
                     <div style={{
                       width: "28px",
@@ -249,7 +264,7 @@ export default function KoreaMap({ places, allPlaces, activeCategory, activeRout
                 <AdvancedMarker
                   key={place.id}
                   position={{ lat: place.lat, lng: place.lng }}
-                  onClick={() => setSelected(place)}
+                  onClick={() => handleSelect(place)}
                 >
                   <Pin
                     background="#fff3e0"
@@ -263,14 +278,14 @@ export default function KoreaMap({ places, allPlaces, activeCategory, activeRout
           ) : (
             <>
               <FitBoundsToPlaces places={displayPlaces} />
-              <ClusteredPlaceMarkers places={displayPlaces} selected={selected} onSelect={setSelected} />
+              <ClusteredPlaceMarkers places={displayPlaces} selected={selected} onSelect={handleSelect} />
             </>
           )}
 
-          {selected && (
+          {!controlled && selected && (
             <InfoWindow
               position={{ lat: selected.lat, lng: selected.lng }}
-              onCloseClick={() => setSelected(null)}
+              onCloseClick={() => setInternalSelected(null)}
               pixelOffset={[0, -40]}
             >
               <div style={{ maxWidth: "260px", fontFamily: "Inter, sans-serif" }}>
