@@ -67,15 +67,37 @@ export default async function TipDetailPage({ params }: Props) {
   const prev = sectionTips[idx - 1];
   const next = sectionTips[idx + 1];
 
+  const jsonLd = {
+    "@context": "https://schema.org",
+    "@type": "QAPage",
+    mainEntity: {
+      "@type": "Question",
+      name: tip.q,
+      text: tip.q,
+      answerCount: 1,
+      acceptedAnswer: {
+        "@type": "Answer",
+        text: tip.a,
+        url: `https://kkultongkorea.com/korea/tips/${type}/${slug}`,
+      },
+    },
+  };
+
   return (
-    <TipDetailClient
-      type={type}
-      slug={slug}
-      sections={sections}
-      tip={tip}
-      section={section}
-      prev={prev}
-      next={next}
-    />
+    <>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+      />
+      <TipDetailClient
+        type={type}
+        slug={slug}
+        sections={sections}
+        tip={tip}
+        section={section}
+        prev={prev}
+        next={next}
+      />
+    </>
   );
 }
