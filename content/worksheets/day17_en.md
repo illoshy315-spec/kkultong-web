@@ -107,7 +107,7 @@ English "to" works for any direction — person or place. Korean distinguishes:
 > **Wait — why doesn't 드리다 fit here?**
 >
 > 드리다 is the humble form of 주다 ("give") — used toward someone above you socially. "친구에게 드렸어요" sounds off, because 친구 (a friend) is your equal, not someone you'd use humble speech for.
-> You'd say "할머니께 드렸어요" instead — 드리다 is reserved for elders and superiors. 에게 vs 한테 is purely a written/spoken distinction; 드리다 belongs to a completely different axis (honorifics). The full honorific system is covered later in Series 3 (Day 24–26).
+> You'd say "할머니께 드렸어요" instead — 드리다 is reserved for elders and superiors. 에게 vs 한테 is purely a written/spoken distinction; 드리다 belongs to a completely different axis (honorifics). The full honorific system is covered later in Series 3 (Day 25–27).
 
 ### 한테서 / 에게서 — From a Person
 
