@@ -463,6 +463,11 @@ Answer: ____
 
 ---
 
+> **Wait — where did the ㅅ in 빗소리 and 햇빛 come from?**
+> If you noticed these words have an extra ㅅ that shouldn't be there → [Check out the 사이시옷 reference](/worksheet/supplement_saisiot)
+
+---
+
 > *"Next up: Day 10 — Prefixes & Suffixes. Just like English un- / re- / -ness, Korean has elements that attach to words to shift meaning. One prefix, many new words."*
 
 👉 **[Day 10: Prefixes & Suffixes →](/worksheet/day10)**
