@@ -75,6 +75,7 @@ npm run dev
 - **이 세션 밖에서(다른 세션·사용자 직접 작업 등) `app/korea`가 계속 재생성·확장되는 일이 반복됨.** `git log -- app/korea`로 최근 활동 있는지 먼저 확인할 것.
 - `app/korea`가 다시 나타나 있으면: 배포해도 되는지 반드시 먼저 물어볼 것 — 절대 임의로 판단하지 말 것. "숨겨야 함"이 답이면 `_offline/korea`의 기존 내용을 지우고 최신 `app/korea`로 교체.
 - `scripts/generate-sitemap.mjs`는 현재 `/korea/*` 관련 URL을 생성하지 않음(app/korea 오프라인 상태와 일치). `app/korea`를 되살릴 때 사이트맵 로직도 함께 복원해야 함.
-- `data/tips.ts`는 TypeScript 파일이라 Node ESM에서 직접 `import()` 불가 (Cloudflare Node 22가 `.ts` 미지원 — 로컬 Node 24는 native TS 지원이라 이 버그가 로컬에서는 안 잡힘). `app/korea` 복원 시 sitemap 스크립트에서 다시 참조한다면 `.js`로 변환하거나 다른 방식으로 데이터를 읽을 것.
+- `package.json`의 `build` 스크립트에서 `scripts/validate-data.mjs`(korea 데이터 무결성 검증)를 제거해둔 상태. `app/korea` 복원 시 `"build": "node scripts/validate-data.mjs && node scripts/generate-sitemap.mjs && next build"`로 되돌릴 것.
+- `data/tips.ts`는 TypeScript 파일이라 Node ESM에서 직접 `import()` 불가 (Cloudflare Node 22가 `.ts` 미지원 — 로컬 Node 24는 native TS 지원이라 이 버그가 로컬에서는 안 잡힘). `generate-sitemap.mjs`와 `validate-data.mjs` 둘 다 이 파일을 직접 import했었다. `app/korea` 복원 시 `.js`로 변환하거나 다른 방식으로 데이터를 읽을 것 — 로컬 빌드 성공만으로 안심하지 말고 Cloudflare 배포까지 반드시 확인.
 
-**전례**: 2026-07-02, `app/korea`가 세션 밖에서 확장되면서 sitemap 스크립트가 `data/tips.ts`를 직접 import하다가 Cloudflare 빌드가 18시간 넘게 전부 실패. 로컬 `npm run build`는 계속 성공해서(Node 버전 차이) 원인 파악이 늦어졌다.
+**전례**: 2026-07-02, `app/korea`가 세션 밖에서 확장되면서 sitemap 스크립트와 새로 추가된 validate-data.mjs 둘 다 `data/tips.ts`를 직접 import하다가 Cloudflare 빌드가 18시간 넘게 전부 실패. 로컬 `npm run build`는 계속 성공해서(Node 버전 차이) 원인 파악이 늦어졌고, 첫 수정(sitemap만 고침)으로도 안 끝나서 두 번째 라운드(validate-data 제거)가 필요했다.
