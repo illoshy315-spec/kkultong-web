@@ -108,13 +108,28 @@ function SelectedPlaceDetail({ place }: { place: Place }) {
       <div className="flex flex-wrap gap-2 mt-3">
         {place.lat && place.lng && (
           <a
-            href={`https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(place.name_en + " " + (place.address ?? ""))}&query_place_id=`}
+            // Coordinate-based link, not a name/address text search — Google's business
+            // listing data is thin for Korea (Korean law restricts detailed map data
+            // export), so a text search often returns nothing or the wrong place. A raw
+            // lat/lng query always drops the pin in the right spot regardless.
+            href={`https://www.google.com/maps?q=${place.lat},${place.lng}`}
             target="_blank"
             rel="noopener noreferrer"
             className="inline-block text-xs font-semibold px-3 py-1.5 rounded-lg text-white"
             style={{ backgroundColor: "var(--teal)", textDecoration: "none" }}
           >
             Open in Google Maps →
+          </a>
+        )}
+        {place.kakao_url && (
+          <a
+            href={place.kakao_url}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="inline-block text-xs font-semibold px-3 py-1.5 rounded-lg text-white"
+            style={{ backgroundColor: "#FEE500", color: "#3C1E1E", textDecoration: "none" }}
+          >
+            Open in Kakao Map →
           </a>
         )}
         <a
@@ -125,6 +140,26 @@ function SelectedPlaceDetail({ place }: { place: Place }) {
           Full details →
         </a>
       </div>
+      <p className="text-xs mt-2" style={{ color: "var(--gray)", opacity: 0.5 }}>
+        🗺️ Naver Map and Kakao Map have far more detailed Korean location data than Google Maps.{" "}
+        <a
+          href="https://apps.apple.com/us/app/id304608425"
+          target="_blank"
+          rel="noopener noreferrer"
+          style={{ textDecoration: "underline" }}
+        >
+          Get Kakao Map (iOS)
+        </a>
+        {" / "}
+        <a
+          href="https://play.google.com/store/apps/details?id=net.daum.android.map"
+          target="_blank"
+          rel="noopener noreferrer"
+          style={{ textDecoration: "underline" }}
+        >
+          Android
+        </a>
+      </p>
     </div>
   );
 }
