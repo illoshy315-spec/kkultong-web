@@ -21,6 +21,8 @@ export type Place = {
   last_verified: string;
   source?: string;
   verification_notes?: string;
+  phone?: string;
+  kakao_url?: string;
   cuisine?: string;
   halal?: boolean;
   vegan_options?: boolean;
