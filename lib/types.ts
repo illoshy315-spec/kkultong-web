@@ -1,3 +1,5 @@
+import { CATEGORY_SLUGS as _CATEGORY_SLUGS } from "./category-slugs.mjs";
+
 export type Place = {
   id: string;
   name_en: string;
@@ -45,15 +47,7 @@ export type Route = {
   sequential?: boolean;
 };
 
-export const CATEGORY_SLUGS: Record<string, string> = {
-  drama:      "drama_location",
-  kpop:       "kpop_pilgrimage",
-  beauty:     "k_beauty",
-  food:       "k_food",
-  experience: "k_experience",
-  shopping:   "k_shopping",
-  icons:      "local_icon",
-};
+export const CATEGORY_SLUGS: Record<string, string> = _CATEGORY_SLUGS;
 
 export const SLUG_TO_CATEGORY = Object.fromEntries(
   Object.entries(CATEGORY_SLUGS).map(([slug, cat]) => [cat, slug])

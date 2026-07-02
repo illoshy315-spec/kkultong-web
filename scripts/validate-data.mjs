@@ -10,9 +10,9 @@ const { default: places } = await import("../data/places.json", { with: { type: 
 const { default: routes } = await import("../data/routes.json", { with: { type: "json" } });
 const { default: scholarships } = await import("../data/scholarships.json", { with: { type: "json" } });
 const { default: festivals } = await import("../data/festivals.json", { with: { type: "json" } });
-const { default: TIPS } = await import("../data/tips.ts");
-const { CATEGORY_SLUGS } = await import("../lib/types.ts");
-const { resolveAreaCenter } = await import("../lib/map-constants.ts");
+const { default: TIPS } = await import("../data/tips.json", { with: { type: "json" } });
+const { CATEGORY_SLUGS } = await import("../lib/category-slugs.mjs");
+const { resolveAreaCenter } = await import("../lib/map-constants.mjs");
 
 function slugify(text) {
   return text
